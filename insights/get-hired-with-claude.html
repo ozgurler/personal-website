@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Hired with Claude — A Job Seeker's Field Guide | Emre Ozgurler</title>
+<meta name="description" content="How to connect Claude AI to Indeed's live job listings, research companies, and tailor your resume — a five-minute setup guide with copy-paste prompts for job seekers.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Get Hired with Claude — A Job Seeker's Field Guide">
+<meta property="og:description" content="Connect Claude to Indeed, research companies, and tailor your resume — all in one conversation. Setup in five minutes.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Get Hired with Claude — A Job Seeker's Field Guide","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-17"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16233d;          /* deep ink navy */
+    --ink-soft:#44506a;     /* secondary text */
+    --paper:#f6f7f4;        /* cool paper */
+    --card:#ffffff;
+    --marker:#ffd84d;       /* highlighter yellow — the signature */
+    --marker-deep:#f5c400;
+    --hired:#177a54;        /* "offer accepted" green */
+    --line:#dfe2da;
+    --mono:'IBM Plex Mono',monospace;
+    --site-ink:#0E1B2C;
+    --site-copper:#C07A3A;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Public Sans',sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.6;
+    font-size:16.5px;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+
+  /* ---------- site chrome ---------- */
+  .site-nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  .site-nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  .site-nav .logo b{color:var(--site-copper)}
+  .site-nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+             color:#B9C4CE;text-decoration:none}
+  .site-nav a.back:hover{color:var(--site-copper)}
+  .byline{font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+          color:var(--ink-soft);margin-top:18px}
+  .byline b{color:var(--site-copper)}
+
+  /* ---------- highlighter signature ---------- */
+  .hl{
+    position:relative;
+    white-space:nowrap;
+  }
+  .hl::before{
+    content:"";
+    position:absolute;
+    left:-0.15em;right:-0.2em;top:0.18em;bottom:0.02em;
+    background:var(--marker);
+    transform:rotate(-1.2deg) skewX(-6deg);
+    border-radius:0.15em 0.3em 0.2em 0.35em;
+    z-index:-1;
+  }
+  .hl.green::before{background:#bfe8d4}
+
+  /* ---------- hero ---------- */
+  header{
+    padding:72px 0 56px;
+    border-bottom:3px solid var(--ink);
+  }
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:13px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    display:flex;align-items:center;gap:10px;
+    margin-bottom:26px;
+  }
+  .eyebrow::before{
+    content:"";width:34px;height:3px;background:var(--marker-deep);display:inline-block;
+  }
+  h1{
+    font-family:'Archivo',sans-serif;
+    font-weight:900;
+    font-stretch:110%;
+    font-size:clamp(42px,7vw,72px);
+    line-height:1.02;
+    letter-spacing:-0.02em;
+    text-transform:uppercase;
+    margin-bottom:26px;
+  }
+  .lede{
+    font-size:20px;
+    color:var(--ink-soft);
+    max-width:620px;
+  }
+  .lede strong{color:var(--ink)}
+
+  /* ---------- sections ---------- */
+  section{padding:56px 0 8px}
+  h2{
+    font-family:'Archivo',sans-serif;
+    font-weight:800;
+    font-stretch:105%;
+    font-size:clamp(26px,3.6vw,34px);
+    line-height:1.15;
+    letter-spacing:-0.01em;
+    margin-bottom:10px;
+  }
+  .kicker{
+    font-family:var(--mono);
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:14px;
+  }
+  .section-intro{max-width:640px;color:var(--ink-soft);margin-bottom:30px}
+
+  /* ---------- setup steps ---------- */
+  .steps{list-style:none;counter-reset:step;display:grid;gap:14px;margin-bottom:26px}
+  .steps li{
+    counter-increment:step;
+    background:var(--card);
+    border:1.5px solid var(--line);
+    border-radius:14px;
+    padding:18px 22px 18px 70px;
+    position:relative;
+    box-shadow:0 1px 0 rgba(22,35,61,0.05);
+  }
+  .steps li::before{
+    content:counter(step);
+    position:absolute;left:20px;top:16px;
+    width:34px;height:34px;
+    background:var(--ink);color:var(--marker);
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;
+    display:flex;align-items:center;justify-content:center;
+    border-radius:10px;
+  }
+  .steps li b{display:block;font-size:17px;margin-bottom:2px}
+  .steps li span{color:var(--ink-soft);font-size:15px}
+  .ui{
+    font-family:var(--mono);font-size:0.88em;
+    background:#eef0ea;border:1px solid var(--line);
+    border-radius:6px;padding:1px 7px;white-space:nowrap;
+  }
+
+  /* ---------- tool grid ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-bottom:26px}
+  .tool{
+    background:var(--card);
+    border:1.5px solid var(--line);
+    border-radius:14px;
+    padding:20px 20px 18px;
+  }
+  .tool h3{
+    font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;
+    text-transform:uppercase;letter-spacing:0.03em;
+    margin-bottom:6px;
+  }
+  .tool h3::before{content:"▸ ";color:var(--marker-deep)}
+  .tool p{font-size:14.5px;color:var(--ink-soft)}
+
+  /* ---------- prompt cards ---------- */
+  .prompt{
+    background:var(--ink);
+    color:#eef1f7;
+    border-radius:14px;
+    padding:20px 22px;
+    margin-bottom:14px;
+    position:relative;
+  }
+  .prompt::before{
+    content:"COPY & PASTE";
+    font-family:var(--mono);font-size:10.5px;letter-spacing:0.16em;
+    color:var(--marker);
+    display:block;margin-bottom:8px;
+  }
+  .prompt p{font-family:var(--mono);font-size:14.5px;line-height:1.65}
+  .prompt .fill{color:var(--marker)}
+  .prompt-note{font-size:14px;color:var(--ink-soft);margin:-4px 4px 26px}
+
+  /* ---------- config list ---------- */
+  .config{display:grid;gap:12px;margin-bottom:26px}
+  .config-item{
+    background:var(--card);
+    border:1.5px solid var(--line);
+    border-left:6px solid var(--marker);
+    border-radius:12px;
+    padding:16px 20px;
+  }
+  .config-item b{font-size:16.5px}
+  .config-item p{font-size:15px;color:var(--ink-soft);margin-top:2px}
+  .tag{
+    font-family:var(--mono);font-size:11px;letter-spacing:0.08em;
+    background:var(--ink);color:#fff;border-radius:5px;
+    padding:2px 8px;margin-left:8px;vertical-align:2px;text-transform:uppercase;
+  }
+
+  /* ---------- ground rules ---------- */
+  .rules{list-style:none;display:grid;gap:10px;margin-bottom:26px}
+  .rules li{
+    padding-left:34px;position:relative;max-width:680px;
+  }
+  .rules li::before{
+    content:"✓";
+    position:absolute;left:0;top:1px;
+    width:24px;height:24px;border-radius:8px;
+    background:#d9efe4;color:var(--hired);
+    font-weight:700;font-size:14px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .rules b{color:var(--ink)}
+  .rules li{color:var(--ink-soft);font-size:15.5px}
+
+  /* ---------- footer ---------- */
+  footer{
+    margin-top:56px;
+    border-top:3px solid var(--ink);
+    padding:30px 0 40px;
+    display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;
+  }
+  footer p{font-size:13.5px;color:var(--ink-soft);font-family:var(--mono)}
+  .stamp{
+    font-family:'Archivo',sans-serif;font-weight:900;font-size:15px;
+    text-transform:uppercase;letter-spacing:0.08em;
+    color:var(--hired);
+    border:2.5px solid var(--hired);
+    border-radius:8px;
+    padding:6px 14px;
+    transform:rotate(-2deg);
+  }
+  .site-footer{background:var(--site-ink);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+
+  @media (max-width:560px){
+    .steps li{padding-left:64px}
+    header{padding:52px 0 40px}
+  }
+  @media print{
+    body{background:#fff}
+    .prompt{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    header .hl::before{transform-origin:left center;animation:swipe .5s ease-out .2s backwards}
+    @keyframes swipe{from{transform:rotate(-1.2deg) skewX(-6deg) scaleX(0)}to{transform:rotate(-1.2deg) skewX(-6deg) scaleX(1)}}
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← All insights</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">A field guide for job seekers</p>
+    <h1>Stop scrolling.<br>Start <span class="hl">getting hired.</span></h1>
+    <p class="lede">Claude can search Indeed's live job listings, dig into companies, and tailor your resume — <strong>all in one conversation.</strong> Here's how to set it up in five minutes, plus the settings that make it stick.</p>
+    <p class="byline">By <b>Emre Ozgurler</b> · July 2026</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Part 1 — Setup</p>
+    <h2>Connect Indeed in <span class="hl">5 minutes</span></h2>
+    <p class="section-intro">The Indeed connector is an official integration that lets Claude search Indeed's job database in real time — no tab-switching, no copy-pasting listings.</p>
+    <ol class="steps">
+      <li><b>Open Claude</b><span>Go to <span class="ui">claude.ai</span> or open the Claude desktop app.</span></li>
+      <li><b>Find the connectors menu</b><span>In the chat box, click the <span class="ui">Search &amp; Tools</span> menu, then choose <span class="ui">+ Add connectors</span>.</span></li>
+      <li><b>Add Indeed</b><span>Select <span class="ui">Indeed</span> from the list of available connectors.</span></li>
+      <li><b>Sign in</b><span>Log in with your Indeed account (or create one). Done — Claude can now search Indeed for you.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Part 2 — What it can do</p>
+    <h2>Four superpowers, <span class="hl">one chat</span></h2>
+    <p class="section-intro">Once connected, Claude can pull four kinds of information straight from Indeed:</p>
+    <div class="grid">
+      <div class="tool"><h3>Job Search</h3><p>Find openings by title, keywords, location, and employment type — with companies, salaries, and direct application links.</p></div>
+      <div class="tool"><h3>Job Details</h3><p>Pull the full posting: description, requirements, qualifications, and benefits for any listing.</p></div>
+      <div class="tool"><h3>Your Resume</h3><p>Read the experience on your Indeed profile so results and advice are personalized to you.</p></div>
+      <div class="tool"><h3>Company Research</h3><p>Check employer reviews — satisfaction, pay, culture, and management — before you apply or interview.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Part 3 — Prompts that work</p>
+    <h2>Say this, <span class="hl">get results</span></h2>
+    <p class="section-intro">Upload your resume (or let Claude read your Indeed profile), then try these. Swap the <span style="background:var(--marker);padding:0 4px;border-radius:4px;font-family:var(--mono);font-size:0.85em">[brackets]</span> for your details.</p>
+
+    <div class="prompt"><p>Here's my resume. Search Indeed for <span class="fill">[job title]</span> roles in <span class="fill">[city / remote]</span> posted in the last week. Rank the top 10 by how well they match my experience, and tell me why.</p></div>
+    <p class="prompt-note">The ranked shortlist — your daily starting point.</p>
+
+    <div class="prompt"><p>Pull the full details for job <span class="fill">[#3]</span>. List the requirements I clearly meet, the gaps I have, and how I'd address each gap in a cover letter.</p></div>
+    <p class="prompt-note">The gap analysis — know your pitch before you write a word.</p>
+
+    <div class="prompt"><p>Research <span class="fill">[company name]</span> on Indeed — reviews, compensation, culture, management. Give me the honest picture and three smart questions to ask in an interview.</p></div>
+    <p class="prompt-note">The background check — walk into interviews informed.</p>
+
+    <div class="prompt"><p>Tailor my resume summary and bullet points to this job description. Keep every claim truthful — just reframe my real experience using the language the posting uses.</p></div>
+    <p class="prompt-note">The tailored resume — matched to the posting, still 100% you.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Part 4 — Handy configurations</p>
+    <h2>Settings that make it <span class="hl">stick</span></h2>
+    <div class="config">
+      <div class="config-item"><b>Create a Job Hunt Project</b><p>Put your resume, target role list, and cover-letter template into one Project. Every chat inside it starts with your full context already loaded.</p></div>
+      <div class="config-item"><b>Turn on memory</b><p>With memory enabled in settings, Claude remembers your search across conversations — no re-explaining your background every morning.</p></div>
+      <div class="config-item"><b>Connect Google Drive</b><p>Add the Google Drive connector so Claude can pull your latest resume or portfolio straight from your files.</p></div>
+      <div class="config-item"><b>Set your writing style</b><p>Use styles and preferences to lock in the tone you want — concise and confident cover letters, every time.</p></div>
+      <div class="config-item"><b>Schedule a daily digest <span class="tag">Paid plans</span></b><p>On Pro and above, scheduled tasks can run a morning job search automatically. Results can vary with connectors, so spot-check the first few runs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Part 5 — Ground rules</p>
+    <h2>Play it <span class="hl green">smart</span></h2>
+    <ul class="rules">
+      <li><b>Quality beats volume.</b> Ten tailored applications outperform a hundred generic ones. Use Claude to go deeper, not just wider.</li>
+      <li><b>You hit "apply," not the AI.</b> Claude surfaces listings with direct links — reviewing and submitting each application yourself keeps quality (and honesty) high.</li>
+      <li><b>Keep everything truthful.</b> Tailoring means reframing real experience, never inventing it. Say so in your prompts.</li>
+      <li><b>Verify before you commit.</b> Double-check salaries, dates, and details on the live Indeed listing — postings change fast.</li>
+      <li><b>Prep like a pro.</b> After the search, ask Claude to run a mock interview based on the exact job description.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding:0 24px">
+    <p>More help: support.claude.com · docs.indeed.com/mcp</p>
+    <span class="stamp">You're hired ✓</span>
+  </div>
+</footer>
+
+<div class="site-footer">EMRE OZGURLER · PORTLAND, OR · © 2026</div>
+
+</body>
+</html>

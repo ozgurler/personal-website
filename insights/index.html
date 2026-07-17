@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insights — Emre Ozgurler</title>
+<meta name="description" content="Insights on managed IT, AI adoption, and technology strategy for small and mid-sized businesses — from Emre Ozgurler, engineer-turned-seller in Portland, OR.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
+    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0;
+    --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+             color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:900px;margin:0 auto}
+  .mono-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.01em;margin:.5rem 0 .8rem}
+  header p{color:#B9C4CE;max-width:36em}
+
+  main{padding:clamp(2.5rem,7vh,4.5rem) clamp(1.25rem,5vw,4rem)}
+  .list{display:grid;gap:1.2rem}
+  .entry{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);
+         border-radius:6px;padding:1.6rem 1.7rem;text-decoration:none;color:inherit;
+         transition:transform .18s,box-shadow .18s,border-color .18s}
+  a.entry:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(14,27,44,.09)}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.68rem;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.5rem}
+  .meta .cat{color:var(--copper-deep)}
+  .entry h2{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.3;margin-bottom:.4rem}
+  .entry p{font-size:.95rem;color:#33414F;max-width:46em}
+  .entry .read{display:inline-block;margin-top:.8rem;font-family:var(--mono);font-size:.72rem;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--copper-deep)}
+  .entry.stub{border-left-color:var(--line);border-style:dashed;background:transparent}
+  .entry.stub h2{color:var(--slate)}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="../index.html">← Back to site</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <span class="mono-label">Insights</span>
+    <h1>Notes from the field</h1>
+    <p>Practical thinking on managed IT, AI adoption, and technology strategy — written for business owners who want technology that fits, not hype.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="list">
+
+      <a class="entry" href="get-hired-with-claude.html">
+        <div class="meta"><span class="cat">Field Guide</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
+        <h2>Get Hired with Claude: A Job Seeker's Field Guide</h2>
+        <p>Claude can search Indeed's live job listings, research companies, and tailor your resume — all in one conversation. How to set it up in five minutes, the prompts that work, and the settings that make it stick.</p>
+        <span class="read">Read guide →</span>
+      </a>
+
+      <a class="entry" href="flyonit-portland-expansion.html">
+        <div class="meta"><span class="cat">Company News</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
+        <h2>FlyOnIT Expands in Portland: Managed IT Services for Businesses of Every Size</h2>
+        <p>Managed IT, cybersecurity, cloud, and 24/7 support for Portland's small and mid-sized businesses — from accounting firms to real estate and financial services — and why a local IT partner beats a big-box provider.</p>
+        <span class="read">Read post →</span>
+      </a>
+
+      <div class="entry stub">
+        <div class="meta"><span class="cat">Coming soon</span></div>
+        <h2>Practical AI for Small Businesses: Where Automation Pays Off First</h2>
+        <p>The repetitive work eating your team's hours — and which of it AI can take over this quarter.</p>
+      </div>
+
+      <div class="entry stub">
+        <div class="meta"><span class="cat">Coming soon</span></div>
+        <h2>Five Signs Your Business Has Outgrown Its Current IT Setup</h2>
+        <p>The symptoms that show up months before the outage does.</p>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+</body>
+</html>

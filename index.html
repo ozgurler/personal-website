@@ -157,6 +157,19 @@
   .proj-row .proj-status.live{color:var(--copper);border-color:var(--copper)}
   @media(max-width:760px){.proj-row{grid-template-columns:1fr}.proj-row .proj-status{justify-self:start}}
 
+  .pin-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .pin-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:6px;
+            padding:1.5rem 1.5rem 1.3rem;text-decoration:none;color:inherit;
+            transition:transform .18s,box-shadow .18s,border-color .18s;border-top:3px solid var(--copper)}
+  a.pin-card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(14,27,44,.09);border-color:var(--copper)}
+  .pin-card h3{font-family:var(--display);font-weight:700;font-size:1.05rem;line-height:1.3;margin:.2rem 0 .5rem}
+  .pin-card p{font-size:.88rem;color:var(--slate)}
+  .pin-card .pin-read{display:inline-block;margin-top:.9rem;font-family:var(--mono);font-size:.72rem;
+            letter-spacing:.1em;text-transform:uppercase;color:var(--copper-deep)}
+  .pin-card.stub{border-top-color:var(--line);border-style:dashed;background:transparent}
+  .pin-card.stub h3{color:var(--slate)}
+  @media(max-width:820px){.pin-grid{grid-template-columns:1fr}}
+
   /* ---------- NEWS ---------- */
   .news-feature{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:1.2rem}
   .news-feature .nf-head{padding:1.7rem 1.8rem 0}
@@ -244,7 +257,7 @@
   <ul>
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#news">News</a></li>
+    <li><a href="#insights">Insights</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -289,7 +302,7 @@
     <div class="reveal">
       <span class="mono-label">About</span>
       <h2>From silicon to strategy</h2>
-      <p>Most salespeople learn the pitch. <b>I learned the product first.</b> I trained as an electronics and communication engineer, spent years in presales answering million-dollar RFPs line by line, and recently completed a microelectronics program — because I believe the best advisors understand technology from fabrication level up.</p>
+      <p>Most salespeople learn the pitch. <b>I learned the product first.</b> I trained as an electronics and communication engineer, spent years in presales answering million-dollar RFPs line by line, and am currently completing a microelectronics program — because I believe the best advisors understand technology from fabrication level up.</p>
       <p>That foundation is why my clients trust the recommendation, not just the demo. Across telco infrastructure, board-management SaaS, AI-driven ad bidding, and enterprise content management, my job has been the same: <b>bridge what a business needs with the technology that actually delivers it</b> — without costly, misaligned investments.</p>
       <p>Today I lead business development at FLYONIT, helping Pacific Northwest businesses with managed IT, cybersecurity, and cloud services. If your technology is holding you back instead of driving you forward, let's talk.</p>
     </div>
@@ -422,7 +435,7 @@
     <h2>Trained on both sides of the table</h2>
     <div class="edu-grid">
       <div class="edu-card reveal">
-        <div class="yr">2025</div>
+        <div class="yr">In progress</div>
         <h3>Portland Community College</h3>
         <p>Associate degree / Certificate, Microelectronics Technology</p>
       </div>
@@ -445,45 +458,33 @@
   </div>
 </section>
 
-<section id="news">
+<section id="insights">
   <div class="wrap">
-    <span class="mono-label">News &amp; Updates</span>
-    <h2>Insights from the field</h2>
+    <span class="mono-label">Insights</span>
+    <h2>Latest from the field</h2>
 
-    <article class="news-feature reveal" id="post-flyonit-portland">
-      <div class="nf-head">
-        <div class="news-meta"><span class="cat">Company News</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
-        <h3>FlyOnIT Expands in Portland: Managed IT Services for Businesses of Every Size</h3>
+    <div class="pin-grid">
+      <a class="pin-card reveal" href="insights/flyonit-portland-expansion.html">
+        <div class="news-meta"><span class="cat">Company News</span><span>July 2026</span></div>
+        <h3>FlyOnIT Expands in Portland: Managed IT for Businesses of Every Size</h3>
+        <p>Managed IT, cybersecurity, and cloud support for Portland's accounting, real estate, and financial services firms — and why local matters.</p>
+        <span class="pin-read">Read post →</span>
+      </a>
+      <a class="pin-card reveal" href="insights/get-hired-with-claude.html">
+        <div class="news-meta"><span class="cat">Field Guide</span><span>July 2026</span></div>
+        <h3>Get Hired with Claude: A Job Seeker's Field Guide</h3>
+        <p>Connect Claude to Indeed's live listings, research companies, and tailor your resume — all in one conversation. Setup in five minutes.</p>
+        <span class="pin-read">Read guide →</span>
+      </a>
+      <div class="pin-card stub reveal">
+        <div class="news-meta"><span class="cat">Coming soon</span></div>
+        <h3>Practical AI for Small Businesses: Where Automation Pays Off First</h3>
+        <p>The repetitive work eating your team's hours — and which of it AI can take over this quarter.</p>
       </div>
-      <div class="news-body">
-        <p>FlyOnIT is growing its presence in the Portland, Oregon metro area, bringing managed IT services, cybersecurity, cloud solutions, and 24/7 IT support to small and mid-sized businesses across the Pacific Northwest. Whether you run a two-person accounting practice or a multi-office financial services firm, reliable technology is no longer optional — it's the backbone of how you serve clients.</p>
-        <div class="news-more">
-          <h4>IT support built for Portland industries</h4>
-          <p>Every industry has its own technology pressure points, and our Portland team supports them daily:</p>
-          <ul>
-            <li><b>Accounting firms</b> — secure client data handling, QuickBooks and tax-software support, and IRS-aligned data retention practices, especially critical during tax season.</li>
-            <li><b>Real estate agencies</b> — mobile-first setups, transaction management platforms, and secure document signing so agents can close from anywhere.</li>
-            <li><b>Financial services</b> — compliance-ready cybersecurity, encrypted email, and business continuity planning that regulators and clients expect.</li>
-            <li><b>Healthcare, legal, construction, and nonprofits</b> — from HIPAA-conscious infrastructure to jobsite connectivity and donor-data protection.</li>
-          </ul>
-          <h4>What Portland businesses get with FlyOnIT</h4>
-          <p>Our managed IT service plans include proactive network monitoring, phishing and dark-web threat protection, Microsoft 365 and Google Workspace licensing and migration, professional business email setup, cloud backup and disaster recovery, and helpdesk support that answers when you call. We also offer AI-powered tools — like AI receptionist systems — that help small teams respond to every customer inquiry.</p>
-          <h4>Why local matters</h4>
-          <p>Big-box IT providers manage tickets. A local Portland IT partner manages relationships — we meet you at your office, learn how your business actually runs, and build technology around it. If you're searching for IT support in Portland, cybersecurity services in Oregon, or a managed service provider that treats a 5-person firm with the same care as a 50-person one, let's start a conversation.</p>
-        </div>
-        <button class="read-toggle" type="button" aria-expanded="false" data-target="post-flyonit-portland">Read full post ↓</button>
-      </div>
-    </article>
+    </div>
 
-    <div class="news-coming">
-      <div class="news-stub reveal">
-        <div class="news-meta"><span class="cat">Coming soon</span></div>
-        <h3>Practical AI for small businesses: where automation pays off first</h3>
-      </div>
-      <div class="news-stub reveal">
-        <div class="news-meta"><span class="cat">Coming soon</span></div>
-        <h3>Five signs your business has outgrown its current IT setup</h3>
-      </div>
+    <div style="margin-top:1.6rem">
+      <a class="btn btn-ghost" style="border-color:var(--line);color:var(--copper-deep)" href="insights/">All insights →</a>
     </div>
   </div>
 </section>
@@ -494,7 +495,7 @@
     <h2>Let's talk about your stack</h2>
     <p>Tell me a little about your business and what's slowing you down. Your message lands directly in my inbox and I typically reply within one business day.</p>
 
-    <form id="contact-form" class="form-card" action="https://formspree.io/f/xbdnrkwd" method="POST" novalidate>
+    <form id="contact-form" class="form-card" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
       <div class="form-row">
         <div class="field">
           <label for="cf-name">Name</label>
@@ -532,15 +533,6 @@
   },{threshold:.12});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-  // Read-more toggle for news posts
-  document.querySelectorAll('.read-toggle').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      const post = document.getElementById(btn.dataset.target);
-      const open = post.classList.toggle('open');
-      btn.setAttribute('aria-expanded', open);
-      btn.textContent = open ? 'Show less ↑' : 'Read full post ↓';
-    });
-  });
 
   // Contact form: AJAX submit to Formspree
   const form = document.getElementById('contact-form');
