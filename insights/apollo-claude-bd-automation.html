@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pipeline on Autopilot — BD Automation with Apollo.io × Claude | Emre Ozgurler</title>
+<meta name="description" content="How to run business development outbound from a single Claude conversation using the Apollo.io connector — find, enrich, personalize, sequence, and report without leaving the chat.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pipeline on Autopilot — BD Automation with Apollo.io × Claude">
+<meta property="og:description" content="The full outbound loop — ICP to enrolled sequence to weekly reporting — run from one Claude conversation.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Pipeline on Autopilot — BD Automation with Apollo.io × Claude","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-17"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pine:#12312a;          /* deep pine ink */
+    --pine-soft:#3e5a51;     /* secondary text */
+    --paper:#f1f4ee;         /* cool green-white paper */
+    --card:#ffffff;
+    --signal:#12a564;        /* pipeline signal green */
+    --signal-deep:#0c7d4b;
+    --amber:#e8a10c;         /* caution amber */
+    --step:#274bd6;          /* sequence step blue */
+    --line:#d9dfd6;
+    --mono:'IBM Plex Mono',monospace;
+    --disp:'Bricolage Grotesque',sans-serif;
+    --body:'Instrument Sans',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--body);
+    background:var(--paper);
+    color:var(--pine);
+    line-height:1.6;
+    font-size:16.5px;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:0 28px}
+
+  /* ---------- HERO ---------- */
+  header{
+    background:var(--pine);
+    color:#eef4ef;
+    padding:72px 0 64px;
+    position:relative;
+    overflow:hidden;
+  }
+  header::after{
+    content:"";
+    position:absolute;inset:0;
+    background:
+      radial-gradient(ellipse 60% 45% at 85% 10%, rgba(18,165,100,.22), transparent 70%),
+      radial-gradient(ellipse 50% 40% at 5% 95%, rgba(39,75,214,.18), transparent 70%);
+    pointer-events:none;
+  }
+  .kicker{
+    font-family:var(--mono);
+    font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--signal);
+    display:flex;align-items:center;gap:10px;margin-bottom:22px;
+  }
+  .kicker::before{content:"";width:34px;height:2px;background:var(--signal);display:inline-block}
+  h1{
+    font-family:var(--disp);
+    font-size:clamp(38px,6.4vw,62px);
+    font-weight:800;
+    line-height:1.04;
+    letter-spacing:-.015em;
+    max-width:15ch;
+    position:relative;z-index:1;
+  }
+  h1 .hl{color:var(--signal)}
+  .sub{
+    margin-top:22px;max-width:56ch;color:#c3d2c8;font-size:18px;position:relative;z-index:1;
+  }
+  .hero-loop{
+    margin-top:40px;display:flex;flex-wrap:wrap;gap:0;align-items:center;
+    font-family:var(--mono);font-size:13px;position:relative;z-index:1;
+  }
+  .hero-loop .stage{
+    border:1px solid rgba(238,244,239,.28);
+    padding:8px 14px;border-radius:999px;color:#eef4ef;
+    background:rgba(255,255,255,.04);
+  }
+  .hero-loop .arrow{padding:0 10px;color:var(--signal)}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:58px 0}
+  section + section{border-top:1px solid var(--line)}
+  .eyebrow{
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--signal-deep);margin-bottom:10px;
+  }
+  h2{
+    font-family:var(--disp);font-weight:750;
+    font-size:clamp(26px,3.6vw,34px);
+    letter-spacing:-.01em;line-height:1.12;margin-bottom:16px;
+  }
+  p.lead{color:var(--pine-soft);max-width:62ch;margin-bottom:8px}
+  p + p{margin-top:12px}
+
+  /* setup checklist */
+  .setup{display:grid;gap:14px;margin-top:28px}
+  .setup-item{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;
+  }
+  .setup-item .tick{
+    width:34px;height:34px;border-radius:9px;background:var(--pine);color:var(--signal);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-weight:600;font-size:14px;margin-top:2px;
+  }
+  .setup-item h3{font-family:var(--disp);font-size:17.5px;font-weight:700;margin-bottom:4px}
+  .setup-item p{color:var(--pine-soft);font-size:15px}
+  .setup-item code{
+    font-family:var(--mono);font-size:13.5px;background:#e6ece4;border-radius:5px;padding:2px 6px;
+  }
+
+  /* ---------- CADENCE RAIL (signature) ---------- */
+  .rail{position:relative;margin-top:34px;padding-left:56px}
+  .rail::before{
+    content:"";position:absolute;left:19px;top:8px;bottom:8px;width:3px;
+    background:linear-gradient(var(--signal) 0%, var(--step) 100%);
+    border-radius:3px;
+  }
+  .stop{position:relative;padding-bottom:44px}
+  .stop:last-child{padding-bottom:0}
+  .stop .node{
+    position:absolute;left:-56px;top:0;
+    width:41px;height:41px;border-radius:50%;
+    background:var(--card);border:3px solid var(--signal);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-weight:600;font-size:13px;color:var(--signal-deep);
+  }
+  .stop:nth-child(4) .node,.stop:nth-child(5) .node{border-color:var(--step);color:var(--step)}
+  .stop h3{
+    font-family:var(--disp);font-size:21px;font-weight:750;margin-bottom:6px;
+  }
+  .stop .goal{
+    font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--pine-soft);margin-bottom:10px;
+  }
+  .stop p{color:var(--pine-soft);font-size:15.5px;max-width:60ch}
+
+  /* prompt cards */
+  .prompt{
+    margin-top:14px;background:var(--pine);color:#dfe9e1;border-radius:12px;
+    padding:16px 18px 14px;font-family:var(--mono);font-size:13.5px;line-height:1.65;
+    position:relative;
+  }
+  .prompt::before{
+    content:"PASTE INTO CLAUDE";
+    display:block;font-size:10.5px;letter-spacing:.16em;color:var(--signal);
+    margin-bottom:8px;
+  }
+  .prompt em{font-style:normal;color:#9fd8b8}
+
+  /* library grid */
+  .lib{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+  .lib-card{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;
+    display:flex;flex-direction:column;gap:10px;
+  }
+  .lib-card .tag{
+    align-self:flex-start;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;background:#e6f5ec;color:var(--signal-deep);
+    border-radius:999px;padding:4px 10px;
+  }
+  .lib-card h3{font-family:var(--disp);font-size:17px;font-weight:700}
+  .lib-card .mini{
+    font-family:var(--mono);font-size:12.8px;line-height:1.6;color:var(--pine-soft);
+    background:#f4f7f2;border-left:3px solid var(--signal);border-radius:0 8px 8px 0;
+    padding:10px 12px;
+  }
+
+  /* guardrails */
+  .guard{display:grid;gap:14px;margin-top:26px}
+  .guard-item{
+    background:#fdf6e6;border:1px solid #f0dfae;border-radius:12px;padding:16px 20px;
+    display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;
+  }
+  .guard-item .flag{
+    font-family:var(--mono);font-weight:600;font-size:12px;color:#8a6206;
+    background:#f7e7b8;border-radius:6px;padding:4px 8px;margin-top:2px;white-space:nowrap;
+  }
+  .guard-item p{font-size:15px;color:#4d452c}
+  .guard-item strong{color:#2f2a17}
+
+  /* weekly rhythm */
+  .week{margin-top:26px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
+  .week-row{
+    display:grid;grid-template-columns:120px 1fr;border-top:1px solid var(--line);
+  }
+  .week-row:first-child{border-top:none}
+  .week-row .day{
+    font-family:var(--mono);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;
+    background:#f4f7f2;color:var(--signal-deep);padding:16px;display:flex;align-items:flex-start;
+  }
+  .week-row .task{padding:14px 18px;font-size:15px;color:var(--pine-soft)}
+  .week-row .task strong{color:var(--pine)}
+
+  footer{
+    background:var(--pine);color:#a9bcb0;padding:44px 0;margin-top:20px;
+    font-size:14.5px;
+  }
+  footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  footer .sig{font-family:var(--disp);font-weight:700;color:#eef4ef}
+  footer a{color:var(--signal);text-decoration:none}
+
+  @media (max-width:680px){
+    .lib{grid-template-columns:1fr}
+    .week-row{grid-template-columns:1fr}
+    .week-row .day{padding:10px 16px 2px}
+    .rail{padding-left:48px}
+    .stop .node{left:-48px;width:36px;height:36px}
+    .rail::before{left:16px}
+  }
+  @media (prefers-reduced-motion: no-preference){
+    .stop{animation:rise .5s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+
+<nav style="position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(192,122,58,.25)">
+  <a href="../index.html" style="font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em"><b style="color:#C07A3A">EO</b> / emre.ozgurler</a>
+  <a href="index.html" style="font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none">← All insights</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Field Guide · Business Development · By Emre Ozgurler · July 2026</div>
+    <h1>Run outbound from a <span class="hl">conversation.</span></h1>
+    <p class="sub">Apollo.io's native connector puts its 240M+ contact database, enrichment engine, and sequences directly inside Claude. This guide is the full loop — from ICP to enrolled sequence to weekly reporting — without leaving the chat.</p>
+    <div class="hero-loop">
+      <span class="stage">Find</span><span class="arrow">→</span>
+      <span class="stage">Enrich</span><span class="arrow">→</span>
+      <span class="stage">Personalize</span><span class="arrow">→</span>
+      <span class="stage">Sequence</span><span class="arrow">→</span>
+      <span class="stage">Analyze</span>
+    </div>
+  </div>
+</header>
+
+<section id="setup">
+  <div class="wrap">
+    <div class="eyebrow">01 · Setup — ten minutes, once</div>
+    <h2>Connect Apollo to Claude</h2>
+    <p class="lead">Apollo ships an official connector in Claude's directory, built on its own MCP server. Every action you take in chat is recorded back in Apollo — searches, enrichments, sequence enrollments all sync to your account.</p>
+    <div class="setup">
+      <div class="setup-item">
+        <div class="tick">1</div>
+        <div>
+          <h3>Add the connector</h3>
+          <p>In Claude, open <code>Settings → Connectors</code>, search for <strong>Apollo.io</strong>, and click add. Authorize via OAuth with your Apollo login — no API key needed. Each teammate connects their own account; access mirrors their Apollo permissions.</p>
+        </div>
+      </div>
+      <div class="setup-item">
+        <div class="tick">2</div>
+        <div>
+          <h3>Set per-action permissions</h3>
+          <p>Click <code>Configure</code> next to Apollo.io and review each action. Recommended: leave searches and reads on auto-allow, but set <strong>sequence enrollment</strong> and <strong>bulk enrichment</strong> to ask first — enrichment consumes Apollo credits, and enrollment can start sending real emails.</p>
+        </div>
+      </div>
+      <div class="setup-item">
+        <div class="tick">3</div>
+        <div>
+          <h3>Give Claude your ICP once</h3>
+          <p>Create a Claude Project called <em>Outbound</em> and put your ideal customer profile, value props per vertical, sender mailboxes, and tone guidelines in the project instructions. Every prospecting chat inherits that context — no re-explaining who you sell to.</p>
+        </div>
+      </div>
+      <div class="setup-item">
+        <div class="tick">4</div>
+        <div>
+          <h3>Power-user path (optional)</h3>
+          <p>Apollo also publishes a plugin for <strong>Claude Code and Cowork</strong> that bundles its APIs into slash-command workflows — useful for heavy batch runs and analytics pulls. Start with the connector; graduate when volume demands it.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="loop">
+  <div class="wrap">
+    <div class="eyebrow">02 · The core loop</div>
+    <h2>Five stops from ICP to inbox</h2>
+    <p class="lead">This is a real working cadence for a B2B services team (examples use managed IT services — swap in your own vertical). Each stop is one prompt you can paste and adapt.</p>
+
+    <div class="rail">
+
+      <div class="stop">
+        <div class="node">A</div>
+        <h3>Find — build the list in plain language</h3>
+        <div class="goal">Goal · 25–50 net-new accounts that actually match</div>
+        <p>Skip the filter UI. Describe the segment the way you'd describe it to a colleague — industry codes, headcount, geography, tech signals — and let Claude run the Apollo search.</p>
+        <div class="prompt">Search Apollo for companies in the <em>Portland metro area</em>, 10–100 employees, in <em>healthcare clinics, law firms, and RIAs</em> (use NAICS where helpful). Exclude companies already in my saved accounts. Return the top 25 with domain, headcount, and why they matched.</div>
+      </div>
+
+      <div class="stop">
+        <div class="node">B</div>
+        <h3>Enrich — verified emails, right titles</h3>
+        <div class="goal">Goal · decision-makers with deliverable contact data</div>
+        <p>Enrichment is where credits are spent, so batch deliberately — ten at a time keeps costs visible and lets you sanity-check quality before committing to the whole list.</p>
+        <div class="prompt">From that list, find the <em>owner, practice manager, or IT decision-maker</em> at each company. Enrich the first batch of 10 with verified emails and LinkedIn URLs, show me the results, and wait for my go-ahead before enriching the rest.</div>
+      </div>
+
+      <div class="stop">
+        <div class="node">C</div>
+        <h3>Personalize — first lines that aren't templates</h3>
+        <div class="goal">Goal · one specific, human sentence per prospect</div>
+        <p>This is where Claude out-earns any merge tag. Pair Apollo's firmographic data with web research for openers referencing something real — a hiring push, a compliance deadline, a new location.</p>
+        <div class="prompt">For each enriched contact, check Apollo's data and search the web for one recent, specific fact about their company (new office, job postings, news). Draft a one-sentence personalized opener per contact tying that fact to a pain we solve. Flag any where you couldn't find anything specific.</div>
+      </div>
+
+      <div class="stop">
+        <div class="node">D</div>
+        <h3>Sequence — build the cadence, then enroll</h3>
+        <div class="goal">Goal · a mixed-step sequence, contacts loaded, right sender</div>
+        <p>Claude can create the sequence itself — emails, call tasks, LinkedIn touches — and enroll contacts under a specific sender mailbox. Always review the full copy before anything goes live.</p>
+        <div class="prompt">Create an Apollo sequence called <em>"Clinics — Q3 Portland"</em>: Day 1 email (use the personalized openers), Day 3 call task, Day 6 follow-up email with a customer proof point, Day 10 LinkedIn touch, Day 14 breakup email. Show me every email draft for approval. Then enroll the approved contacts using <em>[your sender mailbox]</em>.</div>
+      </div>
+
+      <div class="stop">
+        <div class="node">E</div>
+        <h3>Analyze — let the data pick next week's plays</h3>
+        <div class="goal">Goal · know what's working before you scale it</div>
+        <p>Apollo's analytics are queryable in plain language: opens, replies, meetings by sequence, by step, by vertical. Ask for the comparison, then feed the winner back into stop A.</p>
+        <div class="prompt">Pull performance for my active sequences over the last 30 days: delivery, open, reply, and meeting rates, broken down by sequence and by step. Which vertical and which email step are converting best? Give me three concrete changes for next week.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="library">
+  <div class="wrap">
+    <div class="eyebrow">03 · Prompt library</div>
+    <h2>Plays for the rest of the week</h2>
+    <div class="lib">
+      <div class="lib-card">
+        <span class="tag">Signals</span>
+        <h3>Job-posting triggers</h3>
+        <div class="mini">Which companies on my target list have open job postings for IT, operations, or compliance roles right now? Those are my warm-signal accounts — prioritize them.</div>
+      </div>
+      <div class="lib-card">
+        <span class="tag">Hygiene</span>
+        <h3>CRM cleanup</h3>
+        <div class="mini">Find contacts in my Apollo account with missing titles or bounced emails. Re-enrich the fixable ones and list the rest for removal.</div>
+      </div>
+      <div class="lib-card">
+        <span class="tag">Tasks</span>
+        <h3>Morning task triage</h3>
+        <div class="mini">Show my Apollo tasks due today. For each call task, give me a 3-line brief: who they are, which sequence they're in, and what the last touch said.</div>
+      </div>
+      <div class="lib-card">
+        <span class="tag">Replies</span>
+        <h3>Response drafting</h3>
+        <div class="mini">A prospect replied "we already have an IT guy." Draft two responses: one warm and curious, one that offers a free second-opinion audit. Keep both under 80 words.</div>
+      </div>
+      <div class="lib-card">
+        <span class="tag">Lookalikes</span>
+        <h3>Clone your best customers</h3>
+        <div class="mini">Here are my five best customers: [domains]. Find 20 lookalike companies in Apollo — same size band, industry, and region — that aren't in my account yet.</div>
+      </div>
+      <div class="lib-card">
+        <span class="tag">Reporting</span>
+        <h3>Friday pipeline note</h3>
+        <div class="mini">Summarize this week's outbound: new contacts added, emails sent, replies, meetings booked. Write it as a 5-line update I can post to the team channel.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="guardrails">
+  <div class="wrap">
+    <div class="eyebrow">04 · Guardrails</div>
+    <h2>Automate the work, not the judgment</h2>
+    <div class="guard">
+      <div class="guard-item">
+        <div class="flag">SEND</div>
+        <p><strong>Nothing goes out unreviewed.</strong> Sequence enrollment can trigger real emails immediately depending on your sequence settings. Make "show me every draft first" part of every enrollment prompt, and keep enrollment permissions on ask-first.</p>
+      </div>
+      <div class="guard-item">
+        <div class="flag">CREDITS</div>
+        <p><strong>Enrichment spends credits</strong> from your Apollo plan — typically one per person. Batch in tens, check quality, then continue. Ask Claude for your credit usage stats monthly.</p>
+      </div>
+      <div class="guard-item">
+        <div class="flag">DELIVER</div>
+        <p><strong>Protect your domains.</strong> Rotate sender mailboxes, keep per-mailbox daily volume conservative, and warm up new inboxes before loading them into a sequence. Great copy from a burned domain still lands in spam.</p>
+      </div>
+      <div class="guard-item">
+        <div class="flag">TIMING</div>
+        <p><strong>The connector works only while you're chatting</strong> — there are no background triggers. It won't ping you when a prospect replies at 9pm. Build the check into your routine (see the weekly rhythm below) instead of assuming it's watching.</p>
+      </div>
+      <div class="guard-item">
+        <div class="flag">LAW</div>
+        <p><strong>Stay compliant.</strong> CAN-SPAM, GDPR, and local rules still apply to AI-assisted outreach: real sender identity, working unsubscribe, and honor opt-outs everywhere. Automation scales your reach — and your liability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rhythm">
+  <div class="wrap">
+    <div class="eyebrow">05 · Operating rhythm</div>
+    <h2>A week of outbound, one chat a day</h2>
+    <p class="lead">Fifteen to thirty minutes each morning keeps the machine fed. Same Project, so context carries over.</p>
+    <div class="week">
+      <div class="week-row"><div class="day">Monday</div><div class="task"><strong>Build.</strong> Run the Find prompt for one vertical. Enrich the first batch. Queue the rest for approval.</div></div>
+      <div class="week-row"><div class="day">Tuesday</div><div class="task"><strong>Personalize + launch.</strong> Generate openers, review drafts, enroll into the sequence.</div></div>
+      <div class="week-row"><div class="day">Wednesday</div><div class="task"><strong>Work the tasks.</strong> Morning task triage — call briefs for everything due, reply drafts for anyone who wrote back.</div></div>
+      <div class="week-row"><div class="day">Thursday</div><div class="task"><strong>Signals.</strong> Check job postings and news across the target list. Move warm-signal accounts to the front of next week's build.</div></div>
+      <div class="week-row"><div class="day">Friday</div><div class="task"><strong>Report + refine.</strong> Pull the 30-day analytics, write the team update, and pick one change to test next week.</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="sig">Apollo.io × Claude — BD Field Guide</div>
+      <div>Connector: Claude → Settings → Connectors → Apollo.io</div>
+    </div>
+    <div>
+      Docs: <a href="https://docs.apollo.io/docs/apollo-mcp">docs.apollo.io/docs/apollo-mcp</a><br>
+      Claude help: <a href="https://support.claude.com">support.claude.com</a>
+    </div>
+  </div>
+</footer>
+
+<div style="background:#0E1B2C;padding:1.4rem;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.1em;color:#5A6B7E">EMRE OZGURLER · PORTLAND, OR · © 2026</div>
+
+</body>
+</html>
