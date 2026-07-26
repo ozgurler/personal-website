@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Identity Under Attack: Phishing & Dark Web Monitoring Explained — Emre Ozgurler</title>
+<meta name="description" content="Why stolen credentials are the #1 way attackers get in, how the dark web turns your passwords into a commodity, and how dark web monitoring and phishing awareness training protect your business. Includes full webinar recording.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Identity Under Attack: Phishing & Dark Web Monitoring Explained">
+<meta property="og:description" content="Why stolen credentials are the #1 attack vector — and the two-part defense that works. Full webinar recording included.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Identity Under Attack: Phishing & Dark Web Monitoring Explained","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-24","video":{"@type":"VideoObject","name":"Identity Under Attack: Phishing & The Dark Web — Webinar","url":"https://www.youtube.com/watch?v=EYFE05yQAG4"}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
+<style>
+  :root{
+    --ink:#0E1B2C; --paper:#F5F6F4; --copper:#C07A3A; --copper-deep:#9A5F26;
+    --slate:#5A6B7E; --line:#DDE2E0; --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.7;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+             color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:760px;margin:0 auto}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.7rem;
+        letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem}
+  .meta .cat{color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.7rem);line-height:1.15;letter-spacing:-.01em}
+
+  article{padding:clamp(2.5rem,7vh,4rem) clamp(1.25rem,5vw,4rem)}
+  article p{margin-bottom:1.15rem;color:#33414F;max-width:44em}
+  article h2{font-family:var(--display);font-weight:700;font-size:1.35rem;margin:2rem 0 .8rem;color:var(--ink)}
+  article ul{margin:0 0 1.15rem 1.3rem;color:#33414F}
+  article ul li{margin-bottom:.5rem}
+
+  .video-card{background:var(--ink);border-radius:6px;padding:1.4rem;margin:0 0 2rem}
+  .video-card .vc-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
+        color:var(--copper);margin-bottom:.9rem}
+  .video-frame{position:relative;width:100%;padding-top:56.25%;border-radius:4px;overflow:hidden}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .video-card .vc-link{display:inline-block;margin-top:.9rem;font-family:var(--mono);font-size:.74rem;
+        letter-spacing:.08em;color:#B9C4CE;text-decoration:none}
+  .video-card .vc-link:hover{color:var(--copper)}
+
+  .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+            border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:0 0 1.4rem}
+  .stat{background:#fff;padding:1.1rem 1.2rem}
+  .stat .n{font-family:var(--display);font-weight:800;font-size:1.5rem;color:var(--copper-deep)}
+  .stat .l{font-size:.8rem;color:var(--slate);margin-top:.15rem}
+  @media(max-width:640px){.stat-row{grid-template-columns:1fr}}
+
+  .cta{background:var(--ink);border-radius:6px;padding:1.6rem 1.8rem;margin-top:2.4rem;color:#E8ECEF}
+  .cta p{color:#B9C4CE;margin-bottom:1rem}
+  .cta a{display:inline-block;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+         text-decoration:none;background:var(--copper);color:#fff;padding:.85rem 1.5rem;border-radius:3px}
+  .cta a:hover{background:var(--copper-deep)}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← All insights</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="meta"><span class="cat">Cybersecurity · Webinar</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
+    <h1>Identity Under Attack: Phishing &amp; Dark Web Monitoring Explained</h1>
+  </div>
+</header>
+
+<article>
+  <div class="wrap">
+
+    <div class="video-card">
+      <div class="vc-label">Watch the full webinar</div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/EYFE05yQAG4" title="Identity Under Attack: Phishing & The Dark Web — Webinar Recording" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <a class="vc-link" href="https://www.youtube.com/watch?v=EYFE05yQAG4" target="_blank" rel="noopener">Open on YouTube ↗</a>
+    </div>
+
+    <p>Most business owners picture cyberattacks as sophisticated hacking — someone breaking through firewalls with exotic code. The reality is far more mundane and far more preventable: attackers don't break in, they <b>log in</b>. Stolen employee credentials are now the single most used entry point for ransomware gangs, and the supply chain feeding them runs through two places every business should understand — the phishing email in your inbox and the credential marketplaces of the dark web. We recently ran a webinar on exactly this topic; the recording above covers the full picture, and this post summarizes what matters most.</p>
+
+    <h2>The scale of the problem</h2>
+    <div class="stat-row">
+      <div class="stat"><div class="n">91%</div><div class="l">of breaches start with a deceptive email</div></div>
+      <div class="stat"><div class="n">15B+</div><div class="l">compromised credentials circulating on the dark web</div></div>
+      <div class="stat"><div class="n">$73K</div><div class="l">average incident cost for a small business</div></div>
+    </div>
+    <p>Roughly 3.4 billion phishing emails go out globally every day, and the craft has changed: attackers now use AI to write hyper-personalized lures that are essentially indistinguishable from legitimate communication — with deepfake voice and video phishing emerging as the next frontier. This isn't only an enterprise problem. In 2024, companies with under $25M in revenue averaged around $73,000 per incident, and that's before counting the recovery time, legal exposure, and reputation damage that don't show up on the first invoice.</p>
+
+    <h2>What actually happens on the dark web</h2>
+    <p>The dark web isn't just a hidden corner of the internet — it's a functioning marketplace where corporate login pairs, customer data, and personal information are sold for pennies. When any website your employees use gets breached, the stolen credentials get consolidated into massive "combo lists," which automated bots then run against thousands of other sites — banking, email, your company's Microsoft 365 tenant — looking for matches.</p>
+    <p>The reason this works so well is password reuse. The average employee juggles 20+ passwords, and without tools most people recycle variations of the same few. One breached shopping site can therefore hand an attacker the keys to your business email — a domino effect that has helped push the number of credentials in circulation up roughly 300% since 2022. And with about 82% of breaches involving a human element in some form, the annual compliance-style security training most companies run simply isn't changing the behavior that matters.</p>
+
+    <h2>The two-part defense that works</h2>
+    <p><b>1. Dark web monitoring.</b> Instead of finding out about exposed credentials when an attacker uses them, monitoring services continuously scan hidden marketplaces, botnets, and criminal forums for your company's email domains and logins. When an employee's credentials surface in a new breach dump, your IT team gets alerted in time to force a password reset <i>before</i> anyone acts on the leaked data. It's the difference between reactive damage control and proactive identity hygiene.</p>
+    <p><b>2. Continuous phishing awareness training.</b> Because most attacks still need a human to click, the human layer needs real training — not a yearly slideshow. Modern awareness programs send employees realistic simulated phishing emails that mimic actual current threats, track who engages so you can identify high-risk users, and deliver short video-based training automatically. The goal is building reflexes: pausing at urgency, verifying unusual requests, reporting rather than clicking.</p>
+    <p>In the webinar recording, we walk through live demos of both — a dark web monitoring dashboard showing real exposure data, and a phishing simulation platform in action — followed by an audience Q&amp;A.</p>
+
+    <h2>Where to start</h2>
+    <p>If you do nothing else this quarter: turn on multi-factor authentication everywhere it's available, get a password manager into your team's hands so reuse stops being the path of least resistance, and find out what's already exposed — most businesses are surprised the first time they see their domain's dark web report. That first scan is a fast, low-cost way to turn an abstract threat into a concrete to-do list.</p>
+
+    <div class="cta">
+      <p>Want to know what's already out there for your domain? I can arrange a complimentary dark web exposure scan for your business — no strings, just the report and an honest conversation about what it means.</p>
+      <a href="../index.html#contact">Request a scan</a>
+    </div>
+  </div>
+</article>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+</body>
+</html>
