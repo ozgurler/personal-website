@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 AI Automations Any SMB Can Deploy This Quarter | Emre Ozgurler</title>
+  <meta name="description" content="Five practical, low-risk AI automations small and mid-sized businesses can implement in 90 days — no data science team required. Written by an engineer-turned-seller who deploys these for real clients.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="5 AI Automations Any SMB Can Deploy This Quarter">
+  <meta property="og:description" content="Practical, low-risk AI automations you can implement in 90 days — no data science team required.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://emreozgurler.com/insights/5-ai-automations-smb.html">
+  <meta property="og:image" content="https://emreozgurler.com/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #0E1B2C;
+      --navy-light: #16263C;
+      --copper: #C07A3A;
+      --copper-light: #D89055;
+      --text: #2A3542;
+      --text-muted: #5A6675;
+      --bg: #FFFFFF;
+      --bg-soft: #F6F4F1;
+      --border: #E5E1DB;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      background: var(--navy);
+      padding: 20px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      color: #FFFFFF;
+      font-weight: 800;
+      font-size: 1.1rem;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .logo span { color: var(--copper); }
+    nav a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 500;
+      margin-left: 28px;
+      transition: color 0.2s ease;
+    }
+    nav a:hover, nav a.active { color: var(--copper-light); }
+
+    /* ---------- Article hero ---------- */
+    .article-hero {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%);
+      color: #FFFFFF;
+      padding: 72px 24px 64px;
+    }
+    .article-hero-inner { max-width: 760px; margin: 0 auto; }
+    .eyebrow {
+      display: inline-block;
+      color: var(--copper-light);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 18px;
+    }
+    .article-hero h1 {
+      font-size: clamp(1.9rem, 4.5vw, 2.7rem);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+    .article-meta {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.9rem;
+    }
+    .article-meta strong { color: rgba(255, 255, 255, 0.9); font-weight: 600; }
+
+    /* ---------- Article body ---------- */
+    .article-body {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 24px 40px;
+    }
+    .article-body p { margin-bottom: 22px; }
+    .article-body h2 {
+      color: var(--navy);
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 44px 0 16px;
+      line-height: 1.35;
+    }
+    .article-body h2 .num {
+      color: var(--copper);
+      margin-right: 10px;
+    }
+    .article-body h3 {
+      color: var(--navy);
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 28px 0 10px;
+    }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--text);
+      font-weight: 400;
+    }
+    .article-body ul { margin: 0 0 22px 22px; }
+    .article-body li { margin-bottom: 10px; }
+    .article-body strong { color: var(--navy); }
+    .article-body a { color: var(--copper); font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(192, 122, 58, 0.35); }
+    .article-body a:hover { border-bottom-color: var(--copper); }
+
+    /* Facts box per automation */
+    .facts {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--copper);
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin: 20px 0 26px;
+      font-size: 0.93rem;
+    }
+    .facts div { display: flex; gap: 10px; margin-bottom: 6px; }
+    .facts div:last-child { margin-bottom: 0; }
+    .facts dt { color: var(--navy); font-weight: 700; min-width: 130px; flex-shrink: 0; }
+    .facts dd { color: var(--text-muted); }
+
+    .callout {
+      background: var(--navy);
+      color: rgba(255, 255, 255, 0.92);
+      border-radius: 10px;
+      padding: 26px 28px;
+      margin: 40px 0;
+      font-size: 1.02rem;
+    }
+    .callout strong { color: var(--copper-light); }
+
+    /* ---------- CTA ---------- */
+    .cta {
+      background: var(--bg-soft);
+      border-top: 1px solid var(--border);
+      padding: 56px 24px;
+      text-align: center;
+    }
+    .cta-inner { max-width: 620px; margin: 0 auto; }
+    .cta h2 {
+      color: var(--navy);
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .cta p { color: var(--text-muted); margin-bottom: 26px; }
+    .btn {
+      display: inline-block;
+      background: var(--copper);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.15s ease;
+    }
+    .btn:hover { background: var(--copper-light); transform: translateY(-1px); }
+
+    /* ---------- Footer ---------- */
+    footer {
+      background: var(--navy);
+      color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--copper-light); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      nav a { margin-left: 16px; font-size: 0.85rem; }
+      .facts dt { min-width: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="../index.html">Emre <span>Ozgurler</span></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#services">Services</a>
+        <a href="index.html" class="active">Insights</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="article-hero">
+    <div class="article-hero-inner">
+      <span class="eyebrow">AI Implementation &amp; Automation</span>
+      <h1>5 AI Automations Any SMB Can Deploy This Quarter</h1>
+      <p class="article-meta">By <strong>Emre Ozgurler</strong> · July 2026 · 7 min read</p>
+    </div>
+  </section>
+
+  <article class="article-body">
+    <p class="lead">Most small and mid-sized businesses I talk to aren't skeptical about AI anymore. They're stuck on a different question: <em>where do we actually start?</em> The honest answer is smaller than the headlines suggest. You don't need a data science team, a six-figure budget, or a platform migration. You need one or two well-chosen automations, deployed carefully, measured honestly.</p>
+
+    <p>As an engineer who moved into sales, I've spent the last decade watching technology projects succeed or fail — and the pattern is consistent. The wins come from narrow, boring, high-frequency tasks. The failures come from trying to "transform" everything at once. So here are five automations that pass my test: each one is deployable within a quarter, uses tools you can buy off the shelf, and pays for itself in staff hours within months.</p>
+
+    <h2><span class="num">1.</span> Email triage and drafted replies for your shared inboxes</h2>
+    <p>Your info@, support@, and sales@ inboxes are full of messages that fall into five or six predictable buckets: pricing questions, scheduling requests, invoice queries, basic support issues, and spam. An AI layer can classify every incoming message, route it to the right person, and pre-draft a reply in your company's tone for a human to approve and send.</p>
+    <p>The key phrase is <strong>approve and send</strong>. Keep a human on the send button for the first 60–90 days. You'll build trust in the system, catch its blind spots, and collect the examples you need to improve the drafts.</p>
+    <div class="facts">
+      <div><dt>Best first target</dt><dd>Any shared inbox receiving 30+ messages per day</dd></div>
+      <div><dt>Typical time to deploy</dt><dd>2–4 weeks</dd></div>
+      <div><dt>What to measure</dt><dd>Average first-response time; hours spent on inbox per week</dd></div>
+    </div>
+
+    <h2><span class="num">2.</span> Meeting notes, summaries, and CRM hygiene</h2>
+    <p>Every sales call, client check-in, and internal meeting generates value that usually evaporates within 48 hours. AI notetakers now transcribe calls, extract action items, and — this is the part most SMBs miss — push structured summaries directly into your CRM.</p>
+    <p>If your CRM is half-empty because nobody likes data entry, this is the fastest fix available. Deal notes, next steps, and contact details get logged automatically, which means your pipeline reviews are based on reality instead of memory.</p>
+    <div class="facts">
+      <div><dt>Best first target</dt><dd>Sales and account management calls</dd></div>
+      <div><dt>Typical time to deploy</dt><dd>1–2 weeks</dd></div>
+      <div><dt>What to measure</dt><dd>CRM field completion rate; follow-up tasks created per meeting</dd></div>
+    </div>
+
+    <h2><span class="num">3.</span> Proposal and quote generation from templates</h2>
+    <p>Most SMB proposals are 80% boilerplate and 20% specifics — scope, pricing, timeline. An AI workflow can take a short intake form (or the meeting notes from automation #2) and assemble a first-draft proposal in your format, with your language, in minutes instead of hours.</p>
+    <p>This is where being an engineer-turned-seller makes me opinionated: <strong>never let the AI invent numbers</strong>. Pricing, discounts, and delivery dates should come from a controlled source — a rate card, a pricing sheet, a human input — and the AI's job is assembly and language, not judgment.</p>
+    <div class="facts">
+      <div><dt>Best first target</dt><dd>Any team writing 5+ proposals or quotes per month</dd></div>
+      <div><dt>Typical time to deploy</dt><dd>3–5 weeks</dd></div>
+      <div><dt>What to measure</dt><dd>Hours per proposal; time from request to delivery</dd></div>
+    </div>
+
+    <h2><span class="num">4.</span> Invoice, receipt, and document processing</h2>
+    <p>Accounts payable is one of the least glamorous and highest-ROI automation targets in any small business. Modern AI document processing reads invoices and receipts in any format, extracts vendor, amount, date, and line items, matches them against purchase orders, and flags exceptions for a human to review.</p>
+    <p>The same approach works for intake paperwork, signed contracts, delivery notes — any workflow where a person currently retypes information from a PDF into a system. If your bookkeeper spends Fridays doing data entry, start here.</p>
+    <div class="facts">
+      <div><dt>Best first target</dt><dd>Accounts payable processing 50+ documents per month</dd></div>
+      <div><dt>Typical time to deploy</dt><dd>2–4 weeks</dd></div>
+      <div><dt>What to measure</dt><dd>Documents processed per hour; error/exception rate</dd></div>
+    </div>
+
+    <h2><span class="num">5.</span> An internal knowledge assistant for your own documents</h2>
+    <p>"Where's the latest onboarding checklist?" "What's our warranty policy for that product line?" "How do we configure this for a new client?" Your team answers the same internal questions dozens of times a week, and the answers live in a scattered mix of drives, wikis, and someone's head.</p>
+    <p>An internal AI assistant grounded in <em>your</em> documents — policies, SOPs, product sheets, past projects — gives your team a single place to ask. The critical requirement is grounding: the assistant should answer only from your approved documents and cite where the answer came from, so people can verify instead of guessing whether to trust it.</p>
+    <div class="facts">
+      <div><dt>Best first target</dt><dd>Teams of 10+ with documented SOPs or policies</dd></div>
+      <div><dt>Typical time to deploy</dt><dd>4–6 weeks including document cleanup</dd></div>
+      <div><dt>What to measure</dt><dd>Questions answered per week; time-to-answer for new hires</dd></div>
+    </div>
+
+    <div class="callout">
+      <strong>The 90-day rule:</strong> pick one automation, not five. Deploy it with a human in the loop, measure a single metric for a full quarter, and only then expand. Every failed AI project I've seen died from scope, not from technology.
+    </div>
+
+    <h2>How to choose your first one</h2>
+    <p>Three questions will point you to the right starting place:</p>
+    <ul>
+      <li><strong>Frequency:</strong> Does this task happen daily or weekly? High-frequency tasks compound savings fast and give you enough volume to evaluate results honestly.</li>
+      <li><strong>Tolerance:</strong> If the AI gets it wrong 1 time in 20 and a human catches it in review, is that acceptable? Start with workflows where review is cheap and errors are recoverable.</li>
+      <li><strong>Data readiness:</strong> Do you already have the templates, documents, or examples the system needs? If your SOPs don't exist yet, automation #5 waits — but #1 or #2 can start tomorrow.</li>
+    </ul>
+    <p>The businesses getting real value from AI in 2026 aren't the ones with the biggest budgets. They're the ones that picked a narrow problem, kept a human in the loop, and measured the result like engineers.</p>
+  </article>
+
+  <section class="cta">
+    <div class="cta-inner">
+      <h2>Not sure which automation fits your business?</h2>
+      <p>I help SMBs scope, deploy, and measure AI automation projects — starting with a short conversation about where your team's hours actually go.</p>
+      <a class="btn" href="../index.html#contact">Book a Free Consultation</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Emre Ozgurler · <a href="../index.html">emreozgurler.com</a> · Portland, Oregon</p>
+  </footer>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
