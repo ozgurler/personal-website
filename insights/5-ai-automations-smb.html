@@ -15,7 +15,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -28,12 +28,14 @@
       --bg: #FFFFFF;
       --bg-soft: #F6F4F1;
       --border: #E5E1DB;
+      --display: 'Archivo', sans-serif;
+      --mono: 'IBM Plex Mono', monospace;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       color: var(--text);
       background: var(--bg);
       line-height: 1.7;
@@ -43,10 +45,11 @@
     /* ---------- Header ---------- */
     header {
       background: var(--navy);
-      padding: 20px 24px;
+      padding: 1.1rem 24px;
       position: sticky;
       top: 0;
       z-index: 100;
+      border-bottom: 1px solid rgba(192, 122, 58, 0.25);
     }
     .header-inner {
       max-width: 1080px;
@@ -56,22 +59,23 @@
       justify-content: space-between;
     }
     .logo {
-      color: #FFFFFF;
-      font-weight: 800;
-      font-size: 1.1rem;
+      font-family: var(--mono);
+      color: #E8ECEF;
+      font-size: .85rem;
       text-decoration: none;
-      letter-spacing: 0.02em;
+      letter-spacing: .08em;
     }
-    .logo span { color: var(--copper); }
+    .logo b { color: var(--copper); }
     nav a {
-      color: rgba(255, 255, 255, 0.85);
+      font-family: var(--mono);
+      color: #B9C4CE;
       text-decoration: none;
-      font-size: 0.92rem;
-      font-weight: 500;
-      margin-left: 28px;
+      font-size: .75rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
       transition: color 0.2s ease;
     }
-    nav a:hover, nav a.active { color: var(--copper-light); }
+    nav a:hover { color: var(--copper); }
 
     /* ---------- Article hero ---------- */
     .article-hero {
@@ -82,14 +86,16 @@
     .article-hero-inner { max-width: 760px; margin: 0 auto; }
     .eyebrow {
       display: inline-block;
+      font-family: var(--mono);
       color: var(--copper-light);
-      font-size: 0.8rem;
-      font-weight: 700;
+      font-size: 0.72rem;
+      font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.14em;
       margin-bottom: 18px;
     }
     .article-hero h1 {
+      font-family: var(--display);
       font-size: clamp(1.9rem, 4.5vw, 2.7rem);
       font-weight: 800;
       line-height: 1.2;
@@ -97,8 +103,11 @@
       margin-bottom: 20px;
     }
     .article-meta {
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 0.9rem;
+      font-family: var(--mono);
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
     .article-meta strong { color: rgba(255, 255, 255, 0.9); font-weight: 600; }
 
@@ -110,6 +119,7 @@
     }
     .article-body p { margin-bottom: 22px; }
     .article-body h2 {
+      font-family: var(--display);
       color: var(--navy);
       font-size: 1.45rem;
       font-weight: 700;
@@ -122,6 +132,7 @@
       margin-right: 10px;
     }
     .article-body h3 {
+      font-family: var(--display);
       color: var(--navy);
       font-size: 1.05rem;
       font-weight: 700;
@@ -150,7 +161,7 @@
     }
     .facts div { display: flex; gap: 10px; margin-bottom: 6px; }
     .facts div:last-child { margin-bottom: 0; }
-    .facts dt { color: var(--navy); font-weight: 700; min-width: 130px; flex-shrink: 0; }
+    .facts dt { font-family: var(--mono); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--navy); font-weight: 500; min-width: 145px; flex-shrink: 0; }
     .facts dd { color: var(--text-muted); }
 
     .callout {
@@ -172,6 +183,7 @@
     }
     .cta-inner { max-width: 620px; margin: 0 auto; }
     .cta h2 {
+      font-family: var(--display);
       color: var(--navy);
       font-size: 1.5rem;
       font-weight: 800;
@@ -182,10 +194,13 @@
       display: inline-block;
       background: var(--copper);
       color: #FFFFFF;
-      font-weight: 700;
-      font-size: 0.95rem;
+      font-family: var(--mono);
+      font-weight: 500;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
       padding: 14px 32px;
-      border-radius: 8px;
+      border-radius: 3px;
       text-decoration: none;
       transition: background 0.2s ease, transform 0.15s ease;
     }
@@ -194,10 +209,13 @@
     /* ---------- Footer ---------- */
     footer {
       background: var(--navy);
-      color: rgba(255, 255, 255, 0.6);
+      color: #5A6B7E;
       text-align: center;
-      padding: 32px 24px;
-      font-size: 0.85rem;
+      padding: 1.4rem 24px;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
     }
     footer a { color: var(--copper-light); text-decoration: none; }
 
@@ -206,17 +224,21 @@
       .facts dt { min-width: 110px; }
     }
   </style>
+  <link rel="canonical" href="https://emreozgurler.com/insights/5-ai-automations-smb.html">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BlogPosting","headline":"5 AI Automations Any SMB Can Deploy This Quarter","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-30"}
+  </script>
 </head>
 <body>
 
   <header>
     <div class="header-inner">
-      <a class="logo" href="../index.html">Emre <span>Ozgurler</span></a>
+      <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
       <nav>
-        <a href="../index.html">Home</a>
-        <a href="../index.html#services">Services</a>
-        <a href="index.html" class="active">Insights</a>
-        <a href="../index.html#contact">Contact</a>
+        <a href="index.html">← All insights</a>
       </nav>
     </div>
   </header>
