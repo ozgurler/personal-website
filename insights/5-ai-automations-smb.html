@@ -79,11 +79,18 @@
 
     /* ---------- Article hero ---------- */
     .article-hero {
-      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%);
-      color: #FFFFFF;
-      padding: 72px 24px 64px;
+      background: var(--navy);
+      color: #E8ECEF;
+      padding: clamp(3rem, 8vh, 5rem) clamp(1.25rem, 5vw, 4rem);
     }
     .article-hero-inner { max-width: 760px; margin: 0 auto; }
+    .meta {
+      display: flex; gap: 1rem; flex-wrap: wrap;
+      font-family: var(--mono); font-size: .7rem;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: #8FA0B0; margin-bottom: .9rem;
+    }
+    .meta .cat { color: var(--copper); }
     .eyebrow {
       display: inline-block;
       font-family: var(--mono);
@@ -96,11 +103,10 @@
     }
     .article-hero h1 {
       font-family: var(--display);
-      font-size: clamp(1.9rem, 4.5vw, 2.7rem);
       font-weight: 800;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-      margin-bottom: 20px;
+      font-size: clamp(1.8rem, 4.5vw, 2.7rem);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
     }
     .article-meta {
       font-family: var(--mono);
@@ -245,9 +251,8 @@
 
   <section class="article-hero">
     <div class="article-hero-inner">
-      <span class="eyebrow">AI Implementation &amp; Automation</span>
+      <div class="meta"><span class="cat">AI Implementation</span><span>July 2026</span><span>By Emre Ozgurler</span><span>7 min read</span></div>
       <h1>5 AI Automations Any SMB Can Deploy This Quarter</h1>
-      <p class="article-meta">By <strong>Emre Ozgurler</strong> · July 2026 · 7 min read</p>
     </div>
   </section>
 

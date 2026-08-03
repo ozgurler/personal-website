@@ -27,7 +27,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
 :root{
@@ -41,44 +41,42 @@
   --paper-2:#F7F5F2;
   --line:#E4E0D9;
   --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --display:'Archivo',sans-serif;
+  --ui-mono:'IBM Plex Mono',monospace;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-family:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   color:var(--ink);background:var(--paper);
   line-height:1.72;font-size:17px;-webkit-font-smoothing:antialiased;
 }
 
 /* nav */
-.nav{background:var(--navy);padding:18px 24px;position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(192,122,58,.25)}
-.nav-in{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{color:#fff;text-decoration:none;font-size:.95rem;letter-spacing:.01em}
-.brand b{font-weight:800;color:var(--copper)}
-.brand span{color:rgba(255,255,255,.45);font-weight:400}
-.back{color:rgba(255,255,255,.75);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
-.back:hover{color:var(--copper-2)}
+.nav{position:sticky;top:0;z-index:50;padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(192,122,58,.25)}
+.nav-in{max-width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-family:var(--ui-mono);color:#E8ECEF;text-decoration:none;font-size:.85rem;letter-spacing:.08em}
+.brand b{color:var(--copper);font-weight:500}
+.brand span{color:#E8ECEF;font-weight:400}
+.back{font-family:var(--ui-mono);color:#B9C4CE;text-decoration:none;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;transition:color .2s}
+.back:hover{color:var(--copper)}
 
 /* hero */
-.hero{background:var(--navy);color:#fff;padding:76px 24px 60px;border-bottom:3px solid var(--copper)}
-.hero-in{max-width:780px;margin:0 auto}
-.kicker{
-  font-family:var(--mono);font-size:.72rem;font-weight:500;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--copper-2);display:block;margin-bottom:20px;
+.hero{background:var(--navy);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+.hero-in{max-width:760px;margin:0 auto}
+.meta{
+  display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--ui-mono);font-size:.7rem;
+  letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem;
 }
-.hero h1{font-size:clamp(1.95rem,4.6vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.025em;margin-bottom:20px}
-.dek{font-size:1.1rem;color:rgba(255,255,255,.78);margin-bottom:28px;max-width:64ch}
-.byline{
-  font-family:var(--mono);font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;
-  color:rgba(255,255,255,.5);border-top:1px solid rgba(255,255,255,.14);padding-top:18px;
-}
-.byline b{color:rgba(255,255,255,.8);font-weight:500}
+.meta .cat{color:var(--copper)}
+.hero h1{font-family:var(--display);font-size:clamp(1.8rem,4.5vw,2.7rem);font-weight:800;line-height:1.15;letter-spacing:-.01em;margin-bottom:20px}
+.dek{font-size:1.1rem;color:#B9C4CE;max-width:64ch}
 
 /* body */
 .wrap{max-width:780px;margin:0 auto;padding:52px 24px 24px}
 .wrap p{margin-bottom:22px}
 .lede{font-size:1.14rem}
-.wrap h2{color:var(--navy);font-size:1.42rem;font-weight:700;letter-spacing:-.015em;line-height:1.3;margin:52px 0 8px}
+.wrap h2{font-family:var(--display);color:var(--navy);font-size:1.42rem;font-weight:700;letter-spacing:-.015em;line-height:1.3;margin:52px 0 8px}
 .step{
   font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.16em;
   text-transform:uppercase;color:var(--copper);display:block;margin-top:52px;
@@ -126,14 +124,14 @@ td:first-child{font-weight:600;color:var(--navy)}
 /* cta */
 .cta{background:var(--paper-2);border-top:1px solid var(--line);padding:54px 24px;text-align:center;margin-top:48px}
 .cta-in{max-width:600px;margin:0 auto}
-.cta h2{color:var(--navy);font-size:1.42rem;font-weight:800;margin-bottom:12px;letter-spacing:-.015em}
+.cta h2{font-family:var(--display);color:var(--navy);font-size:1.42rem;font-weight:800;margin-bottom:12px;letter-spacing:-.015em}
 .cta p{color:var(--ink-2);margin-bottom:26px}
 .btn{display:inline-block;background:var(--copper);color:#fff;font-weight:600;font-size:.94rem;padding:14px 30px;border-radius:7px;text-decoration:none;transition:background .2s,transform .15s}
 .btn:hover{background:var(--copper-2);transform:translateY(-1px)}
 .alt{display:block;margin-top:18px;color:var(--ink-2);font-size:.88rem;text-decoration:none}
 .alt:hover{color:var(--copper)}
 
-footer{background:var(--navy);color:rgba(255,255,255,.45);text-align:center;padding:30px 24px;font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
+footer{background:var(--navy);color:#5A6B7E;text-align:center;padding:1.4rem 24px;font-family:var(--ui-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase}
 
 @media (max-width:620px){
   body{font-size:16px}
@@ -154,10 +152,9 @@ footer{background:var(--navy);color:rgba(255,255,255,.45);text-align:center;padd
 
 <header class="hero">
   <div class="hero-in">
-    <span class="kicker">Field Guide · AI Adoption</span>
+    <div class="meta"><span class="cat">Field Guide · AI Adoption</span><span>July 2026</span><span>By Emre Ozgurler</span><span>8 min read</span></div>
     <h1>Make Your Claude Plan Go Further</h1>
     <p class="dek">Most people hit their usage limit because of how they structure conversations, not how much they ask. Eight habits that stretch your weekly allowance and your Fable 5 credits — without getting less out of Claude.</p>
-    <p class="byline">By <b>Emre Ozgurler</b> · July 2026 · 8 min read</p>
   </div>
 </header>
 
