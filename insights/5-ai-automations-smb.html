@@ -25,8 +25,8 @@
       --copper-light: #D89055;
       --text: #2A3542;
       --text-muted: #5A6675;
-      --bg: #FFFFFF;
-      --bg-soft: #F6F4F1;
+      --bg: #F5F6F4;
+      --bg-soft: #FFFFFF;
       --border: #E5E1DB;
       --display: 'Archivo', sans-serif;
       --mono: 'IBM Plex Mono', monospace;
@@ -44,15 +44,16 @@
 
     /* ---------- Header ---------- */
     header {
-      background: var(--navy);
-      padding: 1.1rem 24px;
+      background: rgba(14, 27, 44, 0.92);
+      backdrop-filter: blur(12px);
+      padding: 1.1rem clamp(1.25rem, 5vw, 4rem);
       position: sticky;
       top: 0;
       z-index: 100;
       border-bottom: 1px solid rgba(192, 122, 58, 0.25);
     }
     .header-inner {
-      max-width: 1080px;
+      max-width: 100%;
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -121,7 +122,7 @@
     .article-body {
       max-width: 760px;
       margin: 0 auto;
-      padding: 56px 24px 40px;
+      padding: clamp(2.5rem, 7vh, 4rem) clamp(1.25rem, 5vw, 4rem);
     }
     .article-body p { margin-bottom: 22px; }
     .article-body h2 {
@@ -157,10 +158,10 @@
 
     /* Facts box per automation */
     .facts {
-      background: var(--bg-soft);
+      background: #FFFFFF;
       border: 1px solid var(--border);
       border-left: 3px solid var(--copper);
-      border-radius: 8px;
+      border-radius: 6px;
       padding: 18px 22px;
       margin: 20px 0 26px;
       font-size: 0.93rem;
@@ -173,7 +174,7 @@
     .callout {
       background: var(--navy);
       color: rgba(255, 255, 255, 0.92);
-      border-radius: 10px;
+      border-radius: 6px;
       padding: 26px 28px;
       margin: 40px 0;
       font-size: 1.02rem;
@@ -182,20 +183,19 @@
 
     /* ---------- CTA ---------- */
     .cta {
-      background: var(--bg-soft);
-      border-top: 1px solid var(--border);
-      padding: 56px 24px;
+      background: var(--navy);
+      padding: clamp(2.5rem, 6vh, 3.5rem) clamp(1.25rem, 5vw, 4rem);
       text-align: center;
     }
     .cta-inner { max-width: 620px; margin: 0 auto; }
     .cta h2 {
       font-family: var(--display);
-      color: var(--navy);
+      color: #FFFFFF;
       font-size: 1.5rem;
       font-weight: 800;
       margin-bottom: 12px;
     }
-    .cta p { color: var(--text-muted); margin-bottom: 26px; }
+    .cta p { color: #B9C4CE; margin-bottom: 26px; }
     .btn {
       display: inline-block;
       background: var(--copper);
