@@ -70,9 +70,14 @@
 
   /* ---------- hero ---------- */
   header{
-    padding:72px 0 56px;
-    border-bottom:3px solid var(--ink);
+    background:var(--site-ink);
+    color:#E8ECEF;
+    padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem);
   }
+  header .wrap{padding:0}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.7rem;
+        letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem}
+  .meta .cat{color:var(--site-copper)}
   .eyebrow{
     font-family:var(--mono);
     font-size:13px;
@@ -87,20 +92,18 @@
   }
   h1{
     font-family:'Archivo',sans-serif;
-    font-weight:900;
-    font-stretch:110%;
-    font-size:clamp(42px,7vw,72px);
-    line-height:1.02;
-    letter-spacing:-0.02em;
-    text-transform:uppercase;
-    margin-bottom:26px;
+    font-weight:800;
+    font-size:clamp(1.8rem,4.5vw,2.7rem);
+    line-height:1.15;
+    letter-spacing:-0.01em;
+    margin-bottom:18px;
   }
   .lede{
-    font-size:20px;
-    color:var(--ink-soft);
+    font-size:19px;
+    color:#B9C4CE;
     max-width:620px;
   }
-  .lede strong{color:var(--ink)}
+  .lede strong{color:#E8ECEF}
 
   /* ---------- sections ---------- */
   section{padding:56px 0 8px}
@@ -222,11 +225,13 @@
   /* ---------- footer ---------- */
   footer{
     margin-top:56px;
-    border-top:3px solid var(--ink);
-    padding:30px 0 40px;
-    display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;
+    background:var(--site-ink);
+    border-top:1px solid #2A4361;
+    padding:1.4rem;
+    text-align:center;
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;
+    text-transform:uppercase;color:#5A6B7E;
   }
-  footer p{font-size:13.5px;color:var(--ink-soft);font-family:var(--mono)}
   .stamp{
     font-family:'Archivo',sans-serif;font-weight:900;font-size:15px;
     text-transform:uppercase;letter-spacing:0.08em;
@@ -253,7 +258,7 @@
   }
 </style>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
-<link rel="canonical" href="https://emreozgurler.com/insights/get-hired-with-claude.html">
+<link rel="canonical" href="https://www.emreozgurler.com/insights/get-hired-with-claude.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -267,10 +272,9 @@
 
 <header>
   <div class="wrap">
-    <p class="eyebrow">A field guide for job seekers</p>
-    <h1>Stop scrolling.<br>Start <span class="hl">getting hired.</span></h1>
+    <div class="meta"><span class="cat">Field Guide</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
+    <h1>Get Hired with Claude: A Job Seeker's Field Guide</h1>
     <p class="lede">Claude can search Indeed's live job listings, dig into companies, and tailor your resume — <strong>all in one conversation.</strong> Here's how to set it up in five minutes, plus the settings that make it stick.</p>
-    <p class="byline">By <b>Emre Ozgurler</b> · July 2026</p>
   </div>
 </header>
 
@@ -350,14 +354,7 @@
   </div>
 </section>
 
-<footer>
-  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding:0 24px">
-    <p>More help: support.claude.com · docs.indeed.com/mcp</p>
-    <span class="stamp">You're hired ✓</span>
-  </div>
-</footer>
-
-<div class="site-footer">EMRE OZGURLER · PORTLAND, OR · © 2026</div>
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
 
 </body>
 </html>

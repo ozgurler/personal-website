@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Go-to-Market to Go-to-Market Engineering — Emre Ozgurler</title>
+<meta name="description" content="GTM used to be a headcount problem. AI, enrichment APIs, and orchestration tools turned it into an engineering problem — designing systems, not just running plays. What changed, what the new stack looks like, and what still requires a human.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.emreozgurler.com/insights/go-to-market-engineering.html">
+<meta property="og:title" content="From Go-to-Market to Go-to-Market Engineering">
+<meta property="og:description" content="The job moved from running plays to building systems. What changed, the new stack, and the parts that still require judgment.">
+<meta property="og:image" content="https://www.emreozgurler.com/og-image.png">
+<link rel="canonical" href="https://www.emreozgurler.com/insights/go-to-market-engineering.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"From Go-to-Market to Go-to-Market Engineering","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-08-09"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
+<style>
+  :root{
+    --ink:#0E1B2C; --paper:#F5F6F4; --copper:#C07A3A; --copper-deep:#9A5F26;
+    --slate:#5A6B7E; --line:#DDE2E0; --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.7;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+             color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:760px;margin:0 auto}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.7rem;
+        letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem}
+  .meta .cat{color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.7rem);line-height:1.15;letter-spacing:-.01em;margin-bottom:18px}
+  header .dek{color:#B9C4CE;max-width:44em;font-size:1.08rem}
+
+  article{padding:clamp(2.5rem,7vh,4rem) clamp(1.25rem,5vw,4rem)}
+  article p{margin-bottom:1.15rem;color:#33414F;max-width:44em}
+  article h2{font-family:var(--display);font-weight:700;font-size:1.35rem;margin:2.2rem 0 .8rem;color:var(--ink)}
+  article h3{font-family:var(--display);font-weight:700;font-size:1.02rem;margin:1.5rem 0 .4rem;color:var(--ink)}
+  article ul{margin:0 0 1.15rem 1.3rem;color:#33414F}
+  article ul li{margin-bottom:.5rem}
+  article strong{color:var(--ink)}
+  .lead{font-size:1.1rem}
+
+  /* then / now comparison */
+  .shift{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+         border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:1.6rem 0 1.8rem}
+  .shift div{background:#fff;padding:1.2rem 1.3rem}
+  .shift .lbl{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;
+              color:var(--slate);margin-bottom:.5rem}
+  .shift .now .lbl{color:var(--copper-deep)}
+  .shift p{font-size:.93rem;margin:0}
+  @media(max-width:640px){.shift{grid-template-columns:1fr}}
+
+  /* stack layers */
+  .layer{background:#fff;border:1px solid var(--line);border-left:4px solid var(--copper);
+         border-radius:6px;padding:1.1rem 1.3rem;margin-bottom:.8rem}
+  .layer b{font-family:var(--display);font-size:1rem}
+  .layer p{font-size:.93rem;margin:.2rem 0 0;color:#33414F}
+  .layer .eg{font-family:var(--mono);font-size:.72rem;color:var(--slate);margin-top:.4rem;display:block}
+
+  .callout{background:var(--ink);color:rgba(255,255,255,.92);border-radius:6px;
+           padding:1.5rem 1.7rem;margin:2rem 0;font-size:1rem}
+  .callout strong{color:var(--copper)}
+  .callout p{color:rgba(255,255,255,.92);max-width:none;margin:0}
+
+  .cta{background:var(--ink);border-radius:6px;padding:1.6rem 1.8rem;margin-top:2.4rem;color:#E8ECEF}
+  .cta p{color:#B9C4CE;margin-bottom:1rem;max-width:none}
+  .cta a{display:inline-block;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+         text-decoration:none;background:var(--copper);color:#fff;padding:.85rem 1.5rem;border-radius:3px}
+  .cta a:hover{background:var(--copper-deep)}
+
+  .related{margin-top:2rem;font-size:.93rem;color:var(--slate)}
+  .related a{color:var(--copper-deep);font-weight:500}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← All insights</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="meta"><span class="cat">Go-to-Market</span><span>August 2026</span><span>By Emre Ozgurler</span><span>9 min read</span></div>
+    <h1>From Go-to-Market to Go-to-Market Engineering</h1>
+    <p class="dek">The lever used to be headcount. Now it's system design — and that changes who succeeds in the role, what the stack looks like, and which parts of the job you should refuse to automate.</p>
+  </div>
+</header>
+
+<article>
+  <div class="wrap">
+
+    <p class="lead">For most of the last decade, scaling go-to-market meant one thing: hire more people. Need twice the pipeline? Hire twice the SDRs. The playbook was linear, well-understood, and — for a while — it worked.</p>
+
+    <p>That equation has broken down. Not because outbound stopped working, but because the inputs changed underneath it: buyers research independently long before they talk to anyone, inbox providers tightened the rules on bulk sending, capital got more expensive so "add headcount" stopped being an automatic yes, and a generation of tools arrived that can do the research, enrichment, and drafting a junior rep used to do manually.</p>
+
+    <p>What emerged is a different discipline. The title varies — GTM engineer, growth engineer, RevOps architect — but the shape is consistent: <strong>the person responsible for pipeline now builds systems rather than running plays.</strong> As an engineer who moved into sales, I find this shift less surprising than most. It's the same transition manufacturing made decades ago, arriving late to the commercial side of the business.</p>
+
+    <h2>What actually changed</h2>
+
+    <div class="shift">
+      <div><div class="lbl">Then</div><p>Scale by adding reps. Output rises roughly in proportion to headcount.</p></div>
+      <div class="now"><div class="lbl">Now</div><p>Scale by improving the system. One well-built workflow serves the whole team.</p></div>
+    </div>
+    <div class="shift">
+      <div><div class="lbl">Then</div><p>Static lists: pull a title-and-industry filter, work it top to bottom.</p></div>
+      <div class="now"><div class="lbl">Now</div><p>Live signals: hiring changes, funding, tech installs, leadership moves — triggering outreach at the moment of relevance.</p></div>
+    </div>
+    <div class="shift">
+      <div><div class="lbl">Then</div><p>Personalization was a manual tax — 15 minutes of research per prospect, so most reps skipped it.</p></div>
+      <div class="now"><div class="lbl">Now</div><p>Research and drafting are automated; the rep's time goes to judgment and conversation.</p></div>
+    </div>
+    <div class="shift">
+      <div><div class="lbl">Then</div><p>Reporting looked backward: what closed last quarter.</p></div>
+      <div class="now"><div class="lbl">Now</div><p>Instrumentation looks forward: which signals, segments, and messages actually convert.</p></div>
+    </div>
+
+    <h2>Why the tools forced the change</h2>
+
+    <p>Three technical developments did most of the work here, and they compound.</p>
+
+    <p><strong>Data became programmable.</strong> Contact and company data used to arrive as a CSV you bought once and watched decay. Now enrichment runs through APIs — you can look up a company, verify an email, check funding history, or detect a technology install as a step inside a workflow rather than a purchasing decision. The practical consequence: your targeting can update continuously instead of quarterly.</p>
+
+    <p><strong>Language models absorbed the research layer.</strong> The genuinely time-consuming part of good outbound was never writing the email — it was reading the annual report, the job posting, the press release, and the LinkedIn activity to find something worth saying. That work is now largely automatable, which collapses the tradeoff between volume and relevance that defined the old SDR model.</p>
+
+    <p><strong>Orchestration got accessible.</strong> Connecting a signal source to an enrichment step to a CRM update used to require an engineer. Workflow platforms and AI connectors mean a commercially-minded person can now assemble that chain themselves. This is the real democratizing step: the bottleneck moved from "can you code it" to <strong>"do you know what to build."</strong></p>
+
+    <div class="callout">
+      <p><strong>The uncomfortable implication:</strong> when research and drafting cost nearly nothing, the differentiator stops being effort and starts being judgment — which signals matter, which segments deserve attention, what's actually worth saying. Volume was a moat when it was expensive. It isn't anymore.</p>
+    </div>
+
+    <h2>What the GTM engineering stack looks like</h2>
+
+    <p>Not a product list — a set of layers. Most teams already own tools in each; the engineering is in how they connect.</p>
+
+    <div class="layer">
+      <b>1. Signal layer</b>
+      <p>What tells you an account is worth contacting <em>now</em>: job postings, funding events, leadership changes, product launches, technology installs, website visits, expiring contracts.</p>
+      <span class="eg">The strategic question: which signals actually precede a purchase in your market?</span>
+    </div>
+    <div class="layer">
+      <b>2. Data &amp; enrichment layer</b>
+      <p>Turning a signal into a workable record: verified contacts, firmographics, org structure, deliverable email addresses.</p>
+      <span class="eg">Failure mode: enriching everything. Enrichment costs money — spend it after qualification, not before.</span>
+    </div>
+    <div class="layer">
+      <b>3. Intelligence layer</b>
+      <p>Where AI reads context and produces drafts: research summaries, account briefs, tailored messaging, call prep, meeting recaps.</p>
+      <span class="eg">Keep a human on the send button. Always.</span>
+    </div>
+    <div class="layer">
+      <b>4. Orchestration layer</b>
+      <p>The logic connecting everything: triggers, branching, routing, sequencing, hand-offs to humans, exception handling.</p>
+      <span class="eg">This is where the actual engineering lives — and where most stacks quietly break.</span>
+    </div>
+    <div class="layer">
+      <b>5. System of record</b>
+      <p>The CRM, kept honest. If your pipeline data is fiction, every layer above it is optimizing against noise.</p>
+      <span class="eg">Automating CRM hygiene is unglamorous and usually the highest-ROI step available.</span>
+    </div>
+    <div class="layer">
+      <b>6. Measurement layer</b>
+      <p>Attribution and experiment tracking: which signal, segment, and message combination produced meetings — not just how many emails went out.</p>
+      <span class="eg">If you can't measure it, you've built automation, not a system.</span>
+    </div>
+
+    <h2>The skill mix has shifted</h2>
+
+    <p>The classic AE profile — relationship-driven, resilient, persuasive — hasn't stopped mattering. But the people compounding value fastest right now pair it with a second set:</p>
+
+    <ul>
+      <li><strong>Systems thinking:</strong> seeing pipeline as a set of connected stages with inputs, failure points, and feedback loops rather than a list of activities.</li>
+      <li><strong>Data literacy:</strong> comfort with structured data, sane definitions, and enough statistical humility to know when a result is noise.</li>
+      <li><strong>Automation fluency:</strong> no computer science degree required, but you should be able to reason about APIs, triggers, and conditional logic — and read what a workflow is doing.</li>
+      <li><strong>Prompt and context design:</strong> knowing how to give an AI system the right inputs, constraints, and guardrails is now a core commercial skill, not a technical curiosity.</li>
+      <li><strong>Experimental rigor:</strong> changing one variable, running it long enough to mean something, and being willing to kill what doesn't work.</li>
+    </ul>
+
+    <p>Which is why I think the engineer-to-seller path is worth more now than when I took it. Understanding how a system fails is different from knowing how to use one.</p>
+
+    <h2>What you should refuse to automate</h2>
+
+    <p>The failures I've seen in the last two years share a pattern: teams automated the parts requiring judgment and kept doing the parts machines handle well. Some hard lines worth drawing:</p>
+
+    <ul>
+      <li><strong>Discovery.</strong> Understanding why a business actually needs something is a conversation, not an inference. AI can prepare you for it; it can't hold it.</li>
+      <li><strong>Pricing and commitments.</strong> Never let a generative system invent numbers or dates. Those come from a controlled source.</li>
+      <li><strong>Qualification judgment.</strong> Scoring models suggest; humans decide what to pursue. A model trained on last year's wins will faithfully reproduce last year's blind spots.</li>
+      <li><strong>The send button.</strong> At minimum through the first few months. Reviewing drafts is how you find out what your system gets wrong.</li>
+      <li><strong>Relationships.</strong> Nobody has ever been won over by knowing their vendor's automation was efficient.</li>
+    </ul>
+
+    <h2>Where to start if this is new</h2>
+
+    <p>The same advice I give on any automation project: narrow beats ambitious. Pick <em>one</em> motion — a single segment, a single trigger, a single sequence. Instrument it before you optimize it, so you can tell whether changes helped. Automate the research and drafting first, since that's where the hours go and where errors are cheapest to catch. Keep a human reviewing output for at least a quarter. Then, and only then, widen.</p>
+
+    <p>The teams getting real leverage from this shift aren't the ones with the most tools. They're the ones who picked a narrow motion, built it carefully, measured it honestly, and expanded from something that provably worked.</p>
+
+    <div class="cta">
+      <p>Rethinking how your team generates pipeline? I help businesses design and deploy GTM systems — starting with an honest look at where the hours currently go and which parts are worth automating first.</p>
+      <a href="../index.html#contact">Start a conversation</a>
+    </div>
+
+    <p class="related">Related: <a href="apollo-claude-bd-automation.html">Pipeline on Autopilot: BD Automation with Apollo.io × Claude</a> — a hands-on walkthrough of the intelligence and orchestration layers described above. And <a href="5-ai-automations-smb.html">5 AI Automations Any SMB Can Deploy This Quarter</a> for the broader operational view.</p>
+
+  </div>
+</article>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+</body>
+</html>
