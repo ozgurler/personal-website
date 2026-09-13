@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The AI Words People Use Without Explaining Them — Emre Ozgurler</title>
+<meta name="description" content="Plain-language definitions of the AI terms that show up in every vendor pitch: machine learning, neural networks, parameters, open source vs. open weight, inference, tokens, RAG, and more. Written for business owners evaluating AI tools.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.emreozgurler.com/insights/ai-terms-explained.html">
+<meta property="og:title" content="The AI Words People Use Without Explaining Them">
+<meta property="og:description" content="Open source vs. open weight, parameters, machine learning, neural networks, inference: plain definitions so you can evaluate vendors without a translator.">
+<meta property="og:image" content="https://www.emreozgurler.com/og-image.png">
+<link rel="canonical" href="https://www.emreozgurler.com/insights/ai-terms-explained.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"The AI Words People Use Without Explaining Them","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-09-12"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
+<style>
+  :root{
+    --ink:#0E1B2C; --paper:#F5F6F4; --copper:#C07A3A; --copper-deep:#9A5F26;
+    --slate:#5A6B7E; --line:#DDE2E0; --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.7;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+             color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:760px;margin:0 auto}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.7rem;
+        letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem}
+  .meta .cat{color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.7rem);line-height:1.15;letter-spacing:-.01em;margin-bottom:18px}
+  header .dek{color:#B9C4CE;max-width:44em;font-size:1.08rem}
+
+  article{padding:clamp(2.5rem,7vh,4rem) clamp(1.25rem,5vw,4rem)}
+  article p{margin-bottom:1.15rem;color:#33414F;max-width:44em}
+  article h2{font-family:var(--display);font-weight:700;font-size:1.35rem;margin:2.4rem 0 1rem;color:var(--ink)}
+  article strong{color:var(--ink)}
+  .lead{font-size:1.1rem}
+
+  /* glossary entries */
+  .term{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1.2rem 1.4rem;margin-bottom:.9rem}
+  .term h3{font-family:var(--display);font-weight:700;font-size:1.08rem;margin-bottom:.35rem;color:var(--ink)}
+  .term p{font-size:.95rem;margin-bottom:.6rem;max-width:none}
+  .term p:last-child{margin-bottom:0}
+  .term .why{font-size:.9rem;color:var(--slate);border-top:1px solid var(--line);padding-top:.6rem;margin-top:.7rem}
+  .term .why b{color:var(--copper-deep);font-weight:600}
+
+  .callout{background:var(--ink);color:rgba(255,255,255,.92);border-radius:6px;
+           padding:1.5rem 1.7rem;margin:2rem 0;font-size:1rem}
+  .callout p{color:rgba(255,255,255,.92);max-width:none;margin:0}
+  .callout strong{color:var(--copper)}
+
+  .cta{background:var(--ink);border-radius:6px;padding:1.6rem 1.8rem;margin-top:2.4rem;color:#E8ECEF}
+  .cta p{color:#B9C4CE;margin-bottom:1rem;max-width:none}
+  .cta a{display:inline-block;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+         text-decoration:none;background:var(--copper);color:#fff;padding:.85rem 1.5rem;border-radius:3px}
+  .cta a:hover{background:var(--copper-deep)}
+
+  .related{margin-top:2rem;font-size:.93rem;color:var(--slate)}
+  .related a{color:var(--copper-deep);font-weight:500}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← All insights</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="meta"><span class="cat">AI Explained</span><span>September 2026</span><span>By Emre Ozgurler</span><span>10 min read</span></div>
+    <h1>The AI words people use without explaining them</h1>
+    <p class="dek">Every vendor pitch now comes with a vocabulary test. Here are the terms that actually matter when you're deciding what to buy, defined in plain language, with a note on why each one should affect your decision.</p>
+  </div>
+</header>
+
+<article>
+  <div class="wrap">
+
+    <p class="lead">I sit in a lot of meetings where someone says "our model has 70 billion parameters and it's open weight" and half the room nods without knowing whether that's good, bad, or relevant. It's usually one of the three, and knowing which is the difference between buying something that fits and buying something that sounded impressive.</p>
+
+    <p>Nothing here requires a technical background. I've tried to define each term the way I'd explain it across a table, and after each one I've added the practical reason it matters when you're evaluating a tool or a vendor. Skip to whichever ones you keep hearing.</p>
+
+    <h2>The foundations</h2>
+
+    <div class="term">
+      <h3>Artificial intelligence (AI)</h3>
+      <p>The broad umbrella: any software that does something we'd normally associate with human thinking, like recognizing a face, understanding a sentence, or deciding what to do next. It's a category, not a specific technology. A spam filter from 2005 is technically AI. So is the chatbot you used this morning.</p>
+      <p class="why"><b>Why it matters:</b> when a vendor says their product "uses AI," that tells you almost nothing. Ask what kind, and what it was trained to do.</p>
+    </div>
+
+    <div class="term">
+      <h3>Machine learning (ML)</h3>
+      <p>The most common way of building AI today. Instead of a programmer writing rules ("if the email contains the word 'invoice', flag it"), you show the software thousands of examples and it works out the patterns itself. The software learns from data rather than being told what to do step by step.</p>
+      <p class="why"><b>Why it matters:</b> because the system learned from data, its quality depends entirely on that data. A model trained on someone else's customers may not understand yours.</p>
+    </div>
+
+    <div class="term">
+      <h3>Neural network</h3>
+      <p>A particular kind of machine learning system, loosely inspired by how neurons connect in a brain. It's made of layers of simple math units, each passing signals to the next. Individually they do almost nothing; stacked in enough layers, they can recognize speech, read handwriting, or write a paragraph. Nearly everything called "AI" in the news right now runs on neural networks.</p>
+      <p class="why"><b>Why it matters:</b> mostly you don't need to care about the internals. But "deep learning" just means a neural network with many layers, so when you hear that phrase, it isn't a separate technology.</p>
+    </div>
+
+    <div class="term">
+      <h3>Large language model (LLM)</h3>
+      <p>A very big neural network trained on enormous amounts of text to predict what words come next. That sounds trivial, but it turns out that predicting text well enough requires absorbing grammar, facts, reasoning patterns, and writing style. ChatGPT, Claude, and Gemini are all built on large language models.</p>
+      <p class="why"><b>Why it matters:</b> an LLM is a text engine. It's very good at reading, summarizing, drafting, and answering from documents. It is not a database, not a calculator, and not a source of truth on its own. Products that treat it as one tend to disappoint.</p>
+    </div>
+
+    <h2>The numbers people quote</h2>
+
+    <div class="term">
+      <h3>Parameters</h3>
+      <p>The internal settings a model learned during training, stored as numbers. Think of them as the knobs the training process turned to make the model's predictions better. A model with 7 billion parameters has 7 billion of these. A model with 400 billion has 400 billion. More parameters generally means more capability, but also more cost, more memory, and slower responses.</p>
+      <p class="why"><b>Why it matters:</b> parameter count is a rough size label, not a quality score. A well-trained 8B model can beat a sloppy 70B one at a specific task. What you should ask is: does this model handle <em>my</em> use case well, and what does it cost to run?</p>
+    </div>
+
+    <div class="term">
+      <h3>Tokens</h3>
+      <p>The units a language model reads and writes in. A token is roughly three-quarters of an English word: "understanding" might be two tokens, "the" is one. Models have a limit on how many tokens they can hold in mind at once (the "context window"), and cloud providers bill by the token.</p>
+      <p class="why"><b>Why it matters:</b> this is how AI services are priced and why long conversations get expensive. If a tool quotes a per-token price, a 10-page document is roughly 7,000 tokens each time you send it. Small numbers add up fast.</p>
+    </div>
+
+    <div class="term">
+      <h3>Training vs. inference</h3>
+      <p><strong>Training</strong> is the one-time process of building a model from data. It costs millions of dollars and takes weeks on specialized hardware. <strong>Inference</strong> is using the finished model to answer a question. That's what happens every time you type a prompt. Training happens once, at the vendor; inference happens constantly, and that's what you pay for.</p>
+      <p class="why"><b>Why it matters:</b> "we trained our own model" is a big claim and rarely true for small vendors. Most products run inference on a model someone else trained, which is fine, but you should know whose.</p>
+    </div>
+
+    <h2>Open vs. closed, and the term that gets misused</h2>
+
+    <div class="term">
+      <h3>Closed model (proprietary)</h3>
+      <p>A model you can use but not inspect or download. You send your request to the vendor's servers, they run it, they send back the answer. GPT-4, Claude, and Gemini are closed. You never see the model itself.</p>
+      <p class="why"><b>Why it matters:</b> convenient and usually the strongest performers, but your data goes to a third party, you depend on their pricing and availability, and if they discontinue the model, you migrate.</p>
+    </div>
+
+    <div class="term">
+      <h3>Open weight model</h3>
+      <p>A model whose parameters (the "weights") are published for anyone to download and run. You can put it on your own server, run it without an internet connection, and no data leaves your building. Llama, Mistral, and Qwen are common examples. What's <em>not</em> included is the training data or the full recipe used to build it, so you can use the model but you couldn't recreate it.</p>
+      <p class="why"><b>Why it matters:</b> this is the option when privacy or cost is the constraint. HR documents, legal files, patient records, anything you can't send to a cloud API. It trades some raw capability for control.</p>
+    </div>
+
+    <div class="term">
+      <h3>Open source model</h3>
+      <p>Here's where the terminology gets sloppy. Strictly, "open source" means everything is published: the weights, the code, <em>and</em> the training data, under a license that lets you do anything with it. Very few models meet that bar. Most models marketed as "open source" are actually open weight: the weights are free, but the data isn't shared and the license may restrict commercial use above a certain company size.</p>
+      <p class="why"><b>Why it matters:</b> if a vendor says "open source," read the license before building on it. Some "open" licenses prohibit exactly what you'd want to do. The word you usually want is <strong>open weight</strong>, and the question you should ask is "what does the license permit?"</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>The practical split:</strong> closed models when you need the best possible output and your data isn't sensitive. Open weight models when data can't leave your control, when volume makes per-token pricing painful, or when you need to run without internet. Most businesses end up with both, matched to different jobs.</p>
+    </div>
+
+    <h2>Terms from the product side</h2>
+
+    <div class="term">
+      <h3>Prompt</h3>
+      <p>Whatever you type into the model. Also, more broadly, the instructions a product sends to the model behind the scenes on your behalf. Most AI products are a model plus a carefully written set of prompts that shape what it does.</p>
+      <p class="why"><b>Why it matters:</b> a surprising number of "AI products" are a standard model with good prompts and a nice interface. That's not a criticism, but it does mean the differentiator is often the prompts and the workflow, not the model.</p>
+    </div>
+
+    <div class="term">
+      <h3>Retrieval-augmented generation (RAG)</h3>
+      <p>A technique for making a model answer from <em>your</em> documents instead of from its general training. When you ask a question, the system first searches your files for the relevant passages, then hands those passages to the model along with your question. The model writes its answer from what it was given. This is how most "chat with your documents" tools work, including HR assistants and support bots.</p>
+      <p class="why"><b>Why it matters:</b> if you want an AI tool grounded in your own policies, contracts, or product manuals, RAG is what you're buying. Ask whether it cites where the answer came from. Good RAG systems do; it's how you verify instead of trust.</p>
+    </div>
+
+    <div class="term">
+      <h3>Fine-tuning</h3>
+      <p>Taking an existing model and training it a little more on your own examples so it picks up your tone, format, or specialized vocabulary. It's far cheaper than training from scratch but more involved than prompting. Think of it as sending the model to a short course rather than through the whole school.</p>
+      <p class="why"><b>Why it matters:</b> often oversold. For most business needs, good prompts plus RAG get you there without fine-tuning. It's worth it when you need a very specific style at high volume.</p>
+    </div>
+
+    <div class="term">
+      <h3>Hallucination</h3>
+      <p>When a model states something false with complete confidence. It's not lying; it's predicting plausible text, and sometimes plausible text is wrong. A model can invent a case citation, a product feature, or a statistic that sounds entirely reasonable.</p>
+      <p class="why"><b>Why it matters:</b> this is why "keep a human on the send button" isn't paranoia. Any AI output going to a customer, a regulator, or a contract needs a person reading it first. Systems with RAG and citations reduce this substantially; nothing eliminates it.</p>
+    </div>
+
+    <div class="term">
+      <h3>AI agent</h3>
+      <p>A model that doesn't just answer but takes actions: searches the web, reads a file, updates a record, sends an email, then decides what to do next based on the result. "Agentic" is the adjective. The difference from a chatbot is that an agent has tools and a loop: it can try something, see what happened, and try again.</p>
+      <p class="why"><b>Why it matters:</b> agents are where the real automation lives, and also where the real risk lives, because they act. When a vendor says "agent," ask what actions it can take, whether a human approves them, and what happens when it gets something wrong.</p>
+    </div>
+
+    <h2>What to actually ask a vendor</h2>
+
+    <p>With the vocabulary in place, the questions get simple. Which model is under the hood, and is it closed or open weight? Where does my data go when I use this? Does it answer from my documents, and does it show me where the answer came from? What does it cost at my volume, in tokens or otherwise? And what can it <em>do</em> on its own versus what it drafts for a person to approve?</p>
+
+    <p>A vendor who can answer those five plainly is one you can work with. One who retreats into "it's proprietary" or "our AI is very advanced" hasn't told you anything, and probably knows it.</p>
+
+    <div class="cta">
+      <p>Evaluating an AI tool and not sure what the vendor is actually offering? I help businesses sort the practical from the hype, starting with a look at where your team's hours actually go.</p>
+      <a href="../index.html#contact">Start a conversation</a>
+    </div>
+
+    <p class="related">Related: <a href="5-ai-automations-smb.html">5 AI Automations Any SMB Can Deploy This Quarter</a> for where to put this vocabulary to work, and <a href="claude-usage-limits-prompting.html">Make Your Claude Plan Go Further</a> for what tokens mean in practice.</p>
+
+  </div>
+</article>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+</body>
+</html>
