@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emre Ozgurler — Technical Sales & Business Development</title>
-<meta name="description" content="Technical sales professional with an electronics engineering background. 10+ years in IT services, SaaS, and cybersecurity sales. Portland, Oregon.">
+<title>Emre Ozgurler — Technical Sales & Go-to-Market Engineering</title>
+<meta name="description" content="Engineer-turned-seller in Portland, Oregon. Ten years in technical sales, now also building go-to-market systems: signal-based prospecting, outbound infrastructure, AI workflows. Managed IT, CRM, and AI implementation for businesses of every size.">
 <!-- Social sharing (LinkedIn, etc.) -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.emreozgurler.com/">
 <meta property="og:title" content="Emre Ozgurler — I sell technology I can take apart.">
-<meta property="og:description" content="Engineer-turned-seller in Portland, OR. Managed IT, AI implementation, CRM, and website modernization for businesses of every size.">
+<meta property="og:description" content="Engineer-turned-seller in Portland, OR. Technical sales, go-to-market systems, AI implementation, CRM, and managed IT for businesses of every size.">
 <meta property="og:image" content="https://www.emreozgurler.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Emre Ozgurler — I sell technology I can take apart.">
-<meta name="twitter:description" content="Engineer-turned-seller in Portland, OR. Managed IT, AI implementation, CRM, and website modernization.">
+<meta name="twitter:description" content="Engineer-turned-seller in Portland, OR. Technical sales, go-to-market systems, AI implementation, CRM, managed IT.">
 <meta name="twitter:image" content="https://www.emreozgurler.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,6 +102,8 @@
   .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
   .about-grid p{margin-bottom:1.1rem;color:#33414F;max-width:34em}
   .about-grid p b{color:var(--ink)}
+  .about-grid p a{color:var(--copper-deep);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(192,122,58,.4)}
+  .about-grid p a:hover{color:var(--copper)}
   .fact-card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1.6rem;
              border-top:3px solid var(--copper)}
   .fact-card dt{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-top:1.1rem}
@@ -126,6 +128,18 @@
   .stop ul{list-style:none;max-width:44em}
   .stop ul li{position:relative;padding-left:1.2rem;margin-bottom:.45rem;color:#33414F;font-size:.97rem}
   .stop ul li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:2px;background:var(--copper)}
+
+  /* ---------- SYSTEMS ---------- */
+  .sys-intro{color:#33414F;max-width:44em;margin:-1.2rem 0 1.8rem}
+  .sys-list{display:grid;gap:1.1rem}
+  .sys-card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);border-radius:6px;padding:1.5rem 1.7rem}
+  .sys-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.6rem}
+  .sys-head h3{font-family:var(--display);font-weight:700;font-size:1.12rem}
+  .sys-where{font-family:var(--mono);font-size:.72rem;color:var(--slate)}
+  .sys-problem{font-size:.95rem;color:var(--slate);font-style:italic;margin-bottom:.6rem;max-width:46em}
+  .sys-build{font-size:.95rem;color:#33414F;max-width:46em}
+  .sys-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.9rem}
+  .sys-tags span{font-family:var(--mono);font-size:.68rem;padding:.28rem .55rem;border:1px solid var(--line);border-radius:3px;color:var(--slate)}
 
   /* ---------- SERVICES ---------- */
   .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
@@ -240,6 +254,8 @@
   .contact{background:var(--ink);color:#E8ECEF;text-align:center;position:relative;overflow:hidden}
   .contact h2{color:#fff;margin-bottom:.8rem}
   .contact p{max-width:32em;margin:0 auto 2rem;color:#B9C4CE}
+  .contact .hiring-note{margin-top:-1.2rem;font-size:.92rem;color:#8FA0B0}
+  .contact .hiring-note a{color:var(--copper);text-decoration:none}
   footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
          font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
 
@@ -259,6 +275,7 @@
 <nav>
   <a class="logo" href="#top"><b>EO</b> / emre.ozgurler</a>
   <ul>
+    <li><a href="#systems">Systems</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#insights">Insights</a></li>
@@ -280,11 +297,11 @@
   </svg>
   <div class="hero-inner">
     <div class="hero-eyebrow">
-      <span class="mono-label">Technical sales and business development</span>
+      <span class="mono-label">Technical sales and go-to-market engineering</span>
       <span class="pin">Portland, OR</span>
     </div>
     <h1>I sell technology<br>I can take <span class="copper">apart.</span></h1>
-    <p class="hero-sub">Electronics engineer turned sales professional. For 10+ years I've helped companies adopt IT, SaaS, and AI solutions that actually fit — because I understand the stack from the circuit board to the contract.</p>
+    <p class="hero-sub">Electronics engineer turned sales professional. Ten years helping companies adopt IT, SaaS, and AI that actually fits, and lately building the machinery behind the number: signal-based prospecting, outbound infrastructure, and AI workflows that run without me watching them. I understand the stack from the circuit board to the sequence.</p>
     <div class="hero-cta">
       <a class="btn btn-solid" href="#contact">Work with me</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/emre-ozgurler" target="_blank" rel="noopener">LinkedIn ↗</a>
@@ -294,10 +311,10 @@
 
 <section class="proof" aria-label="Career highlights">
   <div class="wrap">
-    <div class="proof-cell"><div class="num">110%</div><div class="lbl">YoY sales growth · Hyland ECM line</div></div>
-    <div class="proof-cell"><div class="num">96%</div><div class="lbl">Client retention · 25-account portfolio</div></div>
-    <div class="proof-cell"><div class="num">200%</div><div class="lbl">Higher reply rates · localized outreach</div></div>
-    <div class="proof-cell"><div class="num">10+</div><div class="lbl">Years in technical sales</div></div>
+    <div class="proof-cell"><div class="num">3×</div><div class="lbl">Reply rate after rebuilding outbound email infrastructure</div></div>
+    <div class="proof-cell"><div class="num">80%+</div><div class="lbl">Read rate on managed-services outreach</div></div>
+    <div class="proof-cell"><div class="num">96%</div><div class="lbl">Client retention on a 25-account portfolio</div></div>
+    <div class="proof-cell"><div class="num">110%</div><div class="lbl">Year-over-year growth on a product line I owned</div></div>
   </div>
 </section>
 
@@ -305,17 +322,56 @@
   <div class="wrap about-grid">
     <div>
         <h2>From silicon to strategy</h2>
-      <p>Most salespeople learn the pitch. <b>I learned the product first.</b> I trained as an electronics and communication engineer, spent years in presales answering million-dollar RFPs line by line, and am completing a hands-on microelectronics program, because I believe the best advisors understand technology from the fabrication level up.</p>
-      <p>That foundation is why my clients trust the recommendation, not just the demo. Across telco infrastructure, board-management SaaS, AI-driven ad bidding, and enterprise content management, my job has been the same: <b>bridge what a business needs with the technology that actually delivers it</b>, without costly, misaligned investments.</p>
-      <p>Today I lead go-to-market at FLYONIT, helping Pacific Northwest businesses with managed IT, cybersecurity, and cloud services. On the side I build and ship: an HR document assistant, two community platforms, and a pair of mobile games, all live. If your technology is holding you back instead of driving you forward, let's talk.</p>
+      <p>Most salespeople learn the pitch. <b>I learned the product first.</b> I trained as an electronics and communication engineer, spent years in presales reading million-dollar tenders line by line, then carried a quota long enough to see where the hours actually go. Most of them go to work a script could do.</p>
+      <p>So I started writing the scripts. Scrapers that find companies showing a buying signal before anyone on the team has heard of them. Email infrastructure that gets read instead of filtered. Enrichment and routing that lands a qualified decision-maker in a sequence without a human copying a row. That foundation is also why clients trust the recommendation and not just the demo. <b>Revenue is a system, and I'd rather build it than run it by hand.</b></p>
+      <p>I wrote up how I think about the shift in <a href="insights/go-to-market-engineering.html">From Go-to-Market to Go-to-Market Engineering</a>. The <a href="#systems">systems below</a> are what it looks like in practice. On the side I ship products too: an HR document assistant on a self-hosted model, two community platforms, and a pair of mobile games, all live.</p>
     </div>
     <dl class="fact-card">
       <dt>Currently</dt><dd>Go-to-Market Engineer, FLYONIT</dd>
-      <dt>Focus</dt><dd>Managed IT, cybersecurity, cloud, AI adoption</dd>
+      <dt>Focus</dt><dd>Managed IT, outbound systems, CRM, AI adoption</dd>
       <dt>Background</dt><dd>Electronics &amp; Communication Engineering</dd>
-      <dt>Markets served</dt><dd>North America and EMEA</dd>
+      <dt>Stack</dt><dd>Apollo, Clay, HubSpot, Salesforce, Python, Claude</dd>
       <dt>Based in</dt><dd>Portland, Oregon</dd>
     </dl>
+  </div>
+</section>
+
+<section id="systems">
+  <div class="wrap">
+    <h2>Systems I've built</h2>
+    <p class="sys-intro">Four pieces of go-to-market machinery, each one still running. The pattern is the same every time: find a signal, qualify it automatically, hand a human only the part that needs judgment.</p>
+
+    <div class="sys-list">
+
+      <article class="sys-card">
+        <div class="sys-head"><h3>Signal-based prospecting engine</h3><span class="sys-where">FLYONIT · managed services</span></div>
+        <p class="sys-problem">The team was working static lists top to bottom, which meant pitching a website refresh to companies that had just launched one.</p>
+        <p class="sys-build">A Python scanner sweeps Apollo regions for companies inside a tight ICP fence (10 to 50 employees, no government or nonprofits), checks each site for an outdated stack or AWS usage signals, and routes the hits back into Apollo to find decision-makers and enroll them in a signal-specific sequence. Verticals are rebalanced by hit history: accounting, dental, and solar get most of the search budget because that's where qualified hits actually come from. Runs twice a week as a scheduled job on an always-on Mac mini; earlier versions ran on GitHub Actions and a cloud VM.</p>
+        <div class="sys-tags"><span>Python</span><span>Apollo API</span><span>Scheduled jobs</span><span>Claude</span></div>
+      </article>
+
+      <article class="sys-card">
+        <div class="sys-head"><h3>Email-security signal track</h3><span class="sys-where">FLYONIT · cybersecurity</span></div>
+        <p class="sys-problem">Cybersecurity outreach to businesses that already had it handled was wasted motion. The ones with the real gap were invisible from a list.</p>
+        <p class="sys-build">The scanner checks a prospect's actual sending domain for SPF, DKIM, and DMARC enforcement, and only enrolls companies whose mail could be spoofed today. A nightly nationwide sweep rotates through states and verticals, caps enrollment per run, and feeds a three-step sequence written around the exact gap it found. The email lands with evidence instead of a generic pitch.</p>
+        <div class="sys-tags"><span>DNS/DMARC checks</span><span>Apollo sequences</span><span>Nightly automation</span></div>
+      </article>
+
+      <article class="sys-card">
+        <div class="sys-head"><h3>Outbound email infrastructure</h3><span class="sys-where">FLYONIT · all campaigns</span></div>
+        <p class="sys-problem">Cold email was landing in spam and the metrics made it look like a messaging problem. It was a plumbing problem.</p>
+        <p class="sys-build">Set up sending across four domains with mailbox rotation managed at the sequence level, proper authentication on every domain, and volume caps that keep reputation intact. Read rates climbed above 80% and reply rates tripled on the same copy. The lesson I keep repeating to people: fix deliverability before touching the subject line.</p>
+        <div class="sys-tags"><span>Multi-domain sending</span><span>Mailbox rotation</span><span>Deliverability</span></div>
+      </article>
+
+      <article class="sys-card">
+        <div class="sys-head"><h3>AI receptionist prospecting</h3><span class="sys-where">FLYONIT · AI receptionist offer</span></div>
+        <p class="sys-problem">The pitch for an AI receptionist only lands with businesses already losing calls. No list filter tells you who those are. Their customers do.</p>
+        <p class="sys-build">A crawler reads public reviews on Yelp and similar sites for local service businesses and flags the ones where customers complain about unanswered phones, long hold times, or no callback. Each hit gets enriched to a decision-maker and enrolled in a short sequence that quotes the complaint back to them, with the AI receptionist as the fix. The prospect reads their own one-star review before they read the pitch.</p>
+        <div class="sys-tags"><span>Review scraping</span><span>Sentiment filtering</span><span>Apollo enrichment</span><span>Claude</span></div>
+      </article>
+
+    </div>
   </div>
 </section>
 
@@ -325,27 +381,27 @@
     <div class="svc-grid">
 
       <article class="svc-card">
-        <h3>Managed IT Services</h3>
-        <p>Your technology, handled end to end — proactive monitoring, cybersecurity, cloud, licensing, and hardware procurement with responsive support. You run the business; I make sure the stack never gets in the way.</p>
-        <div class="svc-tags"><span>Cybersecurity</span><span>Cloud</span><span>MS &amp; Google Licensing</span><span>24/7 Support</span></div>
+        <h3>CRM selection &amp; migration</h3>
+        <p>Picking the right platform is the easy half. The hard half is moving the data cleanly and getting a sales team to actually use the new one. I've been through it from the inside, more than once.</p>
+        <div class="svc-tags"><span>HubSpot</span><span>Salesforce</span><span>Zoho / Dynamics</span><span>Pipeline design</span></div>
       </article>
 
       <article class="svc-card">
-        <h3>AI Implementation &amp; Automation</h3>
-        <p>Practical AI, not hype. I identify the repetitive work eating your team's hours — data entry, reporting, follow-ups, document handling — and replace it with AI assistants and automated workflows that pay for themselves.</p>
-        <div class="svc-tags"><span>Workflow Automation</span><span>AI Assistants</span><span>Agentic AI (Claude)</span><span>Process Audit</span></div>
+        <h3>AI implementation &amp; automation</h3>
+        <p>Practical AI, not hype. I find the repetitive work eating your team's hours, from research and drafting to document handling, and replace it with assistants and workflows that keep a human on the send button.</p>
+        <div class="svc-tags"><span>Agentic workflows (Claude)</span><span>Document Q&amp;A</span><span>Process audit</span></div>
       </article>
 
       <article class="svc-card">
-        <h3>CRM Selection &amp; Optimization</h3>
-        <p>A CRM should drive revenue, not collect dust. From choosing the right platform to building pipelines, automations, and reporting your team actually uses — set up by someone who has lived inside sales pipelines for a decade.</p>
-        <div class="svc-tags"><span>Platform Selection</span><span>Pipeline Design</span><span>Sales Automation</span><span>Data Migration</span></div>
+        <h3>Managed IT services</h3>
+        <p>Your technology, handled end to end: proactive monitoring, cybersecurity, cloud, licensing, and hardware procurement with responsive support. You run the business; I make sure the stack never gets in the way.</p>
+        <div class="svc-tags"><span>Cybersecurity</span><span>Cloud</span><span>MS &amp; Google licensing</span><span>24/7 support</span></div>
       </article>
 
       <article class="svc-card">
-        <h3>Website Design &amp; Modernization</h3>
-        <p>Fast, modern, mobile-first websites — built new or rebuilt from an aging design. Clean code, clear messaging, and a site that turns visitors into inquiries instead of quietly losing them.</p>
-        <div class="svc-tags"><span>New Builds</span><span>Redesigns</span><span>Performance</span><span>SEO Basics</span></div>
+        <h3>Website design &amp; modernization</h3>
+        <p>Fast, modern, mobile-first websites, built new or rebuilt from an aging design. Clean code, clear messaging, and a site that turns visitors into inquiries instead of quietly losing them.</p>
+        <div class="svc-tags"><span>New builds</span><span>Redesigns</span><span>Performance</span><span>SEO basics</span></div>
       </article>
 
     </div>
@@ -397,20 +453,25 @@
     <h2>Skills, certifications &amp; languages</h2>
     <div class="skill-cols">
       <div>
-        <h3>What I sell &amp; how</h3>
+        <h3>Go-to-market stack</h3>
         <div class="tagset">
-          <span class="tag">Managed IT (MSP)</span><span class="tag">Cybersecurity</span><span class="tag">Cloud</span>
-          <span class="tag">SaaS Sales</span><span class="tag">Solution Selling</span><span class="tag">Presales Engineering</span>
-          <span class="tag">RFP / RFI Response</span><span class="tag">Channel Development</span>
-          <span class="tag">Account Management</span><span class="tag">GTM Strategy</span>
-          <span class="tag">Microsoft &amp; Google Licensing</span><span class="tag">Hyland ECM</span><span class="tag">AI Adoption (Claude &amp; Agentic Tools)</span>
+          <span class="tag">Apollo.io</span><span class="tag">Clay</span><span class="tag">HubSpot</span><span class="tag">Salesforce</span>
+          <span class="tag">Zoho CRM</span><span class="tag">Microsoft Dynamics</span><span class="tag">Python</span>
+          <span class="tag">REST APIs &amp; webhooks</span><span class="tag">Scheduled jobs / cron</span><span class="tag">GitHub Actions</span>
+          <span class="tag">Claude &amp; agentic workflows</span><span class="tag">n8n</span>
+        </div>
+        <h3 style="margin-top:1.4rem">Commercial</h3>
+        <div class="tagset">
+          <span class="tag">Solution selling</span><span class="tag">Presales engineering</span><span class="tag">Tender / RFP response</span>
+          <span class="tag">Channel development</span><span class="tag">Account management</span><span class="tag">Cybersecurity &amp; cloud</span>
         </div>
       </div>
       <div>
         <h3>Certifications</h3>
         <div class="tagset">
-          <span class="tag">Microsoft Applied Skills: Azure Management Tasks</span>
+          <span class="tag">HubSpot Revenue Operations</span>
           <span class="tag">Salesforce Certified Associate</span>
+          <span class="tag">Microsoft Applied Skills: Azure Management Tasks</span>
           <span class="tag">SBC Sales Engineer Professional</span>
           <span class="tag">System, Cloud &amp; Network Specialist (320 hrs)</span>
           <span class="tag">Network Session Delivery &amp; Control Presales Specialist</span>
@@ -432,11 +493,6 @@
     <h2>Trained on both sides of the table</h2>
     <div class="edu-grid">
       <div class="edu-card">
-        <div class="yr">In progress</div>
-        <h3>Portland Community College</h3>
-        <p>Associate degree / Certificate, Microelectronics Technology</p>
-      </div>
-      <div class="edu-card">
         <div class="yr">2019 — 2023</div>
         <h3>Anadolu University</h3>
         <p>B.A., Economics</p>
@@ -449,7 +505,12 @@
       <div class="edu-card">
         <div class="yr">2011 — 2016</div>
         <h3>Istanbul Technical University</h3>
-        <p>B.Sc., Electronics &amp; Communication Engineering · Erasmus year at ISEP Paris (2014–15)</p>
+        <p>B.Sc., Electronics &amp; Communication Engineering</p>
+      </div>
+      <div class="edu-card">
+        <div class="yr">2014 — 2015</div>
+        <h3>L'Institut Supérieur d'Électronique de Paris</h3>
+        <p>Erasmus exchange, electronics engineering</p>
       </div>
     </div>
   </div>
@@ -490,6 +551,7 @@
   <div class="wrap">
     <h2>Let's talk about your stack</h2>
     <p>Tell me a little about your business and what's slowing you down. Your message lands directly in my inbox and I typically reply within one business day.</p>
+    <p class="hiring-note">Hiring for a go-to-market engineering role? Start with the <a href="#systems">systems above</a>, then send a note here or on LinkedIn.</p>
 
     <form id="contact-form" class="form-card" action="https://formspree.io/f/xbdnrkwd" method="POST" novalidate>
       <div class="form-row">
