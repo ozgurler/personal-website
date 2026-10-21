@@ -1,5 +1,518 @@
 {
  "updated": "2026-10-21",
- "count": 0,
- "items": []
+ "count": 32,
+ "items": [
+  {
+   "title": "Digital Repository Platform and Physical Library Management System",
+   "url": "https://sam.gov/workspace/contract/opp/e75a0aa6a1ad4cd1966d5f88f093d546/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 16",
+   "summary": "The Pipeline and Hazardous Materials Safety Administration is seeking information from interested parties and potential vendors and systems integrators to implement a web-based\u2026",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "US Travelers Health Research, Surveillance, Communication, and Outreach Network",
+   "url": "https://www.grants.gov/search-results-detail/360200",
+   "buyer": "Centers for Disease Control and Prevention - ERA",
+   "region": "",
+   "due": "Nov 05",
+   "summary": "",
+   "tags": [
+    "marketing & communications"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-05",
+   "country": "US",
+   "category": "marketing & communications"
+  },
+  {
+   "title": "AMS Designated Laboratory Meat Testing Services (ADL)",
+   "url": "https://sam.gov/workspace/contract/opp/e0c2f41782494c99866861e101363ac7/view",
+   "buyer": "AGRICULTURE, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 20",
+   "summary": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS) is issuing Solicitation 12?1NTS?26?R?0002 to obtain proposals from responsible, accredited\u2026",
+   "tags": [
+    "marketing & communications"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
+   "country": "US",
+   "category": "marketing & communications"
+  },
+  {
+   "title": "TBIPS Change Management Consultant Level 3",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-869-30702733",
+   "buyer": "Department of Fisheries and Oceans (DFO)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 16",
+   "summary": "NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS) This requirement is for: FISHERIES AND OCEANS CANADA (DFO) This requirement is open\u2026",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-16",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-681-58483884",
+   "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
+   "region": "*Canada",
+   "due": "Nov 26",
+   "summary": "Please note that this is a refresh to the Qualified Supplier List as per the terms and conditions of RFSA-0947 Link\u2026",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "GREGoRi Data Coordination and Outreach Center (U01, Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/359279",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Oct 30",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-10-30",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)",
+   "url": "https://www.grants.gov/search-results-detail/363268",
+   "buyer": "U.S. National Science Foundation",
+   "region": "",
+   "due": "Nov 04",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-04",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Notice of Proposed Procurement (NPP) - Data Hub Invitation to Qualify (ITQ) - D",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=WS4611618733-Doc5938553023",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Nov 13",
+   "summary": "Public Services and Procurement Canada (PSPC) is providing advance notice of its intention to issue a new Invitation to Qualify (ITQ-D) in support of the Enterprise Data Hub\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-13",
+   "country": "CA",
+   "category": "data & AI"
+  },
+  {
+   "title": "Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/361817",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Nov 23",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-23",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "The Genesis Mission: Transforming Science and Energy with AI",
+   "url": "https://www.grants.gov/search-results-detail/361526",
+   "buyer": "Office of Science",
+   "region": "",
+   "due": "Dec 17",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-17",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Human Networks and Data Science (HNDS)",
+   "url": "https://www.grants.gov/search-results-detail/348260",
+   "buyer": "U.S. National Science Foundation",
+   "region": "",
+   "due": "Jan 14",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2027-01-14",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/361318",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Feb 11",
+   "summary": "",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2027-02-11",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Web Sustainment/Content Management/Cloud Hosting",
+   "url": "https://sam.gov/workspace/contract/opp/990a56dcac8646e5bb28d08662446a6e/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Nov 03",
+   "summary": "The Contractor shall provide the personnel, management, and materials necessary to provide complete secure web development support services to include status reporting, mock-ups\u2026",
+   "tags": [
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-03",
+   "country": "US",
+   "category": "design & creative"
+  },
+  {
+   "title": "Creative Exhibit Design Services",
+   "url": "https://sam.gov/workspace/contract/opp/d3c866b6104a4486a4adb5b4b990de00/view",
+   "buyer": "LIBRARY OF CONGRESS",
+   "region": "DC",
+   "due": "Nov 16",
+   "summary": "The Library of Congress (\u0093Library\u0094) is the largest library in the world, with millions of books, films and video, audio recordings, photographs, newspapers, maps and manuscripts\u2026",
+   "tags": [
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "design & creative"
+  },
+  {
+   "title": "Tax Software and Support",
+   "url": "https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view",
+   "buyer": "TREASURY, DEPARTMENT OF THE",
+   "region": "MD",
+   "due": "Nov 18",
+   "summary": "The IRS has an ongoing requirement for commercial tax software products and associated services supporting the Federal Tax Compliance mission. The anticipated contract will\u2026",
+   "tags": [
+    "training & education"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-18",
+   "country": "US",
+   "category": "training & education"
+  },
+  {
+   "title": "CFLHD Indefinite Delivery, Indefinite Quantity (IDIQ) for Architect-Engineer Design Services",
+   "url": "https://sam.gov/workspace/contract/opp/bf5fc2d8a26a45cb884e78c93bf839b7/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "CO",
+   "due": "Nov 20",
+   "summary": "Architect and Engineering (A-E) Services The Federal Highway Administration, Central Federal Lands Highway Division (CFLHD), anticipates soliciting and awarding multiple\u2026",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
+   "buyer": "Design and Construction",
+   "region": "New York, NY",
+   "due": "Dec 03",
+   "summary": "The RFx will be accessible through the PASSPort Public Portal: https://passport.cityofnewyork.us/page.aspx/en/rfp/request_browse_public Enter 85027P0001on the 'Keywords' field to\u2026",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US state & local",
+   "due_iso": "2026-12-03",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "DA10--Circle CVI Software or equivalent in support of VA Portland Healthcare System Portland, Oregon",
+   "url": "https://sam.gov/workspace/contract/opp/410c1ccd1e5146b88e4c6fee1a077d10/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 03",
+   "summary": ".",
+   "tags": [
+    "health & human services"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-03",
+   "country": "US",
+   "category": "health & human services"
+  },
+  {
+   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/357204",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Nov 06",
+   "summary": "",
+   "tags": [
+    "health & human services"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-06",
+   "country": "US",
+   "category": "health & human services"
+  },
+  {
+   "title": "Data Coordinating Center for the Aging and Alzheimer\u2019s Disease Mouse Brain Atlas (AD-MBA) (U24 Clinical Trial Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/359740",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Nov 10",
+   "summary": "",
+   "tags": [
+    "health & human services"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-10",
+   "country": "US",
+   "category": "health & human services"
+  },
+  {
+   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/357205",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Nov 17",
+   "summary": "",
+   "tags": [
+    "health & human services"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-17",
+   "country": "US",
+   "category": "health & human services"
+  },
+  {
+   "title": "IGVF Data and Coordinating Center (U24 Clinical trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/358855",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 14",
+   "summary": "",
+   "tags": [
+    "health & human services"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-14",
+   "country": "US",
+   "category": "health & human services"
+  },
+  {
+   "title": "Security Investigations and Threat and Risk Assessments",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-431-91876096",
+   "buyer": "Courts Administration Service (CAS)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 03",
+   "summary": "This requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 in the National Capital Region, level 2 (intermediate) and 3\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-03",
+   "country": "CA",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)",
+   "url": "https://www.grants.gov/search-results-detail/360458",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Nov 09",
+   "summary": "",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-09",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "Research and Advisory Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-950-7075770",
+   "buyer": "Department of Citizenship & Immigration (IRCC)",
+   "region": "*Canada *National Capital Region (NCR)",
+   "due": "Nov 09",
+   "summary": "Immigration, Refugees and Citizenship Canada requires specialized IT research and advisory services that provide access to expert insights, advanced methodologies, data-driven\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-09",
+   "country": "CA",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "Special Program Announcement for Office of Naval Research Research Opportunity: FY27 Communications and Networking Applied Research",
+   "url": "https://www.grants.gov/search-results-detail/362836",
+   "buyer": "Office of Naval Research",
+   "region": "",
+   "due": "Nov 16",
+   "summary": "",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
+   "url": "https://www.grants.gov/search-results-detail/359150",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/355439",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 04",
+   "summary": "",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks & City-owned Street Ends",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261014029",
+   "buyer": "Environmental Protection",
+   "region": "New York, NY",
+   "due": "Nov 18",
+   "summary": "The City of New York has a combined sewer system serving approximately one third of the city. During rain events, rainfall is transmitted to the water bodies surrounding the City\u2026",
+   "tags": [
+    "events"
+   ],
+   "value": "",
+   "scope": "US state & local",
+   "due_iso": "2026-11-18",
+   "country": "US",
+   "category": "events"
+  },
+  {
+   "title": "NPP - Stream 4: Business Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-691-48571510",
+   "buyer": "Department of Natural Resources (NRCan)",
+   "region": "*Canada *National Capital Region (NCR)",
+   "due": "Nov 03",
+   "summary": "NRCan is undertaking a series of projects and modernization initiatives that will require a temporary increase in resources. Services required will be for the provision of\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-03",
+   "country": "CA",
+   "category": "other"
+  },
+  {
+   "title": "National Digital Newspaper Program",
+   "url": "https://www.grants.gov/search-results-detail/364030",
+   "buyer": "National Endowment for the Humanities",
+   "region": "",
+   "due": "Jan 13",
+   "summary": "",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2027-01-13",
+   "country": "US",
+   "category": "other"
+  },
+  {
+   "title": "Computational and Data-Enabled Science and Engineering",
+   "url": "https://www.grants.gov/search-results-detail/356055",
+   "buyer": "U.S. National Science Foundation",
+   "region": "",
+   "due": "no date listed",
+   "summary": "",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": null,
+   "country": "US",
+   "category": "other"
+  }
+ ]
 }
