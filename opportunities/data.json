@@ -1,7 +1,72 @@
 {
- "updated": "2026-10-21",
- "count": 32,
+ "updated": "2026-10-22",
+ "count": 35,
  "items": [
+  {
+   "title": "ROBOTIC ARMS & LINEAR ACTUATOR",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-370-10413807",
+   "buyer": "National Research Council of Canada (NRC)",
+   "region": "*Canada",
+   "due": "Nov 04",
+   "summary": "Procure two robotic arms, one linear actuator, and auxiliary equipment for laboratory automation within 12 weeks.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-04",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "W0046-270159 FDM (Fused Deposition Modeling) 3D Printer",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=WS5853034894-Doc5853088385",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Kingston",
+   "due": "Nov 04",
+   "summary": "FDM 3D printer with software and training for Royal Military College.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-04",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Research and Advisory Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-950-7075770",
+   "buyer": "Department of Citizenship & Immigration (IRCC)",
+   "region": "*Canada *National Capital Region (NCR)",
+   "due": "Nov 09",
+   "summary": "Provide specialized IT research and advisory services for IRCC decision-making and strategy.",
+   "tags": [
+    "IT & software",
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-09",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Notice of Proposed Procurement (NPP) - Data Hub Invitation to Qualify (ITQ) - D",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=WS4611618733-Doc5938553023",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Nov 13",
+   "summary": "Advance notice for Enterprise Data Hub Invitation to Qualify.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-13",
+   "country": "CA",
+   "category": "IT & software"
+  },
   {
    "title": "Digital Repository Platform and Physical Library Management System",
    "url": "https://sam.gov/workspace/contract/opp/e75a0aa6a1ad4cd1966d5f88f093d546/view",
@@ -15,6 +80,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/355439",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 04",
+   "summary": "Research software engineer awards excluding clinical trials.",
+   "tags": [
+    "IT & software",
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-04",
    "country": "US",
    "category": "IT & software"
   },
@@ -51,12 +133,44 @@
    "category": "marketing & communications"
   },
   {
+   "title": "NPP - Stream 4: Business Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-691-48571510",
+   "buyer": "Department of Natural Resources (NRCan)",
+   "region": "*Canada *National Capital Region (NCR)",
+   "due": "Nov 03",
+   "summary": "Provide temporary professional services under TBIPS Stream 4 Business Services as task authorizations.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-03",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Security Investigations and Threat and Risk Assessments",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-431-91876096",
+   "buyer": "Courts Administration Service (CAS)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 03",
+   "summary": "Conduct threat and risk assessments and security investigations for Courts Administration Service.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-03",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "TBIPS Change Management Consultant Level 3",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-869-30702733",
    "buyer": "Department of Fisheries and Oceans (DFO)",
    "region": "*National Capital Region (NCR)",
    "due": "Nov 16",
-   "summary": "NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS) This requirement is for: FISHERIES AND OCEANS CANADA (DFO) This requirement is open\u2026",
+   "summary": "Deliver change management consulting for DFO digital transformation and technology adoption.",
    "tags": [
     "consulting & strategy"
    ],
@@ -72,7 +186,7 @@
    "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
    "region": "*Canada",
    "due": "Nov 26",
-   "summary": "Please note that this is a refresh to the Qualified Supplier List as per the terms and conditions of RFSA-0947 Link\u2026",
+   "summary": "Qualify suppliers for business consulting and professional services across seven service streams.",
    "tags": [
     "consulting & strategy"
    ],
@@ -115,22 +229,6 @@
    "category": "data & AI"
   },
   {
-   "title": "Notice of Proposed Procurement (NPP) - Data Hub Invitation to Qualify (ITQ) - D",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=WS4611618733-Doc5938553023",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Nov 13",
-   "summary": "Public Services and Procurement Canada (PSPC) is providing advance notice of its intention to issue a new Invitation to Qualify (ITQ-D) in support of the Enterprise Data Hub\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-13",
-   "country": "CA",
-   "category": "data & AI"
-  },
-  {
    "title": "Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/361817",
    "buyer": "National Institutes of Health",
@@ -168,7 +266,7 @@
    "buyer": "U.S. National Science Foundation",
    "region": "",
    "due": "Jan 14",
-   "summary": "",
+   "summary": "Support human networks and data science research initiatives.",
    "tags": [
     "data & AI"
    ],
@@ -191,6 +289,23 @@
    "value": "",
    "scope": "Grants",
    "due_iso": "2027-02-11",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Computational and Data-Enabled Science and Engineering",
+   "url": "https://www.grants.gov/search-results-detail/356055",
+   "buyer": "U.S. National Science Foundation",
+   "region": "",
+   "due": "no date listed",
+   "summary": "Computational and data-enabled science and engineering research funding.",
+   "tags": [
+    "data & AI",
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": null,
    "country": "US",
    "category": "data & AI"
   },
@@ -223,6 +338,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "design & creative"
+  },
+  {
+   "title": "82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks & City-owned Street Ends",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261014029",
+   "buyer": "Environmental Protection",
+   "region": "New York, NY",
+   "due": "Nov 18",
+   "summary": "Design green infrastructure practices in NYC Parks to manage stormwater runoff.",
+   "tags": [
+    "design & creative",
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US state & local",
+   "due_iso": "2026-11-18",
    "country": "US",
    "category": "design & creative"
   },
@@ -264,7 +396,7 @@
    "buyer": "Design and Construction",
    "region": "New York, NY",
    "due": "Dec 03",
-   "summary": "The RFx will be accessible through the PASSPort Public Portal: https://passport.cityofnewyork.us/page.aspx/en/rfp/request_browse_public Enter 85027P0001on the 'Keywords' field to\u2026",
+   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
    "tags": [
     "construction & facilities"
    ],
@@ -355,22 +487,6 @@
    "category": "health & human services"
   },
   {
-   "title": "Security Investigations and Threat and Risk Assessments",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-431-91876096",
-   "buyer": "Courts Administration Service (CAS)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 03",
-   "summary": "This requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 in the National Capital Region, level 2 (intermediate) and 3\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-03",
-   "country": "CA",
-   "category": "research & evaluation"
-  },
-  {
    "title": "Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)",
    "url": "https://www.grants.gov/search-results-detail/360458",
    "buyer": "National Institutes of Health",
@@ -384,22 +500,6 @@
    "scope": "Grants",
    "due_iso": "2026-11-09",
    "country": "US",
-   "category": "research & evaluation"
-  },
-  {
-   "title": "Research and Advisory Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-950-7075770",
-   "buyer": "Department of Citizenship & Immigration (IRCC)",
-   "region": "*Canada *National Capital Region (NCR)",
-   "due": "Nov 09",
-   "summary": "Immigration, Refugees and Citizenship Canada requires specialized IT research and advisory services that provide access to expert insights, advanced methodologies, data-driven\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-09",
-   "country": "CA",
    "category": "research & evaluation"
   },
   {
@@ -435,52 +535,21 @@
    "category": "research & evaluation"
   },
   {
-   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/355439",
-   "buyer": "National Institutes of Health",
+   "title": "Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&T)",
+   "url": "https://www.grants.gov/search-results-detail/355219",
+   "buyer": "U.S. National Science Foundation",
    "region": "",
-   "due": "Dec 04",
-   "summary": "",
+   "due": "Jan 19",
+   "summary": "NSF grants for science and technology enterprise research and data analysis.",
    "tags": [
-    "research & evaluation"
+    "research & evaluation",
+    "data & AI"
    ],
    "value": "",
    "scope": "Grants",
-   "due_iso": "2026-12-04",
+   "due_iso": "2027-01-19",
    "country": "US",
    "category": "research & evaluation"
-  },
-  {
-   "title": "82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks & City-owned Street Ends",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261014029",
-   "buyer": "Environmental Protection",
-   "region": "New York, NY",
-   "due": "Nov 18",
-   "summary": "The City of New York has a combined sewer system serving approximately one third of the city. During rain events, rainfall is transmitted to the water bodies surrounding the City\u2026",
-   "tags": [
-    "events"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-11-18",
-   "country": "US",
-   "category": "events"
-  },
-  {
-   "title": "NPP - Stream 4: Business Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities?search=cb-691-48571510",
-   "buyer": "Department of Natural Resources (NRCan)",
-   "region": "*Canada *National Capital Region (NCR)",
-   "due": "Nov 03",
-   "summary": "NRCan is undertaking a series of projects and modernization initiatives that will require a temporary increase in resources. Services required will be for the provision of\u2026",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-03",
-   "country": "CA",
-   "category": "other"
   },
   {
    "title": "National Digital Newspaper Program",
@@ -495,22 +564,6 @@
    "value": "",
    "scope": "Grants",
    "due_iso": "2027-01-13",
-   "country": "US",
-   "category": "other"
-  },
-  {
-   "title": "Computational and Data-Enabled Science and Engineering",
-   "url": "https://www.grants.gov/search-results-detail/356055",
-   "buyer": "U.S. National Science Foundation",
-   "region": "",
-   "due": "no date listed",
-   "summary": "",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": null,
    "country": "US",
    "category": "other"
   }
