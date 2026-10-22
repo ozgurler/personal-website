@@ -140,6 +140,8 @@
   .sys-build{font-size:.95rem;color:#33414F;max-width:46em}
   .sys-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.9rem}
   .sys-tags span{font-family:var(--mono);font-size:.68rem;padding:.28rem .55rem;border:1px solid var(--line);border-radius:3px;color:var(--slate)}
+  .sys-link{display:inline-block;margin-top:.9rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper-deep);text-decoration:none}
+  .sys-link:hover{color:var(--copper)}
 
   /* ---------- SERVICES ---------- */
   .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
@@ -277,6 +279,7 @@
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#insights">Insights</a></li>
+    <li><a href="opportunities/index.html">RFPs</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -337,7 +340,7 @@
 <section id="systems">
   <div class="wrap">
     <h2>Systems I've built</h2>
-    <p class="sys-intro">Four pieces of go-to-market machinery, each one still running. The pattern is the same every time: find a signal, qualify it automatically, hand a human only the part that needs judgment.</p>
+    <p class="sys-intro">Five pieces of go-to-market machinery, each one still running. The pattern is the same every time: find a signal, qualify it automatically, hand a human only the part that needs judgment.</p>
 
     <div class="sys-list">
 
@@ -367,6 +370,14 @@
         <p class="sys-problem">The pitch for an AI receptionist only lands with businesses already losing calls. No list filter tells you who those are. Their customers do.</p>
         <p class="sys-build">A crawler reads public reviews on Yelp and similar sites for local service businesses and flags the ones where customers complain about unanswered phones, long hold times, or no callback. Each hit gets enriched to a decision-maker and enrolled in a short sequence that quotes the complaint back to them, with the AI receptionist as the fix. The prospect reads their own one-star review before they read the pitch.</p>
         <div class="sys-tags"><span>Review scraping</span><span>Sentiment filtering</span><span>Apollo enrichment</span><span>Claude</span></div>
+      </article>
+
+      <article class="sys-card">
+        <div class="sys-head"><h3>Public RFP radar</h3><span class="sys-where">Personal project · live on this site</span></div>
+        <p class="sys-problem">Government and nonprofit RFPs are public records, but they sit scattered across dozens of portals. The services that aggregate them charge $30 to $160 a month, and most of the portals block scrapers outright.</p>
+        <p class="sys-build">A Python pipeline that only reads sources published for reuse: the SAM.gov bulk extract, the Grants.gov API, CanadaBuys open data, and city open-data portals. It dedupes amendments and cross-source repeats, has Claude write a one-line summary and category for each notice, and filters down to work that fits digital, marketing, data, and consulting firms. Runs every morning on GitHub Actions, publishes a live board here, and goes out as a free weekly newsletter on Tuesdays. Nothing in it comes from a portal that could ban it.</p>
+        <div class="sys-tags"><span>Python</span><span>Open data</span><span>GitHub Actions</span><span>Claude</span><span>Newsletter</span></div>
+        <a class="sys-link" href="opportunities/index.html">See the live board →</a>
       </article>
 
     </div>
