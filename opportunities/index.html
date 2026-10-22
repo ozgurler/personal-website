@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open RFPs for digital, marketing &amp; consulting work — Emre Ozgurler</title>
+<meta name="description" content="Currently open RFPs and solicitations from US and Canadian government and nonprofits, filtered for digital, marketing, data and consulting work. Updated daily.">
+<link rel="canonical" href="https://www.emreozgurler.com/opportunities/index.html">
+<link rel="alternate" type="application/rss+xml" title="RFP Digest" href="./feed.xml">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
+    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0;
+    --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav .links{display:flex;gap:1.5rem}
+  nav .links a{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none}
+  nav .links a:hover,nav .links a.on{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:900px;margin:0 auto}
+  .mono-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.01em;margin:.5rem 0 .8rem}
+  header p{color:#B9C4CE;max-width:36em}
+  header .stats{display:flex;gap:2rem;flex-wrap:wrap;margin-top:1.4rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE}
+  header .stats b{display:block;font-family:var(--display);font-size:1.6rem;color:#E8ECEF;letter-spacing:0}
+
+  main{padding:clamp(2.5rem,7vh,4.5rem) clamp(1.25rem,5vw,4rem)}
+  .toc{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.2rem}
+  .toc a{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+         text-decoration:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.35rem .8rem}
+  .toc a:hover{border-color:var(--copper);color:var(--copper-deep)}
+  .toc a span{color:var(--slate)}
+  h2.section{font-family:var(--display);font-weight:700;font-size:1.3rem;margin:2.4rem 0 1rem;padding-bottom:.5rem;border-bottom:2px solid var(--copper)}
+  h2.section span{font-family:var(--mono);font-weight:400;font-size:.72rem;letter-spacing:.1em;color:var(--slate);margin-left:.6rem}
+  .list{display:grid;gap:1rem}
+  .entry{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);
+         border-radius:6px;padding:1.3rem 1.5rem;text-decoration:none;color:inherit;
+         transition:transform .18s,box-shadow .18s}
+  a.entry:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(14,27,44,.09)}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.66rem;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.45rem}
+  .meta .cat{color:var(--copper-deep)}
+  .meta .due{color:#9A3B2E}
+  .entry h3{font-family:var(--display);font-weight:700;font-size:1.08rem;line-height:1.35;margin-bottom:.3rem}
+  .entry p{font-size:.92rem;color:#33414F;max-width:52em}
+  .entry .buyer{font-size:.85rem;color:var(--slate);margin-top:.3rem}
+  .entry.closed{border-left-color:var(--line);opacity:.55}
+  .entry.closed .meta .due{color:var(--slate)}
+  .entry.closed .meta .due::after{content:" · closed"}
+  .issue{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);border-radius:6px;padding:1.4rem 1.6rem;text-decoration:none;color:inherit}
+  .issue h3{font-family:var(--display);font-weight:700;font-size:1.2rem}
+  .note{font-size:.85rem;color:var(--slate);margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line)}
+  .subscribe{margin:1.6rem 0 0;padding:1.2rem 1.5rem;background:var(--card);border:1px solid var(--line);border-radius:6px;font-size:.95rem}
+  .subscribe a{color:var(--copper-deep);font-weight:600}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <div class="links">
+    <a href="./index.html" class="on">Open RFPs</a>
+    <a href="./issues/index.html" class="">Weekly issues</a>
+    <a href="../insights/index.html">Insights</a>
+    <a href="../index.html">← Site</a>
+  </div>
+</nav>
+<header>
+  <div class="wrap">
+    <span class="mono-label">RFP Digest</span>
+    <h1>Open RFPs, updated daily</h1>
+    <p>Public solicitations from US federal, state, city and Canadian buyers that fit digital, marketing, data and consulting firms. Pulled from official open-data feeds every morning, grouped by category, each one linked to the original posting.</p>
+    <div class="stats"><div><b>32</b>open now</div><div><b>26</b>United States</div><div><b>6</b>Canada</div><div><b>11</b>categories</div></div>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    
+<div class="toc"><a href="#it-software">IT &amp; software <span>1</span></a><a href="#marketing-communications">marketing &amp; communications <span>2</span></a><a href="#consulting-strategy">consulting &amp; strategy <span>2</span></a><a href="#data-ai">data &amp; AI <span>7</span></a><a href="#design-creative">design &amp; creative <span>2</span></a><a href="#training-education">training &amp; education <span>1</span></a><a href="#construction-facilities">construction &amp; facilities <span>2</span></a><a href="#health-human-services">health &amp; human services <span>5</span></a><a href="#research-evaluation">research &amp; evaluation <span>6</span></a><a href="#events">events <span>1</span></a><a href="#other">other <span>3</span></a></div>
+
+<h2 class="section" id="it-software">IT &amp; software<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/e75a0aa6a1ad4cd1966d5f88f093d546/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 16</span></div>
+    <h3>Digital Repository Platform and Physical Library Management System</h3>
+    <p>The Pipeline and Hazardous Materials Safety Administration is seeking information from interested parties and potential vendors and systems integrators to implement a web-based…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF · DC</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="marketing-communications">marketing &amp; communications<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/360200" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 05</span></div>
+    <h3>US Travelers Health Research, Surveillance, Communication, and Outreach Network</h3>
+    
+    <div class="buyer">Centers for Disease Control and Prevention - ERA</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/e0c2f41782494c99866861e101363ac7/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>AMS Designated Laboratory Meat Testing Services (ADL)</h3>
+    <p>The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS) is issuing Solicitation 12?1NTS?26?R?0002 to obtain proposals from responsible, accredited…</p>
+    <div class="buyer">AGRICULTURE, DEPARTMENT OF</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="consulting-strategy">consulting &amp; strategy<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=cb-869-30702733" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 16</span></div>
+    <h3>TBIPS Change Management Consultant Level 3</h3>
+    <p>NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS) This requirement is for: FISHERIES AND OCEANS CANADA (DFO) This requirement is open…</p>
+    <div class="buyer">Department of Fisheries and Oceans (DFO) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=cb-681-58483884" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 26</span></div>
+    <h3>REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES</h3>
+    <p>Please note that this is a refresh to the Qualified Supplier List as per the terms and conditions of RFSA-0947 Link…</p>
+    <div class="buyer">Canada Mortgage and Housing Corporation (CNHC) · *Canada</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="data-ai">data &amp; AI<span>7 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/359279" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Oct 30</span></div>
+    <h3>GREGoRi Data Coordination and Outreach Center (U01, Clinical Trials Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/363268" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 04</span></div>
+    <h3>Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)</h3>
+    
+    <div class="buyer">U.S. National Science Foundation</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=WS4611618733-Doc5938553023" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 13</span></div>
+    <h3>Notice of Proposed Procurement (NPP) - Data Hub Invitation to Qualify (ITQ) - D</h3>
+    <p>Public Services and Procurement Canada (PSPC) is providing advance notice of its intention to issue a new Invitation to Qualify (ITQ-D) in support of the Enterprise Data Hub…</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/361817" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 23</span></div>
+    <h3>Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/361526" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Dec 17</span></div>
+    <h3>The Genesis Mission: Transforming Science and Energy with AI</h3>
+    
+    <div class="buyer">Office of Science</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/348260" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Jan 14</span></div>
+    <h3>Human Networks and Data Science (HNDS)</h3>
+    
+    <div class="buyer">U.S. National Science Foundation</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/361318" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Feb 11</span></div>
+    <h3>NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="design-creative">design &amp; creative<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/990a56dcac8646e5bb28d08662446a6e/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 03</span></div>
+    <h3>Web Sustainment/Content Management/Cloud Hosting</h3>
+    <p>The Contractor shall provide the personnel, management, and materials necessary to provide complete secure web development support services to include status reporting, mock-ups…</p>
+    <div class="buyer">DEPT OF DEFENSE · VA</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/d3c866b6104a4486a4adb5b4b990de00/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 16</span></div>
+    <h3>Creative Exhibit Design Services</h3>
+    <p>The Library of Congress (Library) is the largest library in the world, with millions of books, films and video, audio recordings, photographs, newspapers, maps and manuscripts…</p>
+    <div class="buyer">LIBRARY OF CONGRESS · DC</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="training-education">training &amp; education<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 18</span></div>
+    <h3>Tax Software and Support</h3>
+    <p>The IRS has an ongoing requirement for commercial tax software products and associated services supporting the Federal Tax Compliance mission. The anticipated contract will…</p>
+    <div class="buyer">TREASURY, DEPARTMENT OF THE · MD</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="construction-facilities">construction &amp; facilities<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/bf5fc2d8a26a45cb884e78c93bf839b7/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>CFLHD Indefinite Delivery, Indefinite Quantity (IDIQ) for Architect-Engineer Design Services</h3>
+    <p>Architect and Engineering (A-E) Services The Federal Highway Administration, Central Federal Lands Highway Division (CFLHD), anticipates soliciting and awarding multiple…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF · CO</div>
+  </a>
+
+  <a class="entry" href="https://a856-cityrecord.nyc.gov/RequestDetail/20261009021" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US state &amp; local</span><span class="due">Due Dec 03</span></div>
+    <h3>85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide</h3>
+    <p>The RFx will be accessible through the PASSPort Public Portal: https://passport.cityofnewyork.us/page.aspx/en/rfp/request_browse_public Enter 85027P0001on the &#39;Keywords&#39; field to…</p>
+    <div class="buyer">Design and Construction · New York, NY</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="health-human-services">health &amp; human services<span>5 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/410c1ccd1e5146b88e4c6fee1a077d10/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 03</span></div>
+    <h3>DA10--Circle CVI Software or equivalent in support of VA Portland Healthcare System Portland, Oregon</h3>
+    <p>.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/357204" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 06</span></div>
+    <h3>Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/359740" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 10</span></div>
+    <h3>Data Coordinating Center for the Aging and Alzheimer’s Disease Mouse Brain Atlas (AD-MBA) (U24 Clinical Trial Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/357205" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 17</span></div>
+    <h3>Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/358855" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Dec 14</span></div>
+    <h3>IGVF Data and Coordinating Center (U24 Clinical trials Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="research-evaluation">research &amp; evaluation<span>6 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=cb-431-91876096" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 03</span></div>
+    <h3>Security Investigations and Threat and Risk Assessments</h3>
+    <p>This requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 in the National Capital Region, level 2 (intermediate) and 3…</p>
+    <div class="buyer">Courts Administration Service (CAS) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/360458" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 09</span></div>
+    <h3>Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=cb-950-7075770" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 09</span></div>
+    <h3>Research and Advisory Services</h3>
+    <p>Immigration, Refugees and Citizenship Canada requires specialized IT research and advisory services that provide access to expert insights, advanced methodologies, data-driven…</p>
+    <div class="buyer">Department of Citizenship &amp; Immigration (IRCC) · *Canada *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/362836" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Nov 16</span></div>
+    <h3>Special Program Announcement for Office of Naval Research Research Opportunity: FY27 Communications and Networking Applied Research</h3>
+    
+    <div class="buyer">Office of Naval Research</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/359150" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Dec 02</span></div>
+    <h3>Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/355439" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Dec 04</span></div>
+    <h3>NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)</h3>
+    
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="events">events<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://a856-cityrecord.nyc.gov/RequestDetail/20261014029" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US state &amp; local</span><span class="due">Due Nov 18</span></div>
+    <h3>82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks &amp; City-owned Street Ends</h3>
+    <p>The City of New York has a combined sewer system serving approximately one third of the city. During rain events, rainfall is transmitted to the water bodies surrounding the City…</p>
+    <div class="buyer">Environmental Protection · New York, NY</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="other">other<span>3 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities?search=cb-691-48571510" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 03</span></div>
+    <h3>NPP - Stream 4: Business Services</h3>
+    <p>NRCan is undertaking a series of projects and modernization initiatives that will require a temporary increase in resources. Services required will be for the provision of…</p>
+    <div class="buyer">Department of Natural Resources (NRCan) · *Canada *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/364030" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Jan 13</span></div>
+    <h3>National Digital Newspaper Program</h3>
+    
+    <div class="buyer">National Endowment for the Humanities</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/356055" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due no date listed</span></div>
+    <h3>Computational and Data-Enabled Science and Engineering</h3>
+    
+    <div class="buyer">U.S. National Science Foundation</div>
+  </a>
+
+</div>
+
+
+    
+    <p class="note">Compiled daily from official open-data feeds (SAM.gov, Grants.gov, CanadaBuys, city open-data portals) and public alerts. Every link goes to the issuing organization's original posting; confirm details there before responding. Last updated October 21, 2026.</p>
+  </div>
+</main>
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+</body>
+</html>
