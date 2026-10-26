@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "count": 60,
  "items": [
   {
@@ -278,23 +278,6 @@
    "category": "marketing & communications"
   },
   {
-   "title": "Program Analysis and Risk Support (PARS)",
-   "url": "https://sam.gov/workspace/contract/opp/0d1f4ab5793047a0bc3d76163a430265/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 02",
-   "summary": "Program analysis and risk support for soldier recovery unit data management and audits.",
-   "tags": [
-    "consulting & strategy",
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-02",
-   "country": "US",
-   "category": "consulting & strategy"
-  },
-  {
    "title": "NPP - Stream 4: Business Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-691-48571510",
    "buyer": "Department of Natural Resources (NRCan)",
@@ -457,22 +440,6 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Data & AI Mission Expert Services (DAMES) IDIQ",
-   "url": "https://sam.gov/workspace/contract/opp/0a4b7a2607724c0a9178923b43a9cff7/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Nov 02",
-   "summary": "The Department of the Air Force Chief Data and Artificial Intelligence (AI) Officer (DAF CDAO in SAF/CND) is conducting market intelligence to identify sources for a potential\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-02",
-   "country": "US",
-   "category": "data & AI"
-  },
-  {
    "title": "Marine Corps Cyberspace Environment (MCCE) Operational Support Services (OSS) and Enterprise Artificial Intelligence (AI) Integration",
    "url": "https://sam.gov/workspace/contract/opp/5eb6b57f921f43e88b08985d69404b0a/view",
    "buyer": "DEPT OF DEFENSE",
@@ -598,6 +565,22 @@
    "value": "",
    "scope": "Grants",
    "due_iso": "2026-12-17",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Human Networks and Data Science (HNDS)",
+   "url": "https://www.grants.gov/search-results-detail/348260",
+   "buyer": "U.S. National Science Foundation",
+   "region": "",
+   "due": "Jan 14",
+   "summary": "Support human networks and data science research initiatives.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2027-01-14",
    "country": "US",
    "category": "data & AI"
   },
@@ -743,6 +726,22 @@
    "value": "",
    "scope": "US state & local",
    "due_iso": "2026-12-03",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
+   "buyer": "Transportation",
+   "region": "New York, NY",
+   "due": "Dec 04",
+   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US state & local",
+   "due_iso": "2026-12-04",
    "country": "US",
    "category": "construction & facilities"
   },
