@@ -1,55 +1,7 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "count": 60,
  "items": [
-  {
-   "title": "Access to Web of Science, EndNote and Incites",
-   "url": "https://sam.gov/workspace/contract/opp/425dac2f9b25483b9e6dd8f4f0853641/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "MD",
-   "due": "Nov 04",
-   "summary": "HHS seeks access to Web of Science, EndNote and Incites.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-04",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "ROBOTIC ARMS & LINEAR ACTUATOR",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-370-10413807",
-   "buyer": "National Research Council of Canada (NRC)",
-   "region": "*Canada",
-   "due": "Nov 04",
-   "summary": "Procure two robotic arms, one linear actuator, and auxiliary equipment for laboratory automation within 12 weeks.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-04",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "W0046-270159 FDM (Fused Deposition Modeling) 3D Printer",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5853034894-Doc5853088385",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Kingston",
-   "due": "Nov 04",
-   "summary": "FDM 3D printer with software and training for Royal Military College.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-04",
-   "country": "CA",
-   "category": "IT & software"
-  },
   {
    "title": "DA01--RFI Action Only Healthcare Data Auditing Billing and Coding Optimization Software",
    "url": "https://sam.gov/workspace/contract/opp/650978c0876c4ea994b6976213322974/view",
@@ -60,6 +12,22 @@
    "tags": [
     "IT & software",
     "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-06",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Online management support software for SDS",
+   "url": "https://sam.gov/workspace/contract/opp/56e57b68bdf74e2482af682c2e1df81b/view",
+   "buyer": "INTERIOR, DEPARTMENT OF THE",
+   "region": "",
+   "due": "Nov 06",
+   "summary": "Online management support software for chemical Safety Data Sheets",
+   "tags": [
+    "IT & software"
    ],
    "value": "",
    "scope": "US federal",
@@ -242,6 +210,22 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "User Testing Software Platform for User Experience Testing",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
+   "buyer": "Canada Revenue Agency (CRA)",
+   "region": "*Ottawa",
+   "due": "Nov 27",
+   "summary": "Provide user testing software platform for CRA website user experience testing.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
    "country": "CA",
    "category": "IT & software"
   },
@@ -456,6 +440,22 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "Air Simulator Verification, Validation & Accreditation (VV&A) consultants",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-643-48756938",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 26",
+   "summary": "Provide two air simulator verification, validation and accreditation consultants for DND.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
    "buyer": "Department of Agriculture and Agri-Food (AAFC)",
@@ -470,39 +470,6 @@
    "due_iso": "2026-12-02",
    "country": "CA",
    "category": "consulting & strategy"
-  },
-  {
-   "title": "EW699-260375D-PRAIRIES Multidisciplinary Environmental Consulting Services RFSO",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029078?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Environmental consulting services for contaminated sites and remediation across Prairie Provinces.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)",
-   "url": "https://www.grants.gov/search-results-detail/363268",
-   "buyer": "U.S. National Science Foundation",
-   "region": "",
-   "due": "Nov 04",
-   "summary": "",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-04",
-   "country": "US",
-   "category": "data & AI"
   },
   {
    "title": "Mortgage-Backed Securities Operations & Analytics (MBSOA)",
@@ -550,6 +517,22 @@
    "scope": "Canada",
    "due_iso": "2026-11-09",
    "country": "CA",
+   "category": "data & AI"
+  },
+  {
+   "title": "F-35 JPO Enterprise Data Science and Analytics Support",
+   "url": "https://sam.gov/workspace/contract/opp/722a347c18cf4e9bbf866b7ce8f43f22/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Nov 10",
+   "summary": "Please look at the attached documents for more information regarding this RFI.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-10",
+   "country": "US",
    "category": "data & AI"
   },
   {
@@ -602,19 +585,19 @@
    "category": "data & AI"
   },
   {
-   "title": "The Genesis Mission: Transforming Science and Energy with AI",
-   "url": "https://www.grants.gov/search-results-detail/361526",
-   "buyer": "Office of Science",
+   "title": "Canadian Business Data and Lead Intelligence Services",
+   "url": "https://www.merx.com/public/solicitations/4158910104/abstract?language=EN",
+   "buyer": "Business Development Bank of Canada",
    "region": "",
-   "due": "Dec 17",
-   "summary": "",
+   "due": "Nov 23",
+   "summary": "Canadian business data and lead intelligence services for BDC marketing and prospecting.",
    "tags": [
     "data & AI"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-17",
-   "country": "US",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
    "category": "data & AI"
   },
   {
@@ -651,6 +634,22 @@
    "category": "design & creative"
   },
   {
+   "title": "Homeland Security and Innovation Center (HSIC) - Executive Education Seminar Services",
+   "url": "https://sam.gov/workspace/contract/opp/939efc50daee4a42a1d9892a0df8bee4/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Nov 11",
+   "summary": "Executive education seminars for National Guard leaders on homeland security, AI, cyber threats.",
+   "tags": [
+    "training & education"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-11",
+   "country": "US",
+   "category": "training & education"
+  },
+  {
    "title": "Tax Software and Support",
    "url": "https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
@@ -680,6 +679,22 @@
    "scope": "US federal",
    "due_iso": "2026-11-12",
    "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "Phase 1 \u2013 ET025-270674.B - Catwalk Upgrade - ITQ",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029730?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Manitoba",
+   "due": "Nov 13",
+   "summary": "Qualify suppliers for rooftop catwalk system upgrade at Brandon Research Facility.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-13",
+   "country": "CA",
    "category": "construction & facilities"
   },
   {
@@ -763,22 +778,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
-   "buyer": "Transportation",
-   "region": "New York, NY",
-   "due": "Dec 04",
-   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/357204",
    "buyer": "National Institutes of Health",
@@ -827,44 +826,28 @@
    "category": "health & human services"
   },
   {
-   "title": "IGVF Data and Coordinating Center (U24 Clinical trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/358855",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 14",
-   "summary": "",
-   "tags": [
-    "health & human services"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-14",
-   "country": "US",
-   "category": "health & human services"
-  },
-  {
-   "title": "PMX-281 IT Strategy, Software Modernization, and Digital Decision Intelligence Advisory Subscriptions",
-   "url": "https://sam.gov/workspace/contract/opp/123d8903b7054ab2a284fd9898c49e7f/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Nov 04",
-   "summary": "1. Disclaimer and Statutory Notices 1.1. This is a Sources Sought Announcement / Request for Information (RFI) only. This announcement is issued solely for information, planning\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-04",
-   "country": "US",
-   "category": "research & evaluation"
-  },
-  {
    "title": "Credit Ratings, Research, and Data Feed Subscriptions",
    "url": "https://sam.gov/workspace/contract/opp/bae8680045bc4b7db06643c76ec915d8/view",
    "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
    "region": "VA",
    "due": "Nov 06",
    "summary": "The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0426 for FDIC\u0092s Credit Ratings, Research, and Data\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-06",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "FOMS SOFTWARE DEVELOPMENT",
+   "url": "https://sam.gov/workspace/contract/opp/34551fb14f374336ac3439876ac2d7b6/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "OK",
+   "due": "Nov 06",
+   "summary": "The FAA requires comprehensive agile software engineering, application modernization, maintenance, and system information security support for both the FOMS mobile application and\u2026",
    "tags": [
     "research & evaluation"
    ],
@@ -969,6 +952,22 @@
    "due_iso": "2026-12-02",
    "country": "US",
    "category": "research & evaluation"
+  },
+  {
+   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
+   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "WA",
+   "due": "Dec 01",
+   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "category": "other"
   }
  ]
 }
