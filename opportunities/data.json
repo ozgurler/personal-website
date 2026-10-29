@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "count": 60,
  "items": [
   {
@@ -230,35 +230,18 @@
    "category": "IT & software"
   },
   {
-   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/355439",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "Research software engineer awards excluding clinical trials.",
-   "tags": [
-    "IT & software",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "US Travelers Health Research, Surveillance, Communication, and Outreach Network",
-   "url": "https://www.grants.gov/search-results-detail/360200",
-   "buyer": "Centers for Disease Control and Prevention - ERA",
-   "region": "",
-   "due": "Nov 05",
-   "summary": "",
+   "title": "Hospital Communications Support",
+   "url": "https://sam.gov/workspace/contract/opp/f4008c25a6024723bec93d2de70d059e/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MD",
+   "due": "Nov 09",
+   "summary": "Please refer to revised documents and questions and answers before submitting your proposal. New due date 09 November 2026. Walter Reed National Military Medical Center (WRNMMC)\u2026",
    "tags": [
     "marketing & communications"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-05",
+   "scope": "US federal",
+   "due_iso": "2026-11-09",
    "country": "US",
    "category": "marketing & communications"
   },
@@ -456,22 +439,6 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Manitoba",
-   "due": "Dec 02",
-   "summary": "Provide farm debt mediation and financial counselling services in Manitoba.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
    "title": "Mortgage-Backed Securities Operations & Analytics (MBSOA)",
    "url": "https://sam.gov/workspace/contract/opp/13d96f7813f04163892a35feaa031015/view",
    "buyer": "HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF",
@@ -532,6 +499,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-10",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Cloud Based Data Management, Analytics, and Reporting Solution to Replace SAS",
+   "url": "https://sam.gov/workspace/contract/opp/cb6c7ad94b1d4411b8ddfb19a54ea751/view",
+   "buyer": "JUSTICE, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 14",
+   "summary": "The purpose of this Request for Information (RFI) is to gather information from industry regarding commercially available, non?SAS, cloud?based data management and analytics\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-14",
    "country": "US",
    "category": "data & AI"
   },
@@ -698,6 +681,22 @@
    "category": "construction & facilities"
   },
   {
+   "title": "C1DA--578-27-003 - Renovate A Section First Floor of Building 1 - Design FY27",
+   "url": "https://sam.gov/workspace/contract/opp/4dfd5d2d61e541b3b176703f521f7e50/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "IL",
+   "due": "Nov 16",
+   "summary": "AMENDMENT A0001 Combined Synopsis/Solicitation Notice Combined Synopsis/Solicitation Notice Combined Synopsis/Solicitation Notice REQUEST FOR SF 330 36C25227Q0013 Project\u2026",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
    "title": "\u0141uts\u00ebl K\u2019\u00e9 Staff Housing - Design Build Project, Tha\u0131dene N\u00ebn\u00e9 National Park Reserve",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-932-25323580",
    "buyer": "Parks Canada Agency (PC)",
@@ -758,22 +757,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
-   "buyer": "Design and Construction",
-   "region": "New York, NY",
-   "due": "Dec 03",
-   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-03",
    "country": "US",
    "category": "construction & facilities"
   },
@@ -870,6 +853,22 @@
    "value": "",
    "scope": "Grants",
    "due_iso": "2026-11-09",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "CDC Advancing Nutrition, Physical Activity, and Obesity and Chronic Disease Prevention through Epidemiology, Surveillance and Data Modernization",
+   "url": "https://sam.gov/workspace/contract/opp/7d7b3dac7d144b51a417b2c64e90b0d0/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "GA",
+   "due": "Nov 10",
+   "summary": "Centers for Disease Control is issuing this synopsis as a means of conducting market research to identify parties having an interest in and the resources to support this\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-10",
    "country": "US",
    "category": "research & evaluation"
   },
