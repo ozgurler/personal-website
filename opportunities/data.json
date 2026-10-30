@@ -1,40 +1,7 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "count": 60,
  "items": [
-  {
-   "title": "DA01--RFI Action Only Healthcare Data Auditing Billing and Coding Optimization Software",
-   "url": "https://sam.gov/workspace/contract/opp/650978c0876c4ea994b6976213322974/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 06",
-   "summary": "Market research for healthcare data auditing, billing, and coding optimization software solution.",
-   "tags": [
-    "IT & software",
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "Online management support software for SDS",
-   "url": "https://sam.gov/workspace/contract/opp/56e57b68bdf74e2482af682c2e1df81b/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Nov 06",
-   "summary": "Online management support software for chemical Safety Data Sheets",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "RTI Connext Site License Renewal",
    "url": "https://sam.gov/workspace/contract/opp/fb5a454e39a54d17b75c74f639e11501/view",
@@ -48,6 +15,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-07",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Bayesian Dosing Software",
+   "url": "https://sam.gov/workspace/contract/opp/6a2ae11e5b3f44058417ab61668b767a/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "UT",
+   "due": "Nov 09",
+   "summary": "Request for Quote (RFQ) #: 36C25927Q0009 Bayesian-Guided Dosing Software (PrecisePK\u00ae or equivalent) (i) This is a combined synopsis/solicitation for commercial services prepared\u2026",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-09",
    "country": "US",
    "category": "IT & software"
   },
@@ -91,6 +74,22 @@
    "region": "NJ",
    "due": "Nov 09",
    "summary": "Next Generation Automated Test System software support and maintenance contractor.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-09",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Hand Held Terminals / SOTI Software Requirement",
+   "url": "https://sam.gov/workspace/contract/opp/9bfde64670ac41dfb6cf7b38f160ca3d/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Nov 09",
+   "summary": "Please see attached.",
    "tags": [
     "IT & software"
    ],
@@ -278,35 +277,36 @@
    "category": "marketing & communications"
   },
   {
-   "title": "HR Competency Model Modernization",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-967-96302715",
-   "buyer": "Office of the Auditor General (OAG)",
-   "region": "*Canada",
-   "due": "Nov 06",
-   "summary": "Design modernized HR competency model aligned with Auditor General strategic direction.",
+   "title": "Specialist in Wargame Design and Facilitation",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-293-7537227",
+   "buyer": "Department of National Defence (DND)",
+   "region": "",
+   "due": "Nov 09",
+   "summary": "Specialist to design and facilitate military wargame for Exercise MAPLE LEAF PAJUK 2027.",
    "tags": [
     "consulting & strategy"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-06",
+   "due_iso": "2026-11-09",
    "country": "CA",
    "category": "consulting & strategy"
   },
   {
-   "title": "Seaport - CTF Design Services Follow On",
-   "url": "https://sam.gov/workspace/contract/opp/61c77d3ce7c645e5a1f1d21a5bea8058/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 06",
-   "summary": "Five-year compatibility test facility design services for Naval Surface Warfare Center facilities.",
+   "title": "Re-solicitation_ EW038-261403_A & E Services for Cambridge Bay Wharf Repair Work, Cambridge Bay, Nunavut",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029754?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Cambridge Bay",
+   "due": "Nov 10",
+   "summary": "Engineering consultants needed for Cambridge Bay Wharf repair options, recommendations, and construction.",
    "tags": [
-    "consulting & strategy"
+    "consulting & strategy",
+    "construction & facilities"
    ],
    "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
+   "scope": "Canada",
+   "due_iso": "2026-11-10",
+   "country": "CA",
    "category": "consulting & strategy"
   },
   {
@@ -391,6 +391,38 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "Stream 2.11 Information/Record Management/Recordkeeping Specialists",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-938-88054828",
+   "buyer": "Department of Natural Resources (NRCan)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 17",
+   "summary": "Access to Information and Privacy consultant services for records management and ATIP advice.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-17",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Senior Human Resource Consultant",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-205-4576286",
+   "buyer": "Office of the Chief Electoral Officer (Elections)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 17",
+   "summary": "Senior human resources consultant temporary staffing services for Elections Canada.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-17",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "RFP 0D160-243955 Memorial Grant Program for First Responders",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029560?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -437,22 +469,6 @@
    "due_iso": "2026-11-26",
    "country": "CA",
    "category": "consulting & strategy"
-  },
-  {
-   "title": "Mortgage-Backed Securities Operations & Analytics (MBSOA)",
-   "url": "https://sam.gov/workspace/contract/opp/13d96f7813f04163892a35feaa031015/view",
-   "buyer": "HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF",
-   "region": "VA",
-   "due": "Nov 06",
-   "summary": "Mortgage-backed securities operations and analytics support for Ginnie Mae.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
-   "category": "data & AI"
   },
   {
    "title": "Global Macroeconomic Software Licenses",
@@ -515,6 +531,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-14",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "License to Access the American Hospital Association Inc.\u0092s (AHA) Proprietary Databases, Training, and Technical Support",
+   "url": "https://sam.gov/workspace/contract/opp/48809ba9ed454214a0f6611a6566f823/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "GA",
+   "due": "Nov 16",
+   "summary": "The Centers for Disease Control and Prevention intends to award a sole source firm fixed price purchase order to American Hospital Association (AHA) for the Office of Public\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
    "country": "US",
    "category": "data & AI"
   },
@@ -761,18 +793,18 @@
    "category": "construction & facilities"
   },
   {
-   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/357204",
-   "buyer": "National Institutes of Health",
+   "title": "DA10--Steris Software Connectivity",
+   "url": "https://sam.gov/workspace/contract/opp/1bacf8f1d7b44f468fc1b0573ca55478/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
    "region": "",
-   "due": "Nov 06",
-   "summary": "",
+   "due": "Nov 09",
+   "summary": "PRE-SOLICITATION NOTICE OF INTENT TO SOLE SOURCE Department of Veterans Affairs (VA) Network Contracting Office (NCO 21) intends to award a sole source, firm fixed price contract\u2026",
    "tags": [
     "health & human services"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-06",
+   "scope": "US federal",
+   "due_iso": "2026-11-09",
    "country": "US",
    "category": "health & human services"
   },
@@ -807,38 +839,6 @@
    "due_iso": "2026-11-17",
    "country": "US",
    "category": "health & human services"
-  },
-  {
-   "title": "Credit Ratings, Research, and Data Feed Subscriptions",
-   "url": "https://sam.gov/workspace/contract/opp/bae8680045bc4b7db06643c76ec915d8/view",
-   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
-   "region": "VA",
-   "due": "Nov 06",
-   "summary": "The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0426 for FDIC\u0092s Credit Ratings, Research, and Data\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
-   "category": "research & evaluation"
-  },
-  {
-   "title": "FOMS SOFTWARE DEVELOPMENT",
-   "url": "https://sam.gov/workspace/contract/opp/34551fb14f374336ac3439876ac2d7b6/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "OK",
-   "due": "Nov 06",
-   "summary": "The FAA requires comprehensive agile software engineering, application modernization, maintenance, and system information security support for both the FOMS mobile application and\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-06",
-   "country": "US",
-   "category": "research & evaluation"
   },
   {
    "title": "Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)",
