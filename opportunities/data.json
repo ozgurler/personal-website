@@ -1,23 +1,7 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "count": 60,
  "items": [
-  {
-   "title": "RTI Connext Site License Renewal",
-   "url": "https://sam.gov/workspace/contract/opp/fb5a454e39a54d17b75c74f639e11501/view",
-   "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
-   "region": "FL",
-   "due": "Nov 07",
-   "summary": "RTI Connext site license renewal for NASA software.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-07",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "Bayesian Dosing Software",
    "url": "https://sam.gov/workspace/contract/opp/6a2ae11e5b3f44058417ab61668b767a/view",
@@ -132,6 +116,23 @@
    "category": "IT & software"
   },
   {
+   "title": "Enterprise Next (ENX) RFI",
+   "url": "https://sam.gov/workspace/contract/opp/5b3c78d65f914f549c31a70faa1bfd73/view",
+   "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+   "region": "MD",
+   "due": "Nov 13",
+   "summary": "NASA Goddard seeks contractors for enterprise development and science data archive operations.",
+   "tags": [
+    "IT & software",
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-13",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
    "title": "Digital Repository Platform and Physical Library Management System",
    "url": "https://sam.gov/workspace/contract/opp/e75a0aa6a1ad4cd1966d5f88f093d546/view",
    "buyer": "TRANSPORTATION, DEPARTMENT OF",
@@ -162,6 +163,22 @@
    "scope": "US federal",
    "due_iso": "2026-11-16",
    "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "IT Professional Services to Enhance and Deliver the Canada Disability Benefit Digital Solution",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-438-11905524",
+   "buyer": "Department of Employment and Social Development (ESDC)",
+   "region": "*Remote Offsite *Canada",
+   "due": "Nov 20",
+   "summary": "Provide IT professional services to enhance Canada Disability Benefit digital solution.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-20",
+   "country": "CA",
    "category": "IT & software"
   },
   {
@@ -213,18 +230,19 @@
    "category": "IT & software"
   },
   {
-   "title": "User Testing Software Platform for User Experience Testing",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
-   "buyer": "Canada Revenue Agency (CRA)",
-   "region": "*Ottawa",
-   "due": "Nov 27",
-   "summary": "Provide user testing software platform for CRA website user experience testing.",
+   "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-418-22395949",
+   "buyer": "Department of Fisheries and Oceans (DFO)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 26",
+   "summary": "Provide user experience professional services to support DFO digital transformation initiatives.",
    "tags": [
-    "IT & software"
+    "IT & software",
+    "design & creative"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-27",
+   "due_iso": "2026-11-26",
    "country": "CA",
    "category": "IT & software"
   },
@@ -374,6 +392,22 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "Energy Automation Operational Technology Systems (EAOTS) Automated Fuel Handling Equipment Maintenance",
+   "url": "https://sam.gov/workspace/contract/opp/8fbd063f86f3462b92de34e5d9ee14c0/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Nov 16",
+   "summary": "Maintenance and sustainment services for automated fuel handling equipment at 23 worldwide DoD locations.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "International Environmental Engineering Consulting Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-384-63779786",
    "buyer": "Department of Foreign Affairs, Trade and Development (GAC)",
@@ -419,6 +453,22 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-17",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "TBIPS - Level 3 Business Analyst",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-694-71129009",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 20",
+   "summary": "Hire two level 3 business analysts to support Department of National Defence HR systems integration.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-20",
    "country": "CA",
    "category": "consulting & strategy"
   },
@@ -649,6 +699,23 @@
    "category": "design & creative"
   },
   {
+   "title": "Army Continuing Medical Education (CME) Reaccreditation",
+   "url": "https://sam.gov/workspace/contract/opp/3cbb9f4e5c614bd982daefc133fa7c6f/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Nov 10",
+   "summary": "Continuing medical education reaccreditation consultative assistance and guidance for Army compliance.",
+   "tags": [
+    "training & education",
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-10",
+   "country": "US",
+   "category": "training & education"
+  },
+  {
    "title": "Homeland Security and Innovation Center (HSIC) - Executive Education Seminar Services",
    "url": "https://sam.gov/workspace/contract/opp/939efc50daee4a42a1d9892a0df8bee4/view",
    "buyer": "DEPT OF DEFENSE",
@@ -757,38 +824,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-20",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "CMMA Composite Repair Shelter",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Canada *Nova Scotia",
-   "due": "Nov 27",
-   "summary": "Design, manufacture and deliver clean room composite repair shelter for aircraft maintenance at 14 Wing Greenwood, Nova Scotia.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "A-E Services for Electron Injector Complex",
-   "url": "https://sam.gov/workspace/contract/opp/c934a56d667544a49b68a176669afdf0/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "NY",
-   "due": "Nov 30",
-   "summary": "Architecture and engineering design services for electron injector complex at Brookhaven National Labs.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
    "country": "US",
    "category": "construction & facilities"
   },
@@ -935,38 +970,6 @@
    "due_iso": "2026-11-16",
    "country": "CA",
    "category": "research & evaluation"
-  },
-  {
-   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
-   "url": "https://www.grants.gov/search-results-detail/359150",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 02",
-   "summary": "",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "category": "research & evaluation"
-  },
-  {
-   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
-   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "WA",
-   "due": "Dec 01",
-   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "category": "other"
   }
  ]
 }
