@@ -55,7 +55,18 @@
   nav ul a{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
            color:#B9C4CE;text-decoration:none;transition:color .2s}
   nav ul a:hover{color:var(--copper)}
-  @media(max-width:640px){nav ul{gap:1.1rem}nav ul li:nth-child(2){display:none}}
+  nav .menu-btn{display:none;background:none;border:1px solid var(--trace-dark);color:#E8ECEF;border-radius:3px;
+    padding:.45rem .6rem;cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+  nav .menu-btn:hover{border-color:var(--copper);color:var(--copper)}
+  @media(max-width:860px){nav ul{gap:1.2rem}}
+  @media(max-width:760px){
+    nav ul{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;
+           background:rgba(14,27,44,.97);border-bottom:1px solid rgba(192,122,58,.25);padding:.4rem 0 .6rem}
+    nav ul li a{display:block;padding:.85rem clamp(1.25rem,5vw,4rem);font-size:.8rem}
+    nav.open ul{display:flex}
+    nav .menu-btn{display:inline-block}
+  }
+  @media(max-width:380px){nav .logo span{display:none}}
 
   /* ---------- HERO ---------- */
   header{position:relative;background:var(--ink);color:#E8ECEF;overflow:hidden;
@@ -63,6 +74,7 @@
   .hero-inner{max-width:1100px;margin:0 auto;position:relative;z-index:2}
   .hero-eyebrow{display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem}
   .hero-eyebrow .pin{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;color:#8FA0B0}
+  @media(max-width:560px){.hero-eyebrow{flex-direction:column;align-items:flex-start;gap:.35rem}}
   h1{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,7vw,5rem);line-height:1.02;
      letter-spacing:-.02em;margin-bottom:1.4rem}
   h1 .copper{color:var(--copper)}
@@ -151,7 +163,18 @@
   .svc-card:hover{border-color:var(--copper)}
   .svc-card .svc-id{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--copper-deep)}
   .svc-card h3{font-family:var(--display);font-weight:700;font-size:1.15rem;margin:.5rem 0 .55rem}
+  .ready-callout{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;
+    background:var(--ink);color:#E8ECEF;border-radius:6px;padding:1.5rem 1.8rem;margin:0 0 1.4rem;text-decoration:none;
+    border-left:4px solid var(--copper)}
+  .ready-callout .rc-eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:.4rem}
+  .ready-callout .rc-title{font-family:var(--display);font-weight:700;font-size:1.1rem;line-height:1.3;max-width:34em}
+  .ready-callout .rc-sub{font-size:.88rem;color:#B9C4CE;margin-top:.35rem;max-width:40em}
+  .ready-callout .rc-btn{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+    background:var(--copper);color:#fff;padding:.85rem 1.4rem;border-radius:3px;white-space:nowrap}
+  .ready-callout:hover .rc-btn{background:var(--copper-deep)}
   .svc-card p{font-size:.94rem;color:#33414F}
+  .svc-card p a{color:var(--copper-deep);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(192,122,58,.4)}
+  .svc-card p a:hover{color:var(--copper)}
   .svc-card .svc-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
   .svc-card .svc-tags span{font-family:var(--mono);font-size:.68rem;padding:.28rem .55rem;
        border:1px solid var(--line);border-radius:3px;color:var(--slate)}
@@ -272,14 +295,16 @@
 </head>
 <body>
 
-<nav>
-  <a class="logo" href="#top"><b>EO</b> / emre.ozgurler</a>
-  <ul>
+<nav id="site-nav">
+  <a class="logo" href="#top"><b>EO</b><span> / emre.ozgurler</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" onclick="toggleNav()">Menu</button>
+  <ul id="nav-links">
     <li><a href="#systems">Systems</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#insights">Insights</a></li>
     <li><a href="opportunities/index.html">RFPs</a></li>
+    <li><a href="ai-readiness.html">AI check</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -387,6 +412,14 @@
 <section id="services">
   <div class="wrap">
     <h2>What I can do for you</h2>
+    <a class="ready-callout" href="ai-readiness.html">
+      <div>
+        <div class="rc-eyebrow">New · AI readiness check</div>
+        <div class="rc-title">Not sure where your business stands with AI? Three minutes, seven questions, one honest written brief.</div>
+        <div class="rc-sub">Where you stand, the first automation worth trying, and what to fix before it works. No email required, nothing stored.</div>
+      </div>
+      <span class="rc-btn">Take the check</span>
+    </a>
     <div class="svc-grid">
 
       <article class="svc-card">
@@ -397,7 +430,7 @@
 
       <article class="svc-card">
         <h3>AI implementation &amp; automation</h3>
-        <p>Practical AI, not hype. I find the repetitive work eating your team's hours, from research and drafting to document handling, and replace it with assistants and workflows that keep a human on the send button.</p>
+        <p>Practical AI, not hype. I find the repetitive work eating your team's hours, from research and drafting to document handling, and replace it with assistants and workflows that keep a human on the send button. Not sure where you stand? <a href="ai-readiness.html">Take the three-minute readiness check</a>.</p>
         <div class="svc-tags"><span>Agentic workflows (Claude)</span><span>Document Q&amp;A</span><span>Process audit</span></div>
       </article>
 
@@ -593,7 +626,13 @@
 <footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
 
 <script>
-
+  function toggleNav(){
+    const nav=document.getElementById('site-nav'); const btn=nav.querySelector('.menu-btn');
+    const open=nav.classList.toggle('open'); btn.setAttribute('aria-expanded',open); btn.textContent=open?'Close':'Menu';
+  }
+  document.querySelectorAll('#nav-links a').forEach(a=>a.addEventListener('click',()=>{
+    const nav=document.getElementById('site-nav'); if(nav.classList.contains('open')) toggleNav();
+  }));
 
   // Contact form: AJAX submit to Formspree
   const form = document.getElementById('contact-form');

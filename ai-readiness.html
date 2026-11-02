@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Readiness &amp; Discovery Check — Emre Ozgurler</title>
+<meta name="description" content="A three-minute AI readiness check for small and mid-sized businesses, plus an AI discovery score: can AI assistants read and find your site? Seven questions, one written brief.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.emreozgurler.com/ai-readiness.html">
+<meta property="og:title" content="AI Readiness Check — three minutes, one honest brief">
+<meta property="og:description" content="Seven questions. A short written brief on where your business stands with AI and what to try first.">
+<meta property="og:image" content="https://www.emreozgurler.com/og-image.png">
+<link rel="canonical" href="https://www.emreozgurler.com/ai-readiness.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Optional: Cloudflare Turnstile. Set data-sitekey below and TURNSTILE_SECRET_KEY on Vercel to enable. -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<style>
+  :root{
+    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
+    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0; --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.7;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:720px;margin:0 auto}
+  .meta{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.9rem}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.7rem);line-height:1.15;letter-spacing:-.01em;margin-bottom:18px}
+  header p{color:#B9C4CE;max-width:40em;font-size:1.05rem}
+
+  main{padding:clamp(2.5rem,7vh,4rem) clamp(1.25rem,5vw,4rem)}
+  .q{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;margin-bottom:1rem}
+  .q label.t{display:block;font-family:var(--display);font-weight:700;font-size:1.02rem;margin-bottom:.6rem}
+  .q .hint{font-size:.85rem;color:var(--slate);margin:-.3rem 0 .6rem}
+  .opts{display:grid;gap:.45rem}
+  .opts label{display:flex;gap:.6rem;align-items:flex-start;font-size:.95rem;color:#33414F;cursor:pointer}
+  .opts input{margin-top:.35rem;accent-color:var(--copper)}
+  .q textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:4px;padding:.8rem .9rem;
+              font-family:var(--body);font-size:.95rem;resize:vertical;background:#fff}
+  .q textarea:focus{outline:none;border-color:var(--copper)}
+  .hp{position:absolute;left:-5000px}
+  .q .grid2{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+  @media(max-width:560px){.q .grid2{grid-template-columns:1fr}}
+  .q label.sm{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.3rem}
+  .q input[type=text],.q input[type=email]{width:100%;border:1px solid var(--line);border-radius:4px;padding:.7rem .9rem;font-family:var(--body);font-size:.95rem;background:#fff}
+  .q input[type=text]:focus,.q input[type=email]:focus{outline:none;border-color:var(--copper)}
+
+  .disc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--copper);border-radius:6px;padding:1.5rem 1.7rem;margin-bottom:1.2rem}
+  .disc .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper-deep)}
+  .disc-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:.8rem}
+  .disc-host{font-family:var(--display);font-weight:700;font-size:1.1rem;margin-top:.2rem}
+  .score{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;color:var(--ink)}
+  .score small{font-size:1rem;color:var(--slate);font-weight:600}
+  .disc-probe{font-size:.95rem;color:#33414F;margin-bottom:.9rem;padding:.8rem 1rem;background:var(--paper);border-radius:4px}
+  .findings{list-style:none;display:grid;gap:.45rem}
+  .findings li{display:grid;grid-template-columns:3.2rem 1fr;gap:.8rem;font-size:.9rem;color:#33414F;align-items:start}
+  .findings .pts{font-family:var(--mono);font-size:.75rem;color:var(--copper-deep);padding-top:.15rem;white-space:nowrap}
+  .findings .pts.zero{color:#9A3B32}
+  .findings b{color:var(--ink);display:block;font-size:.92rem}
+  .disc-note{font-size:.8rem;color:var(--slate);margin-top:1rem;border-top:1px solid var(--line);padding-top:.7rem}
+
+  .actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.2rem}
+  .btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;border:none;cursor:pointer;
+       background:var(--copper);color:#fff;padding:.9rem 1.6rem;border-radius:3px}
+  .btn:hover{background:var(--copper-deep)}
+  .btn:disabled{opacity:.6;cursor:wait}
+  .note{font-family:var(--mono);font-size:.68rem;color:var(--slate)}
+
+  .status{display:none;margin-top:1rem;padding:.8rem 1rem;border-radius:4px;font-size:.92rem}
+  .status.err{display:block;background:rgba(190,70,60,.08);color:#9A3B32;border:1px solid rgba(190,70,60,.3)}
+
+  #result{display:none;margin-top:2.2rem}
+  .brief{background:var(--ink);color:#E8ECEF;border-radius:6px;padding:1.8rem 2rem}
+  .brief .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:1rem}
+  .brief p{color:#E8ECEF;margin-bottom:1rem;max-width:44em}
+  .brief p:last-child{margin-bottom:0}
+  .after{margin-top:1.4rem;font-size:.95rem;color:#33414F}
+  .after a{color:var(--copper-deep);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(192,122,58,.4)}
+  .after a:hover{color:var(--copper)}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← Back to site</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="meta">AI readiness check</div>
+    <h1>Three minutes, one honest brief</h1>
+    <p>Seven questions about how your business runs, plus your website if you have one. You get a short written read on where you stand with AI, the first automation worth trying, and what to fix before it works. Add a URL and it also scores how discoverable you are to AI assistants: whether their crawlers can read your site, and whether one actually finds you when it searches. Your answers and the brief come to me as well, so I can follow up if there's something useful to add. Nothing is sold or shared.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <form id="assess">
+
+      <div class="q">
+        <label class="t">How big is the company?</label>
+        <div class="opts">
+          <label><input type="radio" name="size" value="Just me or 2-5 people" required> Just me, or 2 to 5 people</label>
+          <label><input type="radio" name="size" value="6-20 people"> 6 to 20 people</label>
+          <label><input type="radio" name="size" value="21-50 people"> 21 to 50 people</label>
+          <label><input type="radio" name="size" value="51-200 people"> 51 to 200 people</label>
+          <label><input type="radio" name="size" value="200+ people"> More than 200</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">What kind of business?</label>
+        <div class="opts">
+          <label><input type="radio" name="industry" value="Professional services (accounting, legal, consulting)" required> Professional services (accounting, legal, consulting)</label>
+          <label><input type="radio" name="industry" value="Healthcare, dental, or clinics"> Healthcare, dental, or clinics</label>
+          <label><input type="radio" name="industry" value="Real estate or property management"> Real estate or property management</label>
+          <label><input type="radio" name="industry" value="Trades, construction, or field services"> Trades, construction, or field services</label>
+          <label><input type="radio" name="industry" value="Retail, e-commerce, or hospitality"> Retail, e-commerce, or hospitality</label>
+          <label><input type="radio" name="industry" value="Software or technology"> Software or technology</label>
+          <label><input type="radio" name="industry" value="Something else"> Something else</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">Where do the team's hours actually go?</label>
+        <p class="hint">Pick everything that eats more time than it should.</p>
+        <div class="opts">
+          <label><input type="checkbox" name="hours" value="Answering the same customer questions by email or phone"> Answering the same customer questions by email or phone</label>
+          <label><input type="checkbox" name="hours" value="Scheduling, reminders, and follow-ups"> Scheduling, reminders, and follow-ups</label>
+          <label><input type="checkbox" name="hours" value="Writing quotes, proposals, or reports"> Writing quotes, proposals, or reports</label>
+          <label><input type="checkbox" name="hours" value="Typing data from documents into systems"> Typing data from documents into systems</label>
+          <label><input type="checkbox" name="hours" value="Finding and researching new customers"> Finding and researching new customers</label>
+          <label><input type="checkbox" name="hours" value="Looking for internal information (policies, past work, how-tos)"> Looking for internal information (policies, past work, how-tos)</label>
+          <label><input type="checkbox" name="hours" value="Bookkeeping, invoices, and receipts"> Bookkeeping, invoices, and receipts</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">What do you run the business on?</label>
+        <div class="opts">
+          <label><input type="radio" name="tools" value="Mostly email, spreadsheets, and shared drives" required> Mostly email, spreadsheets, and shared drives</label>
+          <label><input type="radio" name="tools" value="A CRM or practice-management system, used inconsistently"> A CRM or practice-management system, used inconsistently</label>
+          <label><input type="radio" name="tools" value="A CRM or core system the whole team actually uses"> A CRM or core system the whole team actually uses</label>
+          <label><input type="radio" name="tools" value="Several systems that don't talk to each other"> Several systems that don't talk to each other</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">Where do your documents and data live?</label>
+        <div class="opts">
+          <label><input type="radio" name="data" value="Scattered: inboxes, desktops, a few shared folders" required> Scattered across inboxes, desktops, and a few shared folders</label>
+          <label><input type="radio" name="data" value="One shared drive or workspace, loosely organized"> One shared drive or workspace, loosely organized</label>
+          <label><input type="radio" name="data" value="Organized and current, with clear ownership"> Organized and current, with someone who owns it</label>
+          <label><input type="radio" name="data" value="Mostly in our core system, with some on paper"> Mostly in our core system, with some still on paper</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">How has the team used AI so far?</label>
+        <div class="opts">
+          <label><input type="radio" name="ai_use" value="Not at all" required> Not at all</label>
+          <label><input type="radio" name="ai_use" value="A few people use ChatGPT or Claude on their own"> A few people use ChatGPT or Claude on their own</label>
+          <label><input type="radio" name="ai_use" value="We've tried a tool or two; results were mixed"> We've tried a tool or two, with mixed results</label>
+          <label><input type="radio" name="ai_use" value="Something is running in production and we rely on it"> Something is running in production and we rely on it</label>
+        </div>
+      </div>
+
+      <div class="q">
+        <label class="t">Who the brief is for</label>
+        <p class="hint">Name and email are required. Add your website and the check also reads what AI crawlers can see and runs a live search to find out whether an assistant actually finds you.</p>
+        <div class="grid2">
+          <div><label class="sm" for="name">Your name</label><input id="name" name="name" type="text" maxlength="100" autocomplete="name" required></div>
+          <div><label class="sm" for="email">Work email</label><input id="email" name="email" type="email" maxlength="160" autocomplete="email" required></div>
+        </div>
+        <div class="grid2" style="margin-top:.7rem">
+          <div><label class="sm" for="business">Business name</label><input id="business" name="business" type="text" maxlength="120" autocomplete="organization" placeholder="e.g. Ridgeline Dental"></div>
+          <div><label class="sm" for="city">City</label><input id="city" name="city" type="text" maxlength="80" placeholder="e.g. Portland, OR"></div>
+        </div>
+        <label class="sm" for="website" style="margin-top:.7rem">Website (optional, unlocks the discovery score)</label>
+        <input id="website" name="website" type="text" inputmode="url" maxlength="200" placeholder="e.g. ridgelinedental.com">
+      </div>
+
+      <div class="q">
+        <label class="t" for="goal">If one thing changed in the next 90 days, what should it be?</label>
+        <p class="hint">A sentence or two in your own words. This shapes the brief more than anything else.</p>
+        <textarea id="goal" name="goal" maxlength="600" required placeholder="e.g. Stop spending every Friday re-typing supplier invoices into QuickBooks."></textarea>
+      </div>
+
+      <input class="hp" type="text" name="website_hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <!-- Turnstile widget: replace YOUR_TURNSTILE_SITE_KEY to enable, or delete this div to run without it -->
+      <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-size="flexible"></div>
+
+      <div class="actions">
+        <button class="btn" type="submit" id="go">Write my brief</button>
+        <span class="note">About ten seconds, or thirty with a website check. A copy comes to me.</span>
+      </div>
+      <div class="status" id="status" role="status"></div>
+    </form>
+
+    <section id="result" aria-live="polite">
+      <div class="disc" id="disc" style="display:none">
+        <div class="disc-head">
+          <div>
+            <div class="lbl">AI discovery score</div>
+            <div class="disc-host" id="disc-host"></div>
+          </div>
+          <div class="score"><span id="disc-score">0</span><small>/100</small></div>
+        </div>
+        <p class="disc-probe" id="disc-probe"></p>
+        <ul class="findings" id="disc-findings"></ul>
+        <p class="disc-note">Technical checks cover what AI crawlers can read: page text, robots.txt, structured data, title and description, llms.txt, content structure, sitemap, HTTPS. The live probe has an assistant search for you and report what it found.</p>
+      </div>
+      <div class="brief">
+        <div class="lbl">Your AI readiness brief</div>
+        <div id="brief"></div>
+      </div>
+      <p class="after">I have a copy of this too. If the first automation it points at looks worth doing, reply to the follow-up note I'll send, or read <a href="insights/5-ai-automations-smb.html">5 AI Automations Any SMB Can Deploy This Quarter</a> first.</p>
+    </section>
+  </div>
+</main>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+<script>
+  const form = document.getElementById('assess');
+  const btn = document.getElementById('go');
+  const status = document.getElementById('status');
+  const result = document.getElementById('result');
+  const briefEl = document.getElementById('brief');
+  const tsDiv = document.querySelector('.cf-turnstile');
+  // Hide the Turnstile container if the site key was never set
+  if (tsDiv && tsDiv.dataset.sitekey === 'YOUR_TURNSTILE_SITE_KEY') tsDiv.remove();
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.className = 'status'; status.textContent = '';
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+
+    const fd = new FormData(form);
+    const payload = {
+      size: fd.get('size'), industry: fd.get('industry'),
+      hours: fd.getAll('hours'), tools: fd.get('tools'), data: fd.get('data'),
+      ai_use: fd.get('ai_use'), goal: fd.get('goal'),
+      name: fd.get('name'), email: fd.get('email'),
+      business: fd.get('business'), city: fd.get('city'), website: fd.get('website'), website_hp: fd.get('website_hp'),
+      turnstile_token: fd.get('cf-turnstile-response') || ''
+    };
+
+    btn.disabled = true; btn.textContent = (fd.get('website') || '').trim() ? 'Checking your site…' : 'Writing…';
+    try {
+      const r = await fetch('/api/assess', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload)
+      });
+      const data = await r.json().catch(() => ({}));
+      if (!r.ok || !data.brief) throw new Error(data.error || 'No brief returned.');
+      briefEl.innerHTML = data.brief.split(/\n\s*\n/).map(p => '<p>' + p.replace(/</g,'&lt;').replace(/\n/g,' ') + '</p>').join('');
+      const disc = document.getElementById('disc');
+      if (data.discovery) {
+        const d = data.discovery; const esc = t => String(t||'').replace(/</g,'&lt;');
+        document.getElementById('disc-host').textContent = d.hostname;
+        document.getElementById('disc-score').textContent = d.score;
+        const pr = document.getElementById('disc-probe');
+        if (d.probe && d.probe.found) pr.innerHTML = 'When an AI assistant searched for you, it found the business and described it as: <em>' + esc(d.probe.summary) + '</em>' + (d.probe.site_found ? ' Your own site was among what it read.' : ' Your own site was <b>not</b> among what it read, which means it is describing you from other people\'s pages.');
+        else if (d.probe) pr.textContent = 'When an AI assistant searched for you by name, it did not find the business. Right now you are invisible to that kind of query.';
+        else pr.textContent = 'The live search probe could not run this time; the score below reflects the technical checks only.';
+        document.getElementById('disc-findings').innerHTML = d.findings.map(f =>
+          '<li><span class="pts' + (f.points===0?' zero':'') + '">' + f.points + '/' + f.max + '</span><div><b>' + esc(f.label) + '</b>' + esc(f.detail) + '</div></li>').join('')
+          + (d.visibility ? '<li><span class="pts' + (d.visibility.points===0?' zero':'') + '">' + d.visibility.points + '/' + d.visibility.max + '</span><div><b>Live search probe</b>' + (d.visibility.ran ? 'Points for being found at all, and for your own site being among the sources.' : 'Probe did not run.') + '</div></li>' : '');
+        disc.style.display = 'block';
+      } else { disc.style.display = 'none'; }
+      result.style.display = 'block';
+      result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } catch (err) {
+      status.textContent = err.message + ' If this keeps happening, use the contact form on the main page.';
+      status.className = 'status err';
+    } finally {
+      btn.disabled = false; btn.textContent = 'Write my brief';
+      if (window.turnstile && tsDiv && document.body.contains(tsDiv)) window.turnstile.reset();
+    }
+  });
+</script>
+
+</body>
+</html>
