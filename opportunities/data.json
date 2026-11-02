@@ -1,88 +1,7 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "count": 60,
  "items": [
-  {
-   "title": "Bayesian Dosing Software",
-   "url": "https://sam.gov/workspace/contract/opp/6a2ae11e5b3f44058417ab61668b767a/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "UT",
-   "due": "Nov 09",
-   "summary": "Request for Quote (RFQ) #: 36C25927Q0009 Bayesian-Guided Dosing Software (PrecisePK\u00ae or equivalent) (i) This is a combined synopsis/solicitation for commercial services prepared\u2026",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-09",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "Data Erasure- RFP",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035268:T",
-   "buyer": "Shared Services Canada",
-   "region": "*Canada",
-   "due": "Nov 09",
-   "summary": "Provide enterprise data erasure software for Canadian government departments.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-09",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Research and Advisory Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-950-7075770",
-   "buyer": "Department of Citizenship & Immigration (IRCC)",
-   "region": "*Canada *National Capital Region (NCR)",
-   "due": "Nov 09",
-   "summary": "Provide specialized IT research and advisory services for IRCC decision-making and strategy.",
-   "tags": [
-    "IT & software",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-09",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "NGATS SOFTWARE SUPPORT",
-   "url": "https://sam.gov/workspace/contract/opp/bada5be5e6864a60ba169db29393bc6d/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "NJ",
-   "due": "Nov 09",
-   "summary": "Next Generation Automated Test System software support and maintenance contractor.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-09",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "Hand Held Terminals / SOTI Software Requirement",
-   "url": "https://sam.gov/workspace/contract/opp/9bfde64670ac41dfb6cf7b38f160ca3d/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Nov 09",
-   "summary": "Please see attached.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-09",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "Solicitation for subscription to software for pathology laboratory medicine services.",
    "url": "https://sam.gov/workspace/contract/opp/c3f014d51b9a42719e2fbfceb341d406/view",
@@ -247,20 +166,53 @@
    "category": "IT & software"
   },
   {
-   "title": "Hospital Communications Support",
-   "url": "https://sam.gov/workspace/contract/opp/f4008c25a6024723bec93d2de70d059e/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Nov 09",
-   "summary": "Please refer to revised documents and questions and answers before submitting your proposal. New due date 09 November 2026. Walter Reed National Military Medical Center (WRNMMC)\u2026",
+   "title": "User Testing Software Platform for User Experience Testing",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
+   "buyer": "Canada Revenue Agency (CRA)",
+   "region": "*Ottawa",
+   "due": "Nov 27",
+   "summary": "Provide user testing software platform for CRA website user experience testing.",
    "tags": [
-    "marketing & communications"
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
+   "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "PA",
+   "due": "Nov 27",
+   "summary": "DLA Troop Support conducts market research on commercial web-based ordering systems and eMarketplace platforms.",
+   "tags": [
+    "IT & software"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-11-09",
+   "due_iso": "2026-11-27",
    "country": "US",
-   "category": "marketing & communications"
+   "category": "IT & software"
+  },
+  {
+   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
+   "url": "https://www.grants.gov/search-results-detail/355439",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 04",
+   "summary": "Research software engineer awards excluding clinical trials.",
+   "tags": [
+    "IT & software",
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "category": "IT & software"
   },
   {
    "title": "Domestic Datalink Services (DDLS) FY 2027 Industry Day December 8-10, 2026",
@@ -293,22 +245,6 @@
    "due_iso": "2026-11-20",
    "country": "US",
    "category": "marketing & communications"
-  },
-  {
-   "title": "Specialist in Wargame Design and Facilitation",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-293-7537227",
-   "buyer": "Department of National Defence (DND)",
-   "region": "",
-   "due": "Nov 09",
-   "summary": "Specialist to design and facilitate military wargame for Exercise MAPLE LEAF PAJUK 2027.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-09",
-   "country": "CA",
-   "category": "consulting & strategy"
   },
   {
    "title": "Re-solicitation_ EW038-261403_A & E Services for Cambridge Bay Wharf Repair Work, Cambridge Bay, Nunavut",
@@ -521,36 +457,20 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Global Macroeconomic Software Licenses",
-   "url": "https://sam.gov/workspace/contract/opp/0d961fc227d34d4da9a895f941e48a1e/view",
-   "buyer": "TREASURY, DEPARTMENT OF THE",
-   "region": "DC",
-   "due": "Nov 09",
-   "summary": "See attached combined synopsis/solicitation.",
+   "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Manitoba",
+   "due": "Dec 02",
+   "summary": "Provide farm debt mediation and financial counselling services in Manitoba.",
    "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-09",
-   "country": "US",
-   "category": "data & AI"
-  },
-  {
-   "title": "RFP 23240-270241 - High temperature resistivity setup system",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029230?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Ottawa",
-   "due": "Nov 09",
-   "summary": "Supply high temperature resistivity setup system with software and accessories.",
-   "tags": [
-    "data & AI"
+    "consulting & strategy"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-09",
+   "due_iso": "2026-12-02",
    "country": "CA",
-   "category": "data & AI"
+   "category": "consulting & strategy"
   },
   {
    "title": "F-35 JPO Enterprise Data Science and Analytics Support",
@@ -666,6 +586,22 @@
    "category": "data & AI"
   },
   {
+   "title": "USAC RFP: Enterprise Data Platform",
+   "url": "https://sam.gov/workspace/contract/opp/0da53662bd6d414595d074c58b58c486/view",
+   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "Enterprise data platform system for FCC's Universal Service Administrative Company.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
    "title": "Creative Exhibit Design Services",
    "url": "https://sam.gov/workspace/contract/opp/d3c866b6104a4486a4adb5b4b990de00/view",
    "buyer": "LIBRARY OF CONGRESS",
@@ -695,6 +631,22 @@
    "value": "",
    "scope": "US state & local",
    "due_iso": "2026-11-18",
+   "country": "US",
+   "category": "design & creative"
+  },
+  {
+   "title": "Graphic Design Support Services for the U. S. Department of Transportation (DOT)",
+   "url": "https://sam.gov/workspace/contract/opp/9eebdecf3ef84e91b8f32a998178b395/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 03",
+   "summary": "This Solicitation's resulting contract-awardee-company will provide Graphic Design Support Services for the U. S. Department of Transportation (DOT). This Solicitation is a\u2026",
+   "tags": [
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-03",
    "country": "US",
    "category": "design & creative"
   },
@@ -828,20 +780,52 @@
    "category": "construction & facilities"
   },
   {
-   "title": "DA10--Steris Software Connectivity",
-   "url": "https://sam.gov/workspace/contract/opp/1bacf8f1d7b44f468fc1b0573ca55478/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 09",
-   "summary": "PRE-SOLICITATION NOTICE OF INTENT TO SOLE SOURCE Department of Veterans Affairs (VA) Network Contracting Office (NCO 21) intends to award a sole source, firm fixed price contract\u2026",
+   "title": "CMMA Composite Repair Shelter",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Canada *Nova Scotia",
+   "due": "Nov 27",
+   "summary": "Design, manufacture and deliver clean room composite repair shelter for aircraft maintenance at 14 Wing Greenwood, Nova Scotia.",
    "tags": [
-    "health & human services"
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "A-E Services for Electron Injector Complex",
+   "url": "https://sam.gov/workspace/contract/opp/c934a56d667544a49b68a176669afdf0/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "NY",
+   "due": "Nov 30",
+   "summary": "Architecture and engineering design services for electron injector complex at Brookhaven National Labs.",
+   "tags": [
+    "construction & facilities"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-11-09",
+   "due_iso": "2026-11-30",
    "country": "US",
-   "category": "health & human services"
+   "category": "construction & facilities"
+  },
+  {
+   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
+   "buyer": "Design and Construction",
+   "region": "New York, NY",
+   "due": "Dec 03",
+   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US state & local",
+   "due_iso": "2026-12-03",
+   "country": "US",
+   "category": "construction & facilities"
   },
   {
    "title": "Data Coordinating Center for the Aging and Alzheimer\u2019s Disease Mouse Brain Atlas (AD-MBA) (U24 Clinical Trial Not Allowed)",
@@ -874,22 +858,6 @@
    "due_iso": "2026-11-17",
    "country": "US",
    "category": "health & human services"
-  },
-  {
-   "title": "Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)",
-   "url": "https://www.grants.gov/search-results-detail/360458",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Nov 09",
-   "summary": "",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-09",
-   "country": "US",
-   "category": "research & evaluation"
   },
   {
    "title": "CDC Advancing Nutrition, Physical Activity, and Obesity and Chronic Disease Prevention through Epidemiology, Surveillance and Data Modernization",
@@ -970,6 +938,38 @@
    "due_iso": "2026-11-16",
    "country": "CA",
    "category": "research & evaluation"
+  },
+  {
+   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
+   "url": "https://www.grants.gov/search-results-detail/359150",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Grants",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
+   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "WA",
+   "due": "Dec 01",
+   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "category": "other"
   }
  ]
 }
