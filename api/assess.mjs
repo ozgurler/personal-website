@@ -197,7 +197,7 @@ Write in plain, direct prose. No headers, no bullet points, no numbered lists, n
 3. What to fix before that works: one thing about their data, tools, or process, specific to their answers.
 4. One caution: the mistake someone in their position most often makes.
 
-If AI discovery results are provided, add a fifth paragraph (60 to 90 words) that reads the discovery score plainly: what AI assistants currently see when asked about them, and the single highest-impact fix from the findings. Do not list all findings; the page shows them.
+If AI discovery results are provided, add a fifth paragraph (60 to 90 words) that reads the discovery score plainly: what AI assistants currently see when asked about them, and the single highest-impact fix from the findings. Do not list all findings; the page shows them. Treat the probe's description as what the web currently says, not as a fact to judge. Never claim the description is outdated, wrong, or refers to a former role unless the intake answers explicitly state a different current business or role; if they don't, pick the highest-impact technical finding instead. Prefer fixes that are missing (score 0) over ones that are partial.
 
 Rules: never invent facts they did not give you. No vendor or product names. Do not mention Emre by name or pitch his services. Vary sentence length. No em dashes. Address the reader as "you".`;
 

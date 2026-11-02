@@ -1,0 +1,42 @@
+# Emre Ozgurler
+
+> Electronics engineer turned sales professional in Portland, Oregon. Ten years in technical sales across IT, SaaS, and AI. Builds go-to-market systems (signal-based prospecting, outbound email infrastructure, AI workflows) and helps small and mid-sized businesses with AI implementation, CRM selection and migration, managed IT, and websites.
+
+Site: https://www.emreozgurler.com/
+LinkedIn: https://www.linkedin.com/in/emre-ozgurler
+Location: Portland, OR, United States
+
+## What I do
+
+- AI implementation and automation for small businesses: finding repetitive work and replacing it with assistants and workflows that keep a human on the send button
+- CRM selection and migration (HubSpot, Salesforce, Zoho, Microsoft Dynamics)
+- Managed IT services: cybersecurity, cloud, licensing, support
+- Website design and modernization
+- Go-to-market systems: signal-based prospecting, outbound email infrastructure, AI receptionist prospecting
+
+## Free tool
+
+- [AI readiness and discovery check](https://www.emreozgurler.com/ai-readiness.html): seven questions, a short written brief, and a score for how discoverable a business is to AI assistants
+
+## Products I built
+
+- İK SoruCevap (https://agiturk.com): HR document Q&A assistant on a self-hosted model, for companies in Turkey
+- Dünyada Türk (https://dunyadaturk.com): bilingual community forum for the Turkish diaspora
+- Debutya (https://debutya.com): community forum for Turkish pop music fans
+- Soda Pop 1, 2, 3 and Clap! Clap!: mobile games on Google Play and the App Store
+
+## Insights
+
+- [From Go-to-Market to Go-to-Market Engineering](https://www.emreozgurler.com/insights/go-to-market-engineering.html)
+- [The AI Words People Use Without Explaining Them](https://www.emreozgurler.com/insights/ai-terms-explained.html)
+- [5 AI Automations Any SMB Can Deploy This Quarter](https://www.emreozgurler.com/insights/5-ai-automations-smb.html)
+- [Identity Under Attack: Phishing and Dark Web Monitoring Explained](https://www.emreozgurler.com/insights/phishing-dark-web-monitoring.html)
+- [Pipeline on Autopilot: BD Automation with Apollo.io and Claude](https://www.emreozgurler.com/insights/apollo-claude-bd-automation.html)
+- [Make Your Claude Plan Go Further](https://www.emreozgurler.com/insights/claude-usage-limits-prompting.html)
+- [Get Hired with Claude: A Job Seeker's Field Guide](https://www.emreozgurler.com/insights/get-hired-with-claude.html)
+- [FlyOnIT Expands in Portland](https://www.emreozgurler.com/insights/flyonit-portland-expansion.html)
+- [All insights](https://www.emreozgurler.com/insights/index.html)
+
+## Contact
+
+- Contact form: https://www.emreozgurler.com/#contact
