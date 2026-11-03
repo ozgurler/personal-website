@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "count": 60,
  "items": [
   {
@@ -149,6 +149,22 @@
    "category": "IT & software"
   },
   {
+   "title": "Computer Equipment Peripherals",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-351-55979873",
+   "buyer": "House of Commons",
+   "region": "*Ottawa",
+   "due": "Nov 24",
+   "summary": "Gather information on computer equipment peripherals meeting House of Commons requirements.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-418-22395949",
    "buyer": "Department of Fisheries and Oceans (DFO)",
@@ -215,22 +231,6 @@
    "category": "IT & software"
   },
   {
-   "title": "Domestic Datalink Services (DDLS) FY 2027 Industry Day December 8-10, 2026",
-   "url": "https://sam.gov/workspace/contract/opp/b7970fad82864fada92c334ab901d2b0/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 10",
-   "summary": "Domestic Datalink Services (DDLS) FY2027 Industry Day December 8-10, 2026 1.1 Industry Day Overview This Industry Day event is for market research purposes only in accordance with\u2026",
-   "tags": [
-    "marketing & communications"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-10",
-   "country": "US",
-   "category": "marketing & communications"
-  },
-  {
    "title": "AMS Designated Laboratory Meat Testing Services (ADL)",
    "url": "https://sam.gov/workspace/contract/opp/e0c2f41782494c99866861e101363ac7/view",
    "buyer": "AGRICULTURE, DEPARTMENT OF",
@@ -245,23 +245,6 @@
    "due_iso": "2026-11-20",
    "country": "US",
    "category": "marketing & communications"
-  },
-  {
-   "title": "Re-solicitation_ EW038-261403_A & E Services for Cambridge Bay Wharf Repair Work, Cambridge Bay, Nunavut",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029754?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Cambridge Bay",
-   "due": "Nov 10",
-   "summary": "Engineering consultants needed for Cambridge Bay Wharf repair options, recommendations, and construction.",
-   "tags": [
-    "consulting & strategy",
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-10",
-   "country": "CA",
-   "category": "consulting & strategy"
   },
   {
    "title": "TBIPS Grants and Contributions Transformation Initiative (GCTI) \u2013 P.1 Change Management Consultants",
@@ -409,6 +392,22 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "NPP - Learning Support Centre Support Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-683-90415336",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Remote Offsite *Canada",
+   "due": "Nov 23",
+   "summary": "Business consulting and change management services for DND Learning Support Centre.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "RFP 0D160-243955 Memorial Grant Program for First Responders",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029560?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -473,20 +472,37 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "F-35 JPO Enterprise Data Science and Analytics Support",
-   "url": "https://sam.gov/workspace/contract/opp/722a347c18cf4e9bbf866b7ce8f43f22/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Nov 10",
-   "summary": "Please look at the attached documents for more information regarding this RFI.",
+   "title": "EW699-260375D-PRAIRIES Multidisciplinary Environmental Consulting Services RFSO",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029078?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Dec 04",
+   "summary": "Environmental consulting services for contaminated sites and remediation across Prairie Provinces.",
    "tags": [
-    "data & AI"
+    "consulting & strategy",
+    "research & evaluation"
    ],
    "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-10",
-   "country": "US",
-   "category": "data & AI"
+   "scope": "Canada",
+   "due_iso": "2026-12-04",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Mediator Consultant - Saskatchewan for the Farm Debt Mediation Service (FDMS)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-313-71346617",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Saskatchewan",
+   "due": "Dec 08",
+   "summary": "Financial counselling and mediation services for farmers in debt across Saskatchewan.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-08",
+   "country": "CA",
+   "category": "consulting & strategy"
   },
   {
    "title": "Cloud Based Data Management, Analytics, and Reporting Solution to Replace SAS",
@@ -651,23 +667,6 @@
    "category": "design & creative"
   },
   {
-   "title": "Army Continuing Medical Education (CME) Reaccreditation",
-   "url": "https://sam.gov/workspace/contract/opp/3cbb9f4e5c614bd982daefc133fa7c6f/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Nov 10",
-   "summary": "Continuing medical education reaccreditation consultative assistance and guidance for Army compliance.",
-   "tags": [
-    "training & education",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-10",
-   "country": "US",
-   "category": "training & education"
-  },
-  {
    "title": "Homeland Security and Innovation Center (HSIC) - Executive Education Seminar Services",
    "url": "https://sam.gov/workspace/contract/opp/939efc50daee4a42a1d9892a0df8bee4/view",
    "buyer": "DEPT OF DEFENSE",
@@ -780,6 +779,23 @@
    "category": "construction & facilities"
   },
   {
+   "title": "USSS Construction Management & Engineering Services",
+   "url": "https://sam.gov/workspace/contract/opp/656968622b4c49c7b0d8adde31c5aa18/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 20",
+   "summary": "USSS seeks qualified construction management firms for future construction, renovation, and design-management support.",
+   "tags": [
+    "construction & facilities",
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
    "title": "CMMA Composite Repair Shelter",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
    "buyer": "Department of National Defence (DND)",
@@ -828,20 +844,20 @@
    "category": "construction & facilities"
   },
   {
-   "title": "Data Coordinating Center for the Aging and Alzheimer\u2019s Disease Mouse Brain Atlas (AD-MBA) (U24 Clinical Trial Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/359740",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Nov 10",
-   "summary": "",
+   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
+   "buyer": "Transportation",
+   "region": "New York, NY",
+   "due": "Dec 04",
+   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
    "tags": [
-    "health & human services"
+    "construction & facilities"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-10",
+   "scope": "US state & local",
+   "due_iso": "2026-12-04",
    "country": "US",
-   "category": "health & human services"
+   "category": "construction & facilities"
   },
   {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
@@ -858,22 +874,6 @@
    "due_iso": "2026-11-17",
    "country": "US",
    "category": "health & human services"
-  },
-  {
-   "title": "CDC Advancing Nutrition, Physical Activity, and Obesity and Chronic Disease Prevention through Epidemiology, Surveillance and Data Modernization",
-   "url": "https://sam.gov/workspace/contract/opp/7d7b3dac7d144b51a417b2c64e90b0d0/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "GA",
-   "due": "Nov 10",
-   "summary": "Centers for Disease Control is issuing this synopsis as a means of conducting market research to identify parties having an interest in and the resources to support this\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-10",
-   "country": "US",
-   "category": "research & evaluation"
   },
   {
    "title": "SILVAH software coding",
