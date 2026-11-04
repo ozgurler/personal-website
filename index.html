@@ -17,9 +17,18 @@
 <meta name="twitter:title" content="Emre Ozgurler — I sell technology I can take apart.">
 <meta name="twitter:description" content="Engineer-turned-seller in Portland, OR. Technical sales, go-to-market systems, AI implementation, CRM, managed IT.">
 <meta name="twitter:image" content="https://www.emreozgurler.com/og-image.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/Archivo-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/IBMPlexSans-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Archivo';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/Archivo-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/Archivo-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/Archivo-700.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/Archivo-800.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/IBMPlexMono-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/IBMPlexMono-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/IBMPlexSans-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/IBMPlexSans-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/IBMPlexSans-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}</style>
+
 <style>
   :root{
     --ink:#0E1B2C;
@@ -82,8 +91,8 @@
   .hero-cta{display:flex;gap:1rem;flex-wrap:wrap}
   .btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;
        padding:.9rem 1.6rem;border-radius:3px;transition:transform .15s,background .2s,color .2s;display:inline-block}
-  .btn-solid{background:var(--copper);color:#fff}
-  .btn-solid:hover{background:var(--copper-deep);transform:translateY(-2px)}
+  .btn-solid{background:var(--copper-deep);color:#fff}
+  .btn-solid:hover{background:#7E4C1D;transform:translateY(-2px)}
   .btn-ghost{border:1px solid var(--trace-dark);color:#B9C4CE}
   .btn-ghost:hover{border-color:var(--copper);color:var(--copper);transform:translateY(-2px)}
 
@@ -163,15 +172,14 @@
   .svc-card:hover{border-color:var(--copper)}
   .svc-card .svc-id{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--copper-deep)}
   .svc-card h3{font-family:var(--display);font-weight:700;font-size:1.15rem;margin:.5rem 0 .55rem}
-  .ready-callout{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;
-    background:var(--ink);color:#E8ECEF;border-radius:6px;padding:1.5rem 1.8rem;margin:0 0 1.4rem;text-decoration:none;
-    border-left:4px solid var(--copper)}
-  .ready-callout .rc-eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:.4rem}
-  .ready-callout .rc-title{font-family:var(--display);font-weight:700;font-size:1.1rem;line-height:1.3;max-width:34em}
-  .ready-callout .rc-sub{font-size:.88rem;color:#B9C4CE;margin-top:.35rem;max-width:40em}
-  .ready-callout .rc-btn{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
-    background:var(--copper);color:#fff;padding:.85rem 1.4rem;border-radius:3px;white-space:nowrap}
-  .ready-callout:hover .rc-btn{background:var(--copper-deep)}
+  .tools{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:0 0 1.6rem}
+  .tool-card{display:flex;flex-direction:column;gap:.35rem;background:var(--ink);color:#E8ECEF;border-radius:6px;padding:1.5rem 1.7rem;text-decoration:none;border-left:4px solid var(--copper)}
+  .tool-card .rc-eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper)}
+  .tool-card .rc-title{font-family:var(--display);font-weight:700;font-size:1.1rem;line-height:1.3}
+  .tool-card .rc-sub{font-size:.88rem;color:#B9C4CE}
+  .tool-card .rc-btn{align-self:flex-start;margin-top:.8rem;font-family:var(--mono);font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;background:var(--copper-deep);color:#fff;padding:.75rem 1.3rem;border-radius:3px}
+  .tool-card:hover .rc-btn{background:#7E4C1D}
+  @media(max-width:760px){.tools{grid-template-columns:1fr}}
   .svc-card p{font-size:.94rem;color:#33414F}
   .svc-card p a{color:var(--copper-deep);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(192,122,58,.4)}
   .svc-card p a:hover{color:var(--copper)}
@@ -280,7 +288,7 @@
   .contact h2{color:#fff;margin-bottom:.8rem}
   .contact p{max-width:32em;margin:0 auto 2rem;color:#B9C4CE}
   footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
-         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#8FA0B0}
 
   @media(prefers-reduced-motion:reduce){
     .hero-trace .live{animation:none;stroke-dashoffset:0}
@@ -333,6 +341,10 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script type="speculationrules">
+{"prefetch":[{"source":"list","urls":["insights/index.html","ai-readiness.html","website-check.html"],"eagerness":"moderate"}],
+ "prerender":[{"source":"document","where":{"href_matches":"/insights/*"},"eagerness":"moderate"}]}
+</script>
 </head>
 <body>
 
@@ -453,14 +465,20 @@
 <section id="services">
   <div class="wrap">
     <h2>What I can do for you</h2>
-    <a class="ready-callout" href="ai-readiness.html">
-      <div>
-        <div class="rc-eyebrow">New · AI readiness check</div>
-        <div class="rc-title">Not sure where your business stands with AI? Three minutes, seven questions, one honest written brief.</div>
-        <div class="rc-sub">Where you stand, the first automation worth trying, and what to fix before it works. No email required, nothing stored.</div>
-      </div>
-      <span class="rc-btn">Take the check</span>
-    </a>
+    <div class="tools">
+      <a class="tool-card" href="ai-readiness.html">
+        <div class="rc-eyebrow">Free tool · AI readiness</div>
+        <div class="rc-title">Where does your business stand with AI?</div>
+        <div class="rc-sub">Seven questions, one honest written brief: the first automation worth trying and what to fix before it works.</div>
+        <span class="rc-btn">Take the check</span>
+      </a>
+      <a class="tool-card" href="website-check.html">
+        <div class="rc-eyebrow">Free tool · Website &amp; AI visibility</div>
+        <div class="rc-title">Can search engines and AI assistants find you?</div>
+        <div class="rc-sub">Three scores (technical SEO, mobile speed, AI visibility) and a short report on the two fixes that matter most. About a minute.</div>
+        <span class="rc-btn">Check my site</span>
+      </a>
+    </div>
     <div class="svc-grid">
 
       <article class="svc-card">
@@ -483,7 +501,7 @@
 
       <article class="svc-card">
         <h3>Website design &amp; modernization</h3>
-        <p>Fast, modern, mobile-first websites, built new or rebuilt from an aging design. Clean code, clear messaging, and a site that turns visitors into inquiries instead of quietly losing them.</p>
+        <p>Fast, modern, mobile-first websites, built new or rebuilt from an aging design. Clean code, clear messaging, and a site that turns visitors into inquiries instead of quietly losing them. Curious how yours scores? <a href="website-check.html">Run the free site check</a>.</p>
         <div class="svc-tags"><span>New builds</span><span>Redesigns</span><span>Performance</span><span>SEO basics</span></div>
       </article>
 

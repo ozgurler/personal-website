@@ -14,9 +14,10 @@ Location: Portland, OR, United States
 - Website design and modernization
 - Go-to-market systems: signal-based prospecting, outbound email infrastructure, AI receptionist prospecting
 
-## Free tool
+## Free tools
 
 - [AI readiness and discovery check](https://www.emreozgurler.com/ai-readiness.html): seven questions, a short written brief, and a score for how discoverable a business is to AI assistants
+- [Website and AI visibility check](https://www.emreozgurler.com/website-check.html): technical SEO, mobile page speed via PageSpeed, and whether AI assistants find the business, with a short written report
 
 ## Products I built
 

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website &amp; AI Visibility Check — Emre Ozgurler</title>
+<meta name="description" content="Free website check for small businesses: technical SEO and crawlability, Core Web Vitals via PageSpeed, and whether AI assistants can find you. Three scores and a short written report with the two fixes that matter most.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.emreozgurler.com/website-check.html">
+<meta property="og:title" content="Website &amp; AI Visibility Check — three scores, two fixes, one honest report">
+<meta property="og:description" content="Technical SEO, page speed, and whether AI assistants find your business. Free, about a minute.">
+<meta property="og:image" content="https://www.emreozgurler.com/og-image.png">
+<link rel="canonical" href="https://www.emreozgurler.com/website-check.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/Archivo-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/IBMPlexSans-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Archivo';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/Archivo-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/Archivo-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/Archivo-700.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/Archivo-800.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/IBMPlexMono-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/IBMPlexMono-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/IBMPlexSans-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/IBMPlexSans-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/IBMPlexSans-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}</style>
+
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<style>
+  :root{
+    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
+    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0; --trace-dark:#2A4361;
+    --good:#2F7D4F; --warn:#B8731C; --bad:#9A3B32;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.7;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none}
+  nav a.back:hover{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:760px;margin:0 auto}
+  .meta{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.9rem}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.7rem);line-height:1.15;letter-spacing:-.01em;margin-bottom:18px}
+  header p{color:#B9C4CE;max-width:40em;font-size:1.05rem}
+
+  main{padding:clamp(2.5rem,7vh,4rem) clamp(1.25rem,5vw,4rem)}
+  .q{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;margin-bottom:1rem}
+  .q label.t{display:block;font-family:var(--display);font-weight:700;font-size:1.02rem;margin-bottom:.6rem}
+  .q .hint{font-size:.85rem;color:var(--slate);margin:-.3rem 0 .7rem}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+  @media(max-width:560px){.grid2{grid-template-columns:1fr}}
+  label.sm{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.3rem}
+  input[type=text],input[type=email]{width:100%;border:1px solid var(--line);border-radius:4px;padding:.75rem .9rem;font-family:var(--body);font-size:.95rem;background:#fff}
+  input:focus{outline:none;border-color:var(--copper)}
+  .hp{position:absolute;left:-5000px}
+  .actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.2rem}
+  .btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;border:none;cursor:pointer;background:var(--copper-deep);color:#fff;padding:.9rem 1.6rem;border-radius:3px}
+  .btn:hover{background:#7E4C1D} .btn:disabled{opacity:.6;cursor:wait}
+  .note{font-family:var(--mono);font-size:.68rem;color:var(--slate)}
+  .status{display:none;margin-top:1rem;padding:.8rem 1rem;border-radius:4px;font-size:.92rem}
+  .status.err{display:block;background:rgba(190,70,60,.08);color:var(--bad);border:1px solid rgba(190,70,60,.3)}
+  .progress{display:none;margin-top:1rem;font-family:var(--mono);font-size:.75rem;color:var(--slate)}
+
+  #result{display:none;margin-top:2.2rem}
+  .scores{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:1.2rem}
+  .sc{background:#fff;padding:1.2rem 1.3rem}
+  .sc .lbl{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate)}
+  .sc .n{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1.1;margin:.2rem 0}
+  .sc .n small{font-size:1rem;color:var(--slate);font-weight:600}
+  .sc .sub{font-size:.82rem;color:var(--slate)}
+  .n.good{color:var(--good)} .n.warn{color:var(--warn)} .n.bad{color:var(--bad)}
+  @media(max-width:640px){.scores{grid-template-columns:1fr}}
+
+  .panel{background:#fff;border:1px solid var(--line);border-left:4px solid var(--copper);border-radius:6px;padding:1.4rem 1.6rem;margin-bottom:1.2rem}
+  .panel h3{font-family:var(--display);font-weight:700;font-size:1.05rem;margin-bottom:.7rem}
+  .findings{list-style:none;display:grid;gap:.4rem}
+  .findings li{display:grid;grid-template-columns:3.2rem 1fr;gap:.8rem;font-size:.9rem;color:#33414F;align-items:start}
+  .findings .pts{font-family:var(--mono);font-size:.75rem;color:var(--good);padding-top:.15rem;white-space:nowrap}
+  .findings .pts.part{color:var(--warn)} .findings .pts.zero{color:var(--bad)}
+  .findings b{color:var(--ink);display:block;font-size:.92rem}
+  .findings .grp{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin:.6rem 0 .2rem;grid-column:1/-1}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1rem;font-size:.9rem;color:#33414F}
+  .kv dt{font-family:var(--mono);font-size:.72rem;color:var(--slate);padding-top:.2rem;white-space:nowrap}
+  .probe{font-size:.95rem;color:#33414F;padding:.8rem 1rem;background:var(--paper);border-radius:4px;margin-bottom:.8rem}
+  .muted{font-size:.85rem;color:var(--slate)}
+
+  .report{background:var(--ink);color:#E8ECEF;border-radius:6px;padding:1.8rem 2rem}
+  .report .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--copper);margin-bottom:1rem}
+  .report p{color:#E8ECEF;margin-bottom:1rem;max-width:44em} .report p:last-child{margin-bottom:0}
+  .after{margin-top:1.4rem;font-size:.95rem;color:#33414F}
+  .after a{color:var(--copper-deep);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(192,122,58,.4)}
+  .after a:hover{color:var(--copper)}
+  .upgrade{margin-top:1.2rem;background:#fff;border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;font-size:.95rem;color:#33414F}
+  .upgrade b{color:var(--ink)}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#8FA0B0}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html"><b>EO</b> / emre.ozgurler</a>
+  <a class="back" href="index.html">← Back to site</a>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="meta">Website &amp; AI visibility check</div>
+    <h1>Three scores, two fixes, one honest report</h1>
+    <p>Enter your website and get three numbers: how well search engines and AI crawlers can read it, how fast it loads on a phone, and whether an AI assistant actually finds your business when asked. Then a short written report on the two fixes worth doing first. Takes about a minute. The report comes to me too, so I can follow up if there's something useful to add.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <form id="f">
+      <div class="q">
+        <label class="t">Your website</label>
+        <p class="hint">The homepage is what gets checked. Business name and city sharpen the AI visibility probe.</p>
+        <label class="sm" for="website">Website</label>
+        <input id="website" name="website" type="text" inputmode="url" maxlength="200" placeholder="e.g. ridgelinedental.com" required>
+        <div class="grid2" style="margin-top:.7rem">
+          <div><label class="sm" for="business">Business name</label><input id="business" name="business" type="text" maxlength="120" placeholder="e.g. Ridgeline Dental"></div>
+          <div><label class="sm" for="city">City</label><input id="city" name="city" type="text" maxlength="80" placeholder="e.g. Portland, OR"></div>
+        </div>
+      </div>
+      <div class="q">
+        <label class="t">Where to send a copy</label>
+        <div class="grid2">
+          <div><label class="sm" for="name">Your name</label><input id="name" name="name" type="text" maxlength="100" autocomplete="name" required></div>
+          <div><label class="sm" for="email">Work email</label><input id="email" name="email" type="email" maxlength="160" autocomplete="email" required></div>
+        </div>
+      </div>
+      <input class="hp" type="text" name="website_hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-size="flexible"></div>
+      <div class="actions">
+        <button class="btn" type="submit" id="go">Run the check</button>
+        <span class="note">About 30 to 60 seconds. Nothing is sold or shared.</span>
+      </div>
+      <div class="progress" id="progress"></div>
+      <div class="status" id="status" role="status"></div>
+    </form>
+
+    <section id="result" aria-live="polite">
+      <div class="scores">
+        <div class="sc"><div class="lbl">Technical SEO</div><div class="n" id="s-seo">–<small>/100</small></div><div class="sub">Crawlability, on-page basics, structured data</div></div>
+        <div class="sc"><div class="lbl">Mobile performance</div><div class="n" id="s-perf">–<small>/100</small></div><div class="sub" id="s-perf-sub">Google PageSpeed, mobile</div></div>
+        <div class="sc"><div class="lbl">AI visibility</div><div class="n" id="s-ai">–<small>/100</small></div><div class="sub">What an assistant finds when it searches</div></div>
+      </div>
+
+      <div class="panel" id="p-ai">
+        <h3>What an AI assistant found</h3>
+        <p class="probe" id="ai-probe"></p>
+        <dl class="kv" id="ai-kv"></dl>
+      </div>
+
+      <div class="panel" id="p-perf">
+        <h3>Page speed on a phone</h3>
+        <dl class="kv" id="perf-kv"></dl>
+        <p class="muted" id="perf-note" style="margin-top:.6rem"></p>
+      </div>
+
+      <div class="panel">
+        <h3>Technical findings</h3>
+        <ul class="findings" id="findings"></ul>
+      </div>
+
+      <div class="report">
+        <div class="lbl">Your report</div>
+        <div id="report"></div>
+      </div>
+
+      <div class="upgrade"><b>Want the full audit?</b> This check reads your homepage. The full version runs a 40-point audit across the whole site: every page's speed, content quality, structured data, backlinks, local listings, and a prioritized plan. I run it and send the report within a business day. Reply to the copy of this report and say "full audit."</div>
+
+      <p class="after">Not sure what to do with the findings? <a href="index.html#contact">Send me a note</a>, or start with <a href="insights/ai-terms-explained.html">The AI Words People Use Without Explaining Them</a> if the AI visibility part was new.</p>
+    </section>
+  </div>
+</main>
+
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+
+<script>
+  const form=document.getElementById('f'), btn=document.getElementById('go'), status=document.getElementById('status'), prog=document.getElementById('progress'), result=document.getElementById('result');
+  const ts=document.querySelector('.cf-turnstile'); if(ts && ts.dataset.sitekey==='YOUR_TURNSTILE_SITE_KEY') ts.remove();
+  const esc=t=>String(t??'').replace(/</g,'&lt;');
+  const cls=n=>n==null?'':n>=80?'good':n>=50?'warn':'bad';
+  const setScore=(id,n,sub)=>{const el=document.getElementById(id); el.className='n '+cls(n); el.innerHTML=(n==null?'–':n)+'<small>/100</small>'; if(sub){document.getElementById(id+'-sub').textContent=sub;}};
+  const steps=['Fetching the homepage, robots.txt, sitemap, llms.txt…','Asking Google PageSpeed for mobile scores…','Having an assistant search for your business…','Writing the report…'];
+  let tick;
+
+  form.addEventListener('submit', async e=>{
+    e.preventDefault(); status.className='status'; status.textContent='';
+    if(!form.checkValidity()){form.reportValidity();return;}
+    const fd=new FormData(form);
+    const payload={website:fd.get('website'),business:fd.get('business'),city:fd.get('city'),name:fd.get('name'),email:fd.get('email'),website_hp:fd.get('website_hp'),turnstile_token:fd.get('cf-turnstile-response')||''};
+    btn.disabled=true; btn.textContent='Checking…'; let i=0; prog.style.display='block'; prog.textContent=steps[0]; tick=setInterval(()=>{i=Math.min(i+1,steps.length-1); prog.textContent=steps[i];},9000);
+    try{
+      const r=await fetch('/api/sitecheck',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      const d=await r.json().catch(()=>({}));
+      if(!r.ok||!d.report) throw new Error(d.error||'No report returned.');
+
+      setScore('s-seo', d.seo.score);
+      const p=d.performance||{};
+      if(p.skipped){ setScore('s-perf', null, 'Not measured: '+p.skipped); } else { setScore('s-perf', p.performance, 'Google PageSpeed, mobile'); }
+      setScore('s-ai', d.ai.score);
+
+      // AI panel
+      const pr=d.ai.probe;
+      const probeEl=document.getElementById('ai-probe'), kv=document.getElementById('ai-kv');
+      if(pr&&pr.found){ probeEl.innerHTML='Searched by name, an assistant found the business and describes it as: <em>'+esc(pr.summary)+'</em>'+(pr.site_found?' Your own site was among what it read.':' Your own site was <b>not</b> among what it read; it is describing you from other people\'s pages.'); }
+      else if(pr){ probeEl.textContent='Searched by name, an assistant did not find the business. For that kind of query you are currently invisible.'; }
+      else { probeEl.textContent='The search probe could not run this time; the score reflects what could be measured.'; }
+      kv.innerHTML = pr ? '<dt>Platforms</dt><dd>'+esc((pr.platforms||[]).join(', ')||'none found')+'</dd>'+'<dt>Competitors surfacing</dt><dd>'+esc((pr.competitors_named||[]).join(', ')||'none noted')+'</dd>' : '';
+
+      // Perf panel
+      const pk=document.getElementById('perf-kv'), pn=document.getElementById('perf-note');
+      if(p.skipped){ pk.innerHTML=''; pn.textContent='Performance could not be measured ('+esc(p.skipped)+'). The other two scores still stand.'; }
+      else{
+        pk.innerHTML='<dt>Lighthouse SEO</dt><dd>'+p.seo+'/100</dd><dt>Largest paint</dt><dd>'+esc(p.lcp)+'</dd><dt>Layout shift</dt><dd>'+esc(p.cls)+'</dd><dt>Blocking time</dt><dd>'+esc(p.tbt)+'</dd><dt>Real-user data</dt><dd>'+esc(p.fieldOverall||'not enough traffic yet')+'</dd>';
+        pn.textContent = (p.opportunities&&p.opportunities.length) ? 'Biggest savings: '+p.opportunities.join('; ') : 'No large speed opportunities flagged.';
+      }
+
+      // Findings grouped
+      const groups={crawl:'Crawlability',onpage:'On-page SEO',ai:'AI readability'}; let h='';
+      for(const g of ['crawl','onpage','ai']){ h+='<li class="grp">'+groups[g]+'</li>'; for(const f of d.seo.findings.filter(x=>x.group===g)){ const c=f.points===0?' zero':(f.points<f.max?' part':''); h+='<li><span class="pts'+c+'">'+f.points+'/'+f.max+'</span><div><b>'+esc(f.label)+'</b>'+esc(f.detail)+'</div></li>'; } }
+      document.getElementById('findings').innerHTML=h;
+
+      document.getElementById('report').innerHTML=d.report.split(/\n\s*\n/).map(x=>'<p>'+esc(x).replace(/\n/g,' ')+'</p>').join('');
+      result.style.display='block'; result.scrollIntoView({behavior:'smooth',block:'start'});
+    }catch(err){ status.textContent=err.message+' If this keeps happening, use the contact form on the main page.'; status.className='status err'; }
+    finally{ clearInterval(tick); prog.style.display='none'; btn.disabled=false; btn.textContent='Run the check'; if(window.turnstile&&ts&&document.body.contains(ts)) window.turnstile.reset(); }
+  });
+</script>
+</body>
+</html>
