@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "count": 60,
  "items": [
   {
@@ -85,12 +85,44 @@
    "category": "IT & software"
   },
   {
+   "title": "Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analyst \u2013 (Intermediate Level) for LVM Project (Logistics Vehicle Modernization)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-466-46809080",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 18",
+   "summary": "IT security threat and risk assessment analyst for Logistics Vehicle Modernization Project.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-18",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "IT Professional Services to Enhance and Deliver the Canada Disability Benefit Digital Solution",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-438-11905524",
    "buyer": "Department of Employment and Social Development (ESDC)",
    "region": "*Remote Offsite *Canada",
    "due": "Nov 20",
    "summary": "Provide IT professional services to enhance Canada Disability Benefit digital solution.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-20",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Communications Management and Monitoring Equipment",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-210-65256537",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Canada",
+   "due": "Nov 20",
+   "summary": "Communications management and monitoring equipment for unmanned aerial vehicles.",
    "tags": [
     "IT & software"
    ],
@@ -214,21 +246,20 @@
    "category": "IT & software"
   },
   {
-   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/355439",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "Research software engineer awards excluding clinical trials.",
+   "title": "TSPS \u2013 Five (5) Technical Writers",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-132-426816",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 18",
+   "summary": "Five technical writers for DRDC Editorial Office publications support.",
    "tags": [
-    "IT & software",
-    "research & evaluation"
+    "marketing & communications"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "IT & software"
+   "scope": "Canada",
+   "due_iso": "2026-11-18",
+   "country": "CA",
+   "category": "marketing & communications"
   },
   {
    "title": "AMS Designated Laboratory Meat Testing Services (ADL)",
@@ -424,6 +455,39 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "G9292-271166-B WS5755477339 TBIPS - PSIB - myEMS SAP Solution",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030493?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Remote Offsite *National Capital Region (NCR)",
+   "due": "Nov 24",
+   "summary": "Please note that late submissions will not be considered or accepted. This bid solicitation is being issued to satisfy the requirement of the Employment and Social Development\u2026",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "ET025-270925 \u2013 ECCC Lake of the Woods Outlet Capacity Study",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030463?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Kenora",
+   "due": "Nov 24",
+   "summary": "Civil engineering consulting for Lake of the Woods outlet capacity study.",
+   "tags": [
+    "consulting & strategy",
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-681-58483884",
    "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
@@ -456,55 +520,6 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Manitoba",
-   "due": "Dec 02",
-   "summary": "Provide farm debt mediation and financial counselling services in Manitoba.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "EW699-260375D-PRAIRIES Multidisciplinary Environmental Consulting Services RFSO",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029078?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Environmental consulting services for contaminated sites and remediation across Prairie Provinces.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Mediator Consultant - Saskatchewan for the Farm Debt Mediation Service (FDMS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-313-71346617",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Saskatchewan",
-   "due": "Dec 08",
-   "summary": "Financial counselling and mediation services for farmers in debt across Saskatchewan.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-08",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
    "title": "Cloud Based Data Management, Analytics, and Reporting Solution to Replace SAS",
    "url": "https://sam.gov/workspace/contract/opp/cb6c7ad94b1d4411b8ddfb19a54ea751/view",
    "buyer": "JUSTICE, DEPARTMENT OF",
@@ -517,6 +532,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-14",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "RFI CNET Reverse Engineering and AI",
+   "url": "https://sam.gov/workspace/contract/opp/fc8b659ae5fa467e9af04b49c6ab9c6c/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Nov 15",
+   "summary": "This RFI is to seek information in accordance with attached document. Please provide the answers to the attached question by noon est 15 Nov 2026.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-15",
    "country": "US",
    "category": "data & AI"
   },
@@ -566,6 +597,23 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-17",
+   "country": "CA",
+   "category": "data & AI"
+  },
+  {
+   "title": "North Atlantic Right Whale Density Model Outputs and Scientific Support for Entanglement Risk Assessment",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-944-67394540",
+   "buyer": "Department of Fisheries and Oceans (DFO)",
+   "region": "",
+   "due": "Nov 18",
+   "summary": "North Atlantic right whale density model outputs and scientific consultation for entanglement risk assessment.",
+   "tags": [
+    "data & AI",
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-18",
    "country": "CA",
    "category": "data & AI"
   },
@@ -651,38 +699,6 @@
    "category": "design & creative"
   },
   {
-   "title": "Graphic Design Support Services for the U. S. Department of Transportation (DOT)",
-   "url": "https://sam.gov/workspace/contract/opp/9eebdecf3ef84e91b8f32a998178b395/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 03",
-   "summary": "This Solicitation's resulting contract-awardee-company will provide Graphic Design Support Services for the U. S. Department of Transportation (DOT). This Solicitation is a\u2026",
-   "tags": [
-    "design & creative"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "design & creative"
-  },
-  {
-   "title": "Homeland Security and Innovation Center (HSIC) - Executive Education Seminar Services",
-   "url": "https://sam.gov/workspace/contract/opp/939efc50daee4a42a1d9892a0df8bee4/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 11",
-   "summary": "Executive education seminars for National Guard leaders on homeland security, AI, cyber threats.",
-   "tags": [
-    "training & education"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-11",
-   "country": "US",
-   "category": "training & education"
-  },
-  {
    "title": "Tax Software and Support",
    "url": "https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
@@ -744,6 +760,39 @@
    "scope": "US federal",
    "due_iso": "2026-11-16",
    "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA",
+   "url": "https://sam.gov/workspace/contract/opp/c81cd60a3e61473baa17b8b750e31311/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "CA",
+   "due": "Nov 16",
+   "summary": "AMENDMENT 0002: The purpose of this Amendment is to Extend the Offer Deu Date. AMENDMENT 0001: The purpose of this Amendment is to Answer Vendor Questions. SITE VISIT A site visit\u2026",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-16",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "RFP \u2013 Potable Water System Upgrade Design St. Anthony Airport",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967256651-Doc5967309031",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Newfoundland and Labrador",
+   "due": "Nov 17",
+   "summary": "Engineering design for potable water system upgrade at St. Anthony Airport.",
+   "tags": [
+    "construction & facilities",
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-17",
+   "country": "CA",
    "category": "construction & facilities"
   },
   {
@@ -828,38 +877,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
-   "buyer": "Design and Construction",
-   "region": "New York, NY",
-   "due": "Dec 03",
-   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
-   "buyer": "Transportation",
-   "region": "New York, NY",
-   "due": "Dec 04",
-   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/357205",
    "buyer": "National Institutes of Health",
@@ -874,22 +891,6 @@
    "due_iso": "2026-11-17",
    "country": "US",
    "category": "health & human services"
-  },
-  {
-   "title": "SILVAH software coding",
-   "url": "https://sam.gov/workspace/contract/opp/4924a9998b8444c3ace265513047df72/view",
-   "buyer": "AGRICULTURE, DEPARTMENT OF",
-   "region": "WV",
-   "due": "Nov 11",
-   "summary": "The United States Department of Agriculture (USDA) Forest Service (FS) is conducting market research to identify capable sources to repair SILVAH version 8 in C++ code to then\u2026",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-11",
-   "country": "US",
-   "category": "research & evaluation"
   },
   {
    "title": "STAR-FISH CALL 017 - Secure By Design",
@@ -940,19 +941,19 @@
    "category": "research & evaluation"
   },
   {
-   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
-   "url": "https://www.grants.gov/search-results-detail/359150",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 02",
-   "summary": "",
+   "title": "Notice of Proposed Procurement (NPP)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-787-21460756",
+   "buyer": "Department of Natural Resources (NRCan)",
+   "region": "*Unspecified",
+   "due": "Nov 18",
+   "summary": "Laboratory testing and data analysis for air-to-water heat pump systems per CSA/ANSI C715.",
    "tags": [
     "research & evaluation"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-02",
-   "country": "US",
+   "scope": "Canada",
+   "due_iso": "2026-11-18",
+   "country": "CA",
    "category": "research & evaluation"
   },
   {
