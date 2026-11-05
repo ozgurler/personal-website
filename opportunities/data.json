@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "count": 60,
  "items": [
   {
@@ -193,6 +193,22 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "DATA SECURITY ASSESSMENT TEAM",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Ottawa",
+   "due": "Nov 26",
+   "summary": "Provide data security assessment team to evaluate and design HCM enterprise architecture.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
    "country": "CA",
    "category": "IT & software"
   },
@@ -439,6 +455,22 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "Project Support Organization for a Support Services Arrangement for RMC Kingston",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-145-70937475",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Kingston",
+   "due": "Nov 23",
+   "summary": "Provide project support organization to develop support services arrangement for Royal Military College.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "RFP 0D160-243955 Memorial Grant Program for First Responders",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029560?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -484,6 +516,22 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "TBIPS Grants and Contributions Transformation Initiative (GCTI) \u2013 Stream 1 B.1 Business Analysis Services and Stream 2 A.11 Tester, P.11 Quality Assurance",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-863-49415836",
+   "buyer": "Department of Foreign Affairs, Trade and Development (GAC)",
+   "region": "",
+   "due": "Nov 25",
+   "summary": "Provide business analysis, testing, and quality assurance for grants and contributions transformation initiative.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-25",
    "country": "CA",
    "category": "consulting & strategy"
   },
@@ -650,22 +698,6 @@
    "category": "data & AI"
   },
   {
-   "title": "USAC RFP: Enterprise Data Platform",
-   "url": "https://sam.gov/workspace/contract/opp/0da53662bd6d414595d074c58b58c486/view",
-   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "Enterprise data platform system for FCC's Universal Service Administrative Company.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "data & AI"
-  },
-  {
    "title": "Creative Exhibit Design Services",
    "url": "https://sam.gov/workspace/contract/opp/d3c866b6104a4486a4adb5b4b990de00/view",
    "buyer": "LIBRARY OF CONGRESS",
@@ -713,22 +745,6 @@
    "due_iso": "2026-11-18",
    "country": "US",
    "category": "training & education"
-  },
-  {
-   "title": "Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA",
-   "url": "https://sam.gov/workspace/contract/opp/2a28b3c311cc45918686d224636265c8/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "CA",
-   "due": "Nov 12",
-   "summary": "The Federal Aviation Administration (FAA) is issuing Screening Information Request (SIR) Number 697DCK-27-R-00022, Design Renovation, System Support Center (SSC), 3551 Combine\u2026",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-12",
-   "country": "US",
-   "category": "construction & facilities"
   },
   {
    "title": "Phase 1 \u2013 ET025-270674.B - Catwalk Upgrade - ITQ",
@@ -861,22 +877,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "A-E Services for Electron Injector Complex",
-   "url": "https://sam.gov/workspace/contract/opp/c934a56d667544a49b68a176669afdf0/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "NY",
-   "due": "Nov 30",
-   "summary": "Architecture and engineering design services for electron injector complex at Brookhaven National Labs.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/357205",
    "buyer": "National Institutes of Health",
@@ -957,20 +957,20 @@
    "category": "research & evaluation"
   },
   {
-   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
-   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "WA",
-   "due": "Dec 01",
-   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
+   "title": "V-22 AIRCRAFT SOFTWARE CONCURRENCY UPGRADES AND FLIGHT TRAINING DEVICE INTEGRATION",
+   "url": "https://sam.gov/workspace/contract/opp/9e4a0b6252e046d080684f3436f0114e/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Nov 19",
+   "summary": "The Naval Air Warfare Center Training Systems Division (NAWCTSD) is releasing this Sources Sought Notice for market research to identify capable firms that can provide V-22\u2026",
    "tags": [
-    "other"
+    "research & evaluation"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-12-01",
+   "due_iso": "2026-11-19",
    "country": "US",
-   "category": "other"
+   "category": "research & evaluation"
   }
  ]
 }
