@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "count": 60,
  "items": [
   {
@@ -52,12 +52,44 @@
    "category": "IT & software"
   },
   {
+   "title": "MicroFocus Software Subscriptions",
+   "url": "https://sam.gov/workspace/contract/opp/7bc9f227e78745ff950928601bc9929a/view",
+   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+   "region": "VA",
+   "due": "Nov 19",
+   "summary": "The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0444 for MicroFocus Software Subscription\u2026",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-19",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
    "title": "Local Voice and Data Circuits for the Redstone Arsenal, AL.",
    "url": "https://sam.gov/workspace/contract/opp/1fe5dca2ecbe4e5692fd9f05d034a9fc/view",
    "buyer": "DEPT OF DEFENSE",
    "region": "AL",
    "due": "Nov 20",
    "summary": "Local voice and data circuits for Redstone Arsenal, Alabama.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "30 RS Mission Planning Software Tool (MPST)",
+   "url": "https://sam.gov/workspace/contract/opp/aad592122aa84b0380359b7d1355b7dd/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "NV",
+   "due": "Nov 20",
+   "summary": "This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service\u2026",
    "tags": [
     "IT & software"
    ],
@@ -116,6 +148,22 @@
    "category": "IT & software"
   },
   {
+   "title": "Digital Recruitment Platform",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-218-85666393",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Ottawa *National Capital Region (NCR)",
+   "due": "Nov 20",
+   "summary": "Digital recruitment platform for Marine Communications and Traffic Services aptitude testing.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-20",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "UAS AND TRACR II INTERFACE CONTROL DOCUMENT (ICD) COMPLIANCE",
    "url": "https://sam.gov/workspace/contract/opp/7aba6034a12643f1ac8ec5ed23bafcca/view",
    "buyer": "DEPT OF DEFENSE",
@@ -138,6 +186,38 @@
    "region": "*National Capital Region (NCR)",
    "due": "Nov 23",
    "summary": "Hire Level 2 programmer/software developer for Canadian Nuclear Safety Commission.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Signal Data Processor for Link 22 Communication System",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-698-26153492",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Nova Scotia *British Columbia",
+   "due": "Nov 23",
+   "summary": "Procure 20 Link 22 signal processing controllers for Royal Canadian Navy.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Bilingual and Accessible Interface for Breedbase",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-670-69473026",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Canada",
+   "due": "Nov 23",
+   "summary": "Modernize Breedbase system for bilingual and accessibility compliance.",
    "tags": [
     "IT & software"
    ],
@@ -176,55 +256,6 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "DATA SECURITY ASSESSMENT TEAM",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Ottawa",
-   "due": "Nov 26",
-   "summary": "Provide data security assessment team to evaluate and design HCM enterprise architecture.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-418-22395949",
-   "buyer": "Department of Fisheries and Oceans (DFO)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 26",
-   "summary": "Provide user experience professional services to support DFO digital transformation initiatives.",
-   "tags": [
-    "IT & software",
-    "design & creative"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "User Testing Software Platform for User Experience Testing",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
-   "buyer": "Canada Revenue Agency (CRA)",
-   "region": "*Ottawa",
-   "due": "Nov 27",
-   "summary": "Provide user testing software platform for CRA website user experience testing.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
    "country": "CA",
    "category": "IT & software"
   },
@@ -487,54 +518,6 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-681-58483884",
-   "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
-   "region": "*Canada",
-   "due": "Nov 26",
-   "summary": "Qualify suppliers for business consulting and professional services across seven service streams.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Air Simulator Verification, Validation & Accreditation (VV&A) consultants",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-643-48756938",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 26",
-   "summary": "Provide two air simulator verification, validation and accreditation consultants for DND.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Cloud Based Data Management, Analytics, and Reporting Solution to Replace SAS",
-   "url": "https://sam.gov/workspace/contract/opp/cb6c7ad94b1d4411b8ddfb19a54ea751/view",
-   "buyer": "JUSTICE, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 14",
-   "summary": "The purpose of this Request for Information (RFI) is to gather information from industry regarding commercially available, non?SAS, cloud?based data management and analytics\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-14",
-   "country": "US",
-   "category": "data & AI"
-  },
-  {
    "title": "RFI CNET Reverse Engineering and AI",
    "url": "https://sam.gov/workspace/contract/opp/fc8b659ae5fa467e9af04b49c6ab9c6c/view",
    "buyer": "DEPT OF DEFENSE",
@@ -698,6 +681,22 @@
    "category": "design & creative"
   },
   {
+   "title": "Develop Wayfinding Strategy for Mississippi Lake National Wildlife Area (MLNWA), St Clair National Wildlife Area (SCNWA) and Big Creek National Wildlife Area (BCNWA)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100",
+   "buyer": "Department of the Environment (ECCC )",
+   "region": "*Ontario (except NCR) *Canada",
+   "due": "Nov 25",
+   "summary": "Develop wayfinding strategy and signage designs for three wildlife areas.",
+   "tags": [
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-25",
+   "country": "CA",
+   "category": "design & creative"
+  },
+  {
    "title": "Tax Software and Support",
    "url": "https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
@@ -844,22 +843,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "CMMA Composite Repair Shelter",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Canada *Nova Scotia",
-   "due": "Nov 27",
-   "summary": "Design, manufacture and deliver clean room composite repair shelter for aircraft maintenance at 14 Wing Greenwood, Nova Scotia.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/357205",
    "buyer": "National Institutes of Health",
@@ -954,6 +937,22 @@
    "due_iso": "2026-11-23",
    "country": "CA",
    "category": "research & evaluation"
+  },
+  {
+   "title": "Domestic Datalink Services (DDLS) FY 2027 Industry Day December 8-10, 2026",
+   "url": "https://sam.gov/workspace/contract/opp/f691a36fb4d149d7915ffdbe1cccaf04/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 17",
+   "summary": "Domestic Datalink Services (DDLS) FY2027 Industry Day December 8-10, 2026 The purpose of this amendment is to clarify an error in a listed address and questions received: \u00931.1\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-17",
+   "country": "US",
+   "category": "other"
   },
   {
    "title": "USNIC SAR Data Recompete",
