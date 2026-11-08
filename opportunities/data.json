@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "count": 60,
  "items": [
   {
@@ -260,6 +260,22 @@
    "category": "IT & software"
   },
   {
+   "title": "DATA SECURITY ASSESSMENT TEAM",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Ottawa",
+   "due": "Nov 26",
+   "summary": "Provide data security assessment team to evaluate and design HCM enterprise architecture.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "TSPS \u2013 Five (5) Technical Writers",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-132-426816",
    "buyer": "Department of National Defence (DND)",
@@ -516,22 +532,6 @@
    "due_iso": "2026-11-25",
    "country": "CA",
    "category": "consulting & strategy"
-  },
-  {
-   "title": "RFI CNET Reverse Engineering and AI",
-   "url": "https://sam.gov/workspace/contract/opp/fc8b659ae5fa467e9af04b49c6ab9c6c/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Nov 15",
-   "summary": "This RFI is to seek information in accordance with attached document. Please provide the answers to the attached question by noon est 15 Nov 2026.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-15",
-   "country": "US",
-   "category": "data & AI"
   },
   {
    "title": "License to Access the American Hospital Association Inc.\u0092s (AHA) Proprietary Databases, Training, and Technical Support",
