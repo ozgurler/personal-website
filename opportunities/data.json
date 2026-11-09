@@ -1,40 +1,7 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "count": 60,
  "items": [
-  {
-   "title": "Digital Repository Platform and Physical Library Management System",
-   "url": "https://sam.gov/workspace/contract/opp/e75a0aa6a1ad4cd1966d5f88f093d546/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 16",
-   "summary": "The Pipeline and Hazardous Materials Safety Administration is seeking information from interested parties and potential vendors and systems integrators to implement a web-based\u2026",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "RFP for Advanced Signatures Technologies (AST)",
-   "url": "https://sam.gov/workspace/contract/opp/dcd42ce24b944046ae44ea981c007120/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 16",
-   "summary": "Advanced software development for Navy data processing, storage, simulation, and visualization systems.",
-   "tags": [
-    "IT & software",
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analyst \u2013 (Intermediate Level) for LVM Project (Logistics Vehicle Modernization)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-466-46809080",
@@ -106,6 +73,22 @@
    "region": "",
    "due": "Nov 20",
    "summary": "Page 2 of 2 THIS REQUEST FOR INFORMATION (RFI) IS ISSUED SOLELY FOR INFORMATION AND PLANNING PURPOSES ONLY AND DOES NOT CONSTITUTE A SOLICITATION. THE SUBMISSION OF PRICING\u2026",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Service Plan/Agreement for InVita Healthcare Technologies (brand) Unique Device Identifier (UDI) Tracker Software Platform, South Central VA Health Care Network, 715 S. Pear Orchard Road, Ridgeland, MS 39157",
+   "url": "https://sam.gov/workspace/contract/opp/22fe534e001b4a9085b96ebfe35d9453/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "MS",
+   "due": "Nov 20",
+   "summary": "Service plan for InVita Healthcare Technologies UDI Tracker Software Platform.",
    "tags": [
     "IT & software"
    ],
@@ -276,6 +259,87 @@
    "category": "IT & software"
   },
   {
+   "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-418-22395949",
+   "buyer": "Department of Fisheries and Oceans (DFO)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 26",
+   "summary": "Provide user experience professional services to support DFO digital transformation initiatives.",
+   "tags": [
+    "IT & software",
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "User Testing Software Platform for User Experience Testing",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
+   "buyer": "Canada Revenue Agency (CRA)",
+   "region": "*Ottawa",
+   "due": "Nov 27",
+   "summary": "Provide user testing software platform for CRA website user experience testing.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Request for Requirement Refinement - Round 3 - Priority A - Electronic Health Record Platform (EHRP) Project",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS3430950409-Doc5490277801",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Nov 27",
+   "summary": "Refine requirements for Electronic Health Record Platform project implementation.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
+   "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "PA",
+   "due": "Nov 27",
+   "summary": "DLA Troop Support conducts market research on commercial web-based ordering systems and eMarketplace platforms.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-27",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "RFI - Computer Aided Dispatch system Next Generation (CAD NG)",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030578?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Dec 01",
+   "summary": "Information on next-generation Computer Aided Dispatch system for emergency services.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-01",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "TSPS \u2013 Five (5) Technical Writers",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-132-426816",
    "buyer": "Department of National Defence (DND)",
@@ -306,70 +370,6 @@
    "due_iso": "2026-11-20",
    "country": "US",
    "category": "marketing & communications"
-  },
-  {
-   "title": "TBIPS Change Management Consultant Level 3",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-869-30702733",
-   "buyer": "Department of Fisheries and Oceans (DFO)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 16",
-   "summary": "Deliver change management consulting for DFO digital transformation and technology adoption.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-16",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Pharmacy Benefit Management Consulting Services",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261016012",
-   "buyer": "NYC Health + Hospitals",
-   "region": "New York, NY",
-   "due": "Nov 16",
-   "summary": "Pharmacy Benefit Management consulting for strategic and operational optimization.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Consultant Services, Outside Counsel for Affordable Housing Insurance Program RFP",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019001",
-   "buyer": "Economic Development Corporation",
-   "region": "New York, NY",
-   "due": "Nov 16",
-   "summary": "Outside legal counsel for structuring affordable housing insurance program.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Energy Automation Operational Technology Systems (EAOTS) Automated Fuel Handling Equipment Maintenance",
-   "url": "https://sam.gov/workspace/contract/opp/8fbd063f86f3462b92de34e5d9ee14c0/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 16",
-   "summary": "Maintenance and sustainment services for automated fuel handling equipment at 23 worldwide DoD locations.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "consulting & strategy"
   },
   {
    "title": "International Environmental Engineering Consulting Services",
@@ -534,20 +534,36 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "License to Access the American Hospital Association Inc.\u0092s (AHA) Proprietary Databases, Training, and Technical Support",
-   "url": "https://sam.gov/workspace/contract/opp/48809ba9ed454214a0f6611a6566f823/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "GA",
-   "due": "Nov 16",
-   "summary": "The Centers for Disease Control and Prevention intends to award a sole source firm fixed price purchase order to American Hospital Association (AHA) for the Office of Public\u2026",
+   "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-681-58483884",
+   "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
+   "region": "*Canada",
+   "due": "Nov 26",
+   "summary": "Qualify suppliers for business consulting and professional services across seven service streams.",
    "tags": [
-    "data & AI"
+    "consulting & strategy"
    ],
    "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "data & AI"
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Air Simulator Verification, Validation & Accreditation (VV&A) consultants",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-643-48756938",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 26",
+   "summary": "Provide two air simulator verification, validation and accreditation consultants for DND.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "consulting & strategy"
   },
   {
    "title": "Gather data and maintain the alternative fuel station database",
@@ -648,20 +664,20 @@
    "category": "data & AI"
   },
   {
-   "title": "Creative Exhibit Design Services",
-   "url": "https://sam.gov/workspace/contract/opp/d3c866b6104a4486a4adb5b4b990de00/view",
-   "buyer": "LIBRARY OF CONGRESS",
+   "title": "USAC RFP: Enterprise Data Platform",
+   "url": "https://sam.gov/workspace/contract/opp/0da53662bd6d414595d074c58b58c486/view",
+   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
    "region": "DC",
-   "due": "Nov 16",
-   "summary": "The Library of Congress (\u0093Library\u0094) is the largest library in the world, with millions of books, films and video, audio recordings, photographs, newspapers, maps and manuscripts\u2026",
+   "due": "Nov 30",
+   "summary": "Enterprise data platform system for FCC's Universal Service Administrative Company.",
    "tags": [
-    "design & creative"
+    "data & AI"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-11-16",
+   "due_iso": "2026-11-30",
    "country": "US",
-   "category": "design & creative"
+   "category": "data & AI"
   },
   {
    "title": "82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks & City-owned Street Ends",
@@ -727,38 +743,6 @@
    "due_iso": "2026-11-24",
    "country": "CA",
    "category": "training & education"
-  },
-  {
-   "title": "C1DA--578-27-003 - Renovate A Section First Floor of Building 1 - Design FY27",
-   "url": "https://sam.gov/workspace/contract/opp/4dfd5d2d61e541b3b176703f521f7e50/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "IL",
-   "due": "Nov 16",
-   "summary": "AMENDMENT A0001 Combined Synopsis/Solicitation Notice Combined Synopsis/Solicitation Notice Combined Synopsis/Solicitation Notice REQUEST FOR SF 330 36C25227Q0013 Project\u2026",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA",
-   "url": "https://sam.gov/workspace/contract/opp/c81cd60a3e61473baa17b8b750e31311/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "CA",
-   "due": "Nov 16",
-   "summary": "AMENDMENT 0002: The purpose of this Amendment is to Extend the Offer Deu Date. AMENDMENT 0001: The purpose of this Amendment is to Answer Vendor Questions. SITE VISIT A site visit\u2026",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "construction & facilities"
   },
   {
    "title": "RFP \u2013 Potable Water System Upgrade Design St. Anthony Airport",
@@ -843,6 +827,54 @@
    "category": "construction & facilities"
   },
   {
+   "title": "CMMA Composite Repair Shelter",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Canada *Nova Scotia",
+   "due": "Nov 27",
+   "summary": "Design, manufacture and deliver clean room composite repair shelter for aircraft maintenance at 14 Wing Greenwood, Nova Scotia.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "A-E Services for Electron Injector Complex",
+   "url": "https://sam.gov/workspace/contract/opp/c934a56d667544a49b68a176669afdf0/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "NY",
+   "due": "Nov 30",
+   "summary": "Architecture and engineering design services for electron injector complex at Brookhaven National Labs.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA",
+   "url": "https://sam.gov/workspace/contract/opp/9623e44ddbac4b45a2fe2d8234d99879/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "CA",
+   "due": "Nov 30",
+   "summary": "AMENDMENT 0003: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0002: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0001: The\u2026",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "construction & facilities"
+  },
+  {
    "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/357205",
    "buyer": "National Institutes of Health",
@@ -857,38 +889,6 @@
    "due_iso": "2026-11-17",
    "country": "US",
    "category": "health & human services"
-  },
-  {
-   "title": "Special Program Announcement for Office of Naval Research Research Opportunity: FY27 Communications and Networking Applied Research",
-   "url": "https://www.grants.gov/search-results-detail/362836",
-   "buyer": "Office of Naval Research",
-   "region": "",
-   "due": "Nov 16",
-   "summary": "",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-16",
-   "country": "US",
-   "category": "research & evaluation"
-  },
-  {
-   "title": "Herring Biological Sampling",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-186-22593486",
-   "buyer": "Department of Fisheries and Oceans (DFO)",
-   "region": "",
-   "due": "Nov 16",
-   "summary": "Laboratory services processing herring biological samples for BC stock assessments annually.",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-16",
-   "country": "CA",
-   "category": "research & evaluation"
   },
   {
    "title": "Notice of Proposed Procurement (NPP)",
