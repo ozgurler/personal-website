@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RFP Digest — November 10, 2026 — Emre Ozgurler</title>
+<meta name="description" content="Weekly RFP Digest issue of November 10, 2026: 48 opportunities.">
+<link rel="canonical" href="https://www.emreozgurler.com/opportunities/issues/2026-11-10.html">
+<link rel="alternate" type="application/rss+xml" title="RFP Digest" href="../feed.xml">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
+    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0;
+    --trace-dark:#2A4361;
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:17px}
+  ::selection{background:var(--copper);color:#fff}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+
+  nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(192,122,58,.25)}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+  nav .logo b{color:var(--copper)}
+  nav .links{display:flex;gap:1.5rem}
+  nav .links a{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none}
+  nav .links a:hover,nav .links a.on{color:var(--copper)}
+
+  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  .wrap{max-width:900px;margin:0 auto}
+  .mono-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.01em;margin:.5rem 0 .8rem}
+  header p{color:#B9C4CE;max-width:36em}
+  header .stats{display:flex;gap:2rem;flex-wrap:wrap;margin-top:1.4rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE}
+  header .stats b{display:block;font-family:var(--display);font-size:1.6rem;color:#E8ECEF;letter-spacing:0}
+
+  main{padding:clamp(2.5rem,7vh,4.5rem) clamp(1.25rem,5vw,4rem)}
+  .toc{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.2rem}
+  .toc a{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+         text-decoration:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.35rem .8rem}
+  .toc a:hover{border-color:var(--copper);color:var(--copper-deep)}
+  .toc a span{color:var(--slate)}
+  h2.section{font-family:var(--display);font-weight:700;font-size:1.3rem;margin:2.4rem 0 1rem;padding-bottom:.5rem;border-bottom:2px solid var(--copper)}
+  h2.section span{font-family:var(--mono);font-weight:400;font-size:.72rem;letter-spacing:.1em;color:var(--slate);margin-left:.6rem}
+  .list{display:grid;gap:1rem}
+  .entry{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);
+         border-radius:6px;padding:1.3rem 1.5rem;text-decoration:none;color:inherit;
+         transition:transform .18s,box-shadow .18s}
+  a.entry:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(14,27,44,.09)}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.66rem;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.45rem}
+  .meta .cat{color:var(--copper-deep)}
+  .meta .due{color:#9A3B2E}
+  .entry h3{font-family:var(--display);font-weight:700;font-size:1.08rem;line-height:1.35;margin-bottom:.3rem}
+  .entry p{font-size:.92rem;color:#33414F;max-width:52em}
+  .entry .buyer{font-size:.85rem;color:var(--slate);margin-top:.3rem}
+  .entry.closed{border-left-color:var(--line);opacity:.55}
+  .entry.closed .meta .due{color:var(--slate)}
+  .entry.closed .meta .due::after{content:" · closed"}
+  .issue{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);border-radius:6px;padding:1.4rem 1.6rem;text-decoration:none;color:inherit}
+  .issue h3{font-family:var(--display);font-weight:700;font-size:1.2rem}
+  .note{font-size:.85rem;color:var(--slate);margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line)}
+  .subscribe{margin:1.6rem 0 0;padding:1.2rem 1.5rem;background:var(--card);border:1px solid var(--line);border-radius:6px;font-size:.95rem}
+  .subscribe a{color:var(--copper-deep);font-weight:600}
+
+  footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
+         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#5A6B7E}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
+  <div class="links">
+    <a href="../index.html" class="">Open RFPs</a>
+    <a href="../issues/index.html" class="on">Weekly issues</a>
+    <a href="../insights/index.html">Insights</a>
+    <a href="../index.html">← Site</a>
+  </div>
+</nav>
+<header>
+  <div class="wrap">
+    <span class="mono-label">Weekly issue</span>
+    <h1>November 10, 2026</h1>
+    <p>48 opportunities in this issue. Closed ones are greyed out.</p>
+    
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    
+<div class="toc"><a href="#it-software">IT &amp; software <span>22</span></a><a href="#marketing-communications">marketing &amp; communications <span>1</span></a><a href="#consulting-strategy">consulting &amp; strategy <span>5</span></a><a href="#data-ai">data &amp; AI <span>4</span></a><a href="#design-creative">design &amp; creative <span>1</span></a><a href="#training-education">training &amp; education <span>2</span></a><a href="#construction-facilities">construction &amp; facilities <span>2</span></a><a href="#research-evaluation">research &amp; evaluation <span>7</span></a><a href="#other">other <span>4</span></a></div>
+
+<h2 class="section" id="it-software">IT &amp; software<span>22 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-466-46809080" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 18</span></div>
+    <h3>Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analyst – (Intermediate Level) for LVM Project (Logistics Vehicle Modernization)</h3>
+    <p>IT security threat and risk assessment analyst for Logistics Vehicle Modernization Project.</p>
+    <div class="buyer">Department of National Defence (DND) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/7bc9f227e78745ff950928601bc9929a/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 19</span></div>
+    <h3>MicroFocus Software Subscriptions</h3>
+    <p>The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0444 for MicroFocus Software Subscription…</p>
+    <div class="buyer">FEDERAL DEPOSIT INSURANCE CORPORATION · VA</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/1fe5dca2ecbe4e5692fd9f05d034a9fc/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>Local Voice and Data Circuits for the Redstone Arsenal, AL.</h3>
+    <p>Local voice and data circuits for Redstone Arsenal, Alabama.</p>
+    <div class="buyer">DEPT OF DEFENSE · AL</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/aad592122aa84b0380359b7d1355b7dd/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>30 RS Mission Planning Software Tool (MPST)</h3>
+    <p>This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service…</p>
+    <div class="buyer">DEPT OF DEFENSE · NV</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/482f3e9d283642f3a19357c509ac5f91/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>6515--EQUIP - Small-form Factor Computer SOFTWARE - NeuroWorks SleepWorks</h3>
+    <p>Page 2 of 2 THIS REQUEST FOR INFORMATION (RFI) IS ISSUED SOLELY FOR INFORMATION AND PLANNING PURPOSES ONLY AND DOES NOT CONSTITUTE A SOLICITATION. THE SUBMISSION OF PRICING…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/22fe534e001b4a9085b96ebfe35d9453/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>Service Plan/Agreement for InVita Healthcare Technologies (brand) Unique Device Identifier (UDI) Tracker Software Platform, South Central VA Health Care Network, 715 S. Pear Orchard Road, Ridgeland, MS 39157</h3>
+    <p>Service plan for InVita Healthcare Technologies UDI Tracker Software Platform.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF · MS</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-210-65256537" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 20</span></div>
+    <h3>Communications Management and Monitoring Equipment</h3>
+    <p>Communications management and monitoring equipment for unmanned aerial vehicles.</p>
+    <div class="buyer">Department of National Defence (DND) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-218-85666393" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 20</span></div>
+    <h3>Digital Recruitment Platform</h3>
+    <p>Digital recruitment platform for Marine Communications and Traffic Services aptitude testing.</p>
+    <div class="buyer">Department of National Defence (DND) · *Ottawa *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-698-26153492" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 23</span></div>
+    <h3>Signal Data Processor for Link 22 Communication System</h3>
+    <p>Procure 20 Link 22 signal processing controllers for Royal Canadian Navy.</p>
+    <div class="buyer">Department of National Defence (DND) · *Nova Scotia *British Columbia</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-670-69473026" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 23</span></div>
+    <h3>Bilingual and Accessible Interface for Breedbase</h3>
+    <p>Modernize Breedbase system for bilingual and accessibility compliance.</p>
+    <div class="buyer">Department of Agriculture and Agri-Food (AAFC) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 26</span></div>
+    <h3>DATA SECURITY ASSESSMENT TEAM</h3>
+    <p>Provide data security assessment team to evaluate and design HCM enterprise architecture.</p>
+    <div class="buyer">Department of National Defence (DND) · *Ottawa</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS3430950409-Doc5490277801" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 27</span></div>
+    <h3>Request for Requirement Refinement - Round 3 - Priority A - Electronic Health Record Platform (EHRP) Project</h3>
+    <p>Refine requirements for Electronic Health Record Platform project implementation.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-755-74801717" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 27</span></div>
+    <h3>Splunk Support Services</h3>
+    <p>Provide Splunk consulting support for ESDC&#39;s internal monitoring solution.</p>
+    <div class="buyer">Department of Employment and Social Development (ESDC) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030578?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 01</span></div>
+    <h3>RFI - Computer Aided Dispatch system Next Generation (CAD NG)</h3>
+    <p>Information on next-generation Computer Aided Dispatch system for emergency services.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 02</span></div>
+    <h3>Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model</h3>
+    <p>SaaS collection management system for biological living collections including microbes and fungi.</p>
+    <div class="buyer">Department of Agriculture and Agri-Food (AAFC) · *Canada *Ottawa *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 03</span></div>
+    <h3>ITQ - Health Services Supply Chain Logistics Solution (MVP)</h3>
+    <p>Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 04</span></div>
+    <h3>SBIPS - Data Architecture and Systems Integration Advisory Services</h3>
+    <p>Assess Statistics Canada&#39;s website environment and recommend future web publishing platform architecture.</p>
+    <div class="buyer">Statistics Canada (StatCan) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://www.merx.com/public/solicitations/4188349404/abstract?language=EN" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 08</span></div>
+    <h3>SaaS ESG Data Repository solution</h3>
+    <p>Through this solicitation, EDC intends to award a contract to a qualified firm to provide a SaaS ESG Data Repository solution and related implementation, transition…</p>
+    <div class="buyer">Export Development Canada - EDC</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030881?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 08</span></div>
+    <h3>1N001-265342 - Request for Information (RFI) – Cloud-Based Library Services Platform (LSP)</h3>
+    <p>Information on cloud-based library services platforms for Supreme Court of Canada.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-485-47484340" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 10</span></div>
+    <h3>Data Platform &amp; Analytics – RCAF</h3>
+    <p>Develop data platform and analytics infrastructure for Royal Canadian Air Force.</p>
+    <div class="buyer">Department of National Defence (DND) · *Canada *Remote Offsite</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031002?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 18</span></div>
+    <h3>Request for Proposal - Modernization of Canada&#39;s National Public Alerting System (NPAS)</h3>
+    <p>Modernize Canada&#39;s national public alerting system with new software platform.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://www.merx.com/public/solicitations/4180705058/abstract?language=EN" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 22</span></div>
+    <h3>Request for Proposal_Smartmail Marketing Platform_2026</h3>
+    <p>Implement and support next-generation Smartmail Marketing digital platform with minimum lovable product.</p>
+    <div class="buyer">Canada Post Corporation</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="marketing-communications">marketing &amp; communications<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-132-426816" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 18</span></div>
+    <h3>TSPS – Five (5) Technical Writers</h3>
+    <p>Five technical writers for DRDC Editorial Office publications support.</p>
+    <div class="buyer">Department of National Defence (DND) · *National Capital Region (NCR)</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="consulting-strategy">consulting &amp; strategy<span>5 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-145-70937475" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 23</span></div>
+    <h3>Project Support Organization for a Support Services Arrangement for RMC Kingston</h3>
+    <p>Provide project support organization to develop support services arrangement for Royal Military College.</p>
+    <div class="buyer">Department of National Defence (DND) · *Kingston</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030493?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 24</span></div>
+    <h3>G9292-271166-B WS5755477339 TBIPS - PSIB - myEMS SAP Solution</h3>
+    <p>Please note that late submissions will not be considered or accepted. This bid solicitation is being issued to satisfy the requirement of the Employment and Social Development…</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Remote Offsite *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030463?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 24</span></div>
+    <h3>ET025-270925 – ECCC Lake of the Woods Outlet Capacity Study</h3>
+    <p>Civil engineering consulting for Lake of the Woods outlet capacity study.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Kenora</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-863-49415836" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 25</span></div>
+    <h3>TBIPS Grants and Contributions Transformation Initiative (GCTI) – Stream 1 B.1 Business Analysis Services and Stream 2 A.11 Tester, P.11 Quality Assurance</h3>
+    <p>Provide business analysis, testing, and quality assurance for grants and contributions transformation initiative.</p>
+    <div class="buyer">Department of Foreign Affairs, Trade and Development (GAC)</div>
+  </a>
+
+  <a class="entry" href="https://a856-cityrecord.nyc.gov/RequestDetail/20261027012" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US state &amp; local</span><span class="due">Due Dec 02</span></div>
+    <h3>Cost Allocation Assessment and Advisory Services</h3>
+    <p>Obtain cost allocation assessment and advisory services for public sector cost methodology evaluation and design.</p>
+    <div class="buyer">Teachers&#39; Retirement System · New York, NY</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="data-ai">data &amp; AI<span>4 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-944-67394540" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 18</span></div>
+    <h3>North Atlantic Right Whale Density Model Outputs and Scientific Support for Entanglement Risk Assessment</h3>
+    <p>North Atlantic right whale density model outputs and scientific consultation for entanglement risk assessment.</p>
+    <div class="buyer">Department of Fisheries and Oceans (DFO)</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-292-29950599" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 23</span></div>
+    <h3>Development of a Strategic Interpretation Framework for Artificial Intelligence Results</h3>
+    <p>Strategic interpretation framework for AI social perception analysis with visualization dashboard and guide.</p>
+    <div class="buyer">Department of Fisheries and Oceans (DFO) · *Quebec (except NCR)</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/7a9a273a5e614865aa0867cfef3c58a1/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 18</span></div>
+    <h3>Best Pharmaceuticals for Children Act Data Coordination Center</h3>
+    <p>The National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD), is soliciting proposals for the Best…</p>
+    <div class="buyer">HEALTH AND HUMAN SERVICES, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/46764b96b9bd4537b34d564263cf463a/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 21</span></div>
+    <h3>Exploratory Advanced Research (EAR) Program FY 2027 Data Science Solicitation</h3>
+    <p>693JJ327BAA0002 FORMERLY 693JJ326BAA0006 This BAA is an expression of interest only and does not commit the Government to pay any proposal preparation costs. All responsible…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="design-creative">design &amp; creative<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 25</span></div>
+    <h3>Develop Wayfinding Strategy for Mississippi Lake National Wildlife Area (MLNWA), St Clair National Wildlife Area (SCNWA) and Big Creek National Wildlife Area (BCNWA)</h3>
+    <p>Develop wayfinding strategy and signage designs for three wildlife areas.</p>
+    <div class="buyer">Department of the Environment (ECCC ) · *Ontario (except NCR) *Canada</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="training-education">training &amp; education<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-754-50251584" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 24</span></div>
+    <h3>5000093706 Spokesperson Coaching</h3>
+    <p>Spokesperson coaching services for Canadian Nuclear Safety Commission staff and management.</p>
+    <div class="buyer">Canadian Nuclear Safety Commission (CNSC) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-165-26098232" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 07</span></div>
+    <h3>LEARNING SUPPPORT CENTRE SUPPORT SERVICES</h3>
+    <p>Learning designers and e-learning programmers for Defence Academy support services.</p>
+    <div class="buyer">Department of National Defence (DND) · *Manitoba *Winnipeg *Canada</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="construction-facilities">construction &amp; facilities<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/bf568173fca84039817cd03a8f584870/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 20</span></div>
+    <h3>CFLHD Indefinite Delivery, Indefinite Quantity (IDIQ) for Architect-Engineer Design Services</h3>
+    <p>Architect and Engineering (A-E) Services The Federal Highway Administration, Central Federal Lands Highway Division (CFLHD), anticipates soliciting and awarding multiple…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF · CO</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/9623e44ddbac4b45a2fe2d8234d99879/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 30</span></div>
+    <h3>Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA</h3>
+    <p>AMENDMENT 0003: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0002: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0001: The…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF · CA</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="research-evaluation">research &amp; evaluation<span>7 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-787-21460756" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 18</span></div>
+    <h3>Notice of Proposed Procurement (NPP)</h3>
+    <p>Laboratory testing and data analysis for air-to-water heat pump systems per CSA/ANSI C715.</p>
+    <div class="buyer">Department of Natural Resources (NRCan) · *Unspecified</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/9e4a0b6252e046d080684f3436f0114e/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 19</span></div>
+    <h3>V-22 AIRCRAFT SOFTWARE CONCURRENCY UPGRADES AND FLIGHT TRAINING DEVICE INTEGRATION</h3>
+    <p>The Naval Air Warfare Center Training Systems Division (NAWCTSD) is releasing this Sources Sought Notice for market research to identify capable firms that can provide V-22…</p>
+    <div class="buyer">DEPT OF DEFENSE</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-797-86804801" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 23</span></div>
+    <h3>2026 Economic Contributions of BC Small Craft Harbours</h3>
+    <p>Economic impact study quantifying Small Craft Harbours contributions to British Columbia&#39;s coastal economy.</p>
+    <div class="buyer">Department of Fisheries and Oceans (DFO) · *Canada</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-751-55845952" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 04</span></div>
+    <h3>Request for Information - Collection Risk Assessment and Risk Mitigation Planning Services</h3>
+    <p>Collections risk assessment and mitigation planning for museum holdings.</p>
+    <div class="buyer">Canadian Museum of Nature (CMN) · *National Capital Region (NCR)</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/f8200861df5e45acbd42e749feb7d8f8/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 06</span></div>
+    <h3>STANDARD LABOR DATA COLLECTION AND DISTRIBUTION APPLICATION (SLDCADA) REQUEST FOR PROPOSAL</h3>
+    <p>Synopsis: PAE Mission Systems is soliciting proposals from the eligible SeaPort-NxG small-business contract holders for end-to-end sustainment and infrastructure support of the…</p>
+    <div class="buyer">DEPT OF DEFENSE · DC</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/46652c14f13d4d9ebc2ab7d8d0454ab5/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Jan 10</span></div>
+    <h3>A Study on Vessel Design Challenge</h3>
+    <p>The purpose of amendment no. 6 is to respond to the following questions. Question-13. Are resumes and letters of support count towards the 20-page limit? Response-13. Yes, the…</p>
+    <div class="buyer">TRANSPORTATION, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" href="https://www.grants.gov/search-results-detail/360623" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Grants</span><span class="due">Due Mar 05</span></div>
+    <h3>The NIDDK Disorders of Gastrointestinal Interoception Consortium (DGIC) Scientific Data Research Center (U24 Clinical Trial Not Allowed)</h3>
+    <p>Fund scientific data research center for gastrointestinal interoception disorders consortium.</p>
+    <div class="buyer">National Institutes of Health</div>
+  </a>
+
+</div>
+
+<h2 class="section" id="other">other<span>4 open</span></h2>
+<div class="list">
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/26844436051e4813ad3aed8b4c4a7feb/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Nov 19</span></div>
+    <h3>USNIC SAR Data Recompete</h3>
+    <p>USNIC SAR Data Recompete</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967775354-Doc5979484872" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Nov 30</span></div>
+    <h3>T8493-260035 - Aircraft Attitude and Heading Reference Unit (APIRS)</h3>
+    <p>Supply two aircraft attitude and heading reference units for Transport Canada.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC) · *Ottawa</div>
+  </a>
+
+  <a class="entry" href="https://sam.gov/workspace/contract/opp/481152b6e267470299b593ed0a463590/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 03</span></div>
+    <h3>CCTV System Design A/E Services Great Plains</h3>
+    <p>A/E Services for CCTV System Design, Great Plains Region</p>
+    <div class="buyer">INTERIOR, DEPARTMENT OF THE</div>
+  </a>
+
+  <a class="entry" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-286-11127230" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 15</span></div>
+    <h3>Communications Equipment – Hardware and Abrasives – UNSPSC 31160000</h3>
+    <p>Supply of protective covers and mounting brackets for Land Command Support System vehicles.</p>
+    <div class="buyer">Department of National Defence (DND) · *Montréal</div>
+  </a>
+
+</div>
+
+
+    
+    <p class="note">Compiled daily from official open-data feeds (SAM.gov, Grants.gov, CanadaBuys, city open-data portals) and public alerts. Every link goes to the issuing organization's original posting; confirm details there before responding. Last updated November 10, 2026.</p>
+  </div>
+</main>
+<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+</body>
+</html>
