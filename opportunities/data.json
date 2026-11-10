@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "count": 60,
  "items": [
   {
@@ -308,6 +308,22 @@
    "category": "IT & software"
   },
   {
+   "title": "Splunk Support Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-755-74801717",
+   "buyer": "Department of Employment and Social Development (ESDC)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 27",
+   "summary": "Provide Splunk consulting support for ESDC's internal monitoring solution.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
    "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
    "buyer": "DEPT OF DEFENSE",
@@ -336,6 +352,38 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-12-01",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Canada *Ottawa *National Capital Region (NCR)",
+   "due": "Dec 02",
+   "summary": "SaaS collection management system for biological living collections including microbes and fungi.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-02",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "ITQ - Health Services Supply Chain Logistics Solution (MVP)",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Dec 03",
+   "summary": "Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-03",
    "country": "CA",
    "category": "IT & software"
   },
@@ -370,55 +418,6 @@
    "due_iso": "2026-11-20",
    "country": "US",
    "category": "marketing & communications"
-  },
-  {
-   "title": "International Environmental Engineering Consulting Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-384-63779786",
-   "buyer": "Department of Foreign Affairs, Trade and Development (GAC)",
-   "region": "*World",
-   "due": "Nov 17",
-   "summary": "International environmental advisory, assessment, and oversight services for DFATD programs abroad.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Stream 2.11 Information/Record Management/Recordkeeping Specialists",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-938-88054828",
-   "buyer": "Department of Natural Resources (NRCan)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 17",
-   "summary": "Access to Information and Privacy consultant services for records management and ATIP advice.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Senior Human Resource Consultant",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-205-4576286",
-   "buyer": "Office of the Chief Electoral Officer (Elections)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 17",
-   "summary": "Senior human resources consultant temporary staffing services for Elections Canada.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "consulting & strategy"
   },
   {
    "title": "TBIPS - Level 3 Business Analyst",
@@ -566,37 +565,36 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Gather data and maintain the alternative fuel station database",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-313-36103614",
-   "buyer": "Department of Natural Resources (NRCan)",
-   "region": "*Canada",
-   "due": "Nov 17",
-   "summary": "Gather and maintain data for Canadian alternative fuel station database.",
+   "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Manitoba",
+   "due": "Dec 02",
+   "summary": "Provide farm debt mediation and financial counselling services in Manitoba.",
    "tags": [
-    "data & AI"
+    "consulting & strategy"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-17",
+   "due_iso": "2026-12-02",
    "country": "CA",
-   "category": "data & AI"
+   "category": "consulting & strategy"
   },
   {
-   "title": "Data Analytics",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-760-4439630",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 17",
-   "summary": "Provide evaluation, statistical analysis and reporting for VR platform assessment.",
+   "title": "Cost Allocation Assessment and Advisory Services",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261027012",
+   "buyer": "Teachers' Retirement System",
+   "region": "New York, NY",
+   "due": "Dec 02",
+   "summary": "Obtain cost allocation assessment and advisory services for public sector cost methodology evaluation and design.",
    "tags": [
-    "data & AI",
-    "research & evaluation"
+    "consulting & strategy"
    ],
    "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "data & AI"
+   "scope": "US state & local",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "category": "consulting & strategy"
   },
   {
    "title": "North Atlantic Right Whale Density Model Outputs and Scientific Support for Entanglement Risk Assessment",
@@ -745,39 +743,6 @@
    "category": "training & education"
   },
   {
-   "title": "RFP \u2013 Potable Water System Upgrade Design St. Anthony Airport",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967256651-Doc5967309031",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Newfoundland and Labrador",
-   "due": "Nov 17",
-   "summary": "Engineering design for potable water system upgrade at St. Anthony Airport.",
-   "tags": [
-    "construction & facilities",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "\u0141uts\u00ebl K\u2019\u00e9 Staff Housing - Design Build Project, Tha\u0131dene N\u00ebn\u00e9 National Park Reserve",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-932-25323580",
-   "buyer": "Parks Canada Agency (PC)",
-   "region": "*Northwest Territories",
-   "due": "Nov 17",
-   "summary": "Design and build staff housing for \u0141uts\u00ebl K'\u00e9 at Thaidene N\u00ebn\u00e9 National Park Reserve.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-17",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
    "title": "CFLHD Indefinite Delivery, Indefinite Quantity (IDIQ) for Architect-Engineer Design Services",
    "url": "https://sam.gov/workspace/contract/opp/bf5fc2d8a26a45cb884e78c93bf839b7/view",
    "buyer": "TRANSPORTATION, DEPARTMENT OF",
@@ -875,20 +840,20 @@
    "category": "construction & facilities"
   },
   {
-   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/357205",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Nov 17",
-   "summary": "",
+   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
+   "buyer": "Design and Construction",
+   "region": "New York, NY",
+   "due": "Dec 03",
+   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
    "tags": [
-    "health & human services"
+    "construction & facilities"
    ],
    "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-11-17",
+   "scope": "US state & local",
+   "due_iso": "2026-12-03",
    "country": "US",
-   "category": "health & human services"
+   "category": "construction & facilities"
   },
   {
    "title": "Notice of Proposed Procurement (NPP)",
@@ -939,20 +904,20 @@
    "category": "research & evaluation"
   },
   {
-   "title": "Domestic Datalink Services (DDLS) FY 2027 Industry Day December 8-10, 2026",
-   "url": "https://sam.gov/workspace/contract/opp/f691a36fb4d149d7915ffdbe1cccaf04/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 17",
-   "summary": "Domestic Datalink Services (DDLS) FY2027 Industry Day December 8-10, 2026 The purpose of this amendment is to clarify an error in a listed address and questions received: \u00931.1\u2026",
+   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
+   "url": "https://www.grants.gov/search-results-detail/359150",
+   "buyer": "National Institutes of Health",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "",
    "tags": [
-    "other"
+    "research & evaluation"
    ],
    "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-17",
+   "scope": "Grants",
+   "due_iso": "2026-12-02",
    "country": "US",
-   "category": "other"
+   "category": "research & evaluation"
   },
   {
    "title": "USNIC SAR Data Recompete",
@@ -967,6 +932,38 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-19",
+   "country": "US",
+   "category": "other"
+  },
+  {
+   "title": "T8493-260035 - Aircraft Attitude and Heading Reference Unit (APIRS)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967775354-Doc5979484872",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Ottawa",
+   "due": "Nov 30",
+   "summary": "Supply two aircraft attitude and heading reference units for Transport Canada.",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-30",
+   "country": "CA",
+   "category": "other"
+  },
+  {
+   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
+   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "WA",
+   "due": "Dec 01",
+   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
    "country": "US",
    "category": "other"
   }
