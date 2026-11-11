@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "count": 60,
  "items": [
-  {
-   "title": "Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analyst \u2013 (Intermediate Level) for LVM Project (Logistics Vehicle Modernization)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-466-46809080",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 18",
-   "summary": "IT security threat and risk assessment analyst for Logistics Vehicle Modernization Project.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-18",
-   "country": "CA",
-   "category": "IT & software"
-  },
   {
    "title": "MicroFocus Software Subscriptions",
    "url": "https://sam.gov/workspace/contract/opp/7bc9f227e78745ff950928601bc9929a/view",
@@ -31,6 +15,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-19",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Real Estate Information Database Subscription",
+   "url": "https://sam.gov/workspace/contract/opp/7736fc9a909c401393a84b74d8e16d70/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MO",
+   "due": "Nov 20",
+   "summary": "Please see Solicitation for details. Would you please include pricing for 1, 2, and 3 subscriptions?",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
    "country": "US",
    "category": "IT & software"
   },
@@ -356,6 +356,22 @@
    "category": "IT & software"
   },
   {
+   "title": "DTB Security Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-208-67681971",
+   "buyer": "Department of Health (HC)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Dec 01",
+   "summary": "Information technology security planning, protection and incident management consulting services.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-01",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891",
    "buyer": "Department of Agriculture and Agri-Food (AAFC)",
@@ -370,38 +386,6 @@
    "due_iso": "2026-12-02",
    "country": "CA",
    "category": "IT & software"
-  },
-  {
-   "title": "ITQ - Health Services Supply Chain Logistics Solution (MVP)",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 03",
-   "summary": "Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "TSPS \u2013 Five (5) Technical Writers",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-132-426816",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 18",
-   "summary": "Five technical writers for DRDC Editorial Office publications support.",
-   "tags": [
-    "marketing & communications"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-18",
-   "country": "CA",
-   "category": "marketing & communications"
   },
   {
    "title": "AMS Designated Laboratory Meat Testing Services (ADL)",
@@ -565,6 +549,38 @@
    "category": "consulting & strategy"
   },
   {
+   "title": "Workplace Assessment and Restoration",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-165-30421875",
+   "buyer": "Canada Border Services Agency (CBSA)",
+   "region": "*National Capital Region (NCR) *Canada",
+   "due": "Nov 26",
+   "summary": "Workplace assessment and restoration services for CBSA division with approximately 40 employees.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-26",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Senior HR Consultants",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-450-12101762",
+   "buyer": "Elections Canada (Elections)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Dec 01",
+   "summary": "Temporary senior HR consultants for Elections Canada in National Capital Region.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-01",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
    "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
    "buyer": "Department of Agriculture and Agri-Food (AAFC)",
@@ -595,23 +611,6 @@
    "due_iso": "2026-12-02",
    "country": "US",
    "category": "consulting & strategy"
-  },
-  {
-   "title": "North Atlantic Right Whale Density Model Outputs and Scientific Support for Entanglement Risk Assessment",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-944-67394540",
-   "buyer": "Department of Fisheries and Oceans (DFO)",
-   "region": "",
-   "due": "Nov 18",
-   "summary": "North Atlantic right whale density model outputs and scientific consultation for entanglement risk assessment.",
-   "tags": [
-    "data & AI",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-18",
-   "country": "CA",
-   "category": "data & AI"
   },
   {
    "title": "Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)",
@@ -678,19 +677,18 @@
    "category": "data & AI"
   },
   {
-   "title": "82627P0002-BEPA: GI-PSE 1-3 Design Services Task Order Contract for Green Infrastructure in NYC Parks & City-owned Street Ends",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261014029",
-   "buyer": "Environmental Protection",
-   "region": "New York, NY",
-   "due": "Nov 18",
-   "summary": "Design green infrastructure practices in NYC Parks to manage stormwater runoff.",
+   "title": "Autodesk AEC Software Renewal",
+   "url": "https://sam.gov/workspace/contract/opp/674779410e374fafa56aff70e8c06175/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Nov 19",
+   "summary": "The Naval Air Warfare Center, Weapons Division, China Lake, CA intends to procure on other than full and open competition basis a manufacture sole source to Auto Desk, 1 Market\u2026",
    "tags": [
-    "design & creative",
-    "construction & facilities"
+    "design & creative"
    ],
    "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-11-18",
+   "scope": "US federal",
+   "due_iso": "2026-11-19",
    "country": "US",
    "category": "design & creative"
   },
@@ -711,22 +709,6 @@
    "category": "design & creative"
   },
   {
-   "title": "Tax Software and Support",
-   "url": "https://sam.gov/workspace/contract/opp/23f8f23f5e6d4744b376584aac3743c7/view",
-   "buyer": "TREASURY, DEPARTMENT OF THE",
-   "region": "MD",
-   "due": "Nov 18",
-   "summary": "The IRS has an ongoing requirement for commercial tax software products and associated services supporting the Federal Tax Compliance mission. The anticipated contract will\u2026",
-   "tags": [
-    "training & education"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-18",
-   "country": "US",
-   "category": "training & education"
-  },
-  {
    "title": "5000093706 Spokesperson Coaching",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-754-50251584",
    "buyer": "Canadian Nuclear Safety Commission (CNSC)",
@@ -739,6 +721,22 @@
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "training & education"
+  },
+  {
+   "title": "Senior Designer for Safety Training Courses",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-394-88648850",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Canada",
+   "due": "Nov 27",
+   "summary": "Design, implement and evaluate safety training courses for Canadian Defence Safety Programme.",
+   "tags": [
+    "training & education"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
    "country": "CA",
    "category": "training & education"
   },
@@ -840,38 +838,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
-   "buyer": "Design and Construction",
-   "region": "New York, NY",
-   "due": "Dec 03",
-   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "Notice of Proposed Procurement (NPP)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-787-21460756",
-   "buyer": "Department of Natural Resources (NRCan)",
-   "region": "*Unspecified",
-   "due": "Nov 18",
-   "summary": "Laboratory testing and data analysis for air-to-water heat pump systems per CSA/ANSI C715.",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-18",
-   "country": "CA",
-   "category": "research & evaluation"
-  },
-  {
    "title": "V-22 AIRCRAFT SOFTWARE CONCURRENCY UPGRADES AND FLIGHT TRAINING DEVICE INTEGRATION",
    "url": "https://sam.gov/workspace/contract/opp/9e4a0b6252e046d080684f3436f0114e/view",
    "buyer": "DEPT OF DEFENSE",
@@ -884,6 +850,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-19",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "PROJECT MS NP NATR 3P29 - GROUND PENETRATING RADAR (GPR) DATA COLLECTION",
+   "url": "https://sam.gov/workspace/contract/opp/16dff07df58e4615a5ac14b53c1a1cf5/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "VA",
+   "due": "Nov 20",
+   "summary": "NOTICE OF INTENT TO SOLE SOURCE: THE EASTERN FEDERAL LANDS HIGHWAY DIVISION, OF THE FEDERAL HIGHWAY ADMINISTRATION (FHWA), INTENDS TO PROCURE FROM ECS SOUTHEAST, LLC, (ESC) FOR\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-20",
    "country": "US",
    "category": "research & evaluation"
   },
@@ -901,6 +883,22 @@
    "scope": "Canada",
    "due_iso": "2026-11-23",
    "country": "CA",
+   "category": "research & evaluation"
+  },
+  {
+   "title": "Space Data Network (SDN) Industry Consortium for Space-to-Space Communications",
+   "url": "https://sam.gov/workspace/contract/opp/a62a1dca4c8b4258abc83f100b24c322/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "CA",
+   "due": "Nov 23",
+   "summary": "1. Purpose and Program Background The Space Systems Command\u0092s Space Data Network Backbone (SDN-B) program office is fielding a proliferated, integrated, vendor-diverse\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-23",
+   "country": "US",
    "category": "research & evaluation"
   },
   {
