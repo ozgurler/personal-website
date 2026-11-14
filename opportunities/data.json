@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "count": 60,
  "items": [
   {
@@ -16,6 +16,22 @@
    "scope": "US federal",
    "due_iso": "2026-11-22",
    "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035409:T",
+   "buyer": "Shared Services Canada",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 23",
+   "summary": "Red Hat Ansible Automation Platform standard subscription renewal for Canada Mortgage and Housing Corporation.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-23",
+   "country": "CA",
    "category": "IT & software"
   },
   {
@@ -244,6 +260,56 @@
    "category": "IT & software"
   },
   {
+   "title": "Aruba Maintenance for Software and Hardware",
+   "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
+   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+   "region": "VA",
+   "due": "Nov 30",
+   "summary": "Aruba software and hardware maintenance support contract.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-621-34120934",
+   "buyer": "Impact Assessment Agency of Canada (IAAC)",
+   "region": "*Canada *Remote Offsite",
+   "due": "Nov 30",
+   "summary": "Geospatial informatics professional services for GIS operation, maintenance and modernization.",
+   "tags": [
+    "IT & software",
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-30",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "Automated Mission Communication Manager Request for Information (RFI)",
+   "url": "https://sam.gov/workspace/contract/opp/1398a352e7a844f998eeeb7e2c9e3f57/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "OH",
+   "due": "Nov 30",
+   "summary": "Air Force seeks market research for Automated Mission Communication Manager system solutions.",
+   "tags": [
+    "IT & software",
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
    "title": "RFI - Computer Aided Dispatch system Next Generation (CAD NG)",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030578?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -308,40 +374,6 @@
    "category": "IT & software"
   },
   {
-   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/355439",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "Research software engineer awards excluding clinical trials.",
-   "tags": [
-    "IT & software",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
-   "buyer": "Statistics Canada (StatCan)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Assess Statistics Canada's website environment and recommend future web publishing platform architecture.",
-   "tags": [
-    "IT & software",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
    "title": "NPP - Learning Support Centre Support Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-683-90415336",
    "buyer": "Department of National Defence (DND)",
@@ -396,6 +428,22 @@
    "region": "*Remote Offsite *National Capital Region (NCR)",
    "due": "Nov 24",
    "summary": "Please note that late submissions will not be considered or accepted. This bid solicitation is being issued to satisfy the requirement of the Employment and Social Development\u2026",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-24",
+   "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "Stream 2.11 Information/Record Management/Recordkeeping Specialists",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-235-44493484",
+   "buyer": "Department of Natural Resources (NRCan)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Nov 24",
+   "summary": "ATIP consultant services for Access to Information and Privacy advice at Natural Resources Canada.",
    "tags": [
     "consulting & strategy"
    ],
@@ -567,23 +615,6 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "EW699-260375D-PRAIRIES Multidisciplinary Environmental Consulting Services RFSO",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029078?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Environmental consulting services for contaminated sites and remediation across Prairie Provinces.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
    "title": "Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/361817",
    "buyer": "National Institutes of Health",
@@ -661,22 +692,6 @@
    "scope": "Canada",
    "due_iso": "2026-11-25",
    "country": "CA",
-   "category": "design & creative"
-  },
-  {
-   "title": "Graphic Design Support Services for the U. S. Department of Transportation (DOT)",
-   "url": "https://sam.gov/workspace/contract/opp/9eebdecf3ef84e91b8f32a998178b395/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 03",
-   "summary": "This Solicitation's resulting contract-awardee-company will provide Graphic Design Support Services for the U. S. Department of Transportation (DOT). This Solicitation is a\u2026",
-   "tags": [
-    "design & creative"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
    "category": "design & creative"
   },
   {
@@ -776,22 +791,6 @@
    "category": "construction & facilities"
   },
   {
-   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
-   "buyer": "Transportation",
-   "region": "New York, NY",
-   "due": "Dec 04",
-   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
    "title": "DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
    "url": "https://sam.gov/workspace/contract/opp/05e1ecb6acc245ee8a9a05c6f4bcea96/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -872,22 +871,6 @@
    "category": "research & evaluation"
   },
   {
-   "title": "Request for Information - Collection Risk Assessment and Risk Mitigation Planning Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-751-55845952",
-   "buyer": "Canadian Museum of Nature (CMN)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 04",
-   "summary": "Collections risk assessment and mitigation planning for museum holdings.",
-   "tags": [
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "research & evaluation"
-  },
-  {
    "title": "7A--USNIC SAR Data Recompete",
    "url": "https://sam.gov/workspace/contract/opp/a47689809b2742239ab7b0ccecfe3acf/view",
    "buyer": "COMMERCE, DEPARTMENT OF",
@@ -920,6 +903,22 @@
    "category": "other"
   },
   {
+   "title": "Charpy Test Machine",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-620-44964870",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*National Capital Region (NCR) *Canada *Gatineau",
+   "due": "Nov 27",
+   "summary": "Replacement Charpy impact test machine with accessories and software for materials testing.",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-27",
+   "country": "CA",
+   "category": "other"
+  },
+  {
    "title": "T8493-260035 - Aircraft Attitude and Heading Reference Unit (APIRS)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967775354-Doc5979484872",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -936,6 +935,22 @@
    "category": "other"
   },
   {
+   "title": "Private Equity and Private Credit Data Services",
+   "url": "https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view",
+   "buyer": "TREASURY, DEPARTMENT OF THE",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "COMBINED SYNOPSIS/SOLICITATION REQUEST FOR QUOTATION (RFQ) Issuing Office: U.S. Department of Treasury, Comptroller of the Currency, Acquisition Management 400 7th Street SW\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "other"
+  },
+  {
    "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
    "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
    "buyer": "ENERGY, DEPARTMENT OF",
@@ -948,22 +963,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
-   "country": "US",
-   "category": "other"
-  },
-  {
-   "title": "CCTV System Design A/E Services Great Plains",
-   "url": "https://sam.gov/workspace/contract/opp/481152b6e267470299b593ed0a463590/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Dec 03",
-   "summary": "A/E Services for CCTV System Design, Great Plains Region",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
    "country": "US",
    "category": "other"
   }
