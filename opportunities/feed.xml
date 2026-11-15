@@ -4,13 +4,6 @@
 <link>https://www.emreozgurler.com/opportunities/</link>
 <description>Open RFPs from US and Canadian government and nonprofits, updated daily.</description>
 <item>
-<title>UAS AND TRACR II INTERFACE CONTROL DOCUMENT (ICD) COMPLIANCE</title>
-<link>https://sam.gov/workspace/contract/opp/7aba6034a12643f1ac8ec5ed23bafcca/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/7aba6034a12643f1ac8ec5ed23bafcca/view</guid>
-<description>US federal · DEPT OF DEFENSE · Due Nov 22. Vendors to propose Group 1 UAS integration with TRACR II software interface compliance.</description>
-<category>IT &amp; software</category>
-</item>
-<item>
 <title>Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation</title>
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035409:T</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035409:T</guid>
@@ -116,6 +109,13 @@
 <category>IT &amp; software</category>
 </item>
 <item>
+<title>R425--FY 27 Service (Base+4) | NYH Energy Control Procedures/LOTO Services | 630</title>
+<link>https://sam.gov/workspace/contract/opp/5d73616203d447e888c36d0c3fdea423/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/5d73616203d447e888c36d0c3fdea423/view</guid>
+<description>US federal · VETERANS AFFAIRS, DEPARTMENT OF · Due Nov 27. Lockout/Tagout energy control procedures and software services for New York Harbor VA Healthcare System.</description>
+<category>IT &amp; software</category>
+</item>
+<item>
 <title>Aruba Maintenance for Software and Hardware</title>
 <link>https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view</guid>
@@ -158,13 +158,6 @@
 <category>IT &amp; software</category>
 </item>
 <item>
-<title>ITQ - Health Services Supply Chain Logistics Solution (MVP)</title>
-<link>https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS</link>
-<guid isPermaLink="false">https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS</guid>
-<description>Canada · Department of Public Works and Government Services (PSPC) · Due Dec 03. Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.</description>
-<category>IT &amp; software</category>
-</item>
-<item>
 <title>NPP - Learning Support Centre Support Services</title>
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-683-90415336</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-683-90415336</guid>
@@ -176,6 +169,13 @@
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-145-70937475</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-145-70937475</guid>
 <description>Canada · Department of National Defence (DND) · Due Nov 23. Provide project support organization to develop support services arrangement for Royal Military College.</description>
+<category>consulting &amp; strategy</category>
+</item>
+<item>
+<title>R408--FY27 Lean and High Reliability Organization Transformation Support</title>
+<link>https://sam.gov/workspace/contract/opp/198f948febf44171971e34a0e1bc4f75/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/198f948febf44171971e34a0e1bc4f75/view</guid>
+<description>US federal · VETERANS AFFAIRS, DEPARTMENT OF · Due Nov 23. Lean and High Reliability Organization transformation consulting and training.</description>
 <category>consulting &amp; strategy</category>
 </item>
 <item>
@@ -298,6 +298,13 @@
 <category>data &amp; AI</category>
 </item>
 <item>
+<title>Private Equity and Private Credit Data Services</title>
+<link>https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view</guid>
+<description>US federal · TREASURY, DEPARTMENT OF THE · Due Nov 30. Private equity and private credit data services for Treasury Department.</description>
+<category>data &amp; AI</category>
+</item>
+<item>
 <title>Develop Wayfinding Strategy for Mississippi Lake National Wildlife Area (MLNWA), St Clair National Wildlife Area (SCNWA) and Big Creek National Wildlife Area (BCNWA)</title>
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100</guid>
@@ -345,12 +352,5 @@
 <guid isPermaLink="false">https://a856-cityrecord.nyc.gov/RequestDetail/20261009021</guid>
 <description>US state &amp; local · Design and Construction · Due Dec 03. Provide construction management and design-build services for petroleum storage tank upgrades citywide.</description>
 <category>construction &amp; facilities</category>
-</item>
-<item>
-<title>DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II</title>
-<link>https://sam.gov/workspace/contract/opp/05e1ecb6acc245ee8a9a05c6f4bcea96/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/05e1ecb6acc245ee8a9a05c6f4bcea96/view</guid>
-<description>US federal · VETERANS AFFAIRS, DEPARTMENT OF · Due Nov 30. VA is seeking sources that are able to provide full lifecycle sustainment and operational support, and any associated bug/fix development, and regulatory compliance services for…</description>
-<category>health &amp; human services</category>
 </item>
 </channel></rss>

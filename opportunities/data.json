@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "count": 60,
  "items": [
-  {
-   "title": "UAS AND TRACR II INTERFACE CONTROL DOCUMENT (ICD) COMPLIANCE",
-   "url": "https://sam.gov/workspace/contract/opp/7aba6034a12643f1ac8ec5ed23bafcca/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "FL",
-   "due": "Nov 22",
-   "summary": "Vendors to propose Group 1 UAS integration with TRACR II software interface compliance.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-22",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035409:T",
@@ -260,6 +244,22 @@
    "category": "IT & software"
   },
   {
+   "title": "R425--FY 27 Service (Base+4) | NYH Energy Control Procedures/LOTO Services | 630",
+   "url": "https://sam.gov/workspace/contract/opp/5d73616203d447e888c36d0c3fdea423/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "NY",
+   "due": "Nov 27",
+   "summary": "Lockout/Tagout energy control procedures and software services for New York Harbor VA Healthcare System.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-27",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
    "title": "Aruba Maintenance for Software and Hardware",
    "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
    "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
@@ -358,22 +358,6 @@
    "category": "IT & software"
   },
   {
-   "title": "ITQ - Health Services Supply Chain Logistics Solution (MVP)",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 03",
-   "summary": "Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
    "title": "NPP - Learning Support Centre Support Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-683-90415336",
    "buyer": "Department of National Defence (DND)",
@@ -403,6 +387,22 @@
    "scope": "Canada",
    "due_iso": "2026-11-23",
    "country": "CA",
+   "category": "consulting & strategy"
+  },
+  {
+   "title": "R408--FY27 Lean and High Reliability Organization Transformation Support",
+   "url": "https://sam.gov/workspace/contract/opp/198f948febf44171971e34a0e1bc4f75/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "FL",
+   "due": "Nov 23",
+   "summary": "Lean and High Reliability Organization transformation consulting and training.",
+   "tags": [
+    "consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-23",
+   "country": "US",
    "category": "consulting & strategy"
   },
   {
@@ -679,6 +679,22 @@
    "category": "data & AI"
   },
   {
+   "title": "Private Equity and Private Credit Data Services",
+   "url": "https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view",
+   "buyer": "TREASURY, DEPARTMENT OF THE",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "Private equity and private credit data services for Treasury Department.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
    "title": "Develop Wayfinding Strategy for Mississippi Lake National Wildlife Area (MLNWA), St Clair National Wildlife Area (SCNWA) and Big Creek National Wildlife Area (BCNWA)",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100",
    "buyer": "Department of the Environment (ECCC )",
@@ -932,22 +948,6 @@
    "scope": "Canada",
    "due_iso": "2026-11-30",
    "country": "CA",
-   "category": "other"
-  },
-  {
-   "title": "Private Equity and Private Credit Data Services",
-   "url": "https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view",
-   "buyer": "TREASURY, DEPARTMENT OF THE",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "COMBINED SYNOPSIS/SOLICITATION REQUEST FOR QUOTATION (RFQ) Issuing Office: U.S. Department of Treasury, Comptroller of the Currency, Acquisition Management 400 7th Street SW\u2026",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
    "category": "other"
   },
   {
