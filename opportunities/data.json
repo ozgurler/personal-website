@@ -1,39 +1,7 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "count": 60,
  "items": [
-  {
-   "title": "Digital Talent Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-26-24814736",
-   "buyer": "Department of Public Safety and Emergency Preparedness (PS)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 24",
-   "summary": "Provide IT professional services for digital modernization initiatives.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Computer Equipment Peripherals",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-351-55979873",
-   "buyer": "House of Commons",
-   "region": "*Ottawa",
-   "due": "Nov 24",
-   "summary": "Gather information on computer equipment peripherals meeting House of Commons requirements.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "IT & software"
-  },
   {
    "title": "BSI Software Support Contract - Hosting, Consulting Services",
    "url": "https://sam.gov/workspace/contract/opp/fc98ad9fab954f5ca9343116d75e5979/view",
@@ -214,6 +182,23 @@
    "category": "IT & software"
   },
   {
+   "title": "PAO Media Analytics Software as a Service",
+   "url": "https://sam.gov/workspace/contract/opp/65579024f769460d83382968b9c9ba3d/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "KS",
+   "due": "Dec 01",
+   "summary": "Real-time media analytics dashboard software with drill-down capabilities for military public affairs.",
+   "tags": [
+    "IT & software",
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
    "title": "RFI - Computer Aided Dispatch system Next Generation (CAD NG)",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030578?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -236,6 +221,22 @@
    "region": "*National Capital Region (NCR)",
    "due": "Dec 01",
    "summary": "Information technology security planning, protection and incident management consulting services.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-01",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
+   "title": "2BH6216607/A NVIDIA DGX SPARK AI MINI PC GB10 AI workstation or equivalent for ISED",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035486:T",
+   "buyer": "Shared Services Canada",
+   "region": "*Ontario (except NCR) *National Capital Region (NCR)",
+   "due": "Dec 01",
+   "summary": "Supply four NVIDIA DGX Spark AI mini PC GB10 workstations for ISED.",
    "tags": [
     "IT & software"
    ],
@@ -312,101 +313,20 @@
    "category": "IT & software"
   },
   {
-   "title": "SaaS ESG Data Repository solution",
-   "url": "https://www.merx.com/public/solicitations/4188349404/abstract?language=EN",
-   "buyer": "Export Development Canada - EDC",
-   "region": "",
-   "due": "Dec 08",
-   "summary": "Through this solicitation, EDC intends to award a contract to a qualified firm to provide a SaaS ESG Data Repository solution and related implementation, transition\u2026",
+   "title": "Internal Communications System \u2013 Zenitel Marine Components-CCGS Teleost",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031564?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Newfoundland and Labrador",
+   "due": "Dec 07",
+   "summary": "Internal communications system Zenitel marine components for CCGS Teleost.",
    "tags": [
     "IT & software"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-12-08",
+   "due_iso": "2026-12-07",
    "country": "CA",
    "category": "IT & software"
-  },
-  {
-   "title": "1N001-265342 - Request for Information (RFI) \u2013 Cloud-Based Library Services Platform (LSP)",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030881?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 08",
-   "summary": "Information on cloud-based library services platforms for Supreme Court of Canada.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-08",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "RFP 0D160-243955 Memorial Grant Program for First Responders",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029560?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 24",
-   "summary": "Design, implement and administer Memorial Grant Program application process for first responders.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "G9292-271166-B WS5755477339 TBIPS - PSIB - myEMS SAP Solution",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030493?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Remote Offsite *National Capital Region (NCR)",
-   "due": "Nov 24",
-   "summary": "Please note that late submissions will not be considered or accepted. This bid solicitation is being issued to satisfy the requirement of the Employment and Social Development\u2026",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Stream 2.11 Information/Record Management/Recordkeeping Specialists",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-235-44493484",
-   "buyer": "Department of Natural Resources (NRCan)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 24",
-   "summary": "ATIP consultant services for Access to Information and Privacy advice at Natural Resources Canada.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "ET025-270925 \u2013 ECCC Lake of the Woods Outlet Capacity Study",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030463?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Kenora",
-   "due": "Nov 24",
-   "summary": "Civil engineering consulting for Lake of the Woods outlet capacity study.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "consulting & strategy"
   },
   {
    "title": "TBIPS Grants and Contributions Transformation Initiative (GCTI) \u2013 Stream 1 B.1 Business Analysis Services and Stream 2 A.11 Tester, P.11 Quality Assurance",
@@ -570,20 +490,36 @@
    "category": "consulting & strategy"
   },
   {
-   "title": "Mediator Consultant - Saskatchewan for the Farm Debt Mediation Service (FDMS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-313-71346617",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Saskatchewan",
-   "due": "Dec 08",
-   "summary": "Financial counselling and mediation services for farmers in debt across Saskatchewan.",
+   "title": "Artificial Intelligence (AI) Training for the Technology Acquisition Center (TAC)",
+   "url": "https://sam.gov/workspace/contract/opp/be8c83a0e805451481896adcc39e29e3/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 27",
+   "summary": "Performance Work Statement TAC Artificial Intelligence (AI) Training BACKGROUND The mission of the Department of Veterans Affairs (VA), Office of Procurement, Acquisition, and\u2026",
    "tags": [
-    "consulting & strategy"
+    "data & AI"
    ],
    "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-08",
-   "country": "CA",
-   "category": "consulting & strategy"
+   "scope": "US federal",
+   "due_iso": "2026-11-27",
+   "country": "US",
+   "category": "data & AI"
+  },
+  {
+   "title": "Compliance Data Warehouse (CDW), HyDRA, HyDRA Maps, Analytics, Geospatial Services, and Operational Support",
+   "url": "https://sam.gov/workspace/contract/opp/8a07bbdf3601455da3e3aa3a0616d1b3/view",
+   "buyer": "AGRICULTURE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "Sources Sought Notice Compliance Data Warehouse (CDW), HyDRA, HyDRA Maps, Analytics, Geospatial Services, and Operational Support Sources Sought Notice This Sources Sought Notice\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "data & AI"
   },
   {
    "title": "USAC RFP: Enterprise Data Platform",
@@ -650,6 +586,22 @@
    "category": "design & creative"
   },
   {
+   "title": "ARROW CANYON KIOSKS DESIGN AND INSTALLATION",
+   "url": "https://sam.gov/workspace/contract/opp/88d68e1bdff741bfa8cdee6ea0b3ceca/view",
+   "buyer": "INTERIOR, DEPARTMENT OF THE",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "The objective of this requirement is to provide, deliver, and install three durable outdoor interpretive kiosks and associated interpretive panels at BLM - approved locations\u2026",
+   "tags": [
+    "design & creative"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "category": "design & creative"
+  },
+  {
    "title": "Graphic Design Support Services for the U. S. Department of Transportation (DOT)",
    "url": "https://sam.gov/workspace/contract/opp/9eebdecf3ef84e91b8f32a998178b395/view",
    "buyer": "TRANSPORTATION, DEPARTMENT OF",
@@ -664,22 +616,6 @@
    "due_iso": "2026-12-03",
    "country": "US",
    "category": "design & creative"
-  },
-  {
-   "title": "5000093706 Spokesperson Coaching",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-754-50251584",
-   "buyer": "Canadian Nuclear Safety Commission (CNSC)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 24",
-   "summary": "Spokesperson coaching services for Canadian Nuclear Safety Commission staff and management.",
-   "tags": [
-    "training & education"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-24",
-   "country": "CA",
-   "category": "training & education"
   },
   {
    "title": "Senior Designer for Safety Training Courses",
@@ -826,6 +762,22 @@
    "category": "research & evaluation"
   },
   {
+   "title": "Data Collection for Allowances",
+   "url": "https://sam.gov/workspace/contract/opp/8b0bee4cf2fe4cf09504ca4400cac146/view",
+   "buyer": "STATE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "The Department of State is conducting market research to determine the availability and abilities of firms that can provide data to support a variety of allowance rates for\u2026",
+   "tags": [
+    "research & evaluation"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "category": "research & evaluation"
+  },
+  {
    "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
    "url": "https://www.grants.gov/search-results-detail/359150",
    "buyer": "National Institutes of Health",
@@ -938,6 +890,22 @@
    "category": "other"
   },
   {
+   "title": "Spectroradiometers",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-588-66870127",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Gatineau *Canada *National Capital Region (NCR)",
+   "due": "Nov 30",
+   "summary": "Two spectroradiometers with accessories and software for Department of National Defence.",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-30",
+   "country": "CA",
+   "category": "other"
+  },
+  {
    "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
    "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
    "buyer": "ENERGY, DEPARTMENT OF",
@@ -950,6 +918,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
+   "country": "US",
+   "category": "other"
+  },
+  {
+   "title": "Datawell Buoy Services Renewal",
+   "url": "https://sam.gov/workspace/contract/opp/e493650b95ba40e59c48adf742105200/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "THIS IS A NOTICE OF INTENT TO SOLE SOURCE, NOT A REQUEST FOR A QUOTE (RFQ).? A RFQ WILL NOT BE ISSUED AND QUOTES WILL NOT BE REQUESTED. In accordance with FAR 6.103.1, the Naval\u2026",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-02",
    "country": "US",
    "category": "other"
   },
@@ -967,6 +951,22 @@
    "scope": "US federal",
    "due_iso": "2026-12-03",
    "country": "US",
+   "category": "other"
+  },
+  {
+   "title": "Self-Propelled Plot Combine - 01633-270182",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031581?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Brandon",
+   "due": "Dec 04",
+   "summary": "Supply and delivery of one new self-propelled plot combine for Agriculture and Agri-Food Canada Brandon facility.",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-04",
+   "country": "CA",
    "category": "other"
   }
  ]
