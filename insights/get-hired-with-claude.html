@@ -11,29 +11,24 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Get Hired with Claude — A Job Seeker's Field Guide","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-17"}
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
 <style>
   :root{
-    --ink:#16233d;          /* deep ink navy */
-    --ink-soft:#44506a;     /* secondary text */
-    --paper:#f6f7f4;        /* cool paper */
+    --ink:#000000;          /* deep ink navy */
+    --ink-soft:#5C5F5A;     /* secondary text */
+    --paper:#FFFFFF;        /* cool paper */
     --card:#ffffff;
     --marker:#ffd84d;       /* highlighter yellow — the signature */
     --marker-deep:#f5c400;
     --hired:#177a54;        /* "offer accepted" green */
-    --line:#dfe2da;
-    --mono:'IBM Plex Mono',monospace;
-    --site-ink:#0E1B2C;
-    --site-copper:#C07A3A;
+    --line:#C8CAC4;
+    --mono:'Barlow',sans-serif;
+    --site-ink:#000000;
+    --site-copper:#FFD60A;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{
-    font-family:'Public Sans',sans-serif;
+    font-family:'Barlow',sans-serif;
     background:var(--paper);
     color:var(--ink);
     line-height:1.6;
@@ -43,15 +38,15 @@
 
   /* ---------- site chrome ---------- */
   .site-nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
-      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
-      border-bottom:1px solid rgba(192,122,58,.25)}
-  .site-nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(0,0,0,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid #FFD60A}
+  .site-nav .logo{font-family:var(--mono);font-size:.85rem;color:#FFFFFF;text-decoration:none;font-weight:500}
   .site-nav .logo b{color:var(--site-copper)}
-  .site-nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
-             color:#B9C4CE;text-decoration:none}
+  .site-nav a.back{font-family:var(--mono);font-size:.88rem;
+             color:#E4E4E0;text-decoration:none;font-weight:500}
   .site-nav a.back:hover{color:var(--site-copper)}
-  .byline{font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
-          color:var(--ink-soft);margin-top:18px}
+  .byline{font-family:var(--mono);font-size:14px;
+          color:var(--ink-soft);margin-top:18px;font-weight:500}
   .byline b{color:var(--site-copper)}
 
   /* ---------- highlighter signature ---------- */
@@ -73,28 +68,27 @@
   /* ---------- hero ---------- */
   header{
     background:var(--site-ink);
-    color:#E8ECEF;
+    color:#FFFFFF;
     padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem);
   }
   header .wrap{padding:0}
-  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.7rem;
-        letter-spacing:.1em;text-transform:uppercase;color:#8FA0B0;margin-bottom:.9rem}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.88rem;
+        color:#B4B6B0;margin-bottom:.9rem;font-weight:500}
   .meta .cat{color:var(--site-copper)}
   .eyebrow{
     font-family:var(--mono);
-    font-size:13px;
-    letter-spacing:0.12em;
-    text-transform:uppercase;
+    font-size:14px;
+    
+    
     color:var(--ink-soft);
     display:flex;align-items:center;gap:10px;
-    margin-bottom:26px;
-  }
+    margin-bottom:26px;font-weight:500}
   .eyebrow::before{
     content:"";width:34px;height:3px;background:var(--marker-deep);display:inline-block;
   }
   h1{
-    font-family:'Archivo',sans-serif;
-    font-weight:800;
+    font-family:'Barlow Condensed',sans-serif;
+    font-weight:700;
     font-size:clamp(1.8rem,4.5vw,2.7rem);
     line-height:1.15;
     letter-spacing:-0.01em;
@@ -102,16 +96,16 @@
   }
   .lede{
     font-size:19px;
-    color:#B9C4CE;
+    color:#E4E4E0;
     max-width:620px;
   }
-  .lede strong{color:#E8ECEF}
+  .lede strong{color:#FFFFFF}
 
   /* ---------- sections ---------- */
   section{padding:56px 0 8px}
   h2{
-    font-family:'Archivo',sans-serif;
-    font-weight:800;
+    font-family:'Barlow Condensed',sans-serif;
+    font-weight:700;
     font-stretch:105%;
     font-size:clamp(26px,3.6vw,34px);
     line-height:1.15;
@@ -120,12 +114,11 @@
   }
   .kicker{
     font-family:var(--mono);
-    font-size:12.5px;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
+    font-size:14px;
+    
+    
     color:var(--ink-soft);
-    margin-bottom:14px;
-  }
+    margin-bottom:14px;font-weight:500}
   .section-intro{max-width:640px;color:var(--ink-soft);margin-bottom:30px}
 
   /* ---------- setup steps ---------- */
@@ -144,7 +137,7 @@
     position:absolute;left:20px;top:16px;
     width:34px;height:34px;
     background:var(--ink);color:var(--marker);
-    font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;
+    font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:17px;
     display:flex;align-items:center;justify-content:center;
     border-radius:10px;
   }
@@ -153,8 +146,7 @@
   .ui{
     font-family:var(--mono);font-size:0.88em;
     background:#eef0ea;border:1px solid var(--line);
-    border-radius:6px;padding:1px 7px;white-space:nowrap;
-  }
+    border-radius:0;padding:1px 7px;white-space:nowrap;font-weight:500}
 
   /* ---------- tool grid ---------- */
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-bottom:26px}
@@ -165,8 +157,8 @@
     padding:20px 20px 18px;
   }
   .tool h3{
-    font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;
-    text-transform:uppercase;letter-spacing:0.03em;
+    font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;
+    letter-spacing:0.03em;
     margin-bottom:6px;
   }
   .tool h3::before{content:"▸ ";color:var(--marker-deep)}
@@ -183,11 +175,10 @@
   }
   .prompt::before{
     content:"COPY & PASTE";
-    font-family:var(--mono);font-size:10.5px;letter-spacing:0.16em;
+    font-family:var(--mono);font-size:14px;
     color:var(--marker);
-    display:block;margin-bottom:8px;
-  }
-  .prompt p{font-family:var(--mono);font-size:14.5px;line-height:1.65}
+    display:block;margin-bottom:8px;font-weight:500}
+  .prompt p{font-family:var(--mono);font-size:14.5px;line-height:1.65;font-weight:500}
   .prompt .fill{color:var(--marker)}
   .prompt-note{font-size:14px;color:var(--ink-soft);margin:-4px 4px 26px}
 
@@ -203,10 +194,9 @@
   .config-item b{font-size:16.5px}
   .config-item p{font-size:15px;color:var(--ink-soft);margin-top:2px}
   .tag{
-    font-family:var(--mono);font-size:11px;letter-spacing:0.08em;
-    background:var(--ink);color:#fff;border-radius:5px;
-    padding:2px 8px;margin-left:8px;vertical-align:2px;text-transform:uppercase;
-  }
+    font-family:var(--mono);font-size:14px;
+    background:var(--ink);color:#fff;border-radius:0;
+    padding:2px 8px;margin-left:8px;vertical-align:2px;font-weight:500}
 
   /* ---------- ground rules ---------- */
   .rules{list-style:none;display:grid;gap:10px;margin-bottom:26px}
@@ -216,7 +206,7 @@
   .rules li::before{
     content:"✓";
     position:absolute;left:0;top:1px;
-    width:24px;height:24px;border-radius:8px;
+    width:24px;height:24px;border-radius:0;
     background:#d9efe4;color:var(--hired);
     font-weight:700;font-size:14px;
     display:flex;align-items:center;justify-content:center;
@@ -228,23 +218,22 @@
   footer{
     margin-top:56px;
     background:var(--site-ink);
-    border-top:1px solid #2A4361;
+    border-top:1px solid #3A3A38;
     padding:1.4rem;
     text-align:center;
-    font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;
-    text-transform:uppercase;color:#8FA0B0;
-  }
+    font-family:var(--mono);font-size:.88rem;
+    color:#B4B6B0;font-weight:500}
   .stamp{
-    font-family:'Archivo',sans-serif;font-weight:900;font-size:15px;
-    text-transform:uppercase;letter-spacing:0.08em;
+    font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;
+    
     color:var(--hired);
     border:2.5px solid var(--hired);
-    border-radius:8px;
+    border-radius:0;
     padding:6px 14px;
     transform:rotate(-2deg);
   }
   .site-footer{background:var(--site-ink);padding:1.4rem;text-align:center;
-         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#8FA0B0}
+         font-family:var(--mono);font-size:.88rem;color:#B4B6B0;font-weight:500}
 
   @media (max-width:560px){
     .steps li{padding-left:64px}
@@ -264,13 +253,13 @@
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preload" href="/fonts/BarlowCondensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/theme.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
-  <a class="back" href="index.html">← All insights</a>
-</nav>
+<div class="eo-nav" role="navigation" aria-label="Site"><div class="bar"><a class="logo" href="../index.html"><b>EO</b><span>Emre Ozgurler</span></a><a class="back" href="index.html">All insights</a></div></div>
 
 <header>
   <div class="wrap">
@@ -312,7 +301,7 @@
   <div class="wrap">
     <p class="kicker">Part 3 — Prompts that work</p>
     <h2>Say this, <span class="hl">get results</span></h2>
-    <p class="section-intro">Upload your resume (or let Claude read your Indeed profile), then try these. Swap the <span style="background:var(--marker);padding:0 4px;border-radius:4px;font-family:var(--mono);font-size:0.85em">[brackets]</span> for your details.</p>
+    <p class="section-intro">Upload your resume (or let Claude read your Indeed profile), then try these. Swap the <span style="background:var(--marker);padding:0 4px;border-radius:0;font-family:var(--mono);font-size:0.85em;font-weight:500">[brackets]</span> for your details.</p>
 
     <div class="prompt"><p>Here's my resume. Search Indeed for <span class="fill">[job title]</span> roles in <span class="fill">[city / remote]</span> posted in the last week. Rank the top 10 by how well they match my experience, and tell me why.</p></div>
     <p class="prompt-note">The ranked shortlist — your daily starting point.</p>
@@ -356,7 +345,7 @@
   </div>
 </section>
 
-<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+<div class="eo-foot" role="contentinfo"><div class="bar"><span>Emre Ozgurler, Portland, OR</span><span>© 2026</span></div></div>
 
 </body>
 </html>

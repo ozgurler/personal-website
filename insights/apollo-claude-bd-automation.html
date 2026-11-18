@@ -11,25 +11,20 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Pipeline on Autopilot — BD Automation with Apollo.io × Claude","author":{"@type":"Person","name":"Emre Ozgurler"},"datePublished":"2026-07-17"}
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
 <style>
   :root{
-    --pine:#12312a;          /* deep pine ink */
-    --pine-soft:#3e5a51;     /* secondary text */
-    --paper:#f1f4ee;         /* cool green-white paper */
+    --pine:#000000;          /* deep pine ink */
+    --pine-soft:#5C5F5A;     /* secondary text */
+    --paper:#FFFFFF;         /* cool green-white paper */
     --card:#ffffff;
-    --signal:#12a564;        /* pipeline signal green */
-    --signal-deep:#0c7d4b;
+    --signal:#000000;        /* pipeline signal green */
+    --signal-deep:#000000;
     --amber:#e8a10c;         /* caution amber */
     --step:#274bd6;          /* sequence step blue */
-    --line:#d9dfd6;
-    --mono:'IBM Plex Mono',monospace;
-    --disp:'Bricolage Grotesque',sans-serif;
-    --body:'Instrument Sans',sans-serif;
+    --line:#C8CAC4;
+    --mono:'Barlow',sans-serif;
+    --disp:'Barlow Condensed',sans-serif;
+    --body:'Barlow',sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -45,7 +40,7 @@
   /* ---------- HERO ---------- */
   header{
     background:var(--pine);
-    color:#eef4ef;
+    color:#1E1E1C;
     padding:72px 0 64px;
     position:relative;
     overflow:hidden;
@@ -60,15 +55,14 @@
   }
   .kicker{
     font-family:var(--mono);
-    font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    font-size:14px;
     color:var(--signal);
-    display:flex;align-items:center;gap:10px;margin-bottom:22px;
-  }
+    display:flex;align-items:center;gap:10px;margin-bottom:22px;font-weight:500}
   .kicker::before{content:"";width:34px;height:2px;background:var(--signal);display:inline-block}
   h1{
     font-family:var(--disp);
     font-size:clamp(38px,6.4vw,62px);
-    font-weight:800;
+    font-weight:700;
     line-height:1.04;
     letter-spacing:-.015em;
     max-width:15ch;
@@ -76,15 +70,14 @@
   }
   h1 .hl{color:var(--signal)}
   .sub{
-    margin-top:22px;max-width:56ch;color:#c3d2c8;font-size:18px;position:relative;z-index:1;
+    margin-top:22px;max-width:56ch;color:#1E1E1C;font-size:18px;position:relative;z-index:1;
   }
   .hero-loop{
     margin-top:40px;display:flex;flex-wrap:wrap;gap:0;align-items:center;
-    font-family:var(--mono);font-size:13px;position:relative;z-index:1;
-  }
+    font-family:var(--mono);font-size:14px;position:relative;z-index:1;font-weight:500}
   .hero-loop .stage{
     border:1px solid rgba(238,244,239,.28);
-    padding:8px 14px;border-radius:999px;color:#eef4ef;
+    padding:8px 14px;border-radius:999px;color:#1E1E1C;
     background:rgba(255,255,255,.04);
   }
   .hero-loop .arrow{padding:0 10px;color:var(--signal)}
@@ -93,9 +86,8 @@
   section{padding:58px 0}
   section + section{border-top:1px solid var(--line)}
   .eyebrow{
-    font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--signal-deep);margin-bottom:10px;
-  }
+    font-family:var(--mono);font-size:14px;
+    color:var(--signal-deep);margin-bottom:10px;font-weight:500}
   h2{
     font-family:var(--disp);font-weight:750;
     font-size:clamp(26px,3.6vw,34px);
@@ -111,22 +103,21 @@
     padding:18px 20px;display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;
   }
   .setup-item .tick{
-    width:34px;height:34px;border-radius:9px;background:var(--pine);color:var(--signal);
+    width:34px;height:34px;border-radius:0;background:var(--pine);color:var(--signal);
     display:flex;align-items:center;justify-content:center;
     font-family:var(--mono);font-weight:600;font-size:14px;margin-top:2px;
   }
   .setup-item h3{font-family:var(--disp);font-size:17.5px;font-weight:700;margin-bottom:4px}
   .setup-item p{color:var(--pine-soft);font-size:15px}
   .setup-item code{
-    font-family:var(--mono);font-size:13.5px;background:#e6ece4;border-radius:5px;padding:2px 6px;
-  }
+    font-family:var(--mono);font-size:14px;background:#e6ece4;border-radius:0;padding:2px 6px;font-weight:500}
 
   /* ---------- CADENCE RAIL (signature) ---------- */
   .rail{position:relative;margin-top:34px;padding-left:56px}
   .rail::before{
     content:"";position:absolute;left:19px;top:8px;bottom:8px;width:3px;
     background:linear-gradient(var(--signal) 0%, var(--step) 100%);
-    border-radius:3px;
+    border-radius:0;
   }
   .stop{position:relative;padding-bottom:44px}
   .stop:last-child{padding-bottom:0}
@@ -135,27 +126,25 @@
     width:41px;height:41px;border-radius:50%;
     background:var(--card);border:3px solid var(--signal);
     display:flex;align-items:center;justify-content:center;
-    font-family:var(--mono);font-weight:600;font-size:13px;color:var(--signal-deep);
+    font-family:var(--mono);font-weight:600;font-size:14px;color:var(--signal-deep);
   }
   .stop:nth-child(4) .node,.stop:nth-child(5) .node{border-color:var(--step);color:var(--step)}
   .stop h3{
     font-family:var(--disp);font-size:21px;font-weight:750;margin-bottom:6px;
   }
   .stop .goal{
-    font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--pine-soft);margin-bottom:10px;
-  }
+    font-family:var(--mono);font-size:14px;
+    color:var(--pine-soft);margin-bottom:10px;font-weight:500}
   .stop p{color:var(--pine-soft);font-size:15.5px;max-width:60ch}
 
   /* prompt cards */
   .prompt{
     margin-top:14px;background:var(--pine);color:#dfe9e1;border-radius:12px;
-    padding:16px 18px 14px;font-family:var(--mono);font-size:13.5px;line-height:1.65;
-    position:relative;
-  }
+    padding:16px 18px 14px;font-family:var(--mono);font-size:14px;line-height:1.65;
+    position:relative;font-weight:500}
   .prompt::before{
     content:"PASTE INTO CLAUDE";
-    display:block;font-size:10.5px;letter-spacing:.16em;color:var(--signal);
+    display:block;font-size:10.5px;color:var(--signal);
     margin-bottom:8px;
   }
   .prompt em{font-style:normal;color:#9fd8b8}
@@ -167,16 +156,14 @@
     display:flex;flex-direction:column;gap:10px;
   }
   .lib-card .tag{
-    align-self:flex-start;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
-    text-transform:uppercase;background:#e6f5ec;color:var(--signal-deep);
-    border-radius:999px;padding:4px 10px;
-  }
+    align-self:flex-start;font-family:var(--mono);font-size:14px;
+    background:#e6f5ec;color:var(--signal-deep);
+    border-radius:999px;padding:4px 10px;font-weight:500}
   .lib-card h3{font-family:var(--disp);font-size:17px;font-weight:700}
   .lib-card .mini{
-    font-family:var(--mono);font-size:12.8px;line-height:1.6;color:var(--pine-soft);
+    font-family:var(--mono);font-size:14px;line-height:1.6;color:var(--pine-soft);
     background:#f4f7f2;border-left:3px solid var(--signal);border-radius:0 8px 8px 0;
-    padding:10px 12px;
-  }
+    padding:10px 12px;font-weight:500}
 
   /* guardrails */
   .guard{display:grid;gap:14px;margin-top:26px}
@@ -185,8 +172,8 @@
     display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;
   }
   .guard-item .flag{
-    font-family:var(--mono);font-weight:600;font-size:12px;color:#8a6206;
-    background:#f7e7b8;border-radius:6px;padding:4px 8px;margin-top:2px;white-space:nowrap;
+    font-family:var(--mono);font-weight:600;font-size:14px;color:#8a6206;
+    background:#f7e7b8;border-radius:0;padding:4px 8px;margin-top:2px;white-space:nowrap;
   }
   .guard-item p{font-size:15px;color:#4d452c}
   .guard-item strong{color:#2f2a17}
@@ -198,18 +185,15 @@
   }
   .week-row:first-child{border-top:none}
   .week-row .day{
-    font-family:var(--mono);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;
-    background:#f4f7f2;color:var(--signal-deep);padding:16px;display:flex;align-items:flex-start;
-  }
+    font-family:var(--mono);font-size:14px;
+    background:#f4f7f2;color:var(--signal-deep);padding:16px;display:flex;align-items:flex-start;font-weight:500}
   .week-row .task{padding:14px 18px;font-size:15px;color:var(--pine-soft)}
   .week-row .task strong{color:var(--pine)}
 
   footer{
-    background:#0E1B2C;border-top:1px solid #2A4361;color:#8FA0B0;
+    background:#000000;border-top:1px solid #3A3A38;color:#B4B6B0;
     padding:1.4rem;margin-top:20px;text-align:center;
-    font-family:'IBM Plex Mono',monospace;font-size:.7rem;
-    letter-spacing:.1em;text-transform:uppercase;
-  }
+    font-family:'Barlow',sans-serif;font-size:.88rem;font-weight:500}
 
   @media (max-width:680px){
     .lib{grid-template-columns:1fr}
@@ -229,13 +213,13 @@
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preload" href="/fonts/BarlowCondensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/theme.css">
 </head>
 <body>
 
-<nav style="position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(192,122,58,.25)">
-  <a href="../index.html" style="font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em"><b style="color:#C07A3A">EO</b> / emre.ozgurler</a>
-  <a href="index.html" style="font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#B9C4CE;text-decoration:none">← All insights</a>
-</nav>
+<div class="eo-nav" role="navigation" aria-label="Site"><div class="bar"><a class="logo" href="../index.html"><b>EO</b><span>Emre Ozgurler</span></a><a class="back" href="index.html">All insights</a></div></div>
 
 <header>
   <div class="wrap">
@@ -425,9 +409,9 @@
   </div>
 </section>
 
-<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+<div class="eo-foot" role="contentinfo"><div class="bar"><span>Emre Ozgurler, Portland, OR</span><span>© 2026</span></div></div>
 
-<div style="background:#0E1B2C;padding:1.4rem;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.1em;color:#5A6B7E">EMRE OZGURLER · PORTLAND, OR · © 2026</div>
+<div style="background:#000000;padding:1.4rem;text-align:center;font-family:'Barlow',sans-serif;font-size:.7rem;color:#5C5F5A">EMRE OZGURLER · PORTLAND, OR · © 2026</div>
 
 </body>
 </html>

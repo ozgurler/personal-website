@@ -5,76 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Insights — Emre Ozgurler</title>
 <meta name="description" content="Insights on managed IT, AI adoption, and technology strategy for small and mid-sized businesses — from Emre Ozgurler, engineer-turned-seller in Portland, OR.">
-<link rel="preload" href="../fonts/Archivo-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../fonts/IBMPlexSans-400.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face{font-family:'Archivo';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/Archivo-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/Archivo-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'Archivo';font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/Archivo-700.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url(../fonts/Archivo-800.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/IBMPlexMono-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/IBMPlexMono-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/IBMPlexSans-400.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/IBMPlexSans-500.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
-@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/IBMPlexSans-600.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}</style>
 
 <style>
   :root{
-    --ink:#0E1B2C; --ink-soft:#1C3049; --paper:#F5F6F4; --card:#FFFFFF;
-    --copper:#C07A3A; --copper-deep:#9A5F26; --slate:#5A6B7E; --line:#DDE2E0;
-    --trace-dark:#2A4361;
-    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+    --ink:#000000; --ink-soft:#1E1E1C; --paper:#FFFFFF; --card:#FFFFFF;
+    --copper:#FFD60A; --copper-deep:#000000; --slate:#5C5F5A; --line:#C8CAC4;
+    --trace-dark:#3A3A38;
+    --display:'Barlow Condensed',sans-serif; --body:'Barlow',sans-serif; --mono:'Barlow',sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:17px}
   ::selection{background:var(--copper);color:#fff}
-  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:2px}
+  a:focus-visible{outline:3px solid var(--copper);outline-offset:3px;border-radius:0}
 
   nav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
-      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(14,27,44,.92);backdrop-filter:blur(12px);
-      border-bottom:1px solid rgba(192,122,58,.25)}
-  nav .logo{font-family:var(--mono);font-size:.85rem;color:#E8ECEF;text-decoration:none;letter-spacing:.08em}
+      padding:1.1rem clamp(1.25rem,5vw,4rem);background:rgba(0,0,0,.92);backdrop-filter:blur(12px);
+      border-bottom:1px solid #FFD60A}
+  nav .logo{font-family:var(--mono);font-size:.85rem;color:#FFFFFF;text-decoration:none;font-weight:500}
   nav .logo b{color:var(--copper)}
-  nav a.back{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
-             color:#B9C4CE;text-decoration:none}
+  nav a.back{font-family:var(--mono);font-size:.88rem;
+             color:#E4E4E0;text-decoration:none;font-weight:500}
   nav a.back:hover{color:var(--copper)}
 
-  header{background:var(--ink);color:#E8ECEF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
+  header{background:var(--ink);color:#FFFFFF;padding:clamp(3rem,8vh,5rem) clamp(1.25rem,5vw,4rem)}
   .wrap{max-width:900px;margin:0 auto}
-  .mono-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
-  h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.01em;margin:.5rem 0 .8rem}
-  header p{color:#B9C4CE;max-width:36em}
+  .mono-label{font-family:var(--mono);font-size:.88rem;color:var(--copper);font-weight:500}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.01em;margin:.5rem 0 .8rem}
+  header p{color:#E4E4E0;max-width:36em}
 
   main{padding:clamp(2.5rem,7vh,4.5rem) clamp(1.25rem,5vw,4rem)}
   .list{display:grid;gap:1.2rem}
   .entry{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--copper);
-         border-radius:6px;padding:1.6rem 1.7rem;text-decoration:none;color:inherit;
+         border-radius:0;padding:1.6rem 1.7rem;text-decoration:none;color:inherit;
          transition:transform .18s,box-shadow .18s,border-color .18s}
-  a.entry:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(14,27,44,.09)}
-  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.68rem;
-        letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:.5rem}
+  a.entry:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.09)}
+  .meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--mono);font-size:.88rem;
+        color:var(--slate);margin-bottom:.5rem;font-weight:500}
   .meta .cat{color:var(--copper-deep)}
   .entry h2{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.3;margin-bottom:.4rem}
-  .entry p{font-size:.95rem;color:#33414F;max-width:46em}
-  .entry .read{display:inline-block;margin-top:.8rem;font-family:var(--mono);font-size:.72rem;
-        letter-spacing:.1em;text-transform:uppercase;color:var(--copper-deep)}
+  .entry p{font-size:.95rem;color:#1E1E1C;max-width:46em}
+  .entry .read{display:inline-block;margin-top:.8rem;font-family:var(--mono);font-size:.88rem;
+        color:var(--copper-deep);font-weight:500}
   .entry.stub{border-left-color:var(--line);border-style:dashed;background:transparent}
   .entry.stub h2{color:var(--slate)}
 
   footer{background:var(--ink);border-top:1px solid var(--trace-dark);padding:1.4rem;text-align:center;
-         font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:#8FA0B0}
+         font-family:var(--mono);font-size:.88rem;color:#B4B6B0;font-weight:500}
 </style>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script><!-- End Cloudflare Web Analytics -->
 <link rel="canonical" href="https://www.emreozgurler.com/insights/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preload" href="/fonts/BarlowCondensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/theme.css">
 </head>
 <body>
 
-<nav>
-  <a class="logo" href="../index.html"><b>EO</b> / emre.ozgurler</a>
-  <a class="back" href="../index.html">← Back to site</a>
-</nav>
+<div class="eo-nav" role="navigation" aria-label="Site"><div class="bar"><a class="logo" href="../index.html"><b>EO</b><span>Emre Ozgurler</span></a><a class="back" href="../index.html">Back to site</a></div></div>
 
 <header>
   <div class="wrap">
@@ -99,49 +88,49 @@
         <div class="meta"><span class="cat">Go-to-Market</span><span>August 2026</span><span>By Emre Ozgurler</span></div>
         <h2>From Go-to-Market to Go-to-Market Engineering</h2>
         <p>The growth lever used to be headcount. AI, enrichment APIs, and orchestration tools turned GTM into a system-design problem — what changed, the six-layer stack, the new skill mix, and the parts you should refuse to automate.</p>
-        <span class="read">Read post →</span>
+        <span class="read">Read post</span>
       </a>
 
       <a class="entry" href="claude-usage-limits-prompting.html">
         <div class="meta"><span class="cat">Field Guide · AI Adoption</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>Make Your Claude Plan Go Further: Prompting for Usage Limits &amp; Fable 5 Credits</h2>
         <p>Most people hit their usage limit because of how they structure conversations, not how much they ask. Eight prompting habits that stretch your weekly allowance — without getting less out of Claude.</p>
-        <span class="read">Read guide →</span>
+        <span class="read">Read guide</span>
       </a>
 
       <a class="entry" href="5-ai-automations-smb.html">
         <div class="meta"><span class="cat">AI Implementation</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>5 AI Automations Any SMB Can Deploy This Quarter</h2>
         <p>No data science team, no six-figure budget — five narrow, high-frequency automations (email triage, meeting notes, proposals, document processing, internal knowledge) that pay for themselves in staff hours, plus the 90-day rule for choosing your first one.</p>
-        <span class="read">Read post →</span>
+        <span class="read">Read post</span>
       </a>
 
       <a class="entry" href="phishing-dark-web-monitoring.html">
         <div class="meta"><span class="cat">Cybersecurity · Webinar</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>Identity Under Attack: Phishing &amp; Dark Web Monitoring Explained</h2>
         <p>Attackers don't break in — they log in. Why stolen credentials are the #1 entry point, how the dark web turns passwords into a commodity, and the two-part defense that works. Full webinar recording included.</p>
-        <span class="read">Watch &amp; read →</span>
+        <span class="read">Watch &amp; read</span>
       </a>
 
       <a class="entry" href="apollo-claude-bd-automation.html">
         <div class="meta"><span class="cat">Field Guide</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>Pipeline on Autopilot: BD Automation with Apollo.io × Claude</h2>
         <p>Run the full outbound loop from one Claude conversation — find prospects in Apollo's 240M+ contact database, enrich, personalize, enroll into sequences, and pull weekly reporting without leaving the chat.</p>
-        <span class="read">Read guide →</span>
+        <span class="read">Read guide</span>
       </a>
 
       <a class="entry" href="get-hired-with-claude.html">
         <div class="meta"><span class="cat">Field Guide</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>Get Hired with Claude: A Job Seeker's Field Guide</h2>
         <p>Claude can search Indeed's live job listings, research companies, and tailor your resume — all in one conversation. How to set it up in five minutes, the prompts that work, and the settings that make it stick.</p>
-        <span class="read">Read guide →</span>
+        <span class="read">Read guide</span>
       </a>
 
       <a class="entry" href="flyonit-portland-expansion.html">
         <div class="meta"><span class="cat">Company News</span><span>July 2026</span><span>By Emre Ozgurler</span></div>
         <h2>FlyOnIT Expands in Portland: Managed IT Services for Businesses of Every Size</h2>
         <p>Managed IT, cybersecurity, cloud, and 24/7 support for Portland's small and mid-sized businesses — from accounting firms to real estate and financial services — and why a local IT partner beats a big-box provider.</p>
-        <span class="read">Read post →</span>
+        <span class="read">Read post</span>
       </a>
 
       <div class="entry stub">
@@ -154,7 +143,7 @@
   </div>
 </main>
 
-<footer>EMRE OZGURLER · PORTLAND, OR · © 2026</footer>
+<div class="eo-foot" role="contentinfo"><div class="bar"><span>Emre Ozgurler, Portland, OR</span><span>© 2026</span></div></div>
 
 </body>
 </html>
