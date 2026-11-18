@@ -225,7 +225,7 @@
   <div class="wrap">
     <div class="kicker">Field Guide · Business Development · By Emre Ozgurler · July 2026</div>
     <h1>Run outbound from a <span class="hl">conversation.</span></h1>
-    <p class="sub">Apollo.io's native connector puts its 240M+ contact database, enrichment engine, and sequences directly inside Claude. This guide is the full loop — from ICP to enrolled sequence to weekly reporting — without leaving the chat.</p>
+    <p class="sub">Apollo.io's native connector puts its 240M+ contact database, enrichment engine and sequences directly inside Claude. This guide covers the full loop, from ICP to enrolled sequence to weekly reporting, so that you do not have to leave the chat.</p>
     <div class="hero-loop">
       <span class="stage">Find</span><span class="arrow">→</span>
       <span class="stage">Enrich</span><span class="arrow">→</span>
@@ -238,36 +238,36 @@
 
 <section id="setup">
   <div class="wrap">
-    <div class="eyebrow">01 · Setup — ten minutes, once</div>
+    <div class="eyebrow">01 · Setup: ten minutes, once</div>
     <h2>Connect Apollo to Claude</h2>
-    <p class="lead">Apollo ships an official connector in Claude's directory, built on its own MCP server. Every action you take in chat is recorded back in Apollo — searches, enrichments, sequence enrollments all sync to your account.</p>
+    <p class="lead">Apollo ships an official connector in Claude's directory, which is built on its own MCP server. Every action you take in chat is recorded back in Apollo, so searches, enrichments and sequence enrollments all sync to your account.</p>
     <div class="setup">
       <div class="setup-item">
         <div class="tick">1</div>
         <div>
           <h3>Add the connector</h3>
-          <p>In Claude, open <code>Settings → Connectors</code>, search for <strong>Apollo.io</strong>, and click add. Authorize via OAuth with your Apollo login — no API key needed. Each teammate connects their own account; access mirrors their Apollo permissions.</p>
+          <p>In Claude, open <code>Settings → Connectors</code>, search for <strong>Apollo.io</strong>, and click add. You authorize via OAuth with your Apollo login, so an API key is not needed. Each teammate connects their own account and the access mirrors their Apollo permissions.</p>
         </div>
       </div>
       <div class="setup-item">
         <div class="tick">2</div>
         <div>
           <h3>Set per-action permissions</h3>
-          <p>Click <code>Configure</code> next to Apollo.io and review each action. Recommended: leave searches and reads on auto-allow, but set <strong>sequence enrollment</strong> and <strong>bulk enrichment</strong> to ask first — enrichment consumes Apollo credits, and enrollment can start sending real emails.</p>
+          <p>Click <code>Configure</code> next to Apollo.io and review each action. I recommend leaving searches and reads on auto-allow and setting <strong>sequence enrollment</strong> and <strong>bulk enrichment</strong> to ask first, as enrichment consumes Apollo credits and enrollment can start sending real emails.</p>
         </div>
       </div>
       <div class="setup-item">
         <div class="tick">3</div>
         <div>
           <h3>Give Claude your ICP once</h3>
-          <p>Create a Claude Project called <em>Outbound</em> and put your ideal customer profile, value props per vertical, sender mailboxes, and tone guidelines in the project instructions. Every prospecting chat inherits that context — no re-explaining who you sell to.</p>
+          <p>Create a Claude Project called <em>Outbound</em> and put your ideal customer profile, value props per vertical, sender mailboxes and tone guidelines in the project instructions. Every prospecting chat inherits that context, so you do not need to explain who you sell to each time.</p>
         </div>
       </div>
       <div class="setup-item">
         <div class="tick">4</div>
         <div>
           <h3>Power-user path (optional)</h3>
-          <p>Apollo also publishes a plugin for <strong>Claude Code and Cowork</strong> that bundles its APIs into slash-command workflows — useful for heavy batch runs and analytics pulls. Start with the connector; graduate when volume demands it.</p>
+          <p>Apollo also publishes a plugin for <strong>Claude Code and Cowork</strong> which bundles its APIs into slash-command workflows, and it is useful for heavy batch runs and analytics pulls. I think it makes sense to start with the connector and move to the plugin when the volume requires it.</p>
         </div>
       </div>
     </div>
@@ -278,47 +278,47 @@
   <div class="wrap">
     <div class="eyebrow">02 · The core loop</div>
     <h2>Five stops from ICP to inbox</h2>
-    <p class="lead">This is a real working cadence for a B2B services team (examples use managed IT services — swap in your own vertical). Each stop is one prompt you can paste and adapt.</p>
+    <p class="lead">This is a working cadence for a B2B services team (the examples use managed IT services, so please swap in your own vertical). Each stop is one prompt you can paste and adapt.</p>
 
     <div class="rail">
 
       <div class="stop">
         <div class="node">A</div>
-        <h3>Find — build the list in plain language</h3>
+        <h3>Find: build the list in plain language</h3>
         <div class="goal">Goal · 25–50 net-new accounts that actually match</div>
-        <p>Skip the filter UI. Describe the segment the way you'd describe it to a colleague — industry codes, headcount, geography, tech signals — and let Claude run the Apollo search.</p>
+        <p>You can skip the filter UI. Describe the segment the way you would describe it to a colleague, with industry codes, headcount, geography and tech signals, and let Claude run the Apollo search.</p>
         <div class="prompt">Search Apollo for companies in the <em>Portland metro area</em>, 10–100 employees, in <em>healthcare clinics, law firms, and RIAs</em> (use NAICS where helpful). Exclude companies already in my saved accounts. Return the top 25 with domain, headcount, and why they matched.</div>
       </div>
 
       <div class="stop">
         <div class="node">B</div>
-        <h3>Enrich — verified emails, right titles</h3>
+        <h3>Enrich: verified emails, right titles</h3>
         <div class="goal">Goal · decision-makers with deliverable contact data</div>
-        <p>Enrichment is where credits are spent, so batch deliberately — ten at a time keeps costs visible and lets you sanity-check quality before committing to the whole list.</p>
+        <p>Enrichment is where credits are spent, so I batch it deliberately. Ten at a time keeps the cost visible and lets you check the quality before committing to the whole list.</p>
         <div class="prompt">From that list, find the <em>owner, practice manager, or IT decision-maker</em> at each company. Enrich the first batch of 10 with verified emails and LinkedIn URLs, show me the results, and wait for my go-ahead before enriching the rest.</div>
       </div>
 
       <div class="stop">
         <div class="node">C</div>
-        <h3>Personalize — first lines that aren't templates</h3>
+        <h3>Personalize: first lines that are not templates</h3>
         <div class="goal">Goal · one specific, human sentence per prospect</div>
-        <p>This is where Claude out-earns any merge tag. Pair Apollo's firmographic data with web research for openers referencing something real — a hiring push, a compliance deadline, a new location.</p>
+        <p>I believe this is where Claude is worth more than any merge tag. Pair Apollo's firmographic data with web research so that the opener refers to something real, such as a hiring push, a compliance deadline or a new location.</p>
         <div class="prompt">For each enriched contact, check Apollo's data and search the web for one recent, specific fact about their company (new office, job postings, news). Draft a one-sentence personalized opener per contact tying that fact to a pain we solve. Flag any where you couldn't find anything specific.</div>
       </div>
 
       <div class="stop">
         <div class="node">D</div>
-        <h3>Sequence — build the cadence, then enroll</h3>
+        <h3>Sequence: build the cadence, then enroll</h3>
         <div class="goal">Goal · a mixed-step sequence, contacts loaded, right sender</div>
-        <p>Claude can create the sequence itself — emails, call tasks, LinkedIn touches — and enroll contacts under a specific sender mailbox. Always review the full copy before anything goes live.</p>
-        <div class="prompt">Create an Apollo sequence called <em>"Clinics — Q3 Portland"</em>: Day 1 email (use the personalized openers), Day 3 call task, Day 6 follow-up email with a customer proof point, Day 10 LinkedIn touch, Day 14 breakup email. Show me every email draft for approval. Then enroll the approved contacts using <em>[your sender mailbox]</em>.</div>
+        <p>Claude can create the sequence itself, including emails, call tasks and LinkedIn touches, and enroll contacts under a specific sender mailbox. Please always review the full copy before anything goes live.</p>
+        <div class="prompt">Create an Apollo sequence called <em>"Clinics Q3 Portland"</em>: Day 1 email (use the personalized openers), Day 3 call task, Day 6 follow-up email with a customer proof point, Day 10 LinkedIn touch, Day 14 breakup email. Show me every email draft for approval. Then enroll the approved contacts using <em>[your sender mailbox]</em>.</div>
       </div>
 
       <div class="stop">
         <div class="node">E</div>
-        <h3>Analyze — let the data pick next week's plays</h3>
+        <h3>Analyze: let the data pick next week's plays</h3>
         <div class="goal">Goal · know what's working before you scale it</div>
-        <p>Apollo's analytics are queryable in plain language: opens, replies, meetings by sequence, by step, by vertical. Ask for the comparison, then feed the winner back into stop A.</p>
+        <p>Apollo's analytics can be queried in plain language, such as opens, replies and meetings by sequence, by step or by vertical. Ask for the comparison and then feed the winner back into stop A.</p>
         <div class="prompt">Pull performance for my active sequences over the last 30 days: delivery, open, reply, and meeting rates, broken down by sequence and by step. Which vertical and which email step are converting best? Give me three concrete changes for next week.</div>
       </div>
 
@@ -334,7 +334,7 @@
       <div class="lib-card">
         <span class="tag">Signals</span>
         <h3>Job-posting triggers</h3>
-        <div class="mini">Which companies on my target list have open job postings for IT, operations, or compliance roles right now? Those are my warm-signal accounts — prioritize them.</div>
+        <div class="mini">Which companies on my target list have open job postings for IT, operations, or compliance roles right now? Those are my warm-signal accounts, so prioritize them.</div>
       </div>
       <div class="lib-card">
         <span class="tag">Hygiene</span>
@@ -354,7 +354,7 @@
       <div class="lib-card">
         <span class="tag">Lookalikes</span>
         <h3>Clone your best customers</h3>
-        <div class="mini">Here are my five best customers: [domains]. Find 20 lookalike companies in Apollo — same size band, industry, and region — that aren't in my account yet.</div>
+        <div class="mini">Here are my five best customers: [domains]. Find 20 lookalike companies in Apollo with the same size band, industry and region that aren't in my account yet.</div>
       </div>
       <div class="lib-card">
         <span class="tag">Reporting</span>
@@ -368,27 +368,27 @@
 <section id="guardrails">
   <div class="wrap">
     <div class="eyebrow">04 · Guardrails</div>
-    <h2>Automate the work, not the judgment</h2>
+    <h2>Automate the work and keep the judgment</h2>
     <div class="guard">
       <div class="guard-item">
         <div class="flag">SEND</div>
-        <p><strong>Nothing goes out unreviewed.</strong> Sequence enrollment can trigger real emails immediately depending on your sequence settings. Make "show me every draft first" part of every enrollment prompt, and keep enrollment permissions on ask-first.</p>
+        <p><strong>Nothing goes out unreviewed.</strong> Sequence enrollment can trigger real emails immediately depending on your sequence settings, so make "show me every draft first" part of every enrollment prompt and keep the enrollment permissions on ask-first.</p>
       </div>
       <div class="guard-item">
         <div class="flag">CREDITS</div>
-        <p><strong>Enrichment spends credits</strong> from your Apollo plan — typically one per person. Batch in tens, check quality, then continue. Ask Claude for your credit usage stats monthly.</p>
+        <p><strong>Enrichment spends credits</strong> from your Apollo plan, typically one per person. Batch in tens, check the quality and then continue, and ask Claude for your credit usage stats every month as well.</p>
       </div>
       <div class="guard-item">
         <div class="flag">DELIVER</div>
-        <p><strong>Protect your domains.</strong> Rotate sender mailboxes, keep per-mailbox daily volume conservative, and warm up new inboxes before loading them into a sequence. Great copy from a burned domain still lands in spam.</p>
+        <p><strong>Protect your domains.</strong> Rotate sender mailboxes, keep the daily volume per mailbox conservative and warm up new inboxes before loading them into a sequence, as great copy from a burned domain still lands in spam.</p>
       </div>
       <div class="guard-item">
         <div class="flag">TIMING</div>
-        <p><strong>The connector works only while you're chatting</strong> — there are no background triggers. It won't ping you when a prospect replies at 9pm. Build the check into your routine (see the weekly rhythm below) instead of assuming it's watching.</p>
+        <p><strong>The connector works only while you are chatting</strong>, as there are no background triggers. It will not notify you when a prospect replies at 9pm, so build the check into your routine (see the weekly rhythm below) instead of assuming it is watching.</p>
       </div>
       <div class="guard-item">
         <div class="flag">LAW</div>
-        <p><strong>Stay compliant.</strong> CAN-SPAM, GDPR, and local rules still apply to AI-assisted outreach: real sender identity, working unsubscribe, and honor opt-outs everywhere. Automation scales your reach — and your liability.</p>
+        <p><strong>Stay compliant.</strong> CAN-SPAM, GDPR and local rules still apply to AI-assisted outreach, which means a real sender identity, a working unsubscribe and honoring opt-outs everywhere. Automation scales your reach, and it scales your liability as well.</p>
       </div>
     </div>
   </div>
@@ -398,11 +398,11 @@
   <div class="wrap">
     <div class="eyebrow">05 · Operating rhythm</div>
     <h2>A week of outbound, one chat a day</h2>
-    <p class="lead">Fifteen to thirty minutes each morning keeps the machine fed. Same Project, so context carries over.</p>
+    <p class="lead">Fifteen to thirty minutes each morning is enough to keep it running. Use the same Project so that the context carries over.</p>
     <div class="week">
       <div class="week-row"><div class="day">Monday</div><div class="task"><strong>Build.</strong> Run the Find prompt for one vertical. Enrich the first batch. Queue the rest for approval.</div></div>
       <div class="week-row"><div class="day">Tuesday</div><div class="task"><strong>Personalize + launch.</strong> Generate openers, review drafts, enroll into the sequence.</div></div>
-      <div class="week-row"><div class="day">Wednesday</div><div class="task"><strong>Work the tasks.</strong> Morning task triage — call briefs for everything due, reply drafts for anyone who wrote back.</div></div>
+      <div class="week-row"><div class="day">Wednesday</div><div class="task"><strong>Work the tasks.</strong> Morning task triage: call briefs for everything due, reply drafts for anyone who wrote back.</div></div>
       <div class="week-row"><div class="day">Thursday</div><div class="task"><strong>Signals.</strong> Check job postings and news across the target list. Move warm-signal accounts to the front of next week's build.</div></div>
       <div class="week-row"><div class="day">Friday</div><div class="task"><strong>Report + refine.</strong> Pull the 30-day analytics, write the team update, and pick one change to test next week.</div></div>
     </div>
