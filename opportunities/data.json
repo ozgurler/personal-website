@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "count": 60,
  "items": [
-  {
-   "title": "BSI Software Support Contract - Hosting, Consulting Services",
-   "url": "https://sam.gov/workspace/contract/opp/fc98ad9fab954f5ca9343116d75e5979/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "MD",
-   "due": "Nov 25",
-   "summary": "Software hosting and consulting services for health department system.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-25",
-   "country": "US",
-   "category": "IT & software"
-  },
   {
    "title": "DATA SECURITY ASSESSMENT TEAM",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011",
@@ -128,6 +112,22 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-27",
+   "country": "US",
+   "category": "IT & software"
+  },
+  {
+   "title": "30 RS Mission Planning Software Tool (MPST)",
+   "url": "https://sam.gov/workspace/contract/opp/6a6a981f0f0441d3acd9ae1aabc340a7/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "NV",
+   "due": "Nov 30",
+   "summary": "This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service\u2026",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
    "country": "US",
    "category": "IT & software"
   },
@@ -279,6 +279,22 @@
    "category": "IT & software"
   },
   {
+   "title": "Mail Tracking System",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-852-52867688",
+   "buyer": "Treasury Board (TBS)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Dec 03",
+   "summary": "Three-year lease of turn-key mail tracking system with hardware and software.",
+   "tags": [
+    "IT & software"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-03",
+   "country": "CA",
+   "category": "IT & software"
+  },
+  {
    "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
    "url": "https://www.grants.gov/search-results-detail/355439",
    "buyer": "National Institutes of Health",
@@ -311,38 +327,6 @@
    "due_iso": "2026-12-04",
    "country": "CA",
    "category": "IT & software"
-  },
-  {
-   "title": "Internal Communications System \u2013 Zenitel Marine Components-CCGS Teleost",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031564?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Newfoundland and Labrador",
-   "due": "Dec 07",
-   "summary": "Internal communications system Zenitel marine components for CCGS Teleost.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-07",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "TBIPS Grants and Contributions Transformation Initiative (GCTI) \u2013 Stream 1 B.1 Business Analysis Services and Stream 2 A.11 Tester, P.11 Quality Assurance",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-863-49415836",
-   "buyer": "Department of Foreign Affairs, Trade and Development (GAC)",
-   "region": "",
-   "due": "Nov 25",
-   "summary": "Provide business analysis, testing, and quality assurance for grants and contributions transformation initiative.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-25",
-   "country": "CA",
-   "category": "consulting & strategy"
   },
   {
    "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
@@ -554,38 +538,6 @@
    "category": "data & AI"
   },
   {
-   "title": "USAC RFP: Enterprise Data Platform",
-   "url": "https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view",
-   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
-   "region": "DC",
-   "due": "Dec 07",
-   "summary": "Update: Proposal due date extened to December 7, 2026, at 11:00 AM ET. At the request of the Federal Communications Commission (FCC) Office of Managing Director (OMD), and to\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "category": "data & AI"
-  },
-  {
-   "title": "Develop Wayfinding Strategy for Mississippi Lake National Wildlife Area (MLNWA), St Clair National Wildlife Area (SCNWA) and Big Creek National Wildlife Area (BCNWA)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-618-46061100",
-   "buyer": "Department of the Environment (ECCC )",
-   "region": "*Ontario (except NCR) *Canada",
-   "due": "Nov 25",
-   "summary": "Develop wayfinding strategy and signage designs for three wildlife areas.",
-   "tags": [
-    "design & creative"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-25",
-   "country": "CA",
-   "category": "design & creative"
-  },
-  {
    "title": "ARROW CANYON KIOSKS DESIGN AND INSTALLATION",
    "url": "https://sam.gov/workspace/contract/opp/88d68e1bdff741bfa8cdee6ea0b3ceca/view",
    "buyer": "INTERIOR, DEPARTMENT OF THE",
@@ -634,20 +586,20 @@
    "category": "training & education"
   },
   {
-   "title": "LEARNING SUPPPORT CENTRE SUPPORT SERVICES",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-165-26098232",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Manitoba *Winnipeg *Canada",
-   "due": "Dec 07",
-   "summary": "Learning designers and e-learning programmers for Defence Academy support services.",
+   "title": "Stage 1 - Greenwich Photovoltaic (PV) solar systems, Prince Edward Island National Park",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-660-33020978",
+   "buyer": "Parks Canada Agency (PC)",
+   "region": "*Prince Edward Island",
+   "due": "Nov 26",
+   "summary": "Design and install photovoltaic solar systems at Prince Edward Island National Park.",
    "tags": [
-    "training & education"
+    "construction & facilities"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-12-07",
+   "due_iso": "2026-11-26",
    "country": "CA",
-   "category": "training & education"
+   "category": "construction & facilities"
   },
   {
    "title": "CMMA Composite Repair Shelter",
@@ -695,6 +647,54 @@
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "Computer Numerical Controlled (CNC) Electrical Discharge Machine (EDM)",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-243-47651605",
+   "buyer": "National Research Council of Canada (NRC)",
+   "region": "*Canada",
+   "due": "Dec 02",
+   "summary": "Procure high precision Computer Numerical Controlled electrical discharge machine.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-02",
+   "country": "CA",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "RFP \u2013 Heating and Cooling System Replacement Design \u2013 CCC St John\u2019s",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5994043129-Doc5994145709",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Newfoundland and Labrador",
+   "due": "Dec 02",
+   "summary": "Engineering design for heating and cooling system replacement at correctional centre.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-02",
+   "country": "CA",
+   "category": "construction & facilities"
+  },
+  {
+   "title": "EC016-270734 - Well Power Electrical Upgrade Services \u2013 Dorchester, NB",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5971382089-Doc5991951469",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*New Brunswick",
+   "due": "Dec 03",
+   "summary": "Electrical power supply evaluation and design for Dorchester Penitentiary.",
+   "tags": [
+    "construction & facilities"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-03",
+   "country": "CA",
    "category": "construction & facilities"
   },
   {
@@ -826,22 +826,6 @@
    "category": "research & evaluation"
   },
   {
-   "title": "7A--USNIC SAR Data Recompete",
-   "url": "https://sam.gov/workspace/contract/opp/a47689809b2742239ab7b0ccecfe3acf/view",
-   "buyer": "COMMERCE, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 25",
-   "summary": "USNIC SAR Data Recompete",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-25",
-   "country": "US",
-   "category": "other"
-  },
-  {
    "title": "EC015-270889 Miramichi Pay Center - High Density Mobile Storage",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031350?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -944,6 +928,22 @@
    "region": "",
    "due": "Dec 03",
    "summary": "A/E Services for CCTV System Design, Great Plains Region",
+   "tags": [
+    "other"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-03",
+   "country": "US",
+   "category": "other"
+  },
+  {
+   "title": "SSN(X) Concept Design Area of Interest",
+   "url": "https://sam.gov/workspace/contract/opp/c372b28ba6ad4b1c9dcf40880fa91d45/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "DC",
+   "due": "Dec 03",
+   "summary": "Director, Submarine Programs (DSP), via the New Attack Submarine (SSN(X)) Program Office (PMS 351), seeks industry solutions to advance the design of a novel SSN(X) System\u2026",
    "tags": [
     "other"
    ],
