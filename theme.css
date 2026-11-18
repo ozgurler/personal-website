@@ -87,3 +87,44 @@ header .sub,.hero p{color:var(--text)}
 span.step{color:#000;background:var(--mark);display:inline-block;padding:0 .4em}
 .setup-item .tick{color:var(--mark)}
 .alt:hover,.byline b,.tool h3::before{color:#000}
+
+/* ================= colour and components layer ================= */
+:root{--green:#0A4D3C;--green-deep:#063629;--green-mid:#12805F;--mint:#E7F3EE;--mint-2:#C9E3D8;--line:#C9E3D8;--rule:#C9E3D8}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:var(--green-mid)}
+.eo-nav{border-bottom:1px solid var(--mint-2)}
+.eo-nav .logo b{border-radius:6px}
+.eo-nav .back{align-self:center;background:var(--green);border-radius:8px;padding:.55rem 1.1rem}
+header,.article-hero,header.hero{color:#fff;border-bottom:0;
+  background:radial-gradient(rgba(255,255,255,.09) 1.2px,transparent 1.6px) 0 0/24px 24px,linear-gradient(160deg,#0C5B47 0%,var(--green-deep) 70%)}
+header h1,.article-hero h1,.hero h1{color:#fff}
+header p,header .dek,header .lede,.article-hero p,header .sub,.hero p{color:#EAF4EF}
+header .lede strong,header p strong{color:#fff}
+header .meta,.article-hero .meta,header .mono-label,.kicker,header .eyebrow{color:#B9DCCD}
+header .meta .cat,.article-hero .meta .cat{border-radius:999px;padding:.1em .7em}
+.hero-loop .stage{background:var(--mark);border:0;border-radius:8px;color:#000;font-weight:600}
+.hero-loop .arrow{color:#fff}
+h2,h3{color:var(--green-deep)}
+.callout h2,.callout h3,.cta h2,.cta h3,.brief h2,.brief h3{color:inherit}
+.btn,.cta a{background:var(--green);border-color:var(--green);border-radius:8px}
+.cta{background:var(--mint);border:1px solid var(--mint-2);border-radius:12px;color:var(--text)}
+.cta p{color:var(--text)}
+.cta a:hover,.btn:hover{background:var(--mark);border-color:var(--mark);color:#000}
+.wrap p a:not(.btn),.article-body p a,.article-body li a,article p a:not(.btn),article li a,main p a:not(.btn),.after a,.related a{text-decoration-color:var(--green-mid);text-decoration-thickness:.12em}
+.wrap p a:not(.btn):hover,.article-body p a:hover,article p a:not(.btn):hover,main p a:not(.btn):hover,.after a:hover,.related a:hover{background:var(--mint)}
+.callout,.brief,.report{background:var(--green-deep);border-radius:12px}
+.layer,.q,.disc,.shift,.setup-item,.entry{border-radius:12px}
+.layer{border-left-color:var(--green-mid)}
+.q{border-color:var(--mint-2)}
+.opts input{accent-color:var(--green-mid)}
+main,article{background:#fff}
+.list{border-top:0;gap:1rem;display:grid}
+.list .entry{background:#fff;border:1px solid var(--mint-2);border-top:4px solid var(--mark);border-radius:12px;padding:1.2rem 1.4rem 1.3rem;transition:transform .15s,box-shadow .15s}
+.list a.entry:hover{transform:translateY(-3px);box-shadow:0 1px 2px rgba(6,54,41,.06),0 8px 24px rgba(6,54,41,.08)}
+.list a.entry:hover h2{background:none;display:block;color:var(--green-mid)}
+.list .entry .meta .cat{background:var(--mint);color:var(--green);border-radius:999px;padding:.1em .7em}
+.list .entry .read{color:var(--green)}
+.article-body h2 .num{border-radius:6px}
+span.step{border-radius:999px;padding:.05em .7em;background:var(--mint);color:var(--green)}
+.eo-foot{background:#042A20;color:#A9CDBE}
+.eyebrow,section .eyebrow{color:var(--green-mid);font-weight:600}
+.eyebrow::before{background:var(--mark)}
