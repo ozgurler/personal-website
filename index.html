@@ -390,7 +390,8 @@
   @media(max-width:760px){.proj-row,.proj-row:first-child{grid-template-columns:auto minmax(0,1fr);align-items:start}.proj-row p{grid-column:1/-1}.proj-status{grid-column:1/-1;justify-self:start}}
 
   /* skills */
-  .skill-cols{grid-template-columns:1fr 1fr 1fr;column-gap:1rem}
+  .skill-cols{column-gap:1rem;row-gap:1rem}
+  @media(min-width:821px){.skill-cols{grid-template-columns:1fr 1fr 1fr}}
   .skill-cols>div{background:#fff;border:1px solid var(--mint-2);border-radius:var(--r);padding:1.2rem 1.3rem 1.4rem}
   .skill-cols h3{border-top:0;padding-top:0;color:var(--green-deep);font-size:1.35rem}
   .tagset{gap:.4rem}

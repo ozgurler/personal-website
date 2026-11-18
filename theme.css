@@ -128,3 +128,5 @@ span.step{border-radius:999px;padding:.05em .7em;background:var(--mint);color:va
 .eo-foot{background:#042A20;color:#A9CDBE}
 .eyebrow,section .eyebrow{color:var(--green-mid);font-weight:600}
 .eyebrow::before{background:var(--mark)}
+.kicker{color:var(--green-mid);font-weight:600}
+header .kicker{color:#B9DCCD}
