@@ -436,6 +436,49 @@
   .contact .btn-ghost:hover{background:var(--green);color:#fff}
   .form-note{color:var(--mute)}
   footer{background:#042A20;border-top:0;color:#A9CDBE}
+  /* AI clone */
+  [hidden]{display:none!important}
+  #twin{background:var(--mint)}
+  .twin{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:1.6rem;align-items:start}
+  .twin-frame{position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;display:grid;place-items:center;
+    background:radial-gradient(rgba(255,255,255,.1) 1.2px,transparent 1.6px) 0 0/22px 22px,linear-gradient(160deg,#0C5B47,var(--green-deep));box-shadow:var(--shadow);outline:3px solid transparent;outline-offset:3px;transition:outline-color .2s}
+  .twin-stage.busy .twin-frame{outline-color:var(--mark)}
+  .twin-initials{font-family:var(--display);font-weight:700;font-size:4.5rem;color:var(--mark)}
+  .twin-frame img,.twin-frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .twin-cap{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin-top:.7rem;font-size:.92rem}
+  .twin-cap b{font-weight:600;color:var(--green-deep)}
+  .twin-cap span{background:#fff;border:1px solid var(--mint-2);color:var(--green);border-radius:999px;padding:.1rem .65rem;font-size:.82rem;font-weight:500;white-space:nowrap}
+  .twin-panel{background:#fff;border:1px solid var(--mint-2);border-radius:var(--r);padding:1.4rem 1.5rem 1.5rem;box-shadow:var(--shadow)}
+  .twin-intro{max-width:40em;font-size:1.02rem}
+  .twin-intro a{color:var(--green);font-weight:500;text-decoration:underline;text-decoration-color:var(--green-mid);text-underline-offset:.12em}
+  .twin-start{margin-top:1.1rem}
+  .twin-chat{margin-top:1.1rem}
+  .twin-log{display:flex;flex-direction:column;gap:.6rem;max-height:22rem;overflow-y:auto;padding-right:.2rem}
+  .twin-log:empty{display:none}
+  .twin-msg{max-width:85%;padding:.6rem .85rem;border-radius:14px;font-size:.98rem;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+  .twin-msg.me{align-self:flex-end;background:var(--green);color:#fff;border-bottom-right-radius:4px}
+  .twin-msg.ai{align-self:flex-start;background:var(--mint);color:var(--text);border-bottom-left-radius:4px}
+  .twin-msg.err{align-self:flex-start;background:#FFE1DC;color:#7A1C10}
+  .twin-msg.wait{color:var(--mute);font-style:normal}
+  .twin-chips{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.9rem}
+  .twin-chips button{font:500 .9rem var(--body);background:#fff;color:var(--green);border:1px solid var(--mint-2);border-radius:999px;padding:.35rem .85rem;cursor:pointer}
+  .twin-chips button:hover{background:var(--mint)}
+  .twin-form{display:flex;gap:.6rem;margin-top:.9rem}
+  .twin-form input{flex:1;min-width:0;font:400 1rem var(--body);padding:.75rem .9rem;border:1.5px solid var(--mint-2);border-radius:8px;background:#FAFCFB;color:#000}
+  .twin-form input:focus{border-color:var(--green-mid);outline:3px solid var(--mint);outline-offset:0}
+  .twin-form .btn-solid{background:var(--green);border-color:var(--green)}
+  .twin-form .btn-solid:hover{background:var(--mark);border-color:var(--mark);color:#000}
+  .twin-form .btn-solid:disabled{opacity:.55;cursor:default}
+  #twin-open{background:var(--green);border-color:var(--green)}
+  #twin-open:hover{background:var(--mark);border-color:var(--mark);color:#000}
+  @media(max-width:760px){
+    .twin{grid-template-columns:1fr}
+    .twin-stage{display:grid;grid-template-columns:6.5rem 1fr;gap:1rem;align-items:center}
+    .twin-initials{font-size:2.2rem}
+    .twin-cap{flex-direction:column;align-items:flex-start;margin-top:0}
+    .twin-form{flex-wrap:wrap}.twin-form input{flex:1 0 100%}.twin-form .btn{flex:1}
+    .twin-msg{max-width:94%}
+  }
   @media(prefers-reduced-motion:reduce){.tool-card,.svc-card,.pin-card{transition:none}.tool-card:hover,.svc-card:hover,a.pin-card:hover{transform:none}}
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
@@ -543,6 +586,7 @@
         <p>Electronics engineer turned sales professional. Ten years helping companies adopt IT, SaaS, and AI that actually fits, and lately building the machinery behind the number: signal-based prospecting, outbound infrastructure, and AI workflows that run without me watching them. I understand the stack from the circuit board to the sequence.</p>
         <div class="hero-cta">
           <a class="btn btn-solid" href="#contact">Work with me</a>
+          <a class="btn btn-ghost" href="#twin">Ask my AI clone</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/emre-ozgurler" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
@@ -565,6 +609,41 @@
     </div>
   </div>
 </header>
+
+<section id="twin">
+  <div class="wrap">
+    <h2>Ask my AI clone</h2>
+    <div class="twin">
+      <div class="twin-stage" id="twin-stage">
+        <div class="twin-frame">
+          <span class="twin-initials" aria-hidden="true">EO</span>
+          <img id="twin-poster" alt="Emre Ozgurler" hidden>
+          <video id="twin-video" playsinline hidden></video>
+        </div>
+        <div class="twin-cap"><b>Emre's AI clone</b><span id="twin-mode">Text replies</span></div>
+      </div>
+      <div class="twin-panel">
+        <p class="twin-intro">It knows my background, the systems I have built and what I offer, and it answers the way I would. It is an AI, so it can get things wrong. For anything that matters, use the <a href="#contact">contact form</a> and you get me.</p>
+        <div class="twin-start" id="twin-start">
+          <button class="btn btn-solid" type="button" id="twin-open">Start a conversation</button>
+        </div>
+        <div class="twin-chat" id="twin-chat" hidden>
+          <div class="twin-log" id="twin-log" role="log" aria-live="polite" aria-label="Conversation with Emre's AI clone"></div>
+          <div class="twin-chips" id="twin-chips">
+            <button type="button">What do you actually do?</button>
+            <button type="button">Which service fits a 20-person firm?</button>
+            <button type="button">What have you built with AI?</button>
+          </div>
+          <form class="twin-form" id="twin-form">
+            <label class="hp" for="twin-input">Your question</label>
+            <input id="twin-input" type="text" maxlength="500" autocomplete="off" placeholder="Ask about my work, services or background" required>
+            <button class="btn btn-solid" type="submit" id="twin-send">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="about">
   <div class="wrap">
@@ -882,6 +961,55 @@
       btn.disabled = false; btn.textContent = 'Send message';
     }
   });
+
+// ---------- AI clone ----------
+// poster: path to a still picture (for example 'twin/poster.jpg'). Empty shows the initials tile.
+// video:  keep false until the avatar video service is switched on (server side: TWIN_VIDEO_ENABLED=1).
+var TWIN = { poster: '', video: false };
+(function () {
+  var stage = document.getElementById('twin-stage'), log = document.getElementById('twin-log'),
+      form = document.getElementById('twin-form'), input = document.getElementById('twin-input'),
+      send = document.getElementById('twin-send'), chips = document.getElementById('twin-chips'),
+      poster = document.getElementById('twin-poster'), video = document.getElementById('twin-video'),
+      history = [], busy = false;
+  if (!form) return;
+  if (TWIN.poster) { poster.src = TWIN.poster; poster.onload = function () { poster.hidden = false; }; }
+  if (TWIN.video) document.getElementById('twin-mode').textContent = 'Video replies';
+
+  document.getElementById('twin-open').addEventListener('click', function () {
+    document.getElementById('twin-start').hidden = true;
+    document.getElementById('twin-chat').hidden = false;
+    bubble('ai', 'Hello, I am Emre\'s AI clone. You can ask me about my background, the systems I have built or which service would fit your business.');
+    input.focus();
+  });
+  chips.addEventListener('click', function (e) { if (e.target.tagName === 'BUTTON') ask(e.target.textContent); });
+  form.addEventListener('submit', function (e) { e.preventDefault(); ask(input.value); });
+
+  function bubble(kind, text) {
+    var d = document.createElement('div'); d.className = 'twin-msg ' + kind; d.textContent = text;
+    log.appendChild(d); log.scrollTop = log.scrollHeight; return d;
+  }
+  function playVideo(url) {
+    if (!TWIN.video || !url) return;
+    video.src = url; video.hidden = false;
+    video.onended = function () { video.hidden = true; };
+    video.play().catch(function () { video.hidden = true; });
+  }
+  async function ask(text) {
+    text = (text || '').trim(); if (!text || busy) return;
+    busy = true; send.disabled = true; input.value = ''; chips.hidden = true; stage.classList.add('busy');
+    bubble('me', text); history.push({ role: 'user', content: text });
+    var wait = bubble('ai wait', 'Thinking…');
+    try {
+      var r = await fetch('/api/twin', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: history.slice(-12) }) });
+      var data = await r.json().catch(function () { return {}; });
+      wait.remove();
+      if (!r.ok || !data.reply) { history.pop(); bubble('err', data.error || 'I could not answer just now. Please use the contact form.'); }
+      else { history.push({ role: 'assistant', content: data.reply }); bubble('ai', data.reply); playVideo(data.video_url); }
+    } catch (err) { wait.remove(); history.pop(); bubble('err', 'The connection dropped. Please try again.'); }
+    busy = false; send.disabled = false; stage.classList.remove('busy'); input.focus();
+  }
+})();
 </script>
 
 </body>
