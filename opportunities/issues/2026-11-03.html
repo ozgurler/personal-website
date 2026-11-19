@@ -55,6 +55,7 @@
   .entry.closed{opacity:.55;border-left-color:var(--mint-2)}
   .entry.closed .meta .due{color:var(--mute)}
   .entry.closed .meta .due::after{content:" (closed)"}
+  .public{background:var(--mint);border-left:4px solid var(--mark);border-radius:8px;padding:.8rem 1rem;margin-bottom:1.4rem;font-size:.97rem}
   .empty{background:var(--mint);border-radius:12px;padding:1.2rem 1.4rem}
   .note{font-size:.9rem;color:var(--mute);margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--mint-2)}
   .subscribe{margin:1.6rem 0 0;padding:1.2rem 1.4rem;background:var(--mint);border:1px solid var(--mint-2);border-radius:12px}
@@ -74,7 +75,7 @@
 <div class="eo-nav" role="navigation" aria-label="Site"><div class="bar">
   <a class="logo" href="/index.html"><b>EO</b><span>Emre Ozgurler</span></a>
   <div class="links">
-    <a href="/opportunities/index.html" class="keep">Open RFPs</a>
+    <a href="/opportunities/index.html" class="keep">Public RFPs</a>
     <a href="/opportunities/issues/index.html" class="keep on">Weekly issues</a>
     <a href="/insights/index.html">Insights</a>
     <a class="back" href="/index.html">Back to site</a>
@@ -92,6 +93,7 @@
   <div class="wrap">
     
 
+<p class="public">These are public notices. Each buyer has published its RFP openly so that any qualified vendor can respond, and every card links to the buyer's own posting.</p>
 <div class="tools">
   <div class="pills" id="kind" role="group" aria-label="Filter by buyer">
     <button type="button" data-kind="all" aria-pressed="true">All buyers</button>
@@ -434,7 +436,7 @@
 
 
     
-    <p class="note">Government notices come from official open-data feeds (SAM.gov, CanadaBuys, city open-data portals). Nonprofit postings are found by a daily web search and link to the organization's own page. Confirm details and deadlines at the source before you bid. Updated November 19, 2026.</p>
+    <p class="note"><b>Everything listed here is public information.</b> Each notice was published openly by the buyer for any vendor to read and respond to; nothing here is confidential or restricted. Government notices come from official open-data feeds (SAM.gov, CanadaBuys, city open-data portals). Nonprofit postings are found by a daily web search and link to the organization's own page. Confirm details and deadlines at the source before you bid. Updated November 19, 2026.</p>
   </div>
 </main>
 <div class="eo-foot" role="contentinfo"><div class="bar"><span>Emre Ozgurler, Portland, OR</span><span>© 2026</span></div></div>

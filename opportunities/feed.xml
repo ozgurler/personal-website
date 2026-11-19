@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-<title>RFP Digest: open technology RFPs</title>
+<title>RFP Digest: public technology RFPs</title>
 <link>https://www.emreozgurler.com/opportunities/</link>
-<description>Open technology RFPs from US and Canadian government and nonprofits, updated daily.</description>
-<item>
-<title>USCG Air Station Clearwater Rapid Gate Services</title>
-<link>https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view</guid>
-<description>US federal, HOMELAND SECURITY, DEPARTMENT OF. Due Dec 02. Rapid gate access control services for USCG Air Station Clearwater.</description>
-<category>managed IT &amp; support</category>
-</item>
+<description>Publicly posted technology RFPs from US and Canadian government and nonprofits, updated daily.</description>
 <item>
 <title>Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services</title>
 <link>https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf</link>
@@ -95,13 +88,6 @@
 <category>web &amp; digital</category>
 </item>
 <item>
-<title>Web-Based Technical Standards, Military Specifications, and Parts Management Subscription</title>
-<link>https://sam.gov/workspace/contract/opp/c88c679e95774aa4aa19071c54469abc/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/c88c679e95774aa4aa19071c54469abc/view</guid>
-<description>US federal, HOMELAND SECURITY, DEPARTMENT OF. Due Dec 17. The United States Coast Guard (USCG), Surface Forces Logistics Center (SFLC), is conducting market research to identify capable commercial sources that can provide an…</description>
-<category>web &amp; digital</category>
-</item>
-<item>
 <title>Request for Proposals: Website Redesign</title>
 <link>https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/</link>
 <guid isPermaLink="false">https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/</guid>
@@ -151,13 +137,6 @@
 <category>data &amp; AI</category>
 </item>
 <item>
-<title>FIID Advanced Anti-Fraud and Risk-Modeling Proof of Concept</title>
-<link>https://sam.gov/workspace/contract/opp/5dc9d47b7d004778905287840fd6a7e4/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/5dc9d47b7d004778905287840fd6a7e4/view</guid>
-<description>US federal, HOMELAND SECURITY, DEPARTMENT OF. Due Dec 04. FEMAs Fraud Investigations and Inspections Division (FIID), in coordination with the Office of the Chief Component Procurement Officer (OCCPO), is conducting market research to…</description>
-<category>data &amp; AI</category>
-</item>
-<item>
 <title>USAC RFP: Enterprise Data Platform</title>
 <link>https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view</guid>
@@ -169,20 +148,6 @@
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-359-62513851</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-359-62513851</guid>
 <description>Canada, Department of the Environment (ECCC ). Due Dec 10. Develop hydrodynamic models and mesh framework for shellfish water quality classification.</description>
-<category>data &amp; AI</category>
-</item>
-<item>
-<title>Comprehensive Enterprise-Wide Travel Risk Management &amp; Tactical Intelligence Solution</title>
-<link>https://sam.gov/workspace/contract/opp/295a984732e44de695178e454b2b7878/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/295a984732e44de695178e454b2b7878/view</guid>
-<description>US federal, TRANSPORTATION, DEPARTMENT OF. Due Dec 18. Comprehensive enterprise travel risk management and tactical intelligence solution.</description>
-<category>data &amp; AI</category>
-</item>
-<item>
-<title>RFI - FEMA - Supply Chain Management System (SCMS)</title>
-<link>https://sam.gov/workspace/contract/opp/31a4ac9f75bf499184a406851f117f40/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/31a4ac9f75bf499184a406851f117f40/view</guid>
-<description>US federal, HOMELAND SECURITY, DEPARTMENT OF. Due Jan 04. FEMAs Logistics Management Directorate, Logistics Systems Division, is conducting market research to identify commercially available cloud-based Software-as-a-Service (SaaS)…</description>
 <category>data &amp; AI</category>
 </item>
 <item>
@@ -337,13 +302,6 @@
 <link>https://sam.gov/workspace/contract/opp/40753072fa68490cbeeeba31dab9fd29/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/40753072fa68490cbeeeba31dab9fd29/view</guid>
 <description>US federal, TREASURY, DEPARTMENT OF THE. Due Dec 17. Enterprise and solutions architecture services for SBIR/STTR programs.</description>
-<category>IT consulting &amp; strategy</category>
-</item>
-<item>
-<title>FEMA Request for Information - Direct Housing Modernization Capabilities</title>
-<link>https://sam.gov/workspace/contract/opp/8c1636c4e92e464c9553d5004e47c780/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/8c1636c4e92e464c9553d5004e47c780/view</guid>
-<description>US federal, HOMELAND SECURITY, DEPARTMENT OF. Due Dec 18. This Request for Information (RFI) is issued in accordance with Revolutionary Federal Acquisition Regulations Overhaul (RFO) 15.101(c). This RFI does not constitute a Request for…</description>
 <category>IT consulting &amp; strategy</category>
 </item>
 <item>

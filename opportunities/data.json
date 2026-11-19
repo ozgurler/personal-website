@@ -1,24 +1,7 @@
 {
  "updated": "2026-11-19",
- "count": 50,
+ "count": 44,
  "items": [
-  {
-   "title": "USCG Air Station Clearwater Rapid Gate Services",
-   "url": "https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "FL",
-   "due": "Dec 02",
-   "summary": "Rapid gate access control services for USCG Air Station Clearwater.",
-   "tags": [
-    "managed IT & support"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "managed IT & support"
-  },
   {
    "title": "Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
    "url": "https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf",
@@ -225,23 +208,6 @@
    "category": "web & digital"
   },
   {
-   "title": "Web-Based Technical Standards, Military Specifications, and Parts Management Subscription",
-   "url": "https://sam.gov/workspace/contract/opp/c88c679e95774aa4aa19071c54469abc/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "MD",
-   "due": "Dec 17",
-   "summary": "The United States Coast Guard (USCG), Surface Forces Logistics Center (SFLC), is conducting market research to identify capable commercial sources that can provide an\u2026",
-   "tags": [
-    "web & digital"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-17",
-   "country": "US",
-   "kind": "government",
-   "category": "web & digital"
-  },
-  {
    "title": "Request for Proposals: Website Redesign",
    "url": "https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/",
    "buyer": "The Friends of the Saint Paul Public Library",
@@ -361,23 +327,6 @@
    "category": "data & AI"
   },
   {
-   "title": "FIID Advanced Anti-Fraud and Risk-Modeling Proof of Concept",
-   "url": "https://sam.gov/workspace/contract/opp/5dc9d47b7d004778905287840fd6a7e4/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 04",
-   "summary": "FEMA\u0092s Fraud Investigations and Inspections Division (FIID), in coordination with the Office of the Chief Component Procurement Officer (OCCPO), is conducting market research to\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
    "title": "USAC RFP: Enterprise Data Platform",
    "url": "https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view",
    "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
@@ -408,40 +357,6 @@
    "scope": "Canada",
    "due_iso": "2026-12-10",
    "country": "CA",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Comprehensive Enterprise-Wide Travel Risk Management & Tactical Intelligence Solution",
-   "url": "https://sam.gov/workspace/contract/opp/295a984732e44de695178e454b2b7878/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 18",
-   "summary": "Comprehensive enterprise travel risk management and tactical intelligence solution.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "RFI - FEMA - Supply Chain Management System (SCMS)",
-   "url": "https://sam.gov/workspace/contract/opp/31a4ac9f75bf499184a406851f117f40/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Jan 04",
-   "summary": "FEMA\u0092s Logistics Management Directorate, Logistics Systems Division, is conducting market research to identify commercially available cloud-based Software-as-a-Service (SaaS)\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2027-01-04",
-   "country": "US",
    "kind": "government",
    "category": "data & AI"
   },
@@ -815,23 +730,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-17",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "FEMA Request for Information - Direct Housing Modernization Capabilities",
-   "url": "https://sam.gov/workspace/contract/opp/8c1636c4e92e464c9553d5004e47c780/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 18",
-   "summary": "This Request for Information (RFI) is issued in accordance with Revolutionary Federal Acquisition Regulations Overhaul (RFO) 15.101(c). This RFI does not constitute a Request for\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
    "country": "US",
    "kind": "government",
    "category": "IT consulting & strategy"
