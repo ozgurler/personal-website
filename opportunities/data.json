@@ -1,24 +1,7 @@
 {
- "updated": "2026-11-19",
- "count": 96,
+ "updated": "2026-11-18",
+ "count": 49,
  "items": [
-  {
-   "title": "Marine Corps Education Command Information Technology Support Services",
-   "url": "https://sam.gov/workspace/contract/opp/abb4d95176944adfa211a5832b0901cc/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 02",
-   "summary": "The purpose of this amendment is to: 1. Extend the proposal due date to December 2, 2026 10:00 AM EST. 2. Notify offerors that the government is in the process of finalizing\u2026",
-   "tags": [
-    "managed IT & support"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "managed IT & support"
-  },
   {
    "title": "USCG Air Station Clearwater Rapid Gate Services",
    "url": "https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view",
@@ -32,40 +15,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "managed IT & support"
-  },
-  {
-   "title": "Enhanced Mobile Satellite Services (EMSS) Equipment, Provisioning and Customer Care Help Desk Support",
-   "url": "https://sam.gov/workspace/contract/opp/143658eaaf6446a082403433f1dd4698/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Dec 10",
-   "summary": "The United States Space Force (USSF) provides United States Government (USG) and other sponsored customers with satellite communication services through a dedicated\u2026",
-   "tags": [
-    "managed IT & support"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-10",
-   "country": "US",
-   "kind": "government",
-   "category": "managed IT & support"
-  },
-  {
-   "title": "Enterprise Information Technology Support Services (ITSS)",
-   "url": "https://sam.gov/workspace/contract/opp/d42cc82803064a10a68625d59c824d29/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "Dec 18",
-   "summary": "THIS IS A RQUEST FOR INFORMATION ONLY. The US Government (USG), through the Army Contracting Command \u0096 Redstone is conducting market research to identify capable sources and\u2026",
-   "tags": [
-    "managed IT & support"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
    "country": "US",
    "kind": "government",
    "category": "managed IT & support"
@@ -140,23 +89,6 @@
    "category": "cloud & infrastructure"
   },
   {
-   "title": "Department of Defense Secure Access File Exchange Modernization",
-   "url": "https://sam.gov/workspace/contract/opp/d962d72ae3c7475a9e5ab7fae762d1d6/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Dec 10",
-   "summary": "Modernize DoD Secure Access File Exchange (SAFE) secure file transfer platform.",
-   "tags": [
-    "cloud & infrastructure"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-10",
-   "country": "US",
-   "kind": "government",
-   "category": "cloud & infrastructure"
-  },
-  {
    "title": "DA10--Bi-Directional Image/Report Exchange",
    "url": "https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -172,159 +104,6 @@
    "country": "US",
    "kind": "government",
    "category": "cloud & infrastructure"
-  },
-  {
-   "title": "CAPACITY ON A UHF-CAPABLE ON-ORBIT MEO SATELLITE",
-   "url": "https://sam.gov/workspace/contract/opp/016ae163dd6741c3a925561a2dcc4eaf/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "NM",
-   "due": "Dec 01",
-   "summary": "Commercial UHF-capable MEO satellite bandwidth access for experimental testing and GEO constellation interoperability.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "RFQ: Reaward a 50MB commercial circuit Intra-Europe.",
-   "url": "https://sam.gov/workspace/contract/opp/071d4828cccf4a39aeec1442a7c76191/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "Solicitation number HC102127QA006 is issued as a Request for Quotation (RFQ) for a 50 MB commercial circuit intra-Europe. This is a restricted access requirement; attachments will\u2026",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "AMEND 0001: REAWARD THESE TWO (2) TDM PRI'S AS AN E-PRI (ETHERNET TRANSPORT WITH PRI DELIVERY) IN WASHINGTON, DC. THESE 5 SOLICITATIONS ARE ISSUED AS TECHNICALLY INTERDEPENDENT: HC101326QA359, HC101327QA004, HC101327QA005, HC101327QA006, HC101327QA007",
-   "url": "https://sam.gov/workspace/contract/opp/fed7498eab654de08360de05c5fe1a52/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "DoD seeks Ethernet transport with PRI delivery service for two TDM PRIs in Washington, DC.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "AMEND 0001: REAWARD THESE THREE (3) TDM PRI'S AS AN E-PRI (ETHERNET TRANSPORT WITH PRI DELIVERY) IN WASHINGTON, DC. THESE 5 SOLICITATIONS ARE ISSUED AS TECHNICALLY INTERDEPENDENT: HC101326QA359, HC101327QA004, HC101327QA005, HC101327QA006, HC101327QA007",
-   "url": "https://sam.gov/workspace/contract/opp/99a91c76bc484e06af1e783a8933c7bd/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "DoD seeks Ethernet transport with PRI delivery service for three TDM PRIs in Washington, DC.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "AMEND 0001: REAWARD THESE TWO (2) TDM PRI'S AS AN E-PRI (ETHERNET TRANSPORT WITH PRI DELIVERY) IN WASHINGTON, DC. THESE 5 SOLICITATIONS ARE ISSUED AS TECHNICALLY INTERDEPENDENT: HC101326QA359, HC101327QA004, HC101327QA005, HC101327QA006, HC101327QA007",
-   "url": "https://sam.gov/workspace/contract/opp/56245b5304594dda8ac8d7eab7d252f3/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "DoD seeks ethernet transport with PRI delivery service in Washington, DC.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "AMEND 0001: REAWARD THESE FOUR (4) TDM PRI'S AS AN E-PRI (ETHERNET TRANSPORT WITH PRI DELIVERY) IN WASHINGTON, DC. THESE 5 SOLICITATIONS ARE ISSUED AS TECHNICALLY INTERDEPENDENT: HC101326QA359, HC101327QA004, HC101327QA005, HC101327QA006, HC101327QA007",
-   "url": "https://sam.gov/workspace/contract/opp/b3a5b1c0c43f4e52a7525e098a421d3d/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "DoD seeks Ethernet transport with PRI delivery service for four TDM PRIs in Washington, DC.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "AMEND 0001: REAWARD THESE THREE (3) TDM PRI'S AS AN E-PRI (ETHERNET TRANSPORT WITH PRI DELIVERY) IN WASHINGTON, DC. THESE 5 SOLICITATIONS ARE ISSUED AS TECHNICALLY INTERDEPENDENT: HC101326QA359, HC101327QA004, HC101327QA005, HC101327QA006, HC101327QA007",
-   "url": "https://sam.gov/workspace/contract/opp/c428b0d76f894959805417bf35ef6c5a/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "DoD seeks Ethernet transport with PRI delivery service for three TDM PRIs in Washington, DC.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "FS BLDG T112 8 SIPR DROP INSTALLATION",
-   "url": "https://sam.gov/workspace/contract/opp/a67b085ef1d64513a0ddf80426b1dda6/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "HI",
-   "due": "Dec 08",
-   "summary": "Install eight SIPR connections and drops at Fort Shafter, Hawaii building.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-08",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "RFQ: Start a 100MB commercial circuit Intra Southwest Asia",
-   "url": "https://sam.gov/workspace/contract/opp/5fe171f4018243708f0a44cc7a3d9425/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 09",
-   "summary": "Solicitation number HC102127QA004 is issued as a Request for Quotation (RFQ) for a 100 MB commercial circuit intra - Southwest Asia. This is a restricted access requirement\u2026",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-09",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
   },
   {
    "title": "SATELLITE TELVISION PROGRAMMING SERVICES",
@@ -344,57 +123,6 @@
    "category": "telecom & networking"
   },
   {
-   "title": "1GB, 5GB and 10GB Commercial Lease Intra Southwest Asia",
-   "url": "https://sam.gov/workspace/contract/opp/642ff133e82d4040a0194d6b4b83bc01/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 11",
-   "summary": "DITCO-Europe is seeking information for 1GB, 5GB and 10GB commercial lease in Southwest Asia. This publication is a Request for Information (RFI) from the Defense Information\u2026",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-11",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "REAWARD (3) THREE ETHERNET PRI HANDOFF (E-PRI) IN PA",
-   "url": "https://sam.gov/workspace/contract/opp/84120d99f39a47798e4face6a4d8de75/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 14",
-   "summary": "DoD seeks three Ethernet PRI handoff telecommunications services in Pennsylvania with DITCO Basic Agreement requirement.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-14",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "REAWARD A ETHERNET PRI HANDOFF (E-PRI) IN PA",
-   "url": "https://sam.gov/workspace/contract/opp/d66030435eab4ba5b44c0033ebcc8805/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 14",
-   "summary": "DoD seeks Ethernet PRI handoff telecommunications services in Pennsylvania with DITCO Basic Agreement requirement.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-14",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
    "title": "RFI - Commercial Alternatives for GOES Rebroadcast (GRB) and High-Rate Information Transmission (HRIT) / Emergency Managers\u0092 Warning Information Network (EMWIN) Services",
    "url": "https://sam.gov/workspace/contract/opp/a6973d34a467470fad9f87454e755960/view",
    "buyer": "COMMERCE, DEPARTMENT OF",
@@ -407,57 +135,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-17",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "PROVIDE, INSTALL, AND MAINTAIN AN INTERNET SERVICE WITH A MINIMUM OF 1 GB UP AND DOWNLOAD SPEEDS IN NY",
-   "url": "https://sam.gov/workspace/contract/opp/f6dcd0bd10fe4d27809aa084f49e69be/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 18",
-   "summary": "DoD needs 1GB minimum internet service installation and maintenance in New York.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "PROVIDE, INSTALL, AND MAINTAIN AN INTERNET SERVICE WITH A MINIMUM OF 1 GB UP AND DOWNLOAD SPEEDS IN NY",
-   "url": "https://sam.gov/workspace/contract/opp/ffaa1001190244b69d66d1d1a629afdc/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 18",
-   "summary": "DoD needs 1GB minimum internet service installation and maintenance in New York.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
-   "title": "MULTIPLE AWARD LAN/DLAN SIPR-NIPR BPA",
-   "url": "https://sam.gov/workspace/contract/opp/74fdd03aa46842bf85150c975c080211/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "HI",
-   "due": "no date listed",
-   "summary": "Structured cabling design, installation, and repair for NIPRNET/SIPRNET infrastructure across Army installations.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
    "country": "US",
    "kind": "government",
    "category": "telecom & networking"
@@ -667,23 +344,6 @@
    "category": "data & AI"
   },
   {
-   "title": "ADAPTS IDIQ",
-   "url": "https://sam.gov/workspace/contract/opp/dd56e987cefb470ea2f697f899386cd2/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Nov 30",
-   "summary": "The Defense Information Systems Agency (DISA), on behalf of the Portfolio Acquisition Executive for Command, Control, Communications, & Enterprise (PAE C3E) and the DISA SD2\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
    "title": "Private Equity and Private Credit Data Services",
    "url": "https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
@@ -696,40 +356,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "PAO Media Analytics Software as a Service",
-   "url": "https://sam.gov/workspace/contract/opp/65579024f769460d83382968b9c9ba3d/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "KS",
-   "due": "Dec 01",
-   "summary": "Real-time media analytics dashboard software with drill-down capabilities for military public affairs.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Mercury Draft Solicitation",
-   "url": "https://sam.gov/workspace/contract/opp/7714b6b4d23f4626b58cbda748f91db7/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Dec 01",
-   "summary": "The National Geospatial-Intelligence Agency (NGA), in support of NGA Program Executive Office - Advanced Analytics (PEO-AA) - Analytics Technologies (PAT), has released the Draft\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
    "country": "US",
    "kind": "government",
    "category": "data & AI"
@@ -769,23 +395,6 @@
    "category": "data & AI"
   },
   {
-   "title": "Data Platform & Analytics \u2013 RCAF",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-485-47484340",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Canada *Remote Offsite",
-   "due": "Dec 10",
-   "summary": "Develop data platform and analytics infrastructure for Royal Canadian Air Force.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-10",
-   "country": "CA",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
    "title": "Mesh and Hydrodynamic Framework for Shellfish Water Classification Program",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-359-62513851",
    "buyer": "Department of the Environment (ECCC )",
@@ -799,23 +408,6 @@
    "scope": "Canada",
    "due_iso": "2026-12-10",
    "country": "CA",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Enterprise Cloud Support Services",
-   "url": "https://sam.gov/workspace/contract/opp/9281498161a040dab2e8c728b87a8e97/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Dec 11",
-   "summary": "Please see attached, N0018926RL011 and attachments, for Enterprise Cloud and Network Operations and Management Support Services.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-11",
-   "country": "US",
    "kind": "government",
    "category": "data & AI"
   },
@@ -869,23 +461,6 @@
    "country": "CA",
    "kind": "government",
    "category": "data & AI"
-  },
-  {
-   "title": "30 RS Mission Planning Software Tool (MPST)",
-   "url": "https://sam.gov/workspace/contract/opp/6a6a981f0f0441d3acd9ae1aabc340a7/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "NV",
-   "due": "Nov 30",
-   "summary": "This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
   },
   {
    "title": "Aruba Maintenance for Software and Hardware",
@@ -951,57 +526,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Area of Interest (AOI) for Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) Prototype Other Transaction (OT)",
-   "url": "https://sam.gov/workspace/contract/opp/3ca3fef9b8a34cc4801782f97aeb4bff/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Nov 30",
-   "summary": "The Defense Information Systems Agency (DISA) seeks solutions to prototype a Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) capability for the\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Solicitation for IDIQ Contract for Biology Testing of DM",
-   "url": "https://sam.gov/workspace/contract/opp/c95b9b34f3074485936d073e71114c1f/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 01",
-   "summary": "Establish IDIQ contract for biology testing of dredged material.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Solicitation for IDIQ Contract for Biology Testing of DM",
-   "url": "https://sam.gov/workspace/contract/opp/28ac5ec523814e9f8195276ff4f78ece/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 01",
-   "summary": "Provide IDIQ contract for biology testing of demilitarized material.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -1075,23 +599,6 @@
    "category": "software & apps"
   },
   {
-   "title": "IM&T, Program, Resource, Optimization, Value and Execution (IMPROVE)",
-   "url": "https://sam.gov/workspace/contract/opp/385e9df7fced4ef08d9b6b6130a171d4/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Dec 03",
-   "summary": "Please refer to the attached PWS",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
    "buyer": "Statistics Canada (StatCan)",
@@ -1138,23 +645,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "STANDARD LABOR DATA COLLECTION AND DISTRIBUTION APPLICATION (SLDCADA) REQUEST FOR PROPOSAL",
-   "url": "https://sam.gov/workspace/contract/opp/f8200861df5e45acbd42e749feb7d8f8/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "DC",
-   "due": "Dec 06",
-   "summary": "Synopsis: PAE Mission Systems is soliciting proposals from the eligible SeaPort-NxG small-business contract holders for end-to-end sustainment and infrastructure support of the\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-06",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -1211,23 +701,6 @@
    "category": "software & apps"
   },
   {
-   "title": "Simulator Common Architecture Requirements and Standards (SCARS)",
-   "url": "https://sam.gov/workspace/contract/opp/aba5c75a5ca941b1b176ccc5a8c51a4e/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "OH",
-   "due": "Dec 10",
-   "summary": "Simulator architecture requirements and standards (SCARS) program support services.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-10",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "DA10--Utilization Management Software (VA-27-00009483)",
    "url": "https://sam.gov/workspace/contract/opp/b0998b24866242dc92ee4ce9648316aa/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -1240,40 +713,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-11",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Sustainment for SRW",
-   "url": "https://sam.gov/workspace/contract/opp/1daad770de79423cb05c361a706d9740/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "VA",
-   "due": "Dec 11",
-   "summary": "The National Geospatial-Intelligence Agency (NGA) is seeking information from interested vendors regarding their capability to provide sustainment, enhancement, integration\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-11",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Oracle User Productivity Kit (UPK) Replacement Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/bb795f90af3945df81293f127b2f11cb/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "OH",
-   "due": "Jan 06",
-   "summary": "The Department of the Air Force (DAF), Business and Enterprise Systems (BES) Directorate, AFLCMC/GBGD, is issuing this Commercial Solutions Opening (CSO) to identify and acquire\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2027-01-06",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -1330,108 +769,6 @@
    "category": "software & apps"
   },
   {
-   "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/137ceb760c654cd6bf61d9debec892dc/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/6ae46599e3b1437891299c7adfc2d91f/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/fdedccd1d1aa4625881cd9f2ef3694ca/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/ae2dbf45b9a7481ca6395c3395100930/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/9262f35a564f484aa8bc59c9248521e9/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open Call \u0096 White Papers indefinite monthly collection (reference Call) Call 0002 eFOIA \u0096 Closed Call \u0096 Questions due 16\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/0818d0087f7e4f148bffe38dc68c2461/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open Call \u0096 White Papers indefinite monthly collection (reference Call) Call 0002 eFOIA \u0096 Closed Call \u0096 Questions due 16\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "NESDIS Consolidated Antenna and Ground Systems Services (NCAGSS)",
    "url": "https://sam.gov/workspace/contract/opp/1dfd083c656f4d6faf0a52753306694d/view",
    "buyer": "COMMERCE, DEPARTMENT OF",
@@ -1449,115 +786,12 @@
    "category": "software & apps"
   },
   {
-   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-   "url": "https://sam.gov/workspace/contract/opp/dec55323d4f944a39b3970d977f2a95b/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "AL",
-   "due": "no date listed",
-   "summary": "Air Force seeking custom software, systems design, and IT service solutions via open competition.",
-   "tags": [
-    "software & apps",
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": null,
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
-   "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "PA",
-   "due": "Nov 27",
-   "summary": "DLA Troop Support conducts market research on commercial web-based ordering systems and eMarketplace platforms.",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-27",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "RFI: Agile Platform for Expeditionary C2 (APEX)",
-   "url": "https://sam.gov/workspace/contract/opp/a94d56ff8e2a453b92b2629cba0f62ec/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "IL",
-   "due": "Nov 30",
-   "summary": "The Air Force Life Cycle Management Center (AFLCMC) Command, Control, Communications and Battle Management (C3BM) Operating Location 2 (OL-2) is executing Software Development\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "RFI: Agile Platform for Expeditionary C2 (APEX)",
-   "url": "https://sam.gov/workspace/contract/opp/57320c5e18f34e1284ba63aa5843504a/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "IL",
-   "due": "Nov 30",
-   "summary": "The Air Force Life Cycle Management Center (AFLCMC) Command, Control, Communications and Battle Management (C3BM) Operating Location 2 (OL-2) is executing Software Development\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "Automated Mission Communication Manager Request for Information (RFI)",
-   "url": "https://sam.gov/workspace/contract/opp/1398a352e7a844f998eeeb7e2c9e3f57/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "OH",
-   "due": "Nov 30",
-   "summary": "Air Force seeks market research for Automated Mission Communication Manager system solutions.",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
    "url": "https://sam.gov/workspace/contract/opp/40753072fa68490cbeeeba31dab9fd29/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
    "region": "DC",
    "due": "Dec 17",
    "summary": "Enterprise and solutions architecture services for SBIR/STTR programs.",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-17",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "Solicitation - N0003927RM002: NILE ISS 6 Engineering Services",
-   "url": "https://sam.gov/workspace/contract/opp/b51c8bc73f1c458cbeb90b5e57db8c77/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Dec 17",
-   "summary": "NATO Improved Link Eleven (NILE) In-Service Support 6 (ISS 6) Engineering Services RFP #N0003927RM002. This RFP (N0003927RM002) is related to the previous Advanced Notice for\u2026",
    "tags": [
     "IT consulting & strategy"
    ],
@@ -1581,40 +815,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "Acquisition SI",
-   "url": "https://sam.gov/workspace/contract/opp/6d64f1dce5f3423f97553a6f5a9874e0/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "FL",
-   "due": "Dec 18",
-   "summary": "1.0 Disclaimer & Important Notices This is a Request for Information (RFI) / Sources Sought Notice issued solely for information and market research planning purposes in\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "NBSFS Facility Controls System Modernization",
-   "url": "https://sam.gov/workspace/contract/opp/c25438bb90154fc09ca1b8f819b5ec91/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "NH",
-   "due": "Jan 15",
-   "summary": "The Government is seeking information from qualified vendors capable of providing an open-architecture Utility Monitoring and Controls System (UMCS) modernization solution. Please\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2027-01-15",
    "country": "US",
    "kind": "government",
    "category": "IT consulting & strategy"
