@@ -964,8 +964,9 @@
 
 // ---------- AI clone ----------
 // poster: path to a still picture (for example 'twin/poster.jpg'). Empty shows the initials tile.
-// video:  keep false until the avatar video service is switched on (server side: TWIN_VIDEO_ENABLED=1).
-var TWIN = { poster: 'twin/poster.jpg?v=3', video: false };
+// video:  true lets the page play clips. Clips only arrive when the server has
+//         TWIN_VIDEO_ENABLED=1 and the Mac mini's avatar server is reachable; otherwise text only.
+var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
 (function () {
   var stage = document.getElementById('twin-stage'), log = document.getElementById('twin-log'),
       form = document.getElementById('twin-form'), input = document.getElementById('twin-input'),
@@ -974,7 +975,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: false };
       history = [], busy = false;
   if (!form) return;
   if (TWIN.poster) { poster.src = TWIN.poster; poster.onload = function () { poster.hidden = false; }; }
-  if (TWIN.video) document.getElementById('twin-mode').textContent = 'Video replies';
+  var mode = document.getElementById('twin-mode'), videoRun = 0;
 
   document.getElementById('twin-open').addEventListener('click', function () {
     document.getElementById('twin-start').hidden = true;
@@ -989,15 +990,33 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: false };
     var d = document.createElement('div'); d.className = 'twin-msg ' + kind; d.textContent = text;
     log.appendChild(d); log.scrollTop = log.scrollHeight; return d;
   }
-  function playVideo(url) {
-    if (!TWIN.video || !url) return;
-    video.src = url; video.hidden = false;
-    video.onended = function () { video.hidden = true; };
-    video.play().catch(function () { video.hidden = true; });
+  // The text answer shows at once. If the server started a clip, wait for it and then
+  // swap the picture for the video. A newer question cancels an older clip.
+  async function playVideo(job) {
+    if (!TWIN.video || !job) return;
+    var run = ++videoRun; mode.textContent = 'Preparing video…';
+    for (var i = 0; i < 45 && run === videoRun; i++) {
+      await new Promise(function (ok) { setTimeout(ok, 2000); });
+      try {
+        var r = await fetch('/api/twin-video?check=1&id=' + job), st = (await r.json()).status;
+        if (st === 'done') break;
+        if (st === 'error' || st === 'unknown') { if (run === videoRun) mode.textContent = 'Text replies'; return; }
+      } catch (e) {}
+    }
+    if (run !== videoRun) return;
+    if (i >= 45) { mode.textContent = 'Text replies'; return; }
+    video.src = '/api/twin-video?id=' + job;
+    video.onended = video.onerror = function () { video.hidden = true; if (run === videoRun) mode.textContent = 'AI video'; };
+    video.oncanplay = function () {
+      if (run !== videoRun) return;
+      video.hidden = false; mode.textContent = 'AI video';
+      video.play().catch(function () { video.controls = true; });
+    };
+    video.load();
   }
   async function ask(text) {
     text = (text || '').trim(); if (!text || busy) return;
-    busy = true; send.disabled = true; input.value = ''; chips.hidden = true; stage.classList.add('busy');
+    videoRun++; video.pause(); video.hidden = true; busy = true; send.disabled = true; input.value = ''; chips.hidden = true; stage.classList.add('busy');
     bubble('me', text); history.push({ role: 'user', content: text });
     var wait = bubble('ai wait', 'Thinking…');
     try {
@@ -1005,7 +1024,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: false };
       var data = await r.json().catch(function () { return {}; });
       wait.remove();
       if (!r.ok || !data.reply) { history.pop(); bubble('err', data.error || 'I could not answer just now. Please use the contact form.'); }
-      else { history.push({ role: 'assistant', content: data.reply }); bubble('ai', data.reply); playVideo(data.video_url); }
+      else { history.push({ role: 'assistant', content: data.reply }); bubble('ai', data.reply); playVideo(data.video_job); }
     } catch (err) { wait.remove(); history.pop(); bubble('err', 'The connection dropped. Please try again.'); }
     busy = false; send.disabled = false; stage.classList.remove('busy'); input.focus();
   }

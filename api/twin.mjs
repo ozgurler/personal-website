@@ -6,8 +6,8 @@
 //   ANTHROPIC_API_KEY      required (already set for the other tools)
 //   TWIN_MODEL             optional, defaults to claude-haiku-5-5
 //   TWIN_VIDEO_ENABLED     optional, "1" turns the avatar video step on. OFF by default.
-//   TWIN_VIDEO_ENDPOINT    optional, URL of the avatar service. It receives
-//                          POST {"text": "..."} and must answer {"video_url": "https://..."}.
+//   TWIN_VIDEO_ENDPOINT    optional, public URL of the avatar server on the Mac mini
+//                          (see "Documents/AI Clone/server"). POST /jobs starts a clip.
 //   TWIN_VIDEO_TOKEN       optional, sent to the avatar service as a Bearer token.
 
 export const maxDuration = 30;
@@ -228,17 +228,19 @@ async function ask(model, messages) {
 }
 
 // Avatar video step. Stays off until TWIN_VIDEO_ENABLED=1 and an endpoint are set.
-async function renderVideo(text) {
+// It only STARTS the clip on the avatar service and returns a job id. The page then asks
+// /api/twin-video for it, so the text answer is never held up by the video.
+async function startVideo(text) {
   if (!VIDEO_ON) return null;
   try {
-    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 20000);
-    const headers = { 'content-type': 'application/json' };
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 5000);
+    const headers = { 'content-type': 'application/json', 'ngrok-skip-browser-warning': '1' };
     if (process.env.TWIN_VIDEO_TOKEN) headers.authorization = 'Bearer ' + process.env.TWIN_VIDEO_TOKEN;
-    const r = await fetch(process.env.TWIN_VIDEO_ENDPOINT, { method: 'POST', headers, body: JSON.stringify({ text }), signal: ctl.signal });
+    const r = await fetch(process.env.TWIN_VIDEO_ENDPOINT.replace(/\/+$/, '') + '/jobs', { method: 'POST', headers, body: JSON.stringify({ text }), signal: ctl.signal });
     clearTimeout(timer);
     if (!r.ok) return null;
-    const url = (await r.json()).video_url;
-    return typeof url === 'string' && /^https:\/\//.test(url) ? url : null;
+    const id = (await r.json()).id;
+    return typeof id === 'string' && /^[0-9a-f]{16}$/.test(id) ? id : null;
   } catch { return null; }
 }
 
@@ -268,8 +270,8 @@ export default async function handler(req, res) {
     const data = await r.json();
     const reply = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('').replace(/\s*—\s*/g, ', ').trim();
     if (!reply) return res.status(502).json({ error: 'No answer came back. Please try again.' });
-    const video_url = await renderVideo(reply);
-    res.status(200).json({ reply, video_url });
+    const video_job = await startVideo(reply);
+    res.status(200).json({ reply, video_job });
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: 'Something went wrong. Please use the contact form.' });
