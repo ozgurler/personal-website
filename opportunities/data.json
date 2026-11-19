@@ -1,22 +1,227 @@
 {
  "updated": "2026-11-18",
- "count": 60,
+ "count": 74,
  "items": [
   {
-   "title": "DATA SECURITY ASSESSMENT TEAM",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-184-68710011",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Ottawa",
-   "due": "Nov 26",
-   "summary": "Provide data security assessment team to evaluate and design HCM enterprise architecture.",
+   "title": "Marine Corps Education Command Information Technology Support Services",
+   "url": "https://sam.gov/workspace/contract/opp/abb4d95176944adfa211a5832b0901cc/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "The purpose of this amendment is to: 1. Extend the proposal due date to December 2, 2026 10:00 AM EST. 2. Notify offerors that the government is in the process of finalizing\u2026",
    "tags": [
-    "IT & software"
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "kind": "government",
+   "category": "managed IT & support"
+  },
+  {
+   "title": "Enhanced Mobile Satellite Services (EMSS) Equipment, Provisioning and Customer Care Help Desk Support",
+   "url": "https://sam.gov/workspace/contract/opp/143658eaaf6446a082403433f1dd4698/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MD",
+   "due": "Dec 10",
+   "summary": "The United States Space Force (USSF) provides United States Government (USG) and other sponsored customers with satellite communication services through a dedicated\u2026",
+   "tags": [
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-10",
+   "country": "US",
+   "kind": "government",
+   "category": "managed IT & support"
+  },
+  {
+   "title": "Enterprise Information Technology Support Services (ITSS)",
+   "url": "https://sam.gov/workspace/contract/opp/d42cc82803064a10a68625d59c824d29/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "Dec 18",
+   "summary": "THIS IS A RQUEST FOR INFORMATION ONLY. The US Government (USG), through the Army Contracting Command \u0096 Redstone is conducting market research to identify capable sources and\u2026",
+   "tags": [
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-18",
+   "country": "US",
+   "kind": "government",
+   "category": "managed IT & support"
+  },
+  {
+   "title": "1N001-265342 - Request for Information (RFI) \u2013 Cloud-Based Library Services Platform (LSP)",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030881?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Dec 08",
+   "summary": "Information on cloud-based library services platforms for Supreme Court of Canada.",
+   "tags": [
+    "cloud & infrastructure"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-26",
+   "due_iso": "2026-12-08",
    "country": "CA",
-   "category": "IT & software"
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
+   "title": "CAPACITY ON A UHF-CAPABLE ON-ORBIT MEO SATELLITE",
+   "url": "https://sam.gov/workspace/contract/opp/016ae163dd6741c3a925561a2dcc4eaf/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "NM",
+   "due": "Dec 01",
+   "summary": "Commercial UHF-capable MEO satellite bandwidth access for experimental testing and GEO constellation interoperability.",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "RFQ: Reaward a 50MB commercial circuit Intra-Europe.",
+   "url": "https://sam.gov/workspace/contract/opp/071d4828cccf4a39aeec1442a7c76191/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 07",
+   "summary": "Solicitation number HC102127QA006 is issued as a Request for Quotation (RFQ) for a 50 MB commercial circuit intra-Europe. This is a restricted access requirement; attachments will\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "RFQ: Start a 100MB commercial circuit Intra Southwest Asia",
+   "url": "https://sam.gov/workspace/contract/opp/5fe171f4018243708f0a44cc7a3d9425/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 09",
+   "summary": "Solicitation number HC102127QA004 is issued as a Request for Quotation (RFQ) for a 100 MB commercial circuit intra - Southwest Asia. This is a restricted access requirement\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-09",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "SATELLITE TELVISION PROGRAMMING SERVICES",
+   "url": "https://sam.gov/workspace/contract/opp/d683cce433b64f6d9e156b7e51588685/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "CA",
+   "due": "Dec 09",
+   "summary": "1. This is a combined synopsis/solicitation for commercial services prepared in accordance with FAR Part 12, as supplemented with additional information included in this notice.\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-09",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "1GB, 5GB and 10GB Commercial Lease Intra Southwest Asia",
+   "url": "https://sam.gov/workspace/contract/opp/642ff133e82d4040a0194d6b4b83bc01/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 11",
+   "summary": "DITCO-Europe is seeking information for 1GB, 5GB and 10GB commercial lease in Southwest Asia. This publication is a Request for Information (RFI) from the Defense Information\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "REAWARD (3) THREE ETHERNET PRI HANDOFF (E-PRI) IN PA",
+   "url": "https://sam.gov/workspace/contract/opp/84120d99f39a47798e4face6a4d8de75/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 14",
+   "summary": "DoD seeks three Ethernet PRI handoff telecommunications services in Pennsylvania with DITCO Basic Agreement requirement.",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-14",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "REAWARD A ETHERNET PRI HANDOFF (E-PRI) IN PA",
+   "url": "https://sam.gov/workspace/contract/opp/d66030435eab4ba5b44c0033ebcc8805/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 14",
+   "summary": "DoD seeks Ethernet PRI handoff telecommunications services in Pennsylvania with DITCO Basic Agreement requirement.",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-14",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "RFI - Commercial Alternatives for GOES Rebroadcast (GRB) and High-Rate Information Transmission (HRIT) / Emergency Managers\u0092 Warning Information Network (EMWIN) Services",
+   "url": "https://sam.gov/workspace/contract/opp/a6973d34a467470fad9f87454e755960/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "MD",
+   "due": "Dec 17",
+   "summary": "The National Oceanic and Atmospheric Administration (NOAA) is seeking information from commercial industry partners regarding the feasibility, technical approach, and\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-17",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
+   "title": "Bloomberg Professional Terminal and Bloomberg Anywhere",
+   "url": "https://sam.gov/workspace/contract/opp/63548e19e09c439083cb9acf0b1bf918/view",
+   "buyer": "EXPORT-IMPORT BANK OF THE US",
+   "region": "",
+   "due": "Nov 26",
+   "summary": "***SUBJECT TO THE AVAILABILITY OF FUNDS*** COMBINED SYNOPSIS/SOLICITATION # 83310127Q0011 NAICS Code 519290 Web Search Portals and All Other Information Services PSC 7A21 IT AND\u2026",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-26",
+   "country": "US",
+   "kind": "government",
+   "category": "web & digital"
   },
   {
    "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
@@ -26,468 +231,65 @@
    "due": "Nov 26",
    "summary": "Provide user experience professional services to support DFO digital transformation initiatives.",
    "tags": [
-    "IT & software",
-    "design & creative"
+    "web & digital"
    ],
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-11-26",
    "country": "CA",
-   "category": "IT & software"
+   "kind": "government",
+   "category": "web & digital"
   },
   {
-   "title": "User Testing Software Platform for User Experience Testing",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-936-44023845",
-   "buyer": "Canada Revenue Agency (CRA)",
-   "region": "*Ottawa",
-   "due": "Nov 27",
-   "summary": "Provide user testing software platform for CRA website user experience testing.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Request for Requirement Refinement - Round 3 - Priority A - Electronic Health Record Platform (EHRP) Project",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS3430950409-Doc5490277801",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Nov 27",
-   "summary": "Refine requirements for Electronic Health Record Platform project implementation.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Splunk Support Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-755-74801717",
-   "buyer": "Department of Employment and Social Development (ESDC)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 27",
-   "summary": "Provide Splunk consulting support for ESDC's internal monitoring solution.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
-   "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "PA",
-   "due": "Nov 27",
-   "summary": "DLA Troop Support conducts market research on commercial web-based ordering systems and eMarketplace platforms.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-27",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "R425--FY 27 Service (Base+4) | NYH Energy Control Procedures/LOTO Services | 630",
-   "url": "https://sam.gov/workspace/contract/opp/5d73616203d447e888c36d0c3fdea423/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "NY",
-   "due": "Nov 27",
-   "summary": "Lockout/Tagout energy control procedures and software services for New York Harbor VA Healthcare System.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-27",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "30 RS Mission Planning Software Tool (MPST)",
-   "url": "https://sam.gov/workspace/contract/opp/6a6a981f0f0441d3acd9ae1aabc340a7/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "NV",
+   "title": "Enterprise News Monitoring and Enterprise License Management Support",
+   "url": "https://sam.gov/workspace/contract/opp/4720df3381d1497a899bbbc2afaf6389/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "DC",
    "due": "Nov 30",
-   "summary": "This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service\u2026",
+   "summary": "The Department of Health and Human Services (HHS) seeks information from qualified businesses capable of providing an enterprise news monitoring platform and associated enterprise\u2026",
    "tags": [
-    "IT & software"
+    "web & digital"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
-   "category": "IT & software"
+   "kind": "government",
+   "category": "web & digital"
   },
   {
-   "title": "Aruba Maintenance for Software and Hardware",
-   "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
-   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
-   "region": "VA",
-   "due": "Nov 30",
-   "summary": "Aruba software and hardware maintenance support contract.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-621-34120934",
-   "buyer": "Impact Assessment Agency of Canada (IAAC)",
-   "region": "*Canada *Remote Offsite",
-   "due": "Nov 30",
-   "summary": "Geospatial informatics professional services for GIS operation, maintenance and modernization.",
-   "tags": [
-    "IT & software",
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-30",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Automated Mission Communication Manager Request for Information (RFI)",
-   "url": "https://sam.gov/workspace/contract/opp/1398a352e7a844f998eeeb7e2c9e3f57/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "OH",
-   "due": "Nov 30",
-   "summary": "Air Force seeks market research for Automated Mission Communication Manager system solutions.",
-   "tags": [
-    "IT & software",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "PAO Media Analytics Software as a Service",
-   "url": "https://sam.gov/workspace/contract/opp/65579024f769460d83382968b9c9ba3d/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "KS",
+   "title": "WT COX",
+   "url": "https://sam.gov/workspace/contract/opp/092d831a7f6345b38a7e1947f2974374/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "MD",
    "due": "Dec 01",
-   "summary": "Real-time media analytics dashboard software with drill-down capabilities for military public affairs.",
+   "summary": "Renew journal subscriptions in online and print formats for National Institutes of Health.",
    "tags": [
-    "IT & software",
-    "data & AI"
+    "web & digital"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
    "country": "US",
-   "category": "IT & software"
+   "kind": "government",
+   "category": "web & digital"
   },
   {
-   "title": "RFI - Computer Aided Dispatch system Next Generation (CAD NG)",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030578?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 01",
-   "summary": "Information on next-generation Computer Aided Dispatch system for emergency services.",
+   "title": "Web-Based Technical Standards, Military Specifications, and Parts Management Subscription",
+   "url": "https://sam.gov/workspace/contract/opp/c88c679e95774aa4aa19071c54469abc/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+   "region": "MD",
+   "due": "Dec 17",
+   "summary": "The United States Coast Guard (USCG), Surface Forces Logistics Center (SFLC), is conducting market research to identify capable commercial sources that can provide an\u2026",
    "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-01",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "DTB Security Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-208-67681971",
-   "buyer": "Department of Health (HC)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 01",
-   "summary": "Information technology security planning, protection and incident management consulting services.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-01",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "2BH6216607/A NVIDIA DGX SPARK AI MINI PC GB10 AI workstation or equivalent for ISED",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/SSC-26-00035486:T",
-   "buyer": "Shared Services Canada",
-   "region": "*Ontario (except NCR) *National Capital Region (NCR)",
-   "due": "Dec 01",
-   "summary": "Supply four NVIDIA DGX Spark AI mini PC GB10 workstations for ISED.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-01",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Canada *Ottawa *National Capital Region (NCR)",
-   "due": "Dec 02",
-   "summary": "SaaS collection management system for biological living collections including microbes and fungi.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "ITQ - Health Services Supply Chain Logistics Solution (MVP)",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030743?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 03",
-   "summary": "Design, implement, and deploy medical inventory management solution for Canadian Forces Health Services.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "Mail Tracking System",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-852-52867688",
-   "buyer": "Treasury Board (TBS)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 03",
-   "summary": "Three-year lease of turn-key mail tracking system with hardware and software.",
-   "tags": [
-    "IT & software"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "NIH Research Software Engineer (RSE) Award (R50 Clinical Trials Not Allowed)",
-   "url": "https://www.grants.gov/search-results-detail/355439",
-   "buyer": "National Institutes of Health",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "Research software engineer awards excluding clinical trials.",
-   "tags": [
-    "IT & software",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Grants",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "category": "IT & software"
-  },
-  {
-   "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
-   "buyer": "Statistics Canada (StatCan)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Assess Statistics Canada's website environment and recommend future web publishing platform architecture.",
-   "tags": [
-    "IT & software",
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "IT & software"
-  },
-  {
-   "title": "REQUEST FOR SUPPLY ARRANGEMENT (RFSA) For CMHC BUSINESS CONSULTING AND PROFESSIONAL SERVICES",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-681-58483884",
-   "buyer": "Canada Mortgage and Housing Corporation (CNHC)",
-   "region": "*Canada",
-   "due": "Nov 26",
-   "summary": "Qualify suppliers for business consulting and professional services across seven service streams.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Air Simulator Verification, Validation & Accreditation (VV&A) consultants",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-643-48756938",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 26",
-   "summary": "Provide two air simulator verification, validation and accreditation consultants for DND.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Workplace Assessment and Restoration",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-165-30421875",
-   "buyer": "Canada Border Services Agency (CBSA)",
-   "region": "*National Capital Region (NCR) *Canada",
-   "due": "Nov 26",
-   "summary": "Workplace assessment and restoration services for CBSA division with approximately 40 employees.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "One (1) Senior Business Consultant",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-569-60213082",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 27",
-   "summary": "One senior business consultant for three-year project management and change management role.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Senior HR Consultants",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-450-12101762",
-   "buyer": "Elections Canada (Elections)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 01",
-   "summary": "Temporary senior HR consultants for Elections Canada in National Capital Region.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-01",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Mediator Consultant - Manitoba for the Farm Debt Mediation Service (FDMS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-645-21604568",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Manitoba",
-   "due": "Dec 02",
-   "summary": "Provide farm debt mediation and financial counselling services in Manitoba.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Cost Allocation Assessment and Advisory Services",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261027012",
-   "buyer": "Teachers' Retirement System",
-   "region": "New York, NY",
-   "due": "Dec 02",
-   "summary": "Obtain cost allocation assessment and advisory services for public sector cost methodology evaluation and design.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Level 3 Business Analyst (TBIPS Stream 4: B.1) Level 3 Business System Analyst (TBIPS Stream 4: B.6)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-80-45427530",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Ottawa",
-   "due": "Dec 03",
-   "summary": "Two Level 3 business analysts to map military personnel management system capabilities and workflows.",
-   "tags": [
-    "consulting & strategy"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "EW699-260375D-PRAIRIES Multidisciplinary Environmental Consulting Services RFSO",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029078?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Environmental consulting services for contaminated sites and remediation across Prairie Provinces.",
-   "tags": [
-    "consulting & strategy",
-    "research & evaluation"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "consulting & strategy"
-  },
-  {
-   "title": "Artificial Intelligence (AI) Training for the Technology Acquisition Center (TAC)",
-   "url": "https://sam.gov/workspace/contract/opp/be8c83a0e805451481896adcc39e29e3/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 27",
-   "summary": "Performance Work Statement TAC Artificial Intelligence (AI) Training BACKGROUND The mission of the Department of Veterans Affairs (VA), Office of Procurement, Acquisition, and\u2026",
-   "tags": [
-    "data & AI"
+    "web & digital"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-11-27",
+   "due_iso": "2026-12-17",
    "country": "US",
-   "category": "data & AI"
+   "kind": "government",
+   "category": "web & digital"
   },
   {
    "title": "Compliance Data Warehouse (CDW), HyDRA, HyDRA Maps, Analytics, Geospatial Services, and Operational Support",
@@ -503,6 +305,7 @@
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
+   "kind": "government",
    "category": "data & AI"
   },
   {
@@ -519,6 +322,58 @@
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Biosequence Search",
+   "url": "https://sam.gov/workspace/contract/opp/cffa6b9782b64fd4bb448ad17f381193/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "VA",
+   "due": "Nov 30",
+   "summary": "The United States Patent and Trademark Office (USPTO) is conducting market research through this Request for Information (RFI) to gather input from industry on commercially\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-621-34120934",
+   "buyer": "Impact Assessment Agency of Canada (IAAC)",
+   "region": "*Canada *Remote Offsite",
+   "due": "Nov 30",
+   "summary": "Geospatial informatics professional services for GIS operation, maintenance and modernization.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-11-30",
+   "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "ADAPTS IDIQ",
+   "url": "https://sam.gov/workspace/contract/opp/dd56e987cefb470ea2f697f899386cd2/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MD",
+   "due": "Nov 30",
+   "summary": "The Defense Information Systems Agency (DISA), on behalf of the Portfolio Acquisition Executive for Command, Control, Communications, & Enterprise (PAE C3E) and the DISA SD2\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
    "category": "data & AI"
   },
   {
@@ -535,199 +390,212 @@
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
+   "kind": "government",
    "category": "data & AI"
   },
   {
-   "title": "ARROW CANYON KIOSKS DESIGN AND INSTALLATION",
-   "url": "https://sam.gov/workspace/contract/opp/88d68e1bdff741bfa8cdee6ea0b3ceca/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
+   "title": "PAO Media Analytics Software as a Service",
+   "url": "https://sam.gov/workspace/contract/opp/65579024f769460d83382968b9c9ba3d/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "KS",
    "due": "Dec 01",
-   "summary": "The objective of this requirement is to provide, deliver, and install three durable outdoor interpretive kiosks and associated interpretive panels at BLM - approved locations\u2026",
+   "summary": "Real-time media analytics dashboard software with drill-down capabilities for military public affairs.",
    "tags": [
-    "design & creative"
+    "data & AI"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
    "country": "US",
-   "category": "design & creative"
+   "kind": "government",
+   "category": "data & AI"
   },
   {
-   "title": "Graphic Design Support Services for the U. S. Department of Transportation (DOT)",
-   "url": "https://sam.gov/workspace/contract/opp/9eebdecf3ef84e91b8f32a998178b395/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "title": "Mercury Draft Solicitation",
+   "url": "https://sam.gov/workspace/contract/opp/7714b6b4d23f4626b58cbda748f91db7/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Dec 01",
+   "summary": "The National Geospatial-Intelligence Agency (NGA), in support of NGA Program Executive Office - Advanced Analytics (PEO-AA) - Analytics Technologies (PAT), has released the Draft\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "FIID Advanced Anti-Fraud and Risk-Modeling Proof of Concept",
+   "url": "https://sam.gov/workspace/contract/opp/5dc9d47b7d004778905287840fd6a7e4/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
    "region": "DC",
-   "due": "Dec 03",
-   "summary": "This Solicitation's resulting contract-awardee-company will provide Graphic Design Support Services for the U. S. Department of Transportation (DOT). This Solicitation is a\u2026",
-   "tags": [
-    "design & creative"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "design & creative"
-  },
-  {
-   "title": "Senior Designer for Safety Training Courses",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-394-88648850",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Canada",
-   "due": "Nov 27",
-   "summary": "Design, implement and evaluate safety training courses for Canadian Defence Safety Programme.",
-   "tags": [
-    "training & education"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "training & education"
-  },
-  {
-   "title": "Stage 1 - Greenwich Photovoltaic (PV) solar systems, Prince Edward Island National Park",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-660-33020978",
-   "buyer": "Parks Canada Agency (PC)",
-   "region": "*Prince Edward Island",
-   "due": "Nov 26",
-   "summary": "Design and install photovoltaic solar systems at Prince Edward Island National Park.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-26",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "CMMA Composite Repair Shelter",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-324-10063549",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Canada *Nova Scotia",
-   "due": "Nov 27",
-   "summary": "Design, manufacture and deliver clean room composite repair shelter for aircraft maintenance at 14 Wing Greenwood, Nova Scotia.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "A-E Services for Electron Injector Complex",
-   "url": "https://sam.gov/workspace/contract/opp/c934a56d667544a49b68a176669afdf0/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "NY",
-   "due": "Nov 30",
-   "summary": "Architecture and engineering design services for electron injector complex at Brookhaven National Labs.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "Design Renovation, System Support Center (SSC), 3551 Combine St., Paso Robles, CA",
-   "url": "https://sam.gov/workspace/contract/opp/9623e44ddbac4b45a2fe2d8234d99879/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "CA",
-   "due": "Nov 30",
-   "summary": "AMENDMENT 0003: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0002: The purpose of this Amendment is to Extend the Offer Due Date. AMENDMENT 0001: The\u2026",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "Computer Numerical Controlled (CNC) Electrical Discharge Machine (EDM)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-243-47651605",
-   "buyer": "National Research Council of Canada (NRC)",
-   "region": "*Canada",
-   "due": "Dec 02",
-   "summary": "Procure high precision Computer Numerical Controlled electrical discharge machine.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "RFP \u2013 Heating and Cooling System Replacement Design \u2013 CCC St John\u2019s",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5994043129-Doc5994145709",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Newfoundland and Labrador",
-   "due": "Dec 02",
-   "summary": "Engineering design for heating and cooling system replacement at correctional centre.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "EC016-270734 - Well Power Electrical Upgrade Services \u2013 Dorchester, NB",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5971382089-Doc5991951469",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*New Brunswick",
-   "due": "Dec 03",
-   "summary": "Electrical power supply evaluation and design for Dorchester Penitentiary.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-03",
-   "country": "CA",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "85027P0001-PW348-91,-94_RC for CM/Design/Build for Petroleum Storage Tank Sumps, Citywide",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261009021",
-   "buyer": "Design and Construction",
-   "region": "New York, NY",
-   "due": "Dec 03",
-   "summary": "Provide construction management and design-build services for petroleum storage tank upgrades citywide.",
-   "tags": [
-    "construction & facilities"
-   ],
-   "value": "",
-   "scope": "US state & local",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "construction & facilities"
-  },
-  {
-   "title": "84127P0002-TD/CSS for Meridian Road over Stream North of Long Island Expressway, Borough of Queens",
-   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261019013",
-   "buyer": "Transportation",
-   "region": "New York, NY",
    "due": "Dec 04",
-   "summary": "Procure total design and construction support services for Meridian Road bridge over stream in Queens.",
+   "summary": "FEMA\u0092s Fraud Investigations and Inspections Division (FIID), in coordination with the Office of the Chief Component Procurement Officer (OCCPO), is conducting market research to\u2026",
    "tags": [
-    "construction & facilities"
+    "data & AI"
    ],
    "value": "",
-   "scope": "US state & local",
+   "scope": "US federal",
    "due_iso": "2026-12-04",
    "country": "US",
-   "category": "construction & facilities"
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "USAC RFP: Enterprise Data Platform",
+   "url": "https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view",
+   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
+   "region": "DC",
+   "due": "Dec 07",
+   "summary": "Update: Proposal due date extened to December 7, 2026, at 11:00 AM ET. At the request of the Federal Communications Commission (FCC) Office of Managing Director (OMD), and to\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Data Platform & Analytics \u2013 RCAF",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-485-47484340",
+   "buyer": "Department of National Defence (DND)",
+   "region": "*Canada *Remote Offsite",
+   "due": "Dec 10",
+   "summary": "Develop data platform and analytics infrastructure for Royal Canadian Air Force.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-10",
+   "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Mesh and Hydrodynamic Framework for Shellfish Water Classification Program",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-359-62513851",
+   "buyer": "Department of the Environment (ECCC )",
+   "region": "*British Columbia *Canada",
+   "due": "Dec 10",
+   "summary": "Develop hydrodynamic models and mesh framework for shellfish water quality classification.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-10",
+   "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Enterprise Cloud Support Services",
+   "url": "https://sam.gov/workspace/contract/opp/9281498161a040dab2e8c728b87a8e97/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Dec 11",
+   "summary": "Please see attached, N0018926RL011 and attachments, for Enterprise Cloud and Network Operations and Management Support Services.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "RFI - FEMA - Supply Chain Management System (SCMS)",
+   "url": "https://sam.gov/workspace/contract/opp/31a4ac9f75bf499184a406851f117f40/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Jan 04",
+   "summary": "FEMA\u0092s Logistics Management Directorate, Logistics Systems Division, is conducting market research to identify commercially available cloud-based Software-as-a-Service (SaaS)\u2026",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2027-01-04",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-941-69633101",
+   "buyer": "Department of Employment and Social Development (ESDC)",
+   "region": "*Canada",
+   "due": "Jan 29",
+   "summary": "Information on accessible digital technologies and AI systems capabilities and practices.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2027-01-29",
+   "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "30 RS Mission Planning Software Tool (MPST)",
+   "url": "https://sam.gov/workspace/contract/opp/6a6a981f0f0441d3acd9ae1aabc340a7/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "NV",
+   "due": "Nov 30",
+   "summary": "This requirement is for procurement of services including providing personnel, services, and management support for the Mission Planning Software Tool (MPST) software. The service\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Aruba Maintenance for Software and Hardware",
+   "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
+   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+   "region": "VA",
+   "due": "Nov 30",
+   "summary": "Aruba software and hardware maintenance support contract.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Next Generation (NextGen) Passport Personalization Printers Support",
+   "url": "https://sam.gov/workspace/contract/opp/9a8b6e50d44f48a4bac9a236f972e94e/view",
+   "buyer": "STATE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "UPDATE 10/26/2026: The solicitation closing date is revised to November 30, 2027 at 1:00 p.m.EST. UPDATE 9/11/2026: The solicitation closing date is revised to October 30, 2026 at\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
   },
   {
    "title": "DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
@@ -737,77 +605,218 @@
    "due": "Nov 30",
    "summary": "VA is seeking sources that are able to provide full lifecycle sustainment and operational support, and any associated bug/fix development, and regulatory compliance services for\u2026",
    "tags": [
-    "health & human services"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
-   "category": "health & human services"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "B--NV AIM TERRESTRIAL DATA COLLECTION PERMITTING",
-   "url": "https://sam.gov/workspace/contract/opp/e932ebe92c4e4a5db2e9858a5f0620f4/view",
+   "title": "IMT HDB Service IDIQ Contract",
+   "url": "https://sam.gov/workspace/contract/opp/73f1f0e3fd98489ab214a6075799a3f1/view",
    "buyer": "INTERIOR, DEPARTMENT OF THE",
    "region": "",
    "due": "Nov 30",
-   "summary": "This is a Request for Information (RFI)/Sources Sought notice issued in accordance with FAR 10.002(b)(2)(ix) to conduct market research. This RFI is issued solely for information\u2026",
+   "summary": "This acquisition is for technical support, maintenance, and development services for the Bureau of Reclamation's Hydrological Database (HDB) system.",
    "tags": [
-    "research & evaluation"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
-   "category": "research & evaluation"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "Data Collection for Allowances",
-   "url": "https://sam.gov/workspace/contract/opp/8b0bee4cf2fe4cf09504ca4400cac146/view",
-   "buyer": "STATE, DEPARTMENT OF",
-   "region": "DC",
+   "title": "Area of Interest (AOI) for Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) Prototype Other Transaction (OT)",
+   "url": "https://sam.gov/workspace/contract/opp/3ca3fef9b8a34cc4801782f97aeb4bff/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MD",
    "due": "Nov 30",
-   "summary": "The Department of State is conducting market research to determine the availability and abilities of firms that can provide data to support a variety of allowance rates for\u2026",
+   "summary": "The Defense Information Systems Agency (DISA) seeks solutions to prototype a Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) capability for the\u2026",
    "tags": [
-    "research & evaluation"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-11-30",
    "country": "US",
-   "category": "research & evaluation"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32)",
-   "url": "https://www.grants.gov/search-results-detail/359150",
-   "buyer": "National Institutes of Health",
+   "title": "Solicitation for IDIQ Contract for Biology Testing of DM",
+   "url": "https://sam.gov/workspace/contract/opp/c95b9b34f3074485936d073e71114c1f/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "Establish IDIQ contract for biology testing of dredged material.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Solicitation for IDIQ Contract for Biology Testing of DM",
+   "url": "https://sam.gov/workspace/contract/opp/28ac5ec523814e9f8195276ff4f78ece/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "Provide IDIQ contract for biology testing of demilitarized material.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "7A--IT Maintenance Agreements and Subscriptions",
+   "url": "https://sam.gov/workspace/contract/opp/553146439f184b6e8be15f6b867b1009/view",
+   "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "7A20: IT Maintenance Agreements and Subscriptions",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Canada *Ottawa *National Capital Region (NCR)",
+   "due": "Dec 02",
+   "summary": "SaaS collection management system for biological living collections including microbes and fungi.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-02",
+   "country": "CA",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA10--VA Enterprise-level Product Solutions",
+   "url": "https://sam.gov/workspace/contract/opp/310a83e741214bc49b35a54ce4e8bd3e/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
    "region": "",
    "due": "Dec 02",
-   "summary": "",
+   "summary": "Market research for VA enterprise-level product solutions.",
    "tags": [
-    "research & evaluation"
+    "software & apps"
    ],
    "value": "",
-   "scope": "Grants",
+   "scope": "US federal",
    "due_iso": "2026-12-02",
    "country": "US",
-   "category": "research & evaluation"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "Request for Information - Collection Risk Assessment and Risk Mitigation Planning Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-751-55845952",
-   "buyer": "Canadian Museum of Nature (CMN)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Dec 04",
-   "summary": "Collections risk assessment and mitigation planning for museum holdings.",
+   "title": "Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal",
+   "url": "https://sam.gov/workspace/contract/opp/9742e4bfe0bf4a68b72a0ecd0e678ee4/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "OR",
+   "due": "Dec 02",
+   "summary": "Notice Number: REQT-IHS-2026-00225 SOURCES SOUGHT NOTICE Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal This is a Sources Sought Notice\u2026",
    "tags": [
-    "research & evaluation"
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "IM&T, Program, Resource, Optimization, Value and Execution (IMPROVE)",
+   "url": "https://sam.gov/workspace/contract/opp/385e9df7fced4ef08d9b6b6130a171d4/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Dec 03",
+   "summary": "Please refer to the attached PWS",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-03",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
+   "buyer": "Statistics Canada (StatCan)",
+   "region": "*Canada",
+   "due": "Dec 04",
+   "summary": "Assess Statistics Canada's website environment and recommend future web publishing platform architecture.",
+   "tags": [
+    "software & apps"
    ],
    "value": "",
    "scope": "Canada",
    "due_iso": "2026-12-04",
    "country": "CA",
-   "category": "research & evaluation"
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "RFI NOAA Ship Acquisition Engineering & Correspondence Management System",
+   "url": "https://sam.gov/workspace/contract/opp/3a828267980b43cb95f6119c7108c411/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "MD",
+   "due": "Dec 04",
+   "summary": "NOAA seeks market information for NOAA Ship acquisition engineering and correspondence management system.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "U.S. Senate Wellbeing Application",
+   "url": "https://sam.gov/workspace/contract/opp/8f893558c339403181947a52cab889fe/view",
+   "buyer": "SENATE, THE",
+   "region": "DC",
+   "due": "Dec 04",
+   "summary": "Amendment 001 provides the Q&A and updates to the Solicitation, Pricing Worksheet, Past Performance Questionnaire. The Proposal and Past Performance Questionnaire due date is\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
   },
   {
    "title": "STANDARD LABOR DATA COLLECTION AND DISTRIBUTION APPLICATION (SLDCADA) REQUEST FOR PROPOSAL",
@@ -817,157 +826,439 @@
    "due": "Dec 06",
    "summary": "Synopsis: PAE Mission Systems is soliciting proposals from the eligible SeaPort-NxG small-business contract holders for end-to-end sustainment and infrastructure support of the\u2026",
    "tags": [
-    "research & evaluation"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-06",
    "country": "US",
-   "category": "research & evaluation"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "EC015-270889 Miramichi Pay Center - High Density Mobile Storage",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031350?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Miramichi",
-   "due": "Nov 27",
-   "summary": "Design, delivery and installation of three high-density mobile storage filing systems.",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "other"
-  },
-  {
-   "title": "Charpy Test Machine",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-620-44964870",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*National Capital Region (NCR) *Canada *Gatineau",
-   "due": "Nov 27",
-   "summary": "Replacement Charpy impact test machine with accessories and software for materials testing.",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-27",
-   "country": "CA",
-   "category": "other"
-  },
-  {
-   "title": "T8493-260035 - Aircraft Attitude and Heading Reference Unit (APIRS)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5967775354-Doc5979484872",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Ottawa",
-   "due": "Nov 30",
-   "summary": "Supply two aircraft attitude and heading reference units for Transport Canada.",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-30",
-   "country": "CA",
-   "category": "other"
-  },
-  {
-   "title": "Spectroradiometers",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-588-66870127",
-   "buyer": "Department of National Defence (DND)",
-   "region": "*Gatineau *Canada *National Capital Region (NCR)",
-   "due": "Nov 30",
-   "summary": "Two spectroradiometers with accessories and software for Department of National Defence.",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-30",
-   "country": "CA",
-   "category": "other"
-  },
-  {
-   "title": "SOLICITATION NUMBER 391214 \u00932704 HV PRIVACY BATHROOM DESIGN\u0094",
-   "url": "https://sam.gov/workspace/contract/opp/68b904551b184cbda78d8fc706194d46/view",
-   "buyer": "ENERGY, DEPARTMENT OF",
-   "region": "WA",
-   "due": "Dec 01",
-   "summary": "Hanford Tank Waste Operations & Closure, LLC (H2C) requests proposals for 2704 HV PRIVACY BATHROOM DESIGN. The requested work is in support of H2C\u0092s Prime Contract\u2026",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "category": "other"
-  },
-  {
-   "title": "Datawell Buoy Services Renewal",
-   "url": "https://sam.gov/workspace/contract/opp/e493650b95ba40e59c48adf742105200/view",
-   "buyer": "DEPT OF DEFENSE",
+   "title": "7A21--Electronic Quality Management Software System IDIQ",
+   "url": "https://sam.gov/workspace/contract/opp/6fb99714204d412ba40d625e346a38ec/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
    "region": "",
-   "due": "Dec 02",
-   "summary": "THIS IS A NOTICE OF INTENT TO SOLE SOURCE, NOT A REQUEST FOR A QUOTE (RFQ).? A RFQ WILL NOT BE ISSUED AND QUOTES WILL NOT BE REQUESTED. In accordance with FAR 6.103.1, the Naval\u2026",
+   "due": "Dec 07",
+   "summary": "THIS REQUEST FOR INFORMATION (RFI) IS ISSUED SOLELY FOR INFORMATION AND PLANNING PURPOSES ONLY AND DOES NOT CONSTITUTE A SOLICITATION. THE SUBMISSION OF PRICING, CAPABILITIES FOR\u2026",
    "tags": [
-    "other"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-12-02",
+   "due_iso": "2026-12-07",
    "country": "US",
-   "category": "other"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "CCTV System Design A/E Services Great Plains",
-   "url": "https://sam.gov/workspace/contract/opp/481152b6e267470299b593ed0a463590/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Dec 03",
-   "summary": "A/E Services for CCTV System Design, Great Plains Region",
-   "tags": [
-    "other"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "category": "other"
-  },
-  {
-   "title": "SSN(X) Concept Design Area of Interest",
-   "url": "https://sam.gov/workspace/contract/opp/c372b28ba6ad4b1c9dcf40880fa91d45/view",
-   "buyer": "DEPT OF DEFENSE",
+   "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+   "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+   "buyer": "GENERAL SERVICES ADMINISTRATION",
    "region": "DC",
-   "due": "Dec 03",
-   "summary": "Director, Submarine Programs (DSP), via the New Attack Submarine (SSN(X)) Program Office (PMS 351), seeks industry solutions to advance the design of a novel SSN(X) System\u2026",
+   "due": "Dec 07",
+   "summary": "Federal agencies are preparing for the transition from cryptographic algorithms that may be vulnerable to future quantum computing attacks to quantum-resistant cryptographic\u2026",
    "tags": [
-    "other"
+    "software & apps"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-12-03",
+   "due_iso": "2026-12-07",
    "country": "US",
-   "category": "other"
+   "kind": "government",
+   "category": "software & apps"
   },
   {
-   "title": "Self-Propelled Plot Combine - 01633-270182",
-   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031581?anId=ANONYMOUS",
-   "buyer": "Department of Public Works and Government Services (PSPC)",
-   "region": "*Brandon",
-   "due": "Dec 04",
-   "summary": "Supply and delivery of one new self-propelled plot combine for Agriculture and Agri-Food Canada Brandon facility.",
+   "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging System",
+   "url": "https://sam.gov/workspace/contract/opp/0b48a6495bdb4fe5b3cb53e0b962a913/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 09",
+   "summary": "Title: Radiology and Cardiology Foundational Enterprise Imaging System Please see the attached Solicitation.",
    "tags": [
-    "other"
+    "software & apps"
    ],
    "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "category": "other"
+   "scope": "US federal",
+   "due_iso": "2026-12-09",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Simulator Common Architecture Requirements and Standards (SCARS)",
+   "url": "https://sam.gov/workspace/contract/opp/aba5c75a5ca941b1b176ccc5a8c51a4e/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "OH",
+   "due": "Dec 10",
+   "summary": "Simulator architecture requirements and standards (SCARS) program support services.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-10",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Sustainment for SRW",
+   "url": "https://sam.gov/workspace/contract/opp/1daad770de79423cb05c361a706d9740/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "VA",
+   "due": "Dec 11",
+   "summary": "The National Geospatial-Intelligence Agency (NGA) is seeking information from interested vendors regarding their capability to provide sustainment, enhancement, integration\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Oracle User Productivity Kit (UPK) Replacement Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/bb795f90af3945df81293f127b2f11cb/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "OH",
+   "due": "Jan 06",
+   "summary": "The Department of the Air Force (DAF), Business and Enterprise Systems (BES) Directorate, AFLCMC/GBGD, is issuing this Commercial Solutions Opening (CSO) to identify and acquire\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2027-01-06",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Next Generation (NextGen) Passport Personalization Printers Support",
+   "url": "https://sam.gov/workspace/contract/opp/bb11d6041195431fab93de7c1c084aa0/view",
+   "buyer": "STATE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Jan 30",
+   "summary": "UPDATE 10/26/2026: The solicitation closing date is revised to January 30, 2027 at 1:00 p.m.EST. Additionally, the primary point of contact has been revised to William (Ted)\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2027-01-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA10--(NEW) (RFI) - Emergent Virtual Face-to-Face (VF2F) Network (VA-26-00045329)",
+   "url": "https://sam.gov/workspace/contract/opp/82e83d3401164e2883421b2d47ed11fa/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "no date listed",
+   "summary": "This notice is to inform industry of the RFI Status 36C10B26Q0226, Emergent Virtual Face-to-Face Network. At this time the acquisition strategy is undetermined, once known it will\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA10--(NEW) (RFI) - Emergent Virtual Face-to-Face (VF2F) Network (VA-26-00045329)",
+   "url": "https://sam.gov/workspace/contract/opp/c7f2d2c171bb4e13a4727bb7bc734a9d/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "no date listed",
+   "summary": "This notice is to inform industry of the RFI Status 36C10B26Q0226, Emergent Virtual Face-to-Face Network. At this time the acquisition strategy is undetermined, once known it will\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/137ceb760c654cd6bf61d9debec892dc/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/6ae46599e3b1437891299c7adfc2d91f/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/fdedccd1d1aa4625881cd9f2ef3694ca/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/ae2dbf45b9a7481ca6395c3395100930/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open \u0096 posted 29 October 2026, White Papers monthly collection NAICS Codes: 513210 Software Publishers? 541511 Custom\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/9262f35a564f484aa8bc59c9248521e9/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open Call \u0096 White Papers indefinite monthly collection (reference Call) Call 0002 eFOIA \u0096 Closed Call \u0096 Questions due 16\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+   "url": "https://sam.gov/workspace/contract/opp/0818d0087f7e4f148bffe38dc68c2461/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "AL",
+   "due": "no date listed",
+   "summary": "Updated 29 October 2026 Calls: Call 0001 BES Marketplace \u0096 Open Call \u0096 White Papers indefinite monthly collection (reference Call) Call 0002 eFOIA \u0096 Closed Call \u0096 Questions due 16\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "NESDIS Consolidated Antenna and Ground Systems Services (NCAGSS)",
+   "url": "https://sam.gov/workspace/contract/opp/1dfd083c656f4d6faf0a52753306694d/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "MD",
+   "due": "no date listed",
+   "summary": "The National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Service (NESDIS) requires comprehensive management and technical\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
+   "url": "https://sam.gov/workspace/contract/opp/b44026882ad144629634ab6643a9f0d8/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "PA",
+   "due": "Nov 27",
+   "summary": "DLA Troop Support conducts market research on commercial web-based ordering systems and eMarketplace platforms.",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-27",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "RFI: Agile Platform for Expeditionary C2 (APEX)",
+   "url": "https://sam.gov/workspace/contract/opp/a94d56ff8e2a453b92b2629cba0f62ec/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "IL",
+   "due": "Nov 30",
+   "summary": "The Air Force Life Cycle Management Center (AFLCMC) Command, Control, Communications and Battle Management (C3BM) Operating Location 2 (OL-2) is executing Software Development\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "RFI: Agile Platform for Expeditionary C2 (APEX)",
+   "url": "https://sam.gov/workspace/contract/opp/57320c5e18f34e1284ba63aa5843504a/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "IL",
+   "due": "Nov 30",
+   "summary": "The Air Force Life Cycle Management Center (AFLCMC) Command, Control, Communications and Battle Management (C3BM) Operating Location 2 (OL-2) is executing Software Development\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "Automated Mission Communication Manager Request for Information (RFI)",
+   "url": "https://sam.gov/workspace/contract/opp/1398a352e7a844f998eeeb7e2c9e3f57/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "OH",
+   "due": "Nov 30",
+   "summary": "Air Force seeks market research for Automated Mission Communication Manager system solutions.",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "Solicitation - N0003927RM002: NILE ISS 6 Engineering Services",
+   "url": "https://sam.gov/workspace/contract/opp/b51c8bc73f1c458cbeb90b5e57db8c77/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "",
+   "due": "Dec 17",
+   "summary": "NATO Improved Link Eleven (NILE) In-Service Support 6 (ISS 6) Engineering Services RFP #N0003927RM002. This RFP (N0003927RM002) is related to the previous Advanced Notice for\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-17",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "FEMA Request for Information - Direct Housing Modernization Capabilities",
+   "url": "https://sam.gov/workspace/contract/opp/8c1636c4e92e464c9553d5004e47c780/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 18",
+   "summary": "This Request for Information (RFI) is issued in accordance with Revolutionary Federal Acquisition Regulations Overhaul (RFO) 15.101(c). This RFI does not constitute a Request for\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-18",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "Acquisition SI",
+   "url": "https://sam.gov/workspace/contract/opp/6d64f1dce5f3423f97553a6f5a9874e0/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "FL",
+   "due": "Dec 18",
+   "summary": "1.0 Disclaimer & Important Notices This is a Request for Information (RFI) / Sources Sought Notice issued solely for information and market research planning purposes in\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-18",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "NBSFS Facility Controls System Modernization",
+   "url": "https://sam.gov/workspace/contract/opp/c25438bb90154fc09ca1b8f819b5ec91/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "NH",
+   "due": "Jan 15",
+   "summary": "The Government is seeking information from qualified vendors capable of providing an open-architecture Utility Monitoring and Controls System (UMCS) modernization solution. Please\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2027-01-15",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "DA01--Light Electronic Action Framework Platform Support Services (VA-27-00002271)",
+   "url": "https://sam.gov/workspace/contract/opp/2c63335327a1411f84aae8f06adb5b86/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "no date listed",
+   "summary": "This posting serves as notice to industry as to the acquisition strategy for the associated Light Electronic Action Framework Platform Support Services effort.\u00c2 The solicitation\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
   }
  ]
 }
