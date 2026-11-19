@@ -980,7 +980,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
   document.getElementById('twin-open').addEventListener('click', function () {
     document.getElementById('twin-start').hidden = true;
     document.getElementById('twin-chat').hidden = false;
-    bubble('ai', 'Hello, I am Emre\'s AI clone. You can ask me about my background, the systems I have built or which service would fit your business.');
+    type(bubble('ai', ''), 'Hello, I am Emre\'s AI clone. You can ask me about my background, the systems I have built or which service would fit your business.');
     input.focus();
   });
   chips.addEventListener('click', function (e) { if (e.target.tagName === 'BUTTON') ask(e.target.textContent); });
@@ -990,7 +990,28 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
     var d = document.createElement('div'); d.className = 'twin-msg ' + kind; d.textContent = text;
     log.appendChild(d); log.scrollTop = log.scrollHeight; return d;
   }
-  // The text answer shows at once. If the server started a clip, wait for it and then
+  // Answers are typed out a letter at a time. The pace follows the clock, so a tab in the
+  // background catches up instead of crawling. Visitors who ask for reduced motion get the
+  // whole answer at once, and screen readers hear it once, when it is complete.
+  var typers = [], still = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function type(el, text) {
+    if (still) { el.textContent = text; log.scrollTop = log.scrollHeight; return; }
+    var start = Date.now(), id, t = { done: function () {
+      clearInterval(id); el.textContent = text; typers.splice(typers.indexOf(t), 1);
+      if (!typers.length) log.removeAttribute('aria-busy');
+      log.scrollTop = log.scrollHeight;
+    } };
+    typers.push(t); log.setAttribute('aria-busy', 'true');
+    id = setInterval(function () {
+      var n = Math.floor((Date.now() - start) / 28);
+      if (n >= text.length) return t.done();
+      var stick = log.scrollHeight - log.scrollTop - log.clientHeight < 40;
+      el.textContent = text.slice(0, n);
+      if (stick) log.scrollTop = log.scrollHeight;
+    }, 28);
+  }
+  function settle() { typers.slice().forEach(function (t) { t.done(); }); }
+  // The text answer starts at once. If the server started a clip, wait for it and then
   // swap the picture for the video. A newer question cancels an older clip.
   async function playVideo(job) {
     if (!TWIN.video || !job) return;
@@ -1016,7 +1037,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
   }
   async function ask(text) {
     text = (text || '').trim(); if (!text || busy) return;
-    videoRun++; video.pause(); video.hidden = true; busy = true; send.disabled = true; input.value = ''; chips.hidden = true; stage.classList.add('busy');
+    settle(); videoRun++; video.pause(); video.hidden = true; busy = true; send.disabled = true; input.value = ''; chips.hidden = true; stage.classList.add('busy');
     bubble('me', text); history.push({ role: 'user', content: text });
     var wait = bubble('ai wait', 'Thinking…');
     try {
@@ -1024,7 +1045,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
       var data = await r.json().catch(function () { return {}; });
       wait.remove();
       if (!r.ok || !data.reply) { history.pop(); bubble('err', data.error || 'I could not answer just now. Please use the contact form.'); }
-      else { history.push({ role: 'assistant', content: data.reply }); bubble('ai', data.reply); playVideo(data.video_job); }
+      else { history.push({ role: 'assistant', content: data.reply }); type(bubble('ai', ''), data.reply); playVideo(data.video_job); }
     } catch (err) { wait.remove(); history.pop(); bubble('err', 'The connection dropped. Please try again.'); }
     busy = false; send.disabled = false; stage.classList.remove('busy'); input.focus();
   }
