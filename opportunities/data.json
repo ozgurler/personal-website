@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-19",
- "count": 97,
+ "count": 96,
  "items": [
   {
    "title": "Marine Corps Education Command Information Technology Support Services",
@@ -9,6 +9,23 @@
    "region": "",
    "due": "Dec 02",
    "summary": "The purpose of this amendment is to: 1. Extend the proposal due date to December 2, 2026 10:00 AM EST. 2. Notify offerors that the government is in the process of finalizing\u2026",
+   "tags": [
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-02",
+   "country": "US",
+   "kind": "government",
+   "category": "managed IT & support"
+  },
+  {
+   "title": "USCG Air Station Clearwater Rapid Gate Services",
+   "url": "https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view",
+   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+   "region": "FL",
+   "due": "Dec 02",
+   "summary": "Rapid gate access control services for USCG Air Station Clearwater.",
    "tags": [
     "managed IT & support"
    ],
@@ -72,18 +89,35 @@
    "category": "managed IT & support"
   },
   {
-   "title": "USCG Air Station Clearwater Rapid Gate Services",
-   "url": "https://sam.gov/workspace/contract/opp/d192528ef8544e5da8a478c2294c7d60/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "FL",
-   "due": "Dec 02",
-   "summary": "This combined synopsis/solicitation for services is prepared in accordance with the format in subpart 12.6 of the Federal Acquisition Regulation (FAR) as supplemented with\u2026",
+   "title": "RHIT Cybersecurity Program Proposal",
+   "url": "https://nrhp.org/wp-content/uploads/2026/10/NRHPF_RHIT_Cybersecurity_RFP_2026.pdf",
+   "buyer": "Nevada Rural Hospital Partners Foundation",
+   "region": "Nevada",
+   "due": "no date listed",
+   "summary": "Cybersecurity program for rural hospitals including governance, HIPAA compliance, risk assessments, and managed security services.",
+   "tags": [
+    "cybersecurity"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": null,
+   "country": "US",
+   "kind": "nonprofit",
+   "category": "cybersecurity"
+  },
+  {
+   "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
+   "url": "https://sam.gov/workspace/contract/opp/de2e45786d5c4450a810b991e1097175/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 07",
+   "summary": "Enterprise bi-directional medical image and report exchange system.",
    "tags": [
     "cloud & infrastructure"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-12-02",
+   "due_iso": "2026-12-07",
    "country": "US",
    "kind": "government",
    "category": "cloud & infrastructure"
@@ -102,6 +136,40 @@
    "scope": "Canada",
    "due_iso": "2026-12-08",
    "country": "CA",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
+   "title": "Department of Defense Secure Access File Exchange Modernization",
+   "url": "https://sam.gov/workspace/contract/opp/d962d72ae3c7475a9e5ab7fae762d1d6/view",
+   "buyer": "DEPT OF DEFENSE",
+   "region": "MD",
+   "due": "Dec 10",
+   "summary": "Modernize DoD Secure Access File Exchange (SAFE) secure file transfer platform.",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-10",
+   "country": "US",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
+   "title": "DA10--Bi-Directional Image/Report Exchange",
+   "url": "https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 31",
+   "summary": "Bi-directional medical image and report exchange system for VA.",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-31",
+   "country": "US",
    "kind": "government",
    "category": "cloud & infrastructure"
   },
@@ -145,7 +213,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 07",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement. Access requests must include the requestor\u0092s UEI or\u2026",
+   "summary": "DoD seeks Ethernet transport with PRI delivery service for two TDM PRIs in Washington, DC.",
    "tags": [
     "telecom & networking"
    ],
@@ -162,7 +230,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 07",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement. Access requests must include the requestor\u0092s UEI or\u2026",
+   "summary": "DoD seeks Ethernet transport with PRI delivery service for three TDM PRIs in Washington, DC.",
    "tags": [
     "telecom & networking"
    ],
@@ -179,7 +247,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 07",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement. Access requests must include the requestor\u0092s UEI or\u2026",
+   "summary": "DoD seeks ethernet transport with PRI delivery service in Washington, DC.",
    "tags": [
     "telecom & networking"
    ],
@@ -196,7 +264,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 07",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement. Access requests must include the requestor\u0092s UEI or\u2026",
+   "summary": "DoD seeks Ethernet transport with PRI delivery service for four TDM PRIs in Washington, DC.",
    "tags": [
     "telecom & networking"
    ],
@@ -213,7 +281,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 07",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement. Access requests must include the requestor\u0092s UEI or\u2026",
+   "summary": "DoD seeks Ethernet transport with PRI delivery service for three TDM PRIs in Washington, DC.",
    "tags": [
     "telecom & networking"
    ],
@@ -349,7 +417,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 18",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement beginning with HC1013. Access requests must include\u2026",
+   "summary": "DoD needs 1GB minimum internet service installation and maintenance in New York.",
    "tags": [
     "telecom & networking"
    ],
@@ -366,7 +434,7 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "",
    "due": "Dec 18",
-   "summary": "This is a controlled access requirement, and attachments will be made available only to entities with a DITCO Basic Agreement beginning with HC1013. Access requests must include\u2026",
+   "summary": "DoD needs 1GB minimum internet service installation and maintenance in New York.",
    "tags": [
     "telecom & networking"
    ],
@@ -463,7 +531,7 @@
    "category": "web & digital"
   },
   {
-   "title": "Website Redesign RFP - Ruralhome.org",
+   "title": "Request for Proposal for Website Redesign: Ruralhome.org",
    "url": "http://ruralhome.org/rfp-website-redesign/",
    "buyer": "Housing Assistance Council",
    "region": "",
@@ -494,6 +562,40 @@
    "due_iso": "2026-12-17",
    "country": "US",
    "kind": "government",
+   "category": "web & digital"
+  },
+  {
+   "title": "Request for Proposals: Website Redesign",
+   "url": "https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/",
+   "buyer": "The Friends of the Saint Paul Public Library",
+   "region": "Saint Paul, Minnesota",
+   "due": "Jan 18",
+   "summary": "Full website redesign with responsive design, hosting, and ongoing support services.",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": "2027-01-18",
+   "country": "US",
+   "kind": "nonprofit",
+   "category": "web & digital"
+  },
+  {
+   "title": "Request for Proposal (RFP): Website Consolidation and Redesign",
+   "url": "https://rhf-frh.ca/media-releases/rfp-website-consolidation/",
+   "buyer": "Rideau Hall Foundation",
+   "region": "",
+   "due": "no date listed",
+   "summary": "WordPress website consolidation and redesign with Salesforce integration for nonprofit programs.",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": null,
+   "country": "CA",
+   "kind": "nonprofit",
    "category": "web & digital"
   },
   {
@@ -718,6 +820,23 @@
    "category": "data & AI"
   },
   {
+   "title": "Comprehensive Enterprise-Wide Travel Risk Management & Tactical Intelligence Solution",
+   "url": "https://sam.gov/workspace/contract/opp/295a984732e44de695178e454b2b7878/view",
+   "buyer": "TRANSPORTATION, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 18",
+   "summary": "Comprehensive enterprise travel risk management and tactical intelligence solution.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-18",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
    "title": "RFI - FEMA - Supply Chain Management System (SCMS)",
    "url": "https://sam.gov/workspace/contract/opp/31a4ac9f75bf499184a406851f117f40/view",
    "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
@@ -750,40 +869,6 @@
    "country": "CA",
    "kind": "government",
    "category": "data & AI"
-  },
-  {
-   "title": "6515--PYXIS IV PREP",
-   "url": "https://sam.gov/workspace/contract/opp/156fef93406e495486eb1d4e805bb675/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 27",
-   "summary": "This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in Federal Acquisition Regulation (FAR) subpart 12.6, Streamlined Procedures\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-27",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Keysight Vector Signal Generator",
-   "url": "https://sam.gov/workspace/contract/opp/2c15129c4e7a42b59cbfcb7ac07c98c9/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "",
-   "due": "Nov 27",
-   "summary": "This acquisition supports the F-16 Block 30 and F-16 Block 50 programs under the 518th Software Engineering Squadron(SWES). The requirement is for a Keysight M9484C VXG Vector\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-27",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
   },
   {
    "title": "30 RS Mission Planning Software Tool (MPST)",
@@ -1092,23 +1177,6 @@
    "category": "software & apps"
   },
   {
-   "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
-   "url": "https://sam.gov/workspace/contract/opp/de2e45786d5c4450a810b991e1097175/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 07",
-   "summary": "Please see the attached solicitation 36C10B27R0004.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
    "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
    "buyer": "GENERAL SERVICES ADMINISTRATION",
@@ -1165,7 +1233,7 @@
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
    "region": "",
    "due": "Dec 11",
-   "summary": "Page 7 of 7 REQUEST FOR INFORMATION THIS IS NOT A SOLICITATION. The Department of Veterans Affairs (VA) Veterans Health Administration (VHA) is issuing this Request for\u2026",
+   "summary": "Utilization management software with enterprise licensing and EHR integration.",
    "tags": [
     "software & apps"
    ],
@@ -1189,40 +1257,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-11",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Comprehensive Enterprise-Wide Travel Risk Management & Tactical Intelligence Solution",
-   "url": "https://sam.gov/workspace/contract/opp/295a984732e44de695178e454b2b7878/view",
-   "buyer": "TRANSPORTATION, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 18",
-   "summary": "Please see the attached SIR 693KA9-26-R-00015",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DA10--Bi-Directional Image/Report Exchange",
-   "url": "https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 31",
-   "summary": "In accordance with Agency RFI Loopback Procedures, this notice serves as an update to the initial RFI for the VA Enterprise Bi-Directional Image and Report Exchange RFI #\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-31",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -1420,9 +1454,10 @@
    "buyer": "DEPT OF DEFENSE",
    "region": "AL",
    "due": "no date listed",
-   "summary": "Updated 18 November 2026 Active Calls: Call 0001 BES Marketplace \u0096 Open Call \u0096 White Papers indefinite monthly collection (reference Call) Call 0002 eFOIA \u0096 Closed Call \u0096 White\u2026",
+   "summary": "Air Force seeking custom software, systems design, and IT service solutions via open competition.",
    "tags": [
-    "software & apps"
+    "software & apps",
+    "IT consulting & strategy"
    ],
    "value": "",
    "scope": "US federal",
@@ -1500,46 +1535,12 @@
    "category": "IT consulting & strategy"
   },
   {
-   "title": "Operations, Research, and Broad Innovative Technology Services (ORBIT) Request for Information (RFI) and Sources Sought Notice (SSN)",
-   "url": "https://sam.gov/workspace/contract/opp/b8ca2ef21ff84da8a77c2870afdf450e/view",
-   "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
-   "region": "TX",
-   "due": "Dec 04",
-   "summary": "Modification 1 \u0096 November 18, 2026 *Cancellation Notice* This is modification 1 for the Operations, Research, and Broad Innovative Technology Services (ORBIT) and 80JSC026ORBIT\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "Department of Defense Secure Access File Exchange Modernization",
-   "url": "https://sam.gov/workspace/contract/opp/d962d72ae3c7475a9e5ab7fae762d1d6/view",
-   "buyer": "DEPT OF DEFENSE",
-   "region": "MD",
-   "due": "Dec 10",
-   "summary": "Defense Information Systems Agency (DISA), Services Program Executive Office (SD) is modernizing a file transfer system. The modernized solution will update the Department of\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-10",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
    "url": "https://sam.gov/workspace/contract/opp/40753072fa68490cbeeeba31dab9fd29/view",
    "buyer": "TREASURY, DEPARTMENT OF THE",
    "region": "DC",
    "due": "Dec 17",
-   "summary": "See attached document for sources sought notice details.",
+   "summary": "Enterprise and solutions architecture services for SBIR/STTR programs.",
    "tags": [
     "IT consulting & strategy"
    ],
@@ -1574,23 +1575,6 @@
    "region": "",
    "due": "Dec 18",
    "summary": "This Request for Information (RFI) is issued in accordance with Revolutionary Federal Acquisition Regulations Overhaul (RFO) 15.101(c). This RFI does not constitute a Request for\u2026",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-18",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
-  },
-  {
-   "title": "FEMA Request for Information - Direct Housing Modernization Capabilities",
-   "url": "https://sam.gov/workspace/contract/opp/0b41b6e4b103455586bf6ed49031f860/view",
-   "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 18",
-   "summary": "This Request for Information (RFI) is for Market Research purposes ONLY. Please read the notice and attachment in full. Please limit questions to those directly related to the\u2026",
    "tags": [
     "IT consulting & strategy"
    ],
