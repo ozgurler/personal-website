@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18",
- "count": 49,
+ "updated": "2026-11-19",
+ "count": 50,
  "items": [
   {
    "title": "USCG Air Station Clearwater Rapid Gate Services",
@@ -140,38 +140,21 @@
    "category": "telecom & networking"
   },
   {
-   "title": "Bloomberg Professional Terminal and Bloomberg Anywhere",
-   "url": "https://sam.gov/workspace/contract/opp/63548e19e09c439083cb9acf0b1bf918/view",
-   "buyer": "EXPORT-IMPORT BANK OF THE US",
-   "region": "",
-   "due": "Nov 26",
-   "summary": "***SUBJECT TO THE AVAILABILITY OF FUNDS*** COMBINED SYNOPSIS/SOLICITATION # 83310127Q0011 NAICS Code 519290 Web Search Portals and All Other Information Services PSC 7A21 IT AND\u2026",
+   "title": "Voice Communication Switch System - Air Traffic Control",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031879?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Jan 18",
+   "summary": "Modernize legacy voice communication switches and recorders for Air Traffic Control units.",
    "tags": [
-    "web & digital"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-26",
-   "country": "US",
-   "kind": "government",
-   "category": "web & digital"
-  },
-  {
-   "title": "Tier 2 TBIPS - Digital Transformation User Experience (UX)",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-418-22395949",
-   "buyer": "Department of Fisheries and Oceans (DFO)",
-   "region": "*National Capital Region (NCR)",
-   "due": "Nov 26",
-   "summary": "Provide user experience professional services to support DFO digital transformation initiatives.",
-   "tags": [
-    "web & digital"
+    "telecom & networking"
    ],
    "value": "",
    "scope": "Canada",
-   "due_iso": "2026-11-26",
+   "due_iso": "2027-01-18",
    "country": "CA",
    "kind": "government",
-   "category": "web & digital"
+   "category": "telecom & networking"
   },
   {
    "title": "Enterprise News Monitoring and Enterprise License Management Support",
@@ -214,6 +197,23 @@
    "region": "",
    "due": "Dec 15",
    "summary": "Redesign housing nonprofit website with improved user experience and intuitive interface.",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": "2026-12-15",
+   "country": "US",
+   "kind": "nonprofit",
+   "category": "web & digital"
+  },
+  {
+   "title": "Request for Proposal (RFP) for Website Redesign: Ruralhome.org",
+   "url": "https://ruralhome.org/rfp-website-redesign/",
+   "buyer": "Housing Assistance Council",
+   "region": "",
+   "due": "Dec 15",
+   "summary": "Redesign nonprofit website ruralhome.org with intuitive, visually engaging user-friendly design.",
    "tags": [
     "web & digital"
    ],
@@ -714,6 +714,23 @@
    "scope": "US federal",
    "due_iso": "2026-12-11",
    "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Computer Aided Dispatch Replacement",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-363-74648533",
+   "buyer": "Government of the Northwest Territories (GNWT)",
+   "region": "",
+   "due": "Dec 16",
+   "summary": "Replace Computer Aided Dispatch system for Northwest Territories government.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-16",
+   "country": "CA",
    "kind": "government",
    "category": "software & apps"
   },
