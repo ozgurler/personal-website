@@ -246,6 +246,8 @@ async function startVideo(text) {
 
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
+  // GET tells the page whether video replies are available right now (no secrets in it).
+  if (req.method === 'GET') return res.status(200).json({ video: VIDEO_ON });
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
   if (!allowedOrigin(req)) return res.status(403).json({ error: 'Not allowed.' });
 
@@ -270,7 +272,8 @@ export default async function handler(req, res) {
     const data = await r.json();
     const reply = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('').replace(/\s*—\s*/g, ', ').trim();
     if (!reply) return res.status(502).json({ error: 'No answer came back. Please try again.' });
-    const video_job = await startVideo(reply);
+    // Only start a clip when the visitor switched AI video on.
+    const video_job = body.video === true ? await startVideo(reply) : null;
     res.status(200).json({ reply, video_job });
   } catch (e) {
     console.error(e);
