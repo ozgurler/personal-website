@@ -1,7 +1,24 @@
 {
- "updated": "2026-11-19",
- "count": 44,
+ "updated": "2026-11-20",
+ "count": 49,
  "items": [
+  {
+   "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
+   "url": "https://sam.gov/workspace/contract/opp/975ff5c47c644fa5931e08799a344e0c/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "IT Enterprise Service Desk (ESD) Managed Services Request for Information VA-27-00019920 Introduction This Request for Information (RFI) is for planning purposes only and shall\u2026",
+   "tags": [
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "managed IT & support"
+  },
   {
    "title": "Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
    "url": "https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf",
@@ -19,23 +36,6 @@
    "country": "US",
    "kind": "nonprofit",
    "category": "managed IT & support"
-  },
-  {
-   "title": "RHIT Cybersecurity Program Proposal",
-   "url": "https://nrhp.org/wp-content/uploads/2026/10/NRHPF_RHIT_Cybersecurity_RFP_2026.pdf",
-   "buyer": "Nevada Rural Hospital Partners Foundation",
-   "region": "Nevada",
-   "due": "no date listed",
-   "summary": "Cybersecurity program for rural hospitals including governance, HIPAA compliance, risk assessments, and managed security services.",
-   "tags": [
-    "cybersecurity"
-   ],
-   "value": "",
-   "scope": "Nonprofit & foundation",
-   "due_iso": null,
-   "country": "US",
-   "kind": "nonprofit",
-   "category": "cybersecurity"
   },
   {
    "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
@@ -140,6 +140,23 @@
    "category": "telecom & networking"
   },
   {
+   "title": "Library of Congress: Microfilm Inventory Services",
+   "url": "https://sam.gov/workspace/contract/opp/59ce2f3e4389418aa4204da4f4c102d5/view",
+   "buyer": "LIBRARY OF CONGRESS",
+   "region": "",
+   "due": "Nov 30",
+   "summary": "Amendment 1: This amendment answers questions submitted by potential offerors. It also makes changes to the SOW, Sections B, L, M, and several of the attachments. Questions will\u2026",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "web & digital"
+  },
+  {
    "title": "Enterprise News Monitoring and Enterprise License Management Support",
    "url": "https://sam.gov/workspace/contract/opp/4720df3381d1497a899bbbc2afaf6389/view",
    "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
@@ -191,7 +208,7 @@
    "category": "web & digital"
   },
   {
-   "title": "Request for Proposal (RFP) for Website Redesign: Ruralhome.org",
+   "title": "Website Redesign RFP",
    "url": "https://ruralhome.org/rfp-website-redesign/",
    "buyer": "Housing Assistance Council",
    "region": "",
@@ -306,6 +323,23 @@
    "scope": "Canada",
    "due_iso": "2026-11-30",
    "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
+   "title": "AI tool for Medication Reconciliation and Clinical Review",
+   "url": "https://sam.gov/workspace/contract/opp/2844a59e27da407db5c5aac404bd35d7/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "CO",
+   "due": "Nov 30",
+   "summary": "AI tool for Medication Reconciliation and Clinical Review",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
    "kind": "government",
    "category": "data & AI"
   },
@@ -446,6 +480,40 @@
    "category": "software & apps"
   },
   {
+   "title": "D--IMT HDB Service IDIQ Contract",
+   "url": "https://sam.gov/workspace/contract/opp/30829227e1be43cbb8ddbf537709616a/view",
+   "buyer": "INTERIOR, DEPARTMENT OF THE",
+   "region": "",
+   "due": "Nov 30",
+   "summary": "Amendment A0001. This acquisition is for technical support, maintenance, and development services for the Bureau of Reclamation's Hydrological Database (HDB) system.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "6515--Methasoft Medication Dispensing System",
+   "url": "https://sam.gov/workspace/contract/opp/8bb8e802ff0944ccae0490abfead9c83/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 01",
+   "summary": "Please see attached request for a quote and redacted J & A",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "7A--IT Maintenance Agreements and Subscriptions",
    "url": "https://sam.gov/workspace/contract/opp/553146439f184b6e8be15f6b867b1009/view",
    "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
@@ -458,6 +526,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "GeoJobe Software with Training and Support",
+   "url": "https://sam.gov/workspace/contract/opp/68cdbc02972e4a4699f4f486d18dddb2/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 02",
+   "summary": "To provide licensing and maintenance/support for GeoJobe software and service. Support and maintenance should be provided both during the base period as well as during the chosen\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-02",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
