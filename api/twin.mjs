@@ -9,6 +9,10 @@
 //   TWIN_VIDEO_ENDPOINT    optional, public URL of the avatar server on the Mac mini
 //                          (see "Documents/AI Clone/server"). POST /jobs starts a clip.
 //   TWIN_VIDEO_TOKEN       optional, sent to the avatar service as a Bearer token.
+//   TWIN_LOG_URL           optional, web-app URL of the Google Apps Script that appends each
+//                          question and answer to a Google Sheet. Conversations are saved only
+//                          when this is set, and the page then tells visitors so.
+//   TWIN_LOG_SECRET        optional, shared secret the Apps Script checks.
 
 export const maxDuration = 30;
 
@@ -252,10 +256,23 @@ async function startVideo(text) {
   } catch { return null; }
 }
 
+// Saves one question and answer to the Google Sheet. No IP address is sent, only the country.
+// Never blocks or fails the reply: errors are swallowed and it gives up after 3 seconds.
+const LOG_ON = /^https:\/\/script\.google\.com\//.test(process.env.TWIN_LOG_URL || '');
+async function saveExchange(row) {
+  if (!LOG_ON) return;
+  try {
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 3000);
+    await fetch(process.env.TWIN_LOG_URL, { method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ secret: process.env.TWIN_LOG_SECRET || '', ...row }), signal: ctl.signal });
+    clearTimeout(timer);
+  } catch {}
+}
+
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
   // GET tells the page whether video replies are available right now (no secrets in it).
-  if (req.method === 'GET') return res.status(200).json({ video: VIDEO_ON });
+  if (req.method === 'GET') return res.status(200).json({ video: VIDEO_ON, saved: LOG_ON });
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
   if (!allowedOrigin(req)) return res.status(403).json({ error: 'Not allowed.' });
 
@@ -281,7 +298,12 @@ export default async function handler(req, res) {
     const reply = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('').replace(/\s*—\s*/g, ', ').trim();
     if (!reply) return res.status(502).json({ error: 'No answer came back. Please try again.' });
     // Only start a clip when the visitor switched AI video on.
-    const video_job = body.video === true ? await startVideo(reply) : null;
+    const cid = typeof body.cid === 'string' && /^[a-z0-9-]{8,40}$/.test(body.cid) ? body.cid : '';
+    const [video_job] = await Promise.all([
+      body.video === true ? startVideo(reply) : null,
+      saveExchange({ conversation: cid, question: messages[messages.length - 1].content, answer: reply,
+        video: body.video === true, country: String(req.headers['x-vercel-ip-country'] || '') }),
+    ]);
     res.status(200).json({ reply, video_job });
   } catch (e) {
     console.error(e);

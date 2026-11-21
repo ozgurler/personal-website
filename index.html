@@ -456,6 +456,7 @@
   .twin-toggle button{font:500 .92rem var(--body);color:var(--green);background:none;border:0;border-radius:999px;padding:.35rem .95rem;cursor:pointer}
   .twin-toggle button[aria-pressed="true"]{background:var(--green);color:#fff}
   .twin-note{margin-top:.7rem;max-width:40em;font-size:.93rem;background:#FFF8D6;border-left:4px solid var(--mark);border-radius:8px;padding:.6rem .85rem;color:#3B3200}
+  .twin-saved{margin-top:.7rem;font-size:.85rem;color:var(--mute)}
   .twin-start{margin-top:1.1rem}
   .twin-chat{margin-top:1.1rem}
   .twin-log{display:flex;flex-direction:column;gap:.6rem;max-height:22rem;overflow-y:auto;padding-right:.2rem}
@@ -653,6 +654,7 @@
             <input id="twin-input" type="text" maxlength="500" autocomplete="off" placeholder="Ask about my work, services or background" required>
             <button class="btn btn-solid" type="submit" id="twin-send">Send</button>
           </form>
+          <p class="twin-saved" id="twin-saved" hidden>Conversations are saved so I can improve the answers. Please do not share anything private.</p>
         </div>
       </div>
     </div>
@@ -990,6 +992,8 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
   if (!form) return;
   if (TWIN.poster) { poster.src = TWIN.poster; poster.onload = function () { poster.hidden = false; }; }
   var mode = document.getElementById('twin-mode'), videoRun = 0;
+  // Random id for this visit, so one visitor's questions can be read together in the log.
+  var cid = (Date.now().toString(36) + Math.random().toString(36).slice(2, 12)).slice(0, 20);
 
   // Reply mode. Text is the default so nothing plays sound unless the visitor asks for it.
   var toggle = document.getElementById('twin-toggle'), note = document.getElementById('twin-note'),
@@ -1006,7 +1010,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
   }
   toggle.addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) setMode(b.dataset.mode === 'video', true); });
   try { if (localStorage.getItem('twin-replies') === 'video') setMode(true, false); } catch (e) {}
-  fetch('/api/twin').then(function (r) { return r.json(); }).then(function (d) { videoUp = !!d.video; setMode(wantVideo, false); }).catch(function () {});
+  fetch('/api/twin').then(function (r) { return r.json(); }).then(function (d) { videoUp = !!d.video; setMode(wantVideo, false); document.getElementById('twin-saved').hidden = !d.saved; }).catch(function () {});
 
   document.getElementById('twin-open').addEventListener('click', function () {
     document.getElementById('twin-start').hidden = true;
@@ -1074,7 +1078,7 @@ var TWIN = { poster: 'twin/poster.jpg?v=3', video: true };
     bubble('me', text); history.push({ role: 'user', content: text });
     var wait = bubble('ai wait', 'Thinking…');
     try {
-      var r = await fetch('/api/twin', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: history.slice(-12), video: wantVideo }) });
+      var r = await fetch('/api/twin', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: history.slice(-12), video: wantVideo, cid: cid }) });
       var data = await r.json().catch(function () { return {}; });
       wait.remove();
       if (!r.ok || !data.reply) { history.pop(); bubble('err', data.error || 'I could not answer just now. Please use the contact form.'); }
