@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-21",
- "count": 49,
+ "count": 59,
  "items": [
   {
    "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
@@ -36,6 +36,23 @@
    "country": "US",
    "kind": "nonprofit",
    "category": "managed IT & support"
+  },
+  {
+   "title": "DA10--Office of Information & Technology Enterprise Database Vulnerability Scanning Solution",
+   "url": "https://sam.gov/workspace/contract/opp/fb63689061624cf9bef9f568176aaf6b/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 30",
+   "summary": "Request for Information 36C10B27Q0010 Page 2 of 2 Request for Information 36C10B27Q0010 Enterprise Database Vulnerability Scanning Solution INTRODUCTION This is a Request for\u2026",
+   "tags": [
+    "cybersecurity"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "cybersecurity"
   },
   {
    "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
@@ -140,6 +157,23 @@
    "category": "telecom & networking"
   },
   {
+   "title": "FDIC - Salesforce Enterprise Agreement \u0096 Subscription Licenses/Maintenance",
+   "url": "https://sam.gov/workspace/contract/opp/267c8f43199249138d0fbaee8d4be1c5/view",
+   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+   "region": "VA",
+   "due": "Nov 30",
+   "summary": "The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0400 for FDIC's Selesforce Enterprise Agreement\u2026",
+   "tags": [
+    "CRM & business systems"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "CRM & business systems"
+  },
+  {
    "title": "Library of Congress: Microfilm Inventory Services",
    "url": "https://sam.gov/workspace/contract/opp/59ce2f3e4389418aa4204da4f4c102d5/view",
    "buyer": "LIBRARY OF CONGRESS",
@@ -208,7 +242,7 @@
    "category": "web & digital"
   },
   {
-   "title": "Request for Proposal (RFP) for Website Redesign: Ruralhome.org",
+   "title": "Website Redesign RFP \u2013 Ruralhome.org",
    "url": "https://ruralhome.org/rfp-website-redesign/",
    "buyer": "Housing Assistance Council",
    "region": "",
@@ -412,6 +446,23 @@
    "category": "data & AI"
   },
   {
+   "title": "DJ10--Alertus Enhanced Notification Licensing & Premier Support",
+   "url": "https://sam.gov/workspace/contract/opp/77e2cd670c3040a6ad2a1fc44daa2bc5/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 30",
+   "summary": "\u00c2 Alertus Software Licensing and Support Martinsburg VA Medical Center Notice ID: 36C24527Q0081 Issuing office: Department of Veterans Affairs, Network Contracting Office 5\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "Aruba Maintenance for Software and Hardware",
    "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
    "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
@@ -452,6 +503,40 @@
    "region": "",
    "due": "Nov 30",
    "summary": "VA is seeking sources that are able to provide full lifecycle sustainment and operational support, and any associated bug/fix development, and regulatory compliance services for\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Asana Enterprise Renewal",
+   "url": "https://sam.gov/workspace/contract/opp/0d57faed51cf44fbb4647ba266cb233d/view",
+   "buyer": "SENATE, THE",
+   "region": "DC",
+   "due": "Nov 30",
+   "summary": "This RFQ is for the renewal of Asana Enterprise and FSP and consists of 5 documents, please review in its entirety. Please provide quotes by 1:00pm EST on November 30, 2026.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA01--RFI 36C10B27Q0056 Veterans Health Information Systems and and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
+   "url": "https://sam.gov/workspace/contract/opp/0a0fc0b8d069433680f1b645df5e8e3b/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Nov 30",
+   "summary": "The previous RFI number 36C10B27Q0056 was corrupted in the system. This RFI replaces 36C10B27Q0056 and continues the previous RFI progress. VA is seeking sources that are able to\u2026",
    "tags": [
     "software & apps"
    ],
@@ -633,6 +718,23 @@
    "category": "software & apps"
   },
   {
+   "title": "DA10--VTP VetRide Transportation Solution (VA-27-00009538)",
+   "url": "https://sam.gov/workspace/contract/opp/755349d6530c4d1a88519908913deaff/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 04",
+   "summary": "Page 7 of 7 REQUEST FOR INFORMATION THIS IS NOT A SOLICITATION. The Department of Veterans Affairs (VA) Veterans Health Administration (VHA) is issuing this Request for\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "U.S. Senate Wellbeing Application",
    "url": "https://sam.gov/workspace/contract/opp/8f893558c339403181947a52cab889fe/view",
    "buyer": "SENATE, THE",
@@ -668,6 +770,23 @@
   },
   {
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+   "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+   "buyer": "GENERAL SERVICES ADMINISTRATION",
+   "region": "DC",
+   "due": "Dec 07",
+   "summary": "https://feedback.gsa.gov/jfe/form/SV_3t6dNlgkS4Vg6iy Federal agencies are preparing for the transition from cryptographic algorithms that may be vulnerable to future quantum\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
    "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
    "buyer": "GENERAL SERVICES ADMINISTRATION",
    "region": "DC",
@@ -679,6 +798,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Digital Pesticide Labeling Platform Pilot",
+   "url": "https://sam.gov/workspace/contract/opp/30316c938edf4019a4b97cd8777f4e09/view",
+   "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
+   "region": "",
+   "due": "Dec 08",
+   "summary": "PSC: AJ11 NAICS: 541519 Digital Pesticide Labeling Platform Pilot",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -707,6 +843,23 @@
    "region": "",
    "due": "Dec 11",
    "summary": "Utilization management software with enterprise licensing and EHR integration.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Integrated Biometrics System/Facial Recognition",
+   "url": "https://sam.gov/workspace/contract/opp/f3d5e0f610c0445ea9e09ebb2fa94629/view",
+   "buyer": "STATE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 11",
+   "summary": "This RFI is issued in accordance with Federal Acquisition Regulation (FAR) 15.201. DoS is conducting market research pursuant to FAR Part 10 to identify qualified and experienced\u2026",
    "tags": [
     "software & apps"
    ],
@@ -801,6 +954,23 @@
    "country": "US",
    "kind": "government",
    "category": "software & apps"
+  },
+  {
+   "title": "Pharmacy Patient Workflow Tracking System",
+   "url": "https://sam.gov/workspace/contract/opp/f350647ccf294aaa9f1ad4ec662777ff/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "NM",
+   "due": "Nov 30",
+   "summary": "Refer to 75H71027Q00004 for solicitation details.",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-11-30",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
   },
   {
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
