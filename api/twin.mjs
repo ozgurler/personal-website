@@ -262,7 +262,7 @@ const LOG_ON = /^https:\/\/script\.google\.com\//.test(process.env.TWIN_LOG_URL 
 async function saveExchange(row) {
   if (!LOG_ON) return;
   try {
-    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 3000);
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 9000);
     await fetch(process.env.TWIN_LOG_URL, { method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ secret: process.env.TWIN_LOG_SECRET || '', ...row }), signal: ctl.signal });
     clearTimeout(timer);
@@ -299,11 +299,13 @@ export default async function handler(req, res) {
     if (!reply) return res.status(502).json({ error: 'No answer came back. Please try again.' });
     // Only start a clip when the visitor switched AI video on.
     const cid = typeof body.cid === 'string' && /^[a-z0-9-]{8,40}$/.test(body.cid) ? body.cid : '';
-    const [video_job] = await Promise.all([
-      body.video === true ? startVideo(reply) : null,
-      saveExchange({ conversation: cid, question: messages[messages.length - 1].content, answer: reply,
-        video: body.video === true, country: String(req.headers['x-vercel-ip-country'] || '') }),
-    ]);
+    // Google takes around three seconds to add a row, so the visitor's reply does not wait for it
+    // when the platform can finish the save in the background.
+    const saving = saveExchange({ conversation: cid, question: messages[messages.length - 1].content, answer: reply,
+      video: body.video === true, country: String(req.headers['x-vercel-ip-country'] || '') });
+    const ctx = globalThis[Symbol.for('@vercel/request-context')]?.get?.();
+    const video_job = body.video === true ? await startVideo(reply) : null;
+    if (typeof ctx?.waitUntil === 'function') ctx.waitUntil(saving); else await saving;
     res.status(200).json({ reply, video_job });
   } catch (e) {
     console.error(e);
