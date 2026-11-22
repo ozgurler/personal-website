@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21",
- "count": 59,
+ "updated": "2026-11-22",
+ "count": 58,
  "items": [
   {
    "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
@@ -231,23 +231,6 @@
    "region": "",
    "due": "Dec 15",
    "summary": "Redesign housing nonprofit website with improved user experience and intuitive interface.",
-   "tags": [
-    "web & digital"
-   ],
-   "value": "",
-   "scope": "Nonprofit & foundation",
-   "due_iso": "2026-12-15",
-   "country": "US",
-   "kind": "nonprofit",
-   "category": "web & digital"
-  },
-  {
-   "title": "Website Redesign RFP \u2013 Ruralhome.org",
-   "url": "https://ruralhome.org/rfp-website-redesign/",
-   "buyer": "Housing Assistance Council",
-   "region": "",
-   "due": "Dec 15",
-   "summary": "Redesign nonprofit website ruralhome.org with intuitive, visually engaging user-friendly design.",
    "tags": [
     "web & digital"
    ],
