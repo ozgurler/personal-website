@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22",
- "count": 58,
+ "updated": "2026-11-23",
+ "count": 40,
  "items": [
   {
    "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
@@ -38,20 +38,37 @@
    "category": "managed IT & support"
   },
   {
-   "title": "DA10--Office of Information & Technology Enterprise Database Vulnerability Scanning Solution",
-   "url": "https://sam.gov/workspace/contract/opp/fb63689061624cf9bef9f568176aaf6b/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "Request for Information 36C10B27Q0010 Page 2 of 2 Request for Information 36C10B27Q0010 Enterprise Database Vulnerability Scanning Solution INTRODUCTION This is a Request for\u2026",
+   "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+   "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+   "buyer": "GENERAL SERVICES ADMINISTRATION",
+   "region": "DC",
+   "due": "Dec 07",
+   "summary": "Post-quantum cryptography readiness assessment and validation status documentation.",
    "tags": [
     "cybersecurity"
    ],
    "value": "",
    "scope": "US federal",
-   "due_iso": "2026-11-30",
+   "due_iso": "2026-12-07",
    "country": "US",
    "kind": "government",
+   "category": "cybersecurity"
+  },
+  {
+   "title": "RFP \u2014 RHIT Cybersecurity Program Proposal",
+   "url": "https://nrhp.org/wp-content/uploads/2026/10/NRHPF_RHIT_Cybersecurity_RFP_2026.pdf",
+   "buyer": "Nevada Rural Hospital Partners Foundation",
+   "region": "Nevada",
+   "due": "no date listed",
+   "summary": "Cybersecurity program for rural hospitals including governance, HIPAA compliance, risk assessments, and managed security services.",
+   "tags": [
+    "cybersecurity"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": null,
+   "country": "US",
+   "kind": "nonprofit",
    "category": "cybersecurity"
   },
   {
@@ -157,57 +174,6 @@
    "category": "telecom & networking"
   },
   {
-   "title": "FDIC - Salesforce Enterprise Agreement \u0096 Subscription Licenses/Maintenance",
-   "url": "https://sam.gov/workspace/contract/opp/267c8f43199249138d0fbaee8d4be1c5/view",
-   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
-   "region": "VA",
-   "due": "Nov 30",
-   "summary": "The Federal Deposit Insurance Corporation (FDIC) invites you to submit a quote in response to Request for Quote (RFQ) CORHQ-26-Q-0400 for FDIC's Selesforce Enterprise Agreement\u2026",
-   "tags": [
-    "CRM & business systems"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "CRM & business systems"
-  },
-  {
-   "title": "Library of Congress: Microfilm Inventory Services",
-   "url": "https://sam.gov/workspace/contract/opp/59ce2f3e4389418aa4204da4f4c102d5/view",
-   "buyer": "LIBRARY OF CONGRESS",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "Amendment 1: This amendment answers questions submitted by potential offerors. It also makes changes to the SOW, Sections B, L, M, and several of the attachments. Questions will\u2026",
-   "tags": [
-    "web & digital"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "web & digital"
-  },
-  {
-   "title": "Enterprise News Monitoring and Enterprise License Management Support",
-   "url": "https://sam.gov/workspace/contract/opp/4720df3381d1497a899bbbc2afaf6389/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "The Department of Health and Human Services (HHS) seeks information from qualified businesses capable of providing an enterprise news monitoring platform and associated enterprise\u2026",
-   "tags": [
-    "web & digital"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "web & digital"
-  },
-  {
    "title": "WT COX",
    "url": "https://sam.gov/workspace/contract/opp/092d831a7f6345b38a7e1947f2974374/view",
    "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
@@ -220,6 +186,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-01",
+   "country": "US",
+   "kind": "government",
+   "category": "web & digital"
+  },
+  {
+   "title": "Digital Pesticide Labeling Platform Pilot",
+   "url": "https://sam.gov/workspace/contract/opp/30316c938edf4019a4b97cd8777f4e09/view",
+   "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
+   "region": "",
+   "due": "Dec 08",
+   "summary": "Build digital platform for pesticide labeling pilot program.",
+   "tags": [
+    "web & digital"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
    "country": "US",
    "kind": "government",
    "category": "web & digital"
@@ -276,108 +259,6 @@
    "category": "web & digital"
   },
   {
-   "title": "Compliance Data Warehouse (CDW), HyDRA, HyDRA Maps, Analytics, Geospatial Services, and Operational Support",
-   "url": "https://sam.gov/workspace/contract/opp/8a07bbdf3601455da3e3aa3a0616d1b3/view",
-   "buyer": "AGRICULTURE, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "Sources Sought Notice Compliance Data Warehouse (CDW), HyDRA, HyDRA Maps, Analytics, Geospatial Services, and Operational Support Sources Sought Notice This Sources Sought Notice\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "USAC RFP: Enterprise Data Platform",
-   "url": "https://sam.gov/workspace/contract/opp/0da53662bd6d414595d074c58b58c486/view",
-   "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "Enterprise data platform system for FCC's Universal Service Administrative Company.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Biosequence Search",
-   "url": "https://sam.gov/workspace/contract/opp/cffa6b9782b64fd4bb448ad17f381193/view",
-   "buyer": "COMMERCE, DEPARTMENT OF",
-   "region": "VA",
-   "due": "Nov 30",
-   "summary": "The United States Patent and Trademark Office (USPTO) is conducting market research through this Request for Information (RFI) to gather input from industry on commercially\u2026",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-621-34120934",
-   "buyer": "Impact Assessment Agency of Canada (IAAC)",
-   "region": "*Canada *Remote Offsite",
-   "due": "Nov 30",
-   "summary": "Geospatial informatics professional services for GIS operation, maintenance and modernization.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-11-30",
-   "country": "CA",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "AI tool for Medication Reconciliation and Clinical Review",
-   "url": "https://sam.gov/workspace/contract/opp/2844a59e27da407db5c5aac404bd35d7/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "CO",
-   "due": "Nov 30",
-   "summary": "AI tool for Medication Reconciliation and Clinical Review",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
-   "title": "Private Equity and Private Credit Data Services",
-   "url": "https://sam.gov/workspace/contract/opp/7829f766349741de868b717331ca3bd0/view",
-   "buyer": "TREASURY, DEPARTMENT OF THE",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "Private equity and private credit data services for Treasury Department.",
-   "tags": [
-    "data & AI"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "data & AI"
-  },
-  {
    "title": "USAC RFP: Enterprise Data Platform",
    "url": "https://sam.gov/workspace/contract/opp/3034e3cb78094813804161ce95ffd33d/view",
    "buyer": "FEDERAL COMMUNICATIONS COMMISSION",
@@ -412,6 +293,23 @@
    "category": "data & AI"
   },
   {
+   "title": "Integrated Biometrics System/Facial Recognition",
+   "url": "https://sam.gov/workspace/contract/opp/f3d5e0f610c0445ea9e09ebb2fa94629/view",
+   "buyer": "STATE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 11",
+   "summary": "COTS facial recognition system with enterprise integration capabilities.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
+   "country": "US",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
    "title": "Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-941-69633101",
    "buyer": "Department of Employment and Social Development (ESDC)",
@@ -427,142 +325,6 @@
    "country": "CA",
    "kind": "government",
    "category": "data & AI"
-  },
-  {
-   "title": "DJ10--Alertus Enhanced Notification Licensing & Premier Support",
-   "url": "https://sam.gov/workspace/contract/opp/77e2cd670c3040a6ad2a1fc44daa2bc5/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "\u00c2 Alertus Software Licensing and Support Martinsburg VA Medical Center Notice ID: 36C24527Q0081 Issuing office: Department of Veterans Affairs, Network Contracting Office 5\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Aruba Maintenance for Software and Hardware",
-   "url": "https://sam.gov/workspace/contract/opp/51629cc9931f4080bba68e2bb0310ee5/view",
-   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
-   "region": "VA",
-   "due": "Nov 30",
-   "summary": "Aruba software and hardware maintenance support contract.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Next Generation (NextGen) Passport Personalization Printers Support",
-   "url": "https://sam.gov/workspace/contract/opp/9a8b6e50d44f48a4bac9a236f972e94e/view",
-   "buyer": "STATE, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "UPDATE 10/26/2026: The solicitation closing date is revised to November 30, 2027 at 1:00 p.m.EST. UPDATE 9/11/2026: The solicitation closing date is revised to October 30, 2026 at\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
-   "url": "https://sam.gov/workspace/contract/opp/05e1ecb6acc245ee8a9a05c6f4bcea96/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "VA is seeking sources that are able to provide full lifecycle sustainment and operational support, and any associated bug/fix development, and regulatory compliance services for\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Asana Enterprise Renewal",
-   "url": "https://sam.gov/workspace/contract/opp/0d57faed51cf44fbb4647ba266cb233d/view",
-   "buyer": "SENATE, THE",
-   "region": "DC",
-   "due": "Nov 30",
-   "summary": "This RFQ is for the renewal of Asana Enterprise and FSP and consists of 5 documents, please review in its entirety. Please provide quotes by 1:00pm EST on November 30, 2026.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DA01--RFI 36C10B27Q0056 Veterans Health Information Systems and and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
-   "url": "https://sam.gov/workspace/contract/opp/0a0fc0b8d069433680f1b645df5e8e3b/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "The previous RFI number 36C10B27Q0056 was corrupted in the system. This RFI replaces 36C10B27Q0056 and continues the previous RFI progress. VA is seeking sources that are able to\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "IMT HDB Service IDIQ Contract",
-   "url": "https://sam.gov/workspace/contract/opp/73f1f0e3fd98489ab214a6075799a3f1/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "This acquisition is for technical support, maintenance, and development services for the Bureau of Reclamation's Hydrological Database (HDB) system.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "D--IMT HDB Service IDIQ Contract",
-   "url": "https://sam.gov/workspace/contract/opp/30829227e1be43cbb8ddbf537709616a/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Nov 30",
-   "summary": "Amendment A0001. This acquisition is for technical support, maintenance, and development services for the Bureau of Reclamation's Hydrological Database (HDB) system.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
   },
   {
    "title": "6515--Methasoft Medication Dispensing System",
@@ -706,7 +468,7 @@
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
    "region": "",
    "due": "Dec 04",
-   "summary": "Page 7 of 7 REQUEST FOR INFORMATION THIS IS NOT A SOLICITATION. The Department of Veterans Affairs (VA) Veterans Health Administration (VHA) is issuing this Request for\u2026",
+   "summary": "Enterprise-wide veteran transportation software solution with VHA licensing.",
    "tags": [
     "software & apps"
    ],
@@ -753,23 +515,6 @@
   },
   {
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-   "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
-   "buyer": "GENERAL SERVICES ADMINISTRATION",
-   "region": "DC",
-   "due": "Dec 07",
-   "summary": "https://feedback.gsa.gov/jfe/form/SV_3t6dNlgkS4Vg6iy Federal agencies are preparing for the transition from cryptographic algorithms that may be vulnerable to future quantum\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
    "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
    "buyer": "GENERAL SERVICES ADMINISTRATION",
    "region": "DC",
@@ -781,23 +526,6 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-07",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Digital Pesticide Labeling Platform Pilot",
-   "url": "https://sam.gov/workspace/contract/opp/30316c938edf4019a4b97cd8777f4e09/view",
-   "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
-   "region": "",
-   "due": "Dec 08",
-   "summary": "PSC: AJ11 NAICS: 541519 Digital Pesticide Labeling Platform Pilot",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-08",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -826,23 +554,6 @@
    "region": "",
    "due": "Dec 11",
    "summary": "Utilization management software with enterprise licensing and EHR integration.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-11",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Integrated Biometrics System/Facial Recognition",
-   "url": "https://sam.gov/workspace/contract/opp/f3d5e0f610c0445ea9e09ebb2fa94629/view",
-   "buyer": "STATE, DEPARTMENT OF",
-   "region": "DC",
-   "due": "Dec 11",
-   "summary": "This RFI is issued in accordance with Federal Acquisition Regulation (FAR) 15.201. DoS is conducting market research pursuant to FAR Part 10 to identify qualified and experienced\u2026",
    "tags": [
     "software & apps"
    ],
@@ -937,23 +648,6 @@
    "country": "US",
    "kind": "government",
    "category": "software & apps"
-  },
-  {
-   "title": "Pharmacy Patient Workflow Tracking System",
-   "url": "https://sam.gov/workspace/contract/opp/f350647ccf294aaa9f1ad4ec662777ff/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "NM",
-   "due": "Nov 30",
-   "summary": "Refer to 75H71027Q00004 for solicitation details.",
-   "tags": [
-    "IT consulting & strategy"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-11-30",
-   "country": "US",
-   "kind": "government",
-   "category": "IT consulting & strategy"
   },
   {
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
