@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RFP Digest, November 24, 2026 | Emre Ozgurler</title>
+<meta name="description" content="Weekly RFP Digest issue of November 24, 2026: 39 opportunities.">
+<link rel="canonical" href="https://www.emreozgurler.com/opportunities/issues/2026-11-24.html">
+<link rel="alternate" type="application/rss+xml" title="RFP Digest" href="/opportunities/feed.xml">
+<link rel="icon" href="/favicon.svg?v=3" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico?v=3" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
+<link rel="preload" href="/fonts/BarlowCondensed-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  /* Page layout only. Colours, fonts, top bar, header band and footer come from the
+     site's shared /theme.css so this page follows the rest of emreozgurler.com. */
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{line-height:1.55;font-size:17px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:960px;margin:0 auto}
+  .eo-nav .links{display:flex;align-items:center;gap:.2rem}
+  .eo-nav .links a:not(.back){font-weight:500;font-size:.95rem;color:#000;text-decoration:none;padding:.5rem .8rem;border-radius:8px}
+  .eo-nav .links a:not(.back):hover,.eo-nav .links a.on{background:var(--mint)}
+  .eo-nav .links .back{margin-left:.5rem}
+  header{padding:clamp(2.2rem,6vh,3.6rem) clamp(1.1rem,4vw,3rem) clamp(2.2rem,6vh,3.4rem)}
+  header h1{margin:.5rem 0 .9rem}
+  header p{max-width:40em;font-size:1.08rem}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,11rem));gap:.8rem;margin-top:1.6rem}
+  .stats div{background:#fff;color:var(--text);border-radius:12px;padding:.8rem 1rem .9rem;font-size:.9rem}
+  .stats b{display:block;font-family:var(--display);font-weight:700;font-size:2.1rem;line-height:1;color:var(--green);margin-bottom:.25rem}
+  main{padding:clamp(2rem,6vh,3.5rem) clamp(1.1rem,4vw,3rem) clamp(2.5rem,7vh,4rem)}
+  .tools{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;align-items:center;justify-content:space-between;margin-bottom:1.6rem}
+  .pills{display:flex;flex-wrap:wrap;gap:.45rem}
+  .pills a,.pills button{font:500 .9rem var(--body);color:var(--green);background:#fff;border:1px solid var(--mint-2);border-radius:999px;padding:.35rem .85rem;text-decoration:none;cursor:pointer}
+  .pills a:hover,.pills button:hover{background:var(--mint)}
+  .pills button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+  .pills a{display:inline-block}
+  .pills a::first-letter{text-transform:uppercase}
+  .pills span{color:var(--mute);margin-left:.25rem}
+  h2.section{font-size:1.8rem;line-height:1.05;margin:2.4rem 0 1rem;padding-top:1rem;text-transform:none;
+     background:linear-gradient(var(--mark),var(--mark)) 0 0/3.2rem 6px no-repeat}
+  h2.section::first-letter{text-transform:uppercase}
+  h2.section span{font:500 .9rem var(--body);color:var(--mute);margin-left:.7rem}
+  .list{display:grid;gap:.9rem}
+  .list .entry,.issue{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--mint-2);
+     border-top:1px solid var(--mint-2);border-left:4px solid var(--green-mid);border-radius:12px;padding:1.1rem 1.3rem 1.2rem}
+  .list .entry.np{border-left-color:var(--mark)}
+  .meta{display:flex;gap:.5rem .9rem;flex-wrap:wrap;align-items:center;font-size:.86rem;font-weight:500;color:var(--mute);margin-bottom:.5rem}
+  .meta .cat{background:var(--mint);color:var(--green);border-radius:999px;padding:.1rem .7rem;font-weight:600}
+  .list .entry.np .meta .cat{background:#FFF3B8;color:#5A4A00}
+  .meta .due{color:#9A2B17;font-weight:600}
+  .entry h3,.issue h3{font-size:1.3rem;line-height:1.15;margin-bottom:.35rem}
+  .entry p{font-size:.97rem;max-width:52em;color:var(--text)}
+  .entry .buyer{font-size:.9rem;color:var(--mute);margin-top:.4rem}
+  .entry.closed{opacity:.55;border-left-color:var(--mint-2)}
+  .entry.closed .meta .due{color:var(--mute)}
+  .entry.closed .meta .due::after{content:" (closed)"}
+  .public{background:var(--mint);border-left:4px solid var(--mark);border-radius:8px;padding:.8rem 1rem;margin-bottom:1.4rem;font-size:.97rem}
+  .empty{background:var(--mint);border-radius:12px;padding:1.2rem 1.4rem}
+  .note{font-size:.9rem;color:var(--mute);margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--mint-2)}
+  .subscribe{margin:1.6rem 0 0;padding:1.2rem 1.4rem;background:var(--mint);border:1px solid var(--mint-2);border-radius:12px}
+  .subscribe a{color:var(--green);font-weight:600}
+  [hidden]{display:none!important}
+  @media(max-width:480px){.eo-nav .logo span{display:none}}
+  @media(max-width:720px){
+    .eo-nav .links a:not(.back):not(.keep){display:none}
+    .eo-nav .links a{white-space:nowrap;padding:.45rem .6rem!important;font-size:.9rem!important}
+    .eo-nav .links .back{display:none}
+    .stats{grid-template-columns:1fr 1fr}
+  }
+</style>
+<link rel="stylesheet" href="/theme.css">
+</head>
+<body>
+<div class="eo-nav" role="navigation" aria-label="Site"><div class="bar">
+  <a class="logo" href="/index.html"><b>EO</b><span>Emre Ozgurler</span></a>
+  <div class="links">
+    <a href="/opportunities/index.html" class="keep">Public RFPs</a>
+    <a href="/opportunities/issues/index.html" class="keep on">Weekly issues</a>
+    <a href="/insights/index.html">Insights</a>
+    <a class="back" href="/index.html">Back to site</a>
+  </div>
+</div></div>
+<header>
+  <div class="wrap">
+    <span class="mono-label">Weekly issue</span>
+    <h1>November 24, 2026</h1>
+    <p>39 opportunities in this issue. Closed ones are greyed out.</p>
+    
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    
+
+<p class="public">These are public notices. Each buyer has published its RFP openly so that any qualified vendor can respond, and every card links to the buyer's own posting.</p>
+<div class="tools">
+  <div class="pills" id="kind" role="group" aria-label="Filter by buyer">
+    <button type="button" data-kind="all" aria-pressed="true">All buyers</button>
+    <button type="button" data-kind="nonprofit" aria-pressed="false">Nonprofit</button>
+    <button type="button" data-kind="government" aria-pressed="false">Government</button>
+  </div>
+  <div class="pills"><a href="#managed-it-support">managed IT &amp; support<span>1</span></a><a href="#cybersecurity">cybersecurity<span>2</span></a><a href="#cloud-infrastructure">cloud &amp; infrastructure<span>3</span></a><a href="#telecom-networking">telecom &amp; networking<span>4</span></a><a href="#crm-business-systems">CRM &amp; business systems<span>1</span></a><a href="#web-digital">web &amp; digital<span>4</span></a><a href="#data-ai">data &amp; AI<span>2</span></a><a href="#software-apps">software &amp; apps<span>18</span></a><a href="#it-consulting-strategy">IT consulting &amp; strategy<span>4</span></a></div>
+</div>
+
+<section data-group>
+<h2 class="section" id="managed-it-support">managed IT &amp; support<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry np" data-kind="nonprofit" href="https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Nonprofit &amp; foundation</span><span class="due">No deadline listed</span></div>
+    <h3>Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services</h3>
+    <p>Nonprofit seeks co-managed IT, cybersecurity, network management, and Microsoft 365 administration services.</p>
+    <div class="buyer">Mexican American Opportunity Foundation (MAOF)</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="cybersecurity">cybersecurity<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 07</span></div>
+    <h3>Post Quantum Cryptography (PQC) Readiness and Validation Status</h3>
+    <p>Post-quantum cryptography readiness assessment and validation status documentation.</p>
+    <div class="buyer">GENERAL SERVICES ADMINISTRATION, DC</div>
+  </a>
+
+  <a class="entry np" data-kind="nonprofit" href="https://nrhp.org/wp-content/uploads/2026/10/NRHPF_RHIT_Cybersecurity_RFP_2026.pdf" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Nonprofit &amp; foundation</span><span class="due">No deadline listed</span></div>
+    <h3>RFP — RHIT Cybersecurity Program Proposal</h3>
+    <p>Cybersecurity program for rural hospitals including governance, HIPAA compliance, risk assessments, and managed security services.</p>
+    <div class="buyer">Nevada Rural Hospital Partners Foundation, Nevada</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="cloud-infrastructure">cloud &amp; infrastructure<span>3 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/de2e45786d5c4450a810b991e1097175/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 07</span></div>
+    <h3>DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)</h3>
+    <p>Enterprise bi-directional medical image and report exchange system.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-794-96635747" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 14</span></div>
+    <h3>Emergency Alert SaaS Solution</h3>
+    <p>Cloud-based emergency notification SaaS for multi-channel employee alerts.</p>
+    <div class="buyer">Department of Agriculture and Agri-Food (AAFC), *Canada</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 31</span></div>
+    <h3>DA10--Bi-Directional Image/Report Exchange</h3>
+    <p>Bi-directional medical image and report exchange system for VA.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="telecom-networking">telecom &amp; networking<span>4 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/d683cce433b64f6d9e156b7e51588685/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 09</span></div>
+    <h3>SATELLITE TELVISION PROGRAMMING SERVICES</h3>
+    <p>1. This is a combined synopsis/solicitation for commercial services prepared in accordance with FAR Part 12, as supplemented with additional information included in this notice.…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF, CA</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/a6973d34a467470fad9f87454e755960/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 17</span></div>
+    <h3>RFI - Commercial Alternatives for GOES Rebroadcast (GRB) and High-Rate Information Transmission (HRIT) / Emergency Managers Warning Information Network (EMWIN) Services</h3>
+    <p>The National Oceanic and Atmospheric Administration (NOAA) is seeking information from commercial industry partners regarding the feasibility, technical approach, and…</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF, MD</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/7ae8310493bb484fb93e15ad4fee52cb/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Jan 08</span></div>
+    <h3>University Lunar Tracking and Communication Services</h3>
+    <p>This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with part 12. This announcement constitutes the only solicitation.…</p>
+    <div class="buyer">NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031879?anId=ANONYMOUS" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Jan 18</span></div>
+    <h3>Voice Communication Switch System - Air Traffic Control</h3>
+    <p>Modernize legacy voice communication switches and recorders for Air Traffic Control units.</p>
+    <div class="buyer">Department of Public Works and Government Services (PSPC), *Canada</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="crm-business-systems">CRM &amp; business systems<span>1 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://a856-cityrecord.nyc.gov/RequestDetail/20261118002" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US state &amp; local</span><span class="due">Due Dec 28</span></div>
+    <h3>Facility Maintenance Information System</h3>
+    <p>Facilities Management and Asset Information System for healthcare campuses.</p>
+    <div class="buyer">NYC Health + Hospitals, New York, NY</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="web-digital">web &amp; digital<span>4 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/30316c938edf4019a4b97cd8777f4e09/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 08</span></div>
+    <h3>Digital Pesticide Labeling Platform Pilot</h3>
+    <p>Build digital platform for pesticide labeling pilot program.</p>
+    <div class="buyer">ENVIRONMENTAL PROTECTION AGENCY</div>
+  </a>
+
+  <a class="entry np" data-kind="nonprofit" href="http://ruralhome.org/rfp-website-redesign/" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Nonprofit &amp; foundation</span><span class="due">Due Dec 15</span></div>
+    <h3>Request for Proposal for Website Redesign: Ruralhome.org</h3>
+    <p>Redesign housing nonprofit website with improved user experience and intuitive interface.</p>
+    <div class="buyer">Housing Assistance Council</div>
+  </a>
+
+  <a class="entry np" data-kind="nonprofit" href="https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Nonprofit &amp; foundation</span><span class="due">Due Jan 18</span></div>
+    <h3>Request for Proposals: Website Redesign</h3>
+    <p>Full website redesign with responsive design, hosting, and ongoing support services.</p>
+    <div class="buyer">The Friends of the Saint Paul Public Library, Saint Paul, Minnesota</div>
+  </a>
+
+  <a class="entry np" data-kind="nonprofit" href="https://rhf-frh.ca/media-releases/rfp-website-consolidation/" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Nonprofit &amp; foundation</span><span class="due">No deadline listed</span></div>
+    <h3>Request for Proposal (RFP): Website Consolidation and Redesign</h3>
+    <p>WordPress website consolidation and redesign with Salesforce integration for nonprofit programs.</p>
+    <div class="buyer">Rideau Hall Foundation</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="data-ai">data &amp; AI<span>2 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/f3d5e0f610c0445ea9e09ebb2fa94629/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 11</span></div>
+    <h3>Integrated Biometrics System/Facial Recognition</h3>
+    <p>COTS facial recognition system with enterprise integration capabilities.</p>
+    <div class="buyer">STATE, DEPARTMENT OF, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-156-78591963" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Jan 06</span></div>
+    <h3>Digital Twin Workplace Inventory and Asset Management Solution</h3>
+    <p>Digital Twin and AI-powered inventory asset management solution information.</p>
+    <div class="buyer">Canada Revenue Agency (CRA), *National Capital Region (NCR)</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="software-apps">software &amp; apps<span>18 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/68cdbc02972e4a4699f4f486d18dddb2/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 02</span></div>
+    <h3>GeoJobe Software with Training and Support</h3>
+    <p>To provide licensing and maintenance/support for GeoJobe software and service. Support and maintenance should be provided both during the base period as well as during the chosen…</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/310a83e741214bc49b35a54ce4e8bd3e/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 02</span></div>
+    <h3>DA10--VA Enterprise-level Product Solutions</h3>
+    <p>Market research for VA enterprise-level product solutions.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/9742e4bfe0bf4a68b72a0ecd0e678ee4/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 02</span></div>
+    <h3>Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal</h3>
+    <p>Notice Number: REQT-IHS-2026-00225 SOURCES SOUGHT NOTICE Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal This is a Sources Sought Notice…</p>
+    <div class="buyer">HEALTH AND HUMAN SERVICES, DEPARTMENT OF, OR</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 03</span></div>
+    <h3>FedRAMP Webex Subscription Maintenance</h3>
+    <p>Amendment 0002 - Thie due date for quotes is extended through 12:00PM EST on 10/9/2026 with questions due by 6PM on 10/5/2026. Responses to all questions are provided. Please note…</p>
+    <div class="buyer">FEDERAL DEPOSIT INSURANCE CORPORATION, VA</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/3a828267980b43cb95f6119c7108c411/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 04</span></div>
+    <h3>RFI NOAA Ship Acquisition Engineering &amp; Correspondence Management System</h3>
+    <p>NOAA seeks market information for NOAA Ship acquisition engineering and correspondence management system.</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF, MD</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/755349d6530c4d1a88519908913deaff/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 04</span></div>
+    <h3>DA10--VTP VetRide Transportation Solution (VA-27-00009538)</h3>
+    <p>Enterprise-wide veteran transportation software solution with VHA licensing.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/8f893558c339403181947a52cab889fe/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 04</span></div>
+    <h3>U.S. Senate Wellbeing Application</h3>
+    <p>Amendment 001 provides the Q&amp;A and updates to the Solicitation, Pricing Worksheet, Past Performance Questionnaire. The Proposal and Past Performance Questionnaire due date is…</p>
+    <div class="buyer">SENATE, THE, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/6fb99714204d412ba40d625e346a38ec/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 07</span></div>
+    <h3>7A21--Electronic Quality Management Software System IDIQ</h3>
+    <p>THIS REQUEST FOR INFORMATION (RFI) IS ISSUED SOLELY FOR INFORMATION AND PLANNING PURPOSES ONLY AND DOES NOT CONSTITUTE A SOLICITATION. THE SUBMISSION OF PRICING, CAPABILITIES FOR…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 07</span></div>
+    <h3>Post Quantum Cryptography (PQC) Readiness and Validation Status</h3>
+    <p>Federal agencies are preparing for the transition from cryptographic algorithms that may be vulnerable to future quantum computing attacks to quantum-resistant cryptographic…</p>
+    <div class="buyer">GENERAL SERVICES ADMINISTRATION, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/ef0438d3bd8f46a6bbb2e5085994e346/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 08</span></div>
+    <h3>36C25527Q0049 - IVX &amp; Cerner to Interface with EHRM</h3>
+    <p>This is the Combined Synopsis/Solicitation notice for the IVX &amp; Cerner software to interface with EHRM. See the document, Combined Synopsis-Solicitation_36C25527Q0049, document…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF, MO</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/0b48a6495bdb4fe5b3cb53e0b962a913/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 09</span></div>
+    <h3>DA10--Radiology and Cardiology Foundational Enterprise Imaging System</h3>
+    <p>Title: Radiology and Cardiology Foundational Enterprise Imaging System Please see the attached Solicitation.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/477c4688593e49a180f8439db7e28d6c/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 10</span></div>
+    <h3>COMMERCIAL DATABASE SERVICES FOR RESPONDENT LOCATING AND CONTACT INFORMATION</h3>
+    <p>The U.S. Census Bureau is conducting market research to determine the availability and capabilities of commercial sources that can provide secure access to a comprehensive…</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF, MD</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/b0998b24866242dc92ee4ce9648316aa/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 11</span></div>
+    <h3>DA10--Utilization Management Software (VA-27-00009483)</h3>
+    <p>Utilization management software with enterprise licensing and EHR integration.</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-363-74648533" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">Canada</span><span class="due">Due Dec 16</span></div>
+    <h3>Computer Aided Dispatch Replacement</h3>
+    <p>Replace Computer Aided Dispatch system for Northwest Territories government.</p>
+    <div class="buyer">Government of the Northwest Territories (GNWT)</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/bb11d6041195431fab93de7c1c084aa0/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Jan 30</span></div>
+    <h3>Next Generation (NextGen) Passport Personalization Printers Support</h3>
+    <p>UPDATE 10/26/2026: The solicitation closing date is revised to January 30, 2027 at 1:00 p.m.EST. Additionally, the primary point of contact has been revised to William (Ted)…</p>
+    <div class="buyer">STATE, DEPARTMENT OF, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/82e83d3401164e2883421b2d47ed11fa/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">No deadline listed</span></div>
+    <h3>DA10--(NEW) (RFI) - Emergent Virtual Face-to-Face (VF2F) Network (VA-26-00045329)</h3>
+    <p>This notice is to inform industry of the RFI Status 36C10B26Q0226, Emergent Virtual Face-to-Face Network. At this time the acquisition strategy is undetermined, once known it will…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/c7f2d2c171bb4e13a4727bb7bc734a9d/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">No deadline listed</span></div>
+    <h3>DA10--(NEW) (RFI) - Emergent Virtual Face-to-Face (VF2F) Network (VA-26-00045329)</h3>
+    <p>This notice is to inform industry of the RFI Status 36C10B26Q0226, Emergent Virtual Face-to-Face Network. At this time the acquisition strategy is undetermined, once known it will…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/1dfd083c656f4d6faf0a52753306694d/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">No deadline listed</span></div>
+    <h3>NESDIS Consolidated Antenna and Ground Systems Services (NCAGSS)</h3>
+    <p>The National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Service (NESDIS) requires comprehensive management and technical…</p>
+    <div class="buyer">COMMERCE, DEPARTMENT OF, MD</div>
+  </a>
+
+</div>
+</section>
+
+<section data-group>
+<h2 class="section" id="it-consulting-strategy">IT consulting &amp; strategy<span>4 open</span></h2>
+<div class="list">
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/7ca33cb238f948e58e942675e6cae33b/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 07</span></div>
+    <h3>DA10--Health Services Portfolio Technical Management and Strategic Solutioning Support (HTMS)</h3>
+    <p>Request for Information Health Services Portfolio Technical Management and Strategic Solutioning Support VA-27-0007804 Introduction This Request for Information (RFI) is for…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/715697342234472185da32f932a97451/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 08</span></div>
+    <h3>Mission Enabling Enforcement Services (MEES) -IRS-CI</h3>
+    <p>The Mission Enabling Enforcement Services (MEES) will provide enterprise data engineering, advanced analytics, secure infrastructure, artificial intelligence, machine learning…</p>
+    <div class="buyer">TREASURY, DEPARTMENT OF THE, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/40753072fa68490cbeeeba31dab9fd29/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">Due Dec 17</span></div>
+    <h3>Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture</h3>
+    <p>Enterprise and solutions architecture services for SBIR/STTR programs.</p>
+    <div class="buyer">TREASURY, DEPARTMENT OF THE, DC</div>
+  </a>
+
+  <a class="entry" data-kind="government" href="https://sam.gov/workspace/contract/opp/2c63335327a1411f84aae8f06adb5b86/view" target="_blank" rel="noopener">
+    <div class="meta"><span class="cat">US federal</span><span class="due">No deadline listed</span></div>
+    <h3>DA01--Light Electronic Action Framework Platform Support Services (VA-27-00002271)</h3>
+    <p>This posting serves as notice to industry as to the acquisition strategy for the associated Light Electronic Action Framework Platform Support Services effort.Â The solicitation…</p>
+    <div class="buyer">VETERANS AFFAIRS, DEPARTMENT OF</div>
+  </a>
+
+</div>
+</section>
+
+<p class="empty" id="none" hidden>Nothing open from this kind of buyer today. The list refreshes every morning.</p>
+<script>
+(function(){
+  var bar=document.getElementById('kind'); if(!bar) return;
+  bar.addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b) return; var k=b.dataset.kind, shown=0;
+    bar.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    document.querySelectorAll('[data-group]').forEach(function(g){
+      var n=0; g.querySelectorAll('.entry').forEach(function(a){var on=k==='all'||a.dataset.kind===k; a.hidden=!on; if(on)n++;});
+      g.hidden=!n; shown+=n;
+    });
+    document.getElementById('none').hidden=shown>0;
+  });
+})();
+</script>
+
+
+    
+    <p class="note"><b>Everything listed here is public information.</b> Each notice was published openly by the buyer for any vendor to read and respond to; nothing here is confidential or restricted. Government notices come from official open-data feeds (SAM.gov, CanadaBuys, city open-data portals). Nonprofit postings are found by a daily web search and link to the organization's own page. Confirm details and deadlines at the source before you bid. Updated November 24, 2026.</p>
+  </div>
+</main>
+<div class="eo-foot" role="contentinfo"><div class="bar"><span>Emre Ozgurler, Portland, OR</span><span>© 2026</span></div></div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6620711eeb8e4f23ac8d801ad4790456"}'></script>
+</body>
+</html>
