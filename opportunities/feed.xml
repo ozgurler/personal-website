@@ -4,13 +4,6 @@
 <link>https://www.emreozgurler.com/opportunities/</link>
 <description>Publicly posted technology RFPs from US and Canadian government and nonprofits, updated daily.</description>
 <item>
-<title>DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)</title>
-<link>https://sam.gov/workspace/contract/opp/975ff5c47c644fa5931e08799a344e0c/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/975ff5c47c644fa5931e08799a344e0c/view</guid>
-<description>US federal, VETERANS AFFAIRS, DEPARTMENT OF. Due Dec 01. IT Enterprise Service Desk (ESD) Managed Services Request for Information VA-27-00019920 Introduction This Request for Information (RFI) is for planning purposes only and shall…</description>
-<category>managed IT &amp; support</category>
-</item>
-<item>
 <title>Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services</title>
 <link>https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf</link>
 <guid isPermaLink="false">https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf</guid>
@@ -46,6 +39,13 @@
 <category>cloud &amp; infrastructure</category>
 </item>
 <item>
+<title>Emergency Alert SaaS Solution</title>
+<link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-794-96635747</link>
+<guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-794-96635747</guid>
+<description>Canada, Department of Agriculture and Agri-Food (AAFC). Due Dec 14. Cloud-based emergency notification SaaS for multi-channel employee alerts.</description>
+<category>cloud &amp; infrastructure</category>
+</item>
+<item>
 <title>DA10--Bi-Directional Image/Report Exchange</title>
 <link>https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view</guid>
@@ -67,6 +67,13 @@
 <category>telecom &amp; networking</category>
 </item>
 <item>
+<title>University Lunar Tracking and Communication Services</title>
+<link>https://sam.gov/workspace/contract/opp/7ae8310493bb484fb93e15ad4fee52cb/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/7ae8310493bb484fb93e15ad4fee52cb/view</guid>
+<description>US federal, NATIONAL AERONAUTICS AND SPACE ADMINISTRATION. Due Jan 08. This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with part 12. This announcement constitutes the only solicitation.…</description>
+<category>telecom &amp; networking</category>
+</item>
+<item>
 <title>Voice Communication Switch System - Air Traffic Control</title>
 <link>https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031879?anId=ANONYMOUS</link>
 <guid isPermaLink="false">https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031879?anId=ANONYMOUS</guid>
@@ -74,11 +81,11 @@
 <category>telecom &amp; networking</category>
 </item>
 <item>
-<title>WT COX</title>
-<link>https://sam.gov/workspace/contract/opp/092d831a7f6345b38a7e1947f2974374/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/092d831a7f6345b38a7e1947f2974374/view</guid>
-<description>US federal, HEALTH AND HUMAN SERVICES, DEPARTMENT OF. Due Dec 01. Renew journal subscriptions in online and print formats for National Institutes of Health.</description>
-<category>web &amp; digital</category>
+<title>Facility Maintenance Information System</title>
+<link>https://a856-cityrecord.nyc.gov/RequestDetail/20261118002</link>
+<guid isPermaLink="false">https://a856-cityrecord.nyc.gov/RequestDetail/20261118002</guid>
+<description>US state &amp; local, NYC Health + Hospitals. Due Dec 28. Facilities Management and Asset Information System for healthcare campuses.</description>
+<category>CRM &amp; business systems</category>
 </item>
 <item>
 <title>Digital Pesticide Labeling Platform Pilot</title>
@@ -130,25 +137,18 @@
 <category>data &amp; AI</category>
 </item>
 <item>
+<title>Digital Twin Workplace Inventory and Asset Management Solution</title>
+<link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-156-78591963</link>
+<guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-156-78591963</guid>
+<description>Canada, Canada Revenue Agency (CRA). Due Jan 06. Digital Twin and AI-powered inventory asset management solution information.</description>
+<category>data &amp; AI</category>
+</item>
+<item>
 <title>Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems</title>
 <link>https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-941-69633101</link>
 <guid isPermaLink="false">https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-941-69633101</guid>
 <description>Canada, Department of Employment and Social Development (ESDC). Due Jan 29. Information on accessible digital technologies and AI systems capabilities and practices.</description>
 <category>data &amp; AI</category>
-</item>
-<item>
-<title>6515--Methasoft Medication Dispensing System</title>
-<link>https://sam.gov/workspace/contract/opp/8bb8e802ff0944ccae0490abfead9c83/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/8bb8e802ff0944ccae0490abfead9c83/view</guid>
-<description>US federal, VETERANS AFFAIRS, DEPARTMENT OF. Due Dec 01. Please see attached request for a quote and redacted J &amp; A</description>
-<category>software &amp; apps</category>
-</item>
-<item>
-<title>7A--IT Maintenance Agreements and Subscriptions</title>
-<link>https://sam.gov/workspace/contract/opp/553146439f184b6e8be15f6b867b1009/view</link>
-<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/553146439f184b6e8be15f6b867b1009/view</guid>
-<description>US federal, ENVIRONMENTAL PROTECTION AGENCY. Due Dec 01. 7A20: IT Maintenance Agreements and Subscriptions</description>
-<category>software &amp; apps</category>
 </item>
 <item>
 <title>GeoJobe Software with Training and Support</title>
@@ -176,6 +176,13 @@
 <link>https://sam.gov/workspace/contract/opp/9742e4bfe0bf4a68b72a0ecd0e678ee4/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/9742e4bfe0bf4a68b72a0ecd0e678ee4/view</guid>
 <description>US federal, HEALTH AND HUMAN SERVICES, DEPARTMENT OF. Due Dec 02. Notice Number: REQT-IHS-2026-00225 SOURCES SOUGHT NOTICE Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal This is a Sources Sought Notice…</description>
+<category>software &amp; apps</category>
+</item>
+<item>
+<title>FedRAMP Webex Subscription Maintenance</title>
+<link>https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view</guid>
+<description>US federal, FEDERAL DEPOSIT INSURANCE CORPORATION. Due Dec 03. Amendment 0002 - Thie due date for quotes is extended through 12:00PM EST on 10/9/2026 with questions due by 6PM on 10/5/2026. Responses to all questions are provided. Please note…</description>
 <category>software &amp; apps</category>
 </item>
 <item>
@@ -221,10 +228,24 @@
 <category>software &amp; apps</category>
 </item>
 <item>
+<title>36C25527Q0049 - IVX &amp; Cerner to Interface with EHRM</title>
+<link>https://sam.gov/workspace/contract/opp/ef0438d3bd8f46a6bbb2e5085994e346/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/ef0438d3bd8f46a6bbb2e5085994e346/view</guid>
+<description>US federal, VETERANS AFFAIRS, DEPARTMENT OF. Due Dec 08. This is the Combined Synopsis/Solicitation notice for the IVX &amp; Cerner software to interface with EHRM. See the document, Combined Synopsis-Solicitation_36C25527Q0049, document…</description>
+<category>software &amp; apps</category>
+</item>
+<item>
 <title>DA10--Radiology and Cardiology Foundational Enterprise Imaging System</title>
 <link>https://sam.gov/workspace/contract/opp/0b48a6495bdb4fe5b3cb53e0b962a913/view</link>
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/0b48a6495bdb4fe5b3cb53e0b962a913/view</guid>
 <description>US federal, VETERANS AFFAIRS, DEPARTMENT OF. Due Dec 09. Title: Radiology and Cardiology Foundational Enterprise Imaging System Please see the attached Solicitation.</description>
+<category>software &amp; apps</category>
+</item>
+<item>
+<title>COMMERCIAL DATABASE SERVICES FOR RESPONDENT LOCATING AND CONTACT INFORMATION</title>
+<link>https://sam.gov/workspace/contract/opp/477c4688593e49a180f8439db7e28d6c/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/477c4688593e49a180f8439db7e28d6c/view</guid>
+<description>US federal, COMMERCE, DEPARTMENT OF. Due Dec 10. The U.S. Census Bureau is conducting market research to determine the availability and capabilities of commercial sources that can provide secure access to a comprehensive…</description>
 <category>software &amp; apps</category>
 </item>
 <item>
@@ -268,6 +289,20 @@
 <guid isPermaLink="false">https://sam.gov/workspace/contract/opp/1dfd083c656f4d6faf0a52753306694d/view</guid>
 <description>US federal, COMMERCE, DEPARTMENT OF. Due no date listed. The National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Service (NESDIS) requires comprehensive management and technical…</description>
 <category>software &amp; apps</category>
+</item>
+<item>
+<title>DA10--Health Services Portfolio Technical Management and Strategic Solutioning Support (HTMS)</title>
+<link>https://sam.gov/workspace/contract/opp/7ca33cb238f948e58e942675e6cae33b/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/7ca33cb238f948e58e942675e6cae33b/view</guid>
+<description>US federal, VETERANS AFFAIRS, DEPARTMENT OF. Due Dec 07. Request for Information Health Services Portfolio Technical Management and Strategic Solutioning Support VA-27-0007804 Introduction This Request for Information (RFI) is for…</description>
+<category>IT consulting &amp; strategy</category>
+</item>
+<item>
+<title>Mission Enabling Enforcement Services (MEES) -IRS-CI</title>
+<link>https://sam.gov/workspace/contract/opp/715697342234472185da32f932a97451/view</link>
+<guid isPermaLink="false">https://sam.gov/workspace/contract/opp/715697342234472185da32f932a97451/view</guid>
+<description>US federal, TREASURY, DEPARTMENT OF THE. Due Dec 08. The Mission Enabling Enforcement Services (MEES) will provide enterprise data engineering, advanced analytics, secure infrastructure, artificial intelligence, machine learning…</description>
+<category>IT consulting &amp; strategy</category>
 </item>
 <item>
 <title>Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture</title>

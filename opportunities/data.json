@@ -1,24 +1,7 @@
 {
- "updated": "2026-11-23",
- "count": 40,
+ "updated": "2026-11-24",
+ "count": 45,
  "items": [
-  {
-   "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
-   "url": "https://sam.gov/workspace/contract/opp/975ff5c47c644fa5931e08799a344e0c/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 01",
-   "summary": "IT Enterprise Service Desk (ESD) Managed Services Request for Information VA-27-00019920 Introduction This Request for Information (RFI) is for planning purposes only and shall\u2026",
-   "tags": [
-    "managed IT & support"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "managed IT & support"
-  },
   {
    "title": "Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
    "url": "https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf",
@@ -106,6 +89,23 @@
    "category": "cloud & infrastructure"
   },
   {
+   "title": "Emergency Alert SaaS Solution",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-794-96635747",
+   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
+   "region": "*Canada",
+   "due": "Dec 14",
+   "summary": "Cloud-based emergency notification SaaS for multi-channel employee alerts.",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-14",
+   "country": "CA",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
    "title": "DA10--Bi-Directional Image/Report Exchange",
    "url": "https://sam.gov/workspace/contract/opp/c96777664e174de3a392a3a16de5bef4/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -157,6 +157,23 @@
    "category": "telecom & networking"
   },
   {
+   "title": "University Lunar Tracking and Communication Services",
+   "url": "https://sam.gov/workspace/contract/opp/7ae8310493bb484fb93e15ad4fee52cb/view",
+   "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+   "region": "",
+   "due": "Jan 08",
+   "summary": "This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with part 12. This announcement constitutes the only solicitation.\u2026",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2027-01-08",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
+  },
+  {
    "title": "Voice Communication Switch System - Air Traffic Control",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031879?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -174,21 +191,21 @@
    "category": "telecom & networking"
   },
   {
-   "title": "WT COX",
-   "url": "https://sam.gov/workspace/contract/opp/092d831a7f6345b38a7e1947f2974374/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "MD",
-   "due": "Dec 01",
-   "summary": "Renew journal subscriptions in online and print formats for National Institutes of Health.",
+   "title": "Facility Maintenance Information System",
+   "url": "https://a856-cityrecord.nyc.gov/RequestDetail/20261118002",
+   "buyer": "NYC Health + Hospitals",
+   "region": "New York, NY",
+   "due": "Dec 28",
+   "summary": "Facilities Management and Asset Information System for healthcare campuses.",
    "tags": [
-    "web & digital"
+    "CRM & business systems"
    ],
    "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
+   "scope": "US state & local",
+   "due_iso": "2026-12-28",
    "country": "US",
    "kind": "government",
-   "category": "web & digital"
+   "category": "CRM & business systems"
   },
   {
    "title": "Digital Pesticide Labeling Platform Pilot",
@@ -310,6 +327,23 @@
    "category": "data & AI"
   },
   {
+   "title": "Digital Twin Workplace Inventory and Asset Management Solution",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-156-78591963",
+   "buyer": "Canada Revenue Agency (CRA)",
+   "region": "*National Capital Region (NCR)",
+   "due": "Jan 06",
+   "summary": "Digital Twin and AI-powered inventory asset management solution information.",
+   "tags": [
+    "data & AI"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2027-01-06",
+   "country": "CA",
+   "kind": "government",
+   "category": "data & AI"
+  },
+  {
    "title": "Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-941-69633101",
    "buyer": "Department of Employment and Social Development (ESDC)",
@@ -325,40 +359,6 @@
    "country": "CA",
    "kind": "government",
    "category": "data & AI"
-  },
-  {
-   "title": "6515--Methasoft Medication Dispensing System",
-   "url": "https://sam.gov/workspace/contract/opp/8bb8e802ff0944ccae0490abfead9c83/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 01",
-   "summary": "Please see attached request for a quote and redacted J & A",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "7A--IT Maintenance Agreements and Subscriptions",
-   "url": "https://sam.gov/workspace/contract/opp/553146439f184b6e8be15f6b867b1009/view",
-   "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
-   "region": "",
-   "due": "Dec 01",
-   "summary": "7A20: IT Maintenance Agreements and Subscriptions",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-01",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
   },
   {
    "title": "GeoJobe Software with Training and Support",
@@ -424,6 +424,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-02",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "FedRAMP Webex Subscription Maintenance",
+   "url": "https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view",
+   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+   "region": "VA",
+   "due": "Dec 03",
+   "summary": "Amendment 0002 - Thie due date for quotes is extended through 12:00PM EST on 10/9/2026 with questions due by 6PM on 10/5/2026. Responses to all questions are provided. Please note\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-03",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -531,6 +548,23 @@
    "category": "software & apps"
   },
   {
+   "title": "36C25527Q0049 - IVX & Cerner to Interface with EHRM",
+   "url": "https://sam.gov/workspace/contract/opp/ef0438d3bd8f46a6bbb2e5085994e346/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "MO",
+   "due": "Dec 08",
+   "summary": "This is the Combined Synopsis/Solicitation notice for the IVX & Cerner software to interface with EHRM. See the document, Combined Synopsis-Solicitation_36C25527Q0049, document\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging System",
    "url": "https://sam.gov/workspace/contract/opp/0b48a6495bdb4fe5b3cb53e0b962a913/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -543,6 +577,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-09",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "COMMERCIAL DATABASE SERVICES FOR RESPONDENT LOCATING AND CONTACT INFORMATION",
+   "url": "https://sam.gov/workspace/contract/opp/477c4688593e49a180f8439db7e28d6c/view",
+   "buyer": "COMMERCE, DEPARTMENT OF",
+   "region": "MD",
+   "due": "Dec 10",
+   "summary": "The U.S. Census Bureau is conducting market research to determine the availability and capabilities of commercial sources that can provide secure access to a comprehensive\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-10",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -648,6 +699,40 @@
    "country": "US",
    "kind": "government",
    "category": "software & apps"
+  },
+  {
+   "title": "DA10--Health Services Portfolio Technical Management and Strategic Solutioning Support (HTMS)",
+   "url": "https://sam.gov/workspace/contract/opp/7ca33cb238f948e58e942675e6cae33b/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 07",
+   "summary": "Request for Information Health Services Portfolio Technical Management and Strategic Solutioning Support VA-27-0007804 Introduction This Request for Information (RFI) is for\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "Mission Enabling Enforcement Services (MEES) -IRS-CI",
+   "url": "https://sam.gov/workspace/contract/opp/715697342234472185da32f932a97451/view",
+   "buyer": "TREASURY, DEPARTMENT OF THE",
+   "region": "DC",
+   "due": "Dec 08",
+   "summary": "The Mission Enabling Enforcement Services (MEES) will provide enterprise data engineering, advanced analytics, secure infrastructure, artificial intelligence, machine learning\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
   },
   {
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
