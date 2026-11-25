@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24",
- "count": 45,
+ "updated": "2026-11-25",
+ "count": 51,
  "items": [
   {
    "title": "Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
@@ -55,6 +55,23 @@
    "category": "cybersecurity"
   },
   {
+   "title": "FedRAMP-Compliant Cloud Electronic Fax Solution",
+   "url": "https://sam.gov/workspace/contract/opp/69b6b87e5be34ce48b18efe5bd5b2780/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "MT",
+   "due": "Dec 04",
+   "summary": "Indian Health Service seeks FedRAMP-compliant cloud electronic fax solution from Indian-owned vendors.",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
    "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
    "url": "https://sam.gov/workspace/contract/opp/de2e45786d5c4450a810b991e1097175/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -67,6 +84,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
+   "title": "National Resources Inventory (NRI) Survey Operations, Statistical Services, Data Systems, and Technical Support Sources Sought Notice",
+   "url": "https://sam.gov/workspace/contract/opp/90129b9c283448a68725a859274c52c5/view",
+   "buyer": "AGRICULTURE, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 08",
+   "summary": "THIS IS NOT A SOLICITATION This Sources Sought Notice is issued solely for information and planning purposes and does not constitute a solicitation, Request for Proposal (RFP)\u2026",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
    "country": "US",
    "kind": "government",
    "category": "cloud & infrastructure"
@@ -121,6 +155,40 @@
    "country": "US",
    "kind": "government",
    "category": "cloud & infrastructure"
+  },
+  {
+   "title": "18690 MORU PROVIDE LENEL SECURITY SRVC",
+   "url": "https://sam.gov/workspace/contract/opp/192c105687b44582a21d211c56a3cdac/view",
+   "buyer": "INTERIOR, DEPARTMENT OF THE",
+   "region": "",
+   "due": "Dec 31",
+   "summary": "18690 MORU PROVIDE LENEL SECURITY SRVC",
+   "tags": [
+    "cloud & infrastructure"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-31",
+   "country": "US",
+   "kind": "government",
+   "category": "cloud & infrastructure"
+  },
+  {
+   "title": "Cable TV KCVA",
+   "url": "https://sam.gov/workspace/contract/opp/43f1400b6550418ab3906b3f405911f1/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "MO",
+   "due": "Dec 04",
+   "summary": "Please see attached RFQ for details.",
+   "tags": [
+    "telecom & networking"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "telecom & networking"
   },
   {
    "title": "SATELLITE TELVISION PROGRAMMING SERVICES",
@@ -189,6 +257,23 @@
    "country": "CA",
    "kind": "government",
    "category": "telecom & networking"
+  },
+  {
+   "title": "Records Management System Southeastern Power",
+   "url": "https://sam.gov/workspace/contract/opp/75df0a1c712e435bb2decfcca8278a5d/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "GA",
+   "due": "Dec 08",
+   "summary": "Southeastern Power Administration (SEPA) is seeking information from qualified vendors with proven expertise in providing an onsite Records Management System (RMS) to perform the\u2026",
+   "tags": [
+    "CRM & business systems"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
+   "country": "US",
+   "kind": "government",
+   "category": "CRM & business systems"
   },
   {
    "title": "Facility Maintenance Information System",
@@ -361,80 +446,29 @@
    "category": "data & AI"
   },
   {
-   "title": "GeoJobe Software with Training and Support",
-   "url": "https://sam.gov/workspace/contract/opp/68cdbc02972e4a4699f4f486d18dddb2/view",
-   "buyer": "COMMERCE, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 02",
-   "summary": "To provide licensing and maintenance/support for GeoJobe software and service. Support and maintenance should be provided both during the base period as well as during the chosen\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-157-75573891",
-   "buyer": "Department of Agriculture and Agri-Food (AAFC)",
-   "region": "*Canada *Ottawa *National Capital Region (NCR)",
-   "due": "Dec 02",
-   "summary": "SaaS collection management system for biological living collections including microbes and fungi.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-02",
-   "country": "CA",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DA10--VA Enterprise-level Product Solutions",
-   "url": "https://sam.gov/workspace/contract/opp/310a83e741214bc49b35a54ce4e8bd3e/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 02",
-   "summary": "Market research for VA enterprise-level product solutions.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal",
-   "url": "https://sam.gov/workspace/contract/opp/9742e4bfe0bf4a68b72a0ecd0e678ee4/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "OR",
-   "due": "Dec 02",
-   "summary": "Notice Number: REQT-IHS-2026-00225 SOURCES SOUGHT NOTICE Western Oregon Service Unit AudioCARE Annual License and Maintenance Support Renewal This is a Sources Sought Notice\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-02",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "FedRAMP Webex Subscription Maintenance",
    "url": "https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view",
    "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
    "region": "VA",
    "due": "Dec 03",
    "summary": "Amendment 0002 - Thie due date for quotes is extended through 12:00PM EST on 10/9/2026 with questions due by 6PM on 10/5/2026. Responses to all questions are provided. Please note\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-03",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "7A21--Ensocare Automated Discharge Planning Software Licenses and Support (VA-27-00012936)",
+   "url": "https://sam.gov/workspace/contract/opp/b538b31d2baf47089c4e5516cef76f2f/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 03",
+   "summary": "Request for Information (RFI) Brand Name Ensocare Automated Discharge Software Licenses & Support VA-27-00012936 November 24, 2026 Introduction This RFI is for planning purposes\u2026",
    "tags": [
     "software & apps"
    ],
@@ -531,6 +565,23 @@
    "category": "software & apps"
   },
   {
+   "title": "JamF Software Licenses",
+   "url": "https://sam.gov/workspace/contract/opp/c1e67a020a6d48b396f06a1fb7b36300/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "MD",
+   "due": "Dec 07",
+   "summary": "The Food and Drug Administration\u0092s (FDA) Center for Drug Evaluation and Research (CDER) to procure to renew the licensing, maintenance, and support for the JamF Casper Suite\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
    "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
    "buyer": "GENERAL SERVICES ADMINISTRATION",
@@ -554,6 +605,23 @@
    "region": "MO",
    "due": "Dec 08",
    "summary": "This is the Combined Synopsis/Solicitation notice for the IVX & Cerner software to interface with EHRM. See the document, Combined Synopsis-Solicitation_36C25527Q0049, document\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-08",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA10--BASE: 12/11/2026 through 12/10/2027. 523-27-1-3801-0004 - MedBridge (VA-27-00017114)",
+   "url": "https://sam.gov/workspace/contract/opp/d4eba5ee37c94c90842a543c80589468/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 08",
+   "summary": "Intent to Sole Source-Proprietary and Exclusive to Publisher",
    "tags": [
     "software & apps"
    ],
@@ -629,6 +697,23 @@
    "scope": "Canada",
    "due_iso": "2026-12-16",
    "country": "CA",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "DA01--Appeals Innovation and Integration Services (AI2S) RFI (VA-27-00017929)",
+   "url": "https://sam.gov/workspace/contract/opp/733942773e284c9b9efae3fe73b163f1/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 21",
+   "summary": "Request for Information Appeals Innovation and Integration Services (AI2S) VA-27-00017929 Introduction This Request for Information (RFI) is for planning purposes only and shall\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-21",
+   "country": "US",
    "kind": "government",
    "category": "software & apps"
   },
@@ -730,6 +815,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-08",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "DA10--IT Control and Material Weakness Remediation [TSS Re-compete] (VA-27-00001285)",
+   "url": "https://sam.gov/workspace/contract/opp/cfd2bb292b394e778a636a84f39ca4ef/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "Dec 09",
+   "summary": "Please see the attached RFI documents. This name of this anticipated effort was formerly referred to as ISICRASS and CIRCA but will now be IT Control and Material Weakness\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-09",
    "country": "US",
    "kind": "government",
    "category": "IT consulting & strategy"
