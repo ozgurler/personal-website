@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25",
- "count": 51,
+ "updated": "2026-11-26",
+ "count": 57,
  "items": [
   {
-   "title": "Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
+   "title": "RFP 26-028 - Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
    "url": "https://cdn.prod.website-files.com/61d648ede73de45b640ab3c4/6ad90858f26cc0c7933df487_RFP%2026-028%20-Information%20Technology%20%20IT%20Services.pdf",
-   "buyer": "Mexican American Opportunity Foundation (MAOF)",
+   "buyer": "Mexican American Opportunity Foundation",
    "region": "",
    "due": "no date listed",
    "summary": "Nonprofit seeks co-managed IT, cybersecurity, network management, and Microsoft 365 administration services.",
@@ -18,6 +18,23 @@
    "due_iso": null,
    "country": "US",
    "kind": "nonprofit",
+   "category": "managed IT & support"
+  },
+  {
+   "title": "DE01--ECO Enterprise Service Desk (ESD) Consolidated Effort - RFI (VA-27-00011677)",
+   "url": "https://sam.gov/workspace/contract/opp/3499e632489f4e38a7fb6ec34317761f/view",
+   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "region": "",
+   "due": "no date listed",
+   "summary": "At this time, an acquisition strategy has not been determined on RFI 36C10B27Q0035.\u00c2 A second RFI has been posted under RFI 36C10B27Q0134. No further updates or information will\u2026",
+   "tags": [
+    "managed IT & support"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": null,
+   "country": "US",
+   "kind": "government",
    "category": "managed IT & support"
   },
   {
@@ -330,7 +347,7 @@
    "title": "Request for Proposals: Website Redesign",
    "url": "https://thefriends.org/2026/11/16/request-for-proposals-website-redesign/",
    "buyer": "The Friends of the Saint Paul Public Library",
-   "region": "Saint Paul, Minnesota",
+   "region": "Minnesota",
    "due": "Jan 18",
    "summary": "Full website redesign with responsive design, hosting, and ongoing support services.",
    "tags": [
@@ -446,40 +463,6 @@
    "category": "data & AI"
   },
   {
-   "title": "FedRAMP Webex Subscription Maintenance",
-   "url": "https://sam.gov/workspace/contract/opp/882e070fc7154e92b869132d297bb798/view",
-   "buyer": "FEDERAL DEPOSIT INSURANCE CORPORATION",
-   "region": "VA",
-   "due": "Dec 03",
-   "summary": "Amendment 0002 - Thie due date for quotes is extended through 12:00PM EST on 10/9/2026 with questions due by 6PM on 10/5/2026. Responses to all questions are provided. Please note\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "7A21--Ensocare Automated Discharge Planning Software Licenses and Support (VA-27-00012936)",
-   "url": "https://sam.gov/workspace/contract/opp/b538b31d2baf47089c4e5516cef76f2f/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 03",
-   "summary": "Request for Information (RFI) Brand Name Ensocare Automated Discharge Software Licenses & Support VA-27-00012936 November 24, 2026 Introduction This RFI is for planning purposes\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-03",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
    "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
    "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
    "buyer": "Statistics Canada (StatCan)",
@@ -548,6 +531,23 @@
    "category": "software & apps"
   },
   {
+   "title": "D--Rapid Deployment, Operations & Sustainment Support",
+   "url": "https://sam.gov/workspace/contract/opp/a6ddec3385a54a7b8373f35f08d23f37/view",
+   "buyer": "INTERIOR, DEPARTMENT OF THE",
+   "region": "",
+   "due": "Dec 04",
+   "summary": "This is a Request for Information and Sources Sought only. This is not a solicitation for a contract award. This action is for market research (information) purposes only, is not\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-04",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "7A21--Electronic Quality Management Software System IDIQ",
    "url": "https://sam.gov/workspace/contract/opp/6fb99714204d412ba40d625e346a38ec/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -571,6 +571,23 @@
    "region": "MD",
    "due": "Dec 07",
    "summary": "The Food and Drug Administration\u0092s (FDA) Center for Drug Evaluation and Research (CDER) to procure to renew the licensing, maintenance, and support for the JamF Casper Suite\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-07",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "GE Positive Sequence Flow Software (PSLF)",
+   "url": "https://sam.gov/workspace/contract/opp/91030026a5814b699d5075e6a986c36c/view",
+   "buyer": "ENERGY, DEPARTMENT OF",
+   "region": "DC",
+   "due": "Dec 07",
+   "summary": "Maintenance renewal for GE Positive Sequence Load Flow (PSLF), with a base and 4 (four) optional years. Please provide a quote to include one-year base period, along with 4\u2026",
    "tags": [
     "software & apps"
    ],
@@ -650,6 +667,23 @@
    "category": "software & apps"
   },
   {
+   "title": "PR26881 - UT862-278282 JIRA, Subscription licenses for Innovation, Science and Economic Development Canada",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS6007254810-Doc6007269289",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Dec 09",
+   "summary": "JIRA subscription licenses for Innovation, Science and Economic Development Canada.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-09",
+   "country": "CA",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "COMMERCIAL DATABASE SERVICES FOR RESPONDENT LOCATING AND CONTACT INFORMATION",
    "url": "https://sam.gov/workspace/contract/opp/477c4688593e49a180f8439db7e28d6c/view",
    "buyer": "COMMERCE, DEPARTMENT OF",
@@ -662,6 +696,23 @@
    "value": "",
    "scope": "US federal",
    "due_iso": "2026-12-10",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "Visiopharm Subscription + Perpetual Maintenance",
+   "url": "https://sam.gov/workspace/contract/opp/2a9e1a95743c452cbb6cc05b1de9a412/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "NC",
+   "due": "Dec 11",
+   "summary": "See attached Notice of Intent.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-11",
    "country": "US",
    "kind": "government",
    "category": "software & apps"
@@ -701,6 +752,23 @@
    "category": "software & apps"
   },
   {
+   "title": "OPM USA HIRE II Support Services - NOTICE OF ACQUISITION STRATEGY",
+   "url": "https://sam.gov/workspace/contract/opp/643c2b54f36249989b91e821eb704344/view",
+   "buyer": "GENERAL SERVICES ADMINISTRATION",
+   "region": "DC",
+   "due": "Dec 20",
+   "summary": "November 25, 2026 NOTICE OF ACQUISITION STRATEGY This letter is an advance notice that the General Services Administration (GSA) Federal Acquisition Service (FAS) Assisted\u2026",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-20",
+   "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "DA01--Appeals Innovation and Integration Services (AI2S) RFI (VA-27-00017929)",
    "url": "https://sam.gov/workspace/contract/opp/733942773e284c9b9efae3fe73b163f1/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -714,6 +782,23 @@
    "scope": "US federal",
    "due_iso": "2026-12-21",
    "country": "US",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "COMMON OPEN RECONFIGURABLE ENVIRONMENT MULTI PURPOSE RECONFIGURABLE TRAINER NAVY SIMULATOR V3",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032433?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Jan 11",
+   "summary": "Simulation development and support services for reconfigurable Navy training systems.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2027-01-11",
+   "country": "CA",
    "kind": "government",
    "category": "software & apps"
   },
@@ -826,6 +911,23 @@
    "region": "",
    "due": "Dec 09",
    "summary": "Please see the attached RFI documents. This name of this anticipated effort was formerly referred to as ISICRASS and CIRCA but will now be IT Control and Material Weakness\u2026",
+   "tags": [
+    "IT consulting & strategy"
+   ],
+   "value": "",
+   "scope": "US federal",
+   "due_iso": "2026-12-09",
+   "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "Pharmacy Patient Workflow Tracking System",
+   "url": "https://sam.gov/workspace/contract/opp/a256a1717dc74c16997a65128246ea88/view",
+   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "region": "NM",
+   "due": "Dec 09",
+   "summary": "Refer to 75H71027Q00004 for solicitation details. Amendment No. 1 posted on 11/25/2026.",
    "tags": [
     "IT consulting & strategy"
    ],
