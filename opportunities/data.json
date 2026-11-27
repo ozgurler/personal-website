@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26",
- "count": 57,
+ "updated": "2026-11-27",
+ "count": 55,
  "items": [
   {
    "title": "RFP 26-028 - Co-Managed Information Technology, Cybersecurity, Network Management, and Strategic IT Services",
@@ -70,23 +70,6 @@
    "country": "US",
    "kind": "nonprofit",
    "category": "cybersecurity"
-  },
-  {
-   "title": "FedRAMP-Compliant Cloud Electronic Fax Solution",
-   "url": "https://sam.gov/workspace/contract/opp/69b6b87e5be34ce48b18efe5bd5b2780/view",
-   "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "region": "MT",
-   "due": "Dec 04",
-   "summary": "Indian Health Service seeks FedRAMP-compliant cloud electronic fax solution from Indian-owned vendors.",
-   "tags": [
-    "cloud & infrastructure"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "cloud & infrastructure"
   },
   {
    "title": "DA10--VA Enterprise Bi-Directional Image and Report Exchange (VA-26-00054513)",
@@ -191,23 +174,6 @@
    "category": "cloud & infrastructure"
   },
   {
-   "title": "Cable TV KCVA",
-   "url": "https://sam.gov/workspace/contract/opp/43f1400b6550418ab3906b3f405911f1/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "MO",
-   "due": "Dec 04",
-   "summary": "Please see attached RFQ for details.",
-   "tags": [
-    "telecom & networking"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "telecom & networking"
-  },
-  {
    "title": "SATELLITE TELVISION PROGRAMMING SERVICES",
    "url": "https://sam.gov/workspace/contract/opp/d683cce433b64f6d9e156b7e51588685/view",
    "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
@@ -307,6 +273,40 @@
    "due_iso": "2026-12-28",
    "country": "US",
    "kind": "government",
+   "category": "CRM & business systems"
+  },
+  {
+   "title": "RFP: Salesforce Architect",
+   "url": "https://apprenticareers.org/request-for-proposals-salesforce-architect/",
+   "buyer": "Apprenti",
+   "region": "",
+   "due": "no date listed",
+   "summary": "Salesforce architect to redesign nonprofit platform with automation and integrations.",
+   "tags": [
+    "CRM & business systems"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": null,
+   "country": "US",
+   "kind": "nonprofit",
+   "category": "CRM & business systems"
+  },
+  {
+   "title": "RFP CRM Implementation",
+   "url": "https://ufwfoundation.org/about/careers/rfpcrmimplementation/",
+   "buyer": "UFW Foundation",
+   "region": "",
+   "due": "no date listed",
+   "summary": "CRM platform and implementation for high-security multi-department environment.",
+   "tags": [
+    "CRM & business systems"
+   ],
+   "value": "",
+   "scope": "Nonprofit & foundation",
+   "due_iso": null,
+   "country": "US",
+   "kind": "nonprofit",
    "category": "CRM & business systems"
   },
   {
@@ -461,91 +461,6 @@
    "country": "CA",
    "kind": "government",
    "category": "data & AI"
-  },
-  {
-   "title": "SBIPS - Data Architecture and Systems Integration Advisory Services",
-   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-574-6081226",
-   "buyer": "Statistics Canada (StatCan)",
-   "region": "*Canada",
-   "due": "Dec 04",
-   "summary": "Assess Statistics Canada's website environment and recommend future web publishing platform architecture.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "Canada",
-   "due_iso": "2026-12-04",
-   "country": "CA",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "RFI NOAA Ship Acquisition Engineering & Correspondence Management System",
-   "url": "https://sam.gov/workspace/contract/opp/3a828267980b43cb95f6119c7108c411/view",
-   "buyer": "COMMERCE, DEPARTMENT OF",
-   "region": "MD",
-   "due": "Dec 04",
-   "summary": "NOAA seeks market information for NOAA Ship acquisition engineering and correspondence management system.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "DA10--VTP VetRide Transportation Solution (VA-27-00009538)",
-   "url": "https://sam.gov/workspace/contract/opp/755349d6530c4d1a88519908913deaff/view",
-   "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "Enterprise-wide veteran transportation software solution with VHA licensing.",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "U.S. Senate Wellbeing Application",
-   "url": "https://sam.gov/workspace/contract/opp/8f893558c339403181947a52cab889fe/view",
-   "buyer": "SENATE, THE",
-   "region": "DC",
-   "due": "Dec 04",
-   "summary": "Amendment 001 provides the Q&A and updates to the Solicitation, Pricing Worksheet, Past Performance Questionnaire. The Proposal and Past Performance Questionnaire due date is\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
-  },
-  {
-   "title": "D--Rapid Deployment, Operations & Sustainment Support",
-   "url": "https://sam.gov/workspace/contract/opp/a6ddec3385a54a7b8373f35f08d23f37/view",
-   "buyer": "INTERIOR, DEPARTMENT OF THE",
-   "region": "",
-   "due": "Dec 04",
-   "summary": "This is a Request for Information and Sources Sought only. This is not a solicitation for a contract award. This action is for market research (information) purposes only, is not\u2026",
-   "tags": [
-    "software & apps"
-   ],
-   "value": "",
-   "scope": "US federal",
-   "due_iso": "2026-12-04",
-   "country": "US",
-   "kind": "government",
-   "category": "software & apps"
   },
   {
    "title": "7A21--Electronic Quality Management Software System IDIQ",
@@ -786,6 +701,40 @@
    "category": "software & apps"
   },
   {
+   "title": "Digital Registry Solution (DRS) for ISED and Corporations Canada",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS4856241079-Doc6008937202",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Canada",
+   "due": "Dec 22",
+   "summary": "Digital registry solution with content management and data security software.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-22",
+   "country": "CA",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
+   "title": "9F008-260063 - C2M2 ISS Payload",
+   "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032437?anId=ANONYMOUS",
+   "buyer": "Department of Public Works and Government Services (PSPC)",
+   "region": "*Quebec (except NCR) *Canada",
+   "due": "Jan 08",
+   "summary": "C2M2 ISS payload software development.",
+   "tags": [
+    "software & apps"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2027-01-08",
+   "country": "CA",
+   "kind": "government",
+   "category": "software & apps"
+  },
+  {
    "title": "COMMON OPEN RECONFIGURABLE ENVIRONMENT MULTI PURPOSE RECONFIGURABLE TRAINER NAVY SIMULATOR V3",
    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032433?anId=ANONYMOUS",
    "buyer": "Department of Public Works and Government Services (PSPC)",
@@ -935,6 +884,24 @@
    "scope": "US federal",
    "due_iso": "2026-12-09",
    "country": "US",
+   "kind": "government",
+   "category": "IT consulting & strategy"
+  },
+  {
+   "title": "TBIPS: Department of Foreign Affaires Trade and Development - Professional Services for IT Security Design Specialist and Business Analyst Level 3",
+   "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-661-61121176",
+   "buyer": "Department of Foreign Affairs, Trade and Development (GAC)",
+   "region": "*National Capital Region (NCR) *Canada",
+   "due": "Dec 15",
+   "summary": "Provide IT security design specialist and business analyst Level 3 professional services.",
+   "tags": [
+    "IT consulting & strategy",
+    "cybersecurity"
+   ],
+   "value": "",
+   "scope": "Canada",
+   "due_iso": "2026-12-15",
+   "country": "CA",
    "kind": "government",
    "category": "IT consulting & strategy"
   },
